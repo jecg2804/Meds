@@ -8,3 +8,4 @@ model/v3_*.npy
 personal.json
 *_personal*.xlsx
 Modelo_financiero_distribuidora_medicamentos_Panama.xlsx
+private/

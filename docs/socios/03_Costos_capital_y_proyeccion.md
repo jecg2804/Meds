@@ -18,7 +18,7 @@ Con tarifas de mercado, arrancar la empresa cuesta B/.10,850 más B/.2,120 por r
 | Certificado de BPA | 100 | 100 | 100 |
 | Registro patronal en la CSS | 300 | 900 | — |
 | PanamaCompra, Registro de Oferentes y proveedor CSS | 500 | 2,700 | 0 |
-| Total | 10,850 | 24,750 |  |
+| Total | 10,850 | 24,750 | — |
 | Registro sanitario por producto | 2,120 | 3,425 sin muestras | 570 + análisis del IEA |
 
 El registro de mercado suma tasas (B/.570), análisis del IEA (B/.600 supuesto), abogado (B/.800) y muestras (B/.150). La partida de B/.1,500 por «revisión de fórmula de la Universidad de Panamá» corresponde al análisis del IEA, que es de la Universidad de Panamá y fija sus propias tarifas (Ley 419, arts. 72, 79 y 82); lo dudoso es el monto, que el IEA cotiza caso a caso (la guía oficial de 2012 daba B/.200–1,000). SignatureLex marca varias líneas como «reducidas» sin decir a cuánto, y cita el arancel mínimo de abogados (Acuerdo 609-A de 2021), que esta ronda no pudo verificar. Que la firma del socio cobre a la empresa del socio pide una segunda cotización y aprobación de los demás socios.
@@ -69,8 +69,8 @@ Capital = aportes acumulados de los socios, incluida la fase 0 (unos B/.2,700 de
 | Un año de operación | 12 | B/.162,887 | B/.131,641 | B/.174,769 | B/.107,371 |
 | Dieciocho meses | 18 | B/.265,333 | B/.225,155 | B/.229,053 | B/.184,263 |
 | Pico de capital (mes 27 en la base) | 27 | B/.297,017 | B/.257,934 | B/.320,954 y sigue subiendo si nadie cierra: B/.599,108 en el mes 60 | B/.184,263 |
-| Por socio panameño, un sexto (capital 50/50 con Patel), hasta la primera venta / hasta el pico | | B/.20,235 / B/.49,503 | B/.15,028 / B/.42,989 | B/.30,697 / B/.53,492 | B/.8,053 / B/.30,710 |
-| Por socio panameño, un tercio (si Patel no aporta efectivo), hasta la primera venta / hasta el pico | | B/.40,471 / B/.99,006 | B/.30,055 / B/.85,978 | B/.61,395 / B/.106,985 | B/.16,106 / B/.61,421 |
+| Por socio panameño, un sexto (capital 50/50 con Patel), hasta la primera venta / hasta el pico | — | B/.20,235 / B/.49,503 | B/.15,028 / B/.42,989 | B/.30,697 / B/.53,492 | B/.8,053 / B/.30,710 |
+| Por socio panameño, un tercio (si Patel no aporta efectivo), hasta la primera venta / hasta el pico | — | B/.40,471 / B/.99,006 | B/.30,055 / B/.85,978 | B/.61,395 / B/.106,985 | B/.16,106 / B/.61,421 |
 
 El plan de negocio cita B/.255 mil de capital en el caso base y B/.294 mil con SignatureLex: son los aportes de los 60 meses sin la fase 0; esta tabla la incluye, por eso difiere en unos B/.2,700. Rango para hablar con inversionistas: hasta la primera venta, entre B/.48 mil y B/.184 mil, con B/.121 mil como cifra de planificación; hasta el pico del mes 27, entre B/.184 mil y B/.321 mil, con B/.297 mil de planificación. En el pesimista el capital no hace pico: si nadie cierra, sigue subiendo hasta B/.599 mil en el mes 60; para eso existe la compuerta operativa, que en ese escenario cierra el negocio con una pérdida de unos B/.265 mil.
 

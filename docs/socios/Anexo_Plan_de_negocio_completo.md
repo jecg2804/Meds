@@ -164,7 +164,7 @@ Con tarifas de mercado, arrancar la empresa cuesta B/.10,850 más B/.2,120 por r
 | Certificado de BPA | 100 | 100 | 100 |
 | Registro patronal en la CSS | 300 | 900 | — |
 | PanamaCompra, Registro de Oferentes y proveedor CSS | 500 | 2,700 | 0 |
-| Total | 10,850 | 24,750 |  |
+| Total | 10,850 | 24,750 | — |
 | Registro sanitario por producto | 2,120 | 3,425 sin muestras | 570 + análisis del IEA |
 
 El registro de mercado suma tasas (B/.570), análisis del IEA (B/.600 supuesto), abogado (B/.800) y muestras (B/.150). La partida de B/.1,500 por «revisión de fórmula de la Universidad de Panamá» corresponde al análisis del IEA, que es de la Universidad de Panamá y fija sus propias tarifas (Ley 419, arts. 72, 79 y 82); lo dudoso es el monto, que el IEA cotiza caso a caso (la guía oficial de 2012 daba B/.200–1,000). SignatureLex marca varias líneas como «reducidas» sin decir a cuánto, y cita el arancel mínimo de abogados (Acuerdo 609-A de 2021), que esta ronda no pudo verificar. Que la firma del socio cobre a la empresa del socio pide una segunda cotización y aprobación de los demás socios.

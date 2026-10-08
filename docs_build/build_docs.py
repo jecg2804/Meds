@@ -135,8 +135,8 @@ Capital = aportes acumulados de los socios, incluida la fase 0 (unos B/.{r100(B[
 | Un año de operación | 12 | B/.{f(S['m12'])} | B/.{f(B['m12'])} | B/.{f(PE['m12'])} | B/.{f(OP['m12'])} |
 | Dieciocho meses | 18 | B/.{f(S['m18'])} | B/.{f(B['m18'])} | B/.{f(PE['m18'])} | B/.{f(OP['m18'])} |
 | Pico de capital (mes {B['peak_m']} en la base) | {B['peak_m']} | B/.{f(S['m27'])} | B/.{f(B['m27'])} | B/.{f(PE['m27'])} y sigue subiendo si nadie cierra: B/.{f(PE['peak'])} en el mes {PE['peak_m']} | B/.{f(OP['m27'])} |
-| Por socio panameño, un sexto (capital 50/50 con Patel), hasta la primera venta / hasta el pico | | B/.{f(S['fs']/6)} / B/.{f(S['m27']/6)} | B/.{f(B['fs']/6)} / B/.{f(B['m27']/6)} | B/.{f(PE['fs']/6)} / B/.{f(PE['m27']/6)} | B/.{f(OP['fs']/6)} / B/.{f(OP['m27']/6)} |
-| Por socio panameño, un tercio (si Patel no aporta efectivo), hasta la primera venta / hasta el pico | | B/.{f(S['fs']/3)} / B/.{f(S['m27']/3)} | B/.{f(B['fs']/3)} / B/.{f(B['m27']/3)} | B/.{f(PE['fs']/3)} / B/.{f(PE['m27']/3)} | B/.{f(OP['fs']/3)} / B/.{f(OP['m27']/3)} |
+| Por socio panameño, un sexto (capital 50/50 con Patel), hasta la primera venta / hasta el pico | — | B/.{f(S['fs']/6)} / B/.{f(S['m27']/6)} | B/.{f(B['fs']/6)} / B/.{f(B['m27']/6)} | B/.{f(PE['fs']/6)} / B/.{f(PE['m27']/6)} | B/.{f(OP['fs']/6)} / B/.{f(OP['m27']/6)} |
+| Por socio panameño, un tercio (si Patel no aporta efectivo), hasta la primera venta / hasta el pico | — | B/.{f(S['fs']/3)} / B/.{f(S['m27']/3)} | B/.{f(B['fs']/3)} / B/.{f(B['m27']/3)} | B/.{f(PE['fs']/3)} / B/.{f(PE['m27']/3)} | B/.{f(OP['fs']/3)} / B/.{f(OP['m27']/3)} |
 
 El plan de negocio cita B/.{k(B['eq'])} mil de capital en el caso base y B/.{k(S['eq'])} mil con SignatureLex: son los aportes de los 60 meses sin la fase 0; esta tabla la incluye, por eso difiere en unos B/.{r100(B['ph0'])}. Rango para hablar con inversionistas: hasta la primera venta, entre B/.{k(OP['fs'])} mil y B/.{k(PE['fs'])} mil, con B/.{k(S['fs'])} mil como cifra de planificación; hasta el pico del mes 27, entre B/.{k(OP['m27'])} mil y B/.{k(PE['m27'])} mil, con B/.{k(S['m27'])} mil de planificación. En el pesimista el capital no hace pico: si nadie cierra, sigue subiendo hasta B/.{k(PE['peak'])} mil en el mes {PE['peak_m']}; para eso existe la compuerta operativa, que en ese escenario cierra el negocio con una pérdida de unos B/.265 mil.
 
@@ -388,6 +388,7 @@ doc01 = doc('Investigación sobre Rutul Patel, Zywie y el fabricante', '', [
 doc02 = doc('Mercado, requisitos y competencia', '', [
     sec(P, 'Modelo de negocio'),
     sec(P, 'Mercado'),
+    CANALES,
     sec(P, 'Precios adjudicados frente al costo puesto en Panamá'),
     sec(P, 'Competencia y probabilidad de ganar'),
     sec(P, 'Ruta regulatoria y legal'),

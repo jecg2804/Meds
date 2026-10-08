@@ -257,3 +257,23 @@ VERIF_03_PARA = ("Verificación del 8 de octubre contra datos de aduana india (v
 VERIF_FUENTES = ("- Datos de aduana india (muestra pública, 2016): Seair, exportaciones de [paracetamol tabletas](https://www.seair.co.in/product-export-data/paracetamol-tablets-export-data.aspx) · [ceftriaxona a México](https://www.seair.co.in/ceftriaxone-export-data/hs-code-30042019/country-mexico.aspx) · [albendazol suspensión](https://www.seair.co.in/product-export-data/albendazole-suspension-export-data.aspx) · [mebendazol tabletas](https://www.seair.co.in/product-export-data/mebendazole-tablets-export-data.aspx) · [nistatina suspensión](https://www.seair.co.in/product-export-data/nystatin-oral-suspension-export-data.aspx) · [hidrocortisona crema](https://www.seair.co.in/product-export-data/hydrocortisone-cream-export-data.aspx) · [mometasona crema](https://www.seair.co.in/product-export-data/mometasone-furoate-cream-export-data.aspx)\n")
 
 PLAN_REPL.append(("Preguntas abiertas:", VERIF_03_PARA + "\n\nPreguntas abiertas:"))
+
+
+# ---------- 02: sales channels (8 Oct, question from Jaime) ----------
+CANALES = """## Canales de venta: lo que cubre el plan y lo que deja fuera
+
+El modelo cubre un solo canal, la venta al Estado por PanamaCompra, porque es el único que un distribuidor nuevo sin marca ni fuerza de ventas puede ganar por precio y cumplimiento. Los demás existen y se revisan cuando haya precio de fábrica y registros; ninguno cambia el veredicto de la fase 0.
+
+| Canal | Cómo se vende | Tamaño o señal | En el modelo |
+| --- | --- | --- | --- |
+| Compras públicas centralizadas: licitaciones de precio único de la CSS, subastas en reversa y compra conjunta del MINSA | PanamaCompra; gana la oferta más baja que cumple el pliego; fianzas de 20–30% | La CSS presupuesta B/.230 millones para 2027; la LPU 01-2026 adjudicó B/.77.9 millones | Sí: el núcleo del modelo (30% de probabilidad por renglón) |
+| Compras públicas descentralizadas: compras menores de hospitales, regiones de salud y patronatos (Santo Tomás, Oncológico, Hospital del Niño, entre otros) | PanamaCompra, montos menores, entrega en días; pagan 1.8 veces el precio centralizado | Cientos de actos al año (conteo propio 2025–2026) | Sí: participación de 22% en madurez |
+| Compras públicas por excepción y emergencia (desabastecimiento crítico, DE 27 arts. 824–829) y compras vía Fondo Estratégico de la OPS | Procedimientos especiales; la OPS compra a fabricantes precalificados, no a distribuidores locales | Puntual | No: no aplica a un distribuidor nuevo |
+| Mercado privado: cadenas de farmacias (Arrocha, Metro y otras), droguerías mayoristas, hospitales y clínicas privadas, aseguradoras | Venta directa con visitadores y crédito, o a través de una droguería | Importaciones de medicamentos de unos US$670 millones en 2024, más de 1,100 puntos de venta; cuatro grupos concentran 63% de las importaciones; sustitución en mostrador solo con la lista de intercambiables | No en la primera fase: una marca desconocida solo entra por una droguería a 50–100 farmacias independientes (B/.70–150 mil al año, 30–40% de margen bruto, cobros a 60–90 días); suma B/.5–35 mil de contribución y exige un vendedor |
+| Venta a un distribuidor establecido (mayorista a mayorista) | La S.A. registra los productos y los vende a un distribuidor que ya atiende al Estado | Alternativa modelada: capital bajo, 49% de probabilidad de perder más que la fase 0 | Sí, como estructura alternativa (05) |
+| Reexportación desde la Zona Libre de Colón a Centroamérica y el Caribe | Sin registro panameño mientras no entre al territorio fiscal; exige registro sanitario en cada país destino | Panamá es el hub regional (operadores de Colón y Panamá Pacífico) | No: es otro negocio, con registros país por país |
+| Programas sociales, ONG y donaciones | Compras del MINSA bajo programas (medicamentos accesibles) u ONG con licitación propia | Pequeño | Entra por la vía pública si aplica |
+
+"""
+
+PLAN_REPL.append(("| Total | 10,850 | 24,750 |  |", "| Total | 10,850 | 24,750 | — |"))

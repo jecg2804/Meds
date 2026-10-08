@@ -35,6 +35,20 @@ La LPU 01-2026 (proceso 2025-1-10-01-99-SPU-000009; precio de referencia B/.95.3
 
 Canal privado: el mercado de farmacias existe (importaciones de medicamentos por unos US$670 millones en 2024 y más de 1,100 puntos de venta), pero cuatro grupos integrados concentran 63% de las importaciones, la sustitución en mostrador solo se permite con productos de la lista de intercambiables de la DNFD, el MINSA vende 140 genéricos básicos a precio de licitación a cualquiera con receta, y los fabricantes indios fueron 14 de los 35 rechazos de registro de 2025. Para una marca desconocida sin visitadores, una primera etapa realista son 50–100 farmacias independientes a través de una droguería: B/.70–150 mil de ventas al año con 30–40% de margen bruto, menos un vendedor, el descuento de 20% a jubilados y cobros a 60–90 días. Suma entre B/.5 y 35 mil al año de contribución y no cambia el veredicto; el modelo no lo incluye.
 
+## Canales de venta: lo que cubre el plan y lo que deja fuera
+
+El modelo cubre un solo canal, la venta al Estado por PanamaCompra, porque es el único que un distribuidor nuevo sin marca ni fuerza de ventas puede ganar por precio y cumplimiento. Los demás existen y se revisan cuando haya precio de fábrica y registros; ninguno cambia el veredicto de la fase 0.
+
+| Canal | Cómo se vende | Tamaño o señal | En el modelo |
+| --- | --- | --- | --- |
+| Compras públicas centralizadas: licitaciones de precio único de la CSS, subastas en reversa y compra conjunta del MINSA | PanamaCompra; gana la oferta más baja que cumple el pliego; fianzas de 20–30% | La CSS presupuesta B/.230 millones para 2027; la LPU 01-2026 adjudicó B/.77.9 millones | Sí: el núcleo del modelo (30% de probabilidad por renglón) |
+| Compras públicas descentralizadas: compras menores de hospitales, regiones de salud y patronatos (Santo Tomás, Oncológico, Hospital del Niño, entre otros) | PanamaCompra, montos menores, entrega en días; pagan 1.8 veces el precio centralizado | Cientos de actos al año (conteo propio 2025–2026) | Sí: participación de 22% en madurez |
+| Compras públicas por excepción y emergencia (desabastecimiento crítico, DE 27 arts. 824–829) y compras vía Fondo Estratégico de la OPS | Procedimientos especiales; la OPS compra a fabricantes precalificados, no a distribuidores locales | Puntual | No: no aplica a un distribuidor nuevo |
+| Mercado privado: cadenas de farmacias (Arrocha, Metro y otras), droguerías mayoristas, hospitales y clínicas privadas, aseguradoras | Venta directa con visitadores y crédito, o a través de una droguería | Importaciones de medicamentos de unos US$670 millones en 2024, más de 1,100 puntos de venta; cuatro grupos concentran 63% de las importaciones; sustitución en mostrador solo con la lista de intercambiables | No en la primera fase: una marca desconocida solo entra por una droguería a 50–100 farmacias independientes (B/.70–150 mil al año, 30–40% de margen bruto, cobros a 60–90 días); suma B/.5–35 mil de contribución y exige un vendedor |
+| Venta a un distribuidor establecido (mayorista a mayorista) | La S.A. registra los productos y los vende a un distribuidor que ya atiende al Estado | Alternativa modelada: capital bajo, 49% de probabilidad de perder más que la fase 0 | Sí, como estructura alternativa (05) |
+| Reexportación desde la Zona Libre de Colón a Centroamérica y el Caribe | Sin registro panameño mientras no entre al territorio fiscal; exige registro sanitario en cada país destino | Panamá es el hub regional (operadores de Colón y Panamá Pacífico) | No: es otro negocio, con registros país por país |
+| Programas sociales, ONG y donaciones | Compras del MINSA bajo programas (medicamentos accesibles) u ONG con licitación propia | Pequeño | Entra por la vía pública si aplica |
+
 ## Precios adjudicados frente al costo puesto en Panamá
 
 Ofertando 10% bajo la mediana de las compras menores, los 11 productos de Bueno dejan entre 49% y 96% de margen bruto estimado; ofertando 5% bajo el precio de la LPU, la ceftriaxona pierde dinero y otros dos no llegan al 20%.
