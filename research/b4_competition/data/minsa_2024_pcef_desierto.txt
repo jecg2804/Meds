@@ -1,0 +1,20 @@
+MINSA 2024 PCeC non-convenio-marco acts loaded: 1954 (partial: 7000 of 7,507 listed); medicine-like by description: 355
+ modality: [('Compra Menor que exceda B/.10,000 hasta B/.50,000', 232), ('Licitacion Pública que exceda B/.50,000 hasta B/.175,000', 89), ('Licitación Pública que exceda B/.175,000', 19), ('Licitaciones Mejor Valor que exceda B/.500,000', 13), ('Compra Menor hasta B/.10,000', 2)]
+ status: [('Adjudicado', 293), ('Desierto', 49), ('Cancelado', 13)]  desierto rate=13.8% cancelado=3.7%
+  Licitacion Pública que exceda B/.50,000 hasta B/.175,00 n=  89 desierto=15.7% ref median B/.87,000  award/ref median=0.93 (IQR 0.69-1.00)
+  Compra Menor que exceda B/.10,000 hasta B/.50,000       n= 232 desierto=14.2% ref median B/.23,805  award/ref median=0.98 (IQR 0.80-1.00)
+ awarded total B/.39,251,828; top suppliers:
+   CORPORACION IMPA-DOEL, S.A.              B/. 17,902,552 45.6% acts=28
+   REPRICO, S.A                             B/.  3,921,564 10.0% acts=30
+   DROGUERIA SARO, S.A.                     B/.  3,530,675  9.0% acts=6
+   DISTRIBUIDORA INSUMOS Y MEDICAMENTOS DE  B/.  2,179,115  5.6% acts=2
+   C.G. DE HASETH & CIA.,  S.A.             B/.  1,954,925  5.0% acts=16
+   INTERNACIONAL BIO FARMACÉUTICA, S.A. (IN B/.  1,052,191  2.7% acts=6
+   DROGUERÍA RAMÓN GONZÁLEZ REVILLA, S.A.   B/.    693,924  1.8% acts=14
+   SIN NOMBRE COMERCIAL                     B/.    573,524  1.5% acts=25
+   PISA FARMACEUTICA DE PANAMÁ S.A          B/.    529,920  1.4% acts=19
+   SEVEN PHARMA PANAMA,S.A.                 B/.    479,925  1.2% acts=8
+   LETERAGO, S.A.                           B/.    440,370  1.1% acts=3
+   PROMED S.A.                              B/.    431,503  1.1% acts=7
+
+De-duplicated: unique (act,item) rows=333; unique acts=333; act status {'Adjudicado': 293, 'Cancelado': 13, 'Desierto': 27}; desierto=8.1%, cancelado=3.9%  (MINSA 2024, PCeC, medicine-like, partial year download 7,000/7,507 records)

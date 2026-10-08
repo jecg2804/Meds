@@ -1,0 +1,62 @@
+source,id,level,tender_description,catalog_item(s)
+DE16,r74,exact,"CLOZAPINA, 100 MG, COMPRIMIDO RANURADO, VÍA ORAL.",P-367 Clozapine [100 mg tablet IR]
+DE16,r160,exact,"FLUOXETINA 20 MG, CÁPSULA O COMPRIMIDO, V.O.",P-393 Fluoxetine [20 mg tablet IR] || P-394 Fluoxetine [20 mg capsule IR]
+DE16,r233,exact,"LORAZEPAM, 2MG, TABLETA, V.O.",P-428 Lorazepam [2 mg tablet IR] || M-628 Tablet LORAZEPAM I.P 2MG [2 mg tablet IR]
+DE16,r308,exact,"PROPRANOLOL CLORHIDRATO 10 MG, COMPRIMIDO, V.O.",P-482 Propranolol [10 mg tablet IR]
+DE16,r109,exact,"DIFENHIDRAMINA, 25 MG, CÁPSULA, VÍA ORAL.",M-671 Capsule/Tablet DIPHENHYDRAMINE 25MG [25 mg capsule IR]
+DE16,r274,exact,"OLANZAPINA 10 MG, COMPRIMIDO O COMPRIMIDO DISPERSABLE, Ivo,",P-451 Olanzapine [10 mg tablet IR] || P-456 Olanzapine Mouth Dissolving [10 mg tablet DT]
+DE16,r69,strength_diff,"CLORFENIRAMINA 2-2.5 MG/S ML, JARABE O SOLUCIÓN, VÍA ORAL.",P-229 Chlorpheniramine Maleate Syrup [0.8 mg/ml syrup/oral liquid ]
+DE16,r65,exact,"CLINDAMICINA CLORHIDRATO 300 MG, CÁPSULA O COMPRIMIDO, V.O.",P-153 Clindamycin [300 mg capsule IR]
+DE16,r166,exact,"FUSIDATO SÓDICO, 2%, UNGUENTO, TUBO, VÍA TÓPICA.",P-251 Fusidic Acid Cream / Ointment [2 % cream/ointment ]
+DE16,r365,exact,"VALPROICO ÁCIDO SAL SODICA O MAGNÉSICA, O DIVALPROATO SÓDICO (DIVALPROEX), 500 MG, CÁPSULA O COMPRIMIDO O COMPRIMIDO DE LIBERACIÓN MODIFICADA CON CAPA ENTÉRICA, V.O.",P-374 Divalproex Sodium Extended Release [500 mg tablet MR]
+DE16,r358,exact,"TRIMETOPRIN 40 MG CON SULFAMETOXAZOL 200 MG POR 5 ML, SUSPENSIÓN, FRASCO, V.O.",P-155 Co-trimoxazole Oral Suspension [8 mg/ml + 40 mg/ml suspension ]
+DE16,r88,strength_diff,"DEXAMETASONA 4MG, TABLETA, V.O.",M-621 Tablet DEXAMETHASONE I.P 0.5MG [0.5 mg tablet IR]
+LPU 01-2026,r75,exact,"CEFTRIAXONA SÓDICA 1g, polvo liofilizado, I.V.",P-547 Ceftriaxone For Injection [1000 mg injection_powder ]
+LPU 01-2026,r102,exact,"CORTICOIDE POTENCIA ALTA: AMCINONIDE 0.1% o BETAMETASONA DIPROPIONATO 0.05% o FLUOCINOLONA ACETÓNIDA 0.2% o HALCINONIDA 1% o MOMETASONA FUROATO 0.1%, crema, tubo, 15g, Vía Tópica.",P-264 Mometasone Furoate Cream [0.1 % cream/ointment ]
+CC 2023 CL-000002,r245,exact,"DOXICICLINA 100mg, base clorhidrato o hiclato, cápsula o tableta, V.O. (X100)",M-646 Capsule/Tablet DOXYCYCLINE 100MG [100 mg tablet IR] || M-647 Capsule/Tablet DOXYCYCLINE 100MG [100 mg capsule IR]
+CC 2024 CL-000005,r103,exact,"GLIBENCLAMIDA, 5MG, TABLETA, V.O",P-006 Glibenclamide [5 mg tablet IR]
+CC 2023 CL-000002,r106,exact,"FLUOXETINA 20mg, cápsula o tableta, V.O.",P-393 Fluoxetine [20 mg tablet IR] || P-394 Fluoxetine [20 mg capsule IR]
+LPU 11-2026,rb100,exact,"METRONIDAZOL, 125MG/5ML, SUSPENSIÓN, FRASCO, 120ML, V.O.",P-287 Metronidazole Suspension [25 mg/ml suspension ]
+MINSA SSR 2026,r1,exact,"Paracetamol (Acetaminofén) 120-160 mg/5 mL, jarabe o solución, V.O. FT: 10743. (120ml). Precio unitario de referencia: $ 0.6000",P-195 Paracetamol Suspension /Acetaminophen Su [24 mg/ml syrup/oral liquid ] || P-196 Paracetamol Suspension /Acetaminophen Su [25 mg/ml syrup/oral liquid ]
+LPU 01-2026,r116,strength_diff,"DEXAMETASONA 4mg, tableta, V.O.",M-621 Tablet DEXAMETHASONE I.P 0.5MG [0.5 mg tablet IR]
+CC 2023 CL-000002,r109,exact,"ITRACONAZOL, 100MG, CÁPSULA O TABLETA, V.O.",P-291 Itraconazole [100 mg capsule IR]
+CC 2023 CL-000002,r125,exact,"DICLOFENACO SÓDICO, 50mg, cápsula o tableta, de liberación convencional o con capa entérica, V.O. (En CONAMEP es Potásico 11377)",P-168 Diclofenac Sodium & Potassium [50 mg tablet IR] || M-602 Tablet DICLOFENAC SODIUM -50 MG [50 mg tablet IR]
+CC 2025 CL-000008,r5,exact,"CARBAMAZEPINA 200MG, TABLETA, V.O. FICHA TECNICA: 10617",P-344 Carbamezapine [200 mg tablet IR] || M-712 Tablet CARBAMAZEPINE 200MG [200 mg tablet IR]
+LPU 01-2026,r136,exact,"DICLOFENACO SÓDICO, 50mg, cápsula o tableta, de liberación convencional o con capa entérica, V.O.",P-168 Diclofenac Sodium & Potassium [50 mg tablet IR] || M-602 Tablet DICLOFENAC SODIUM -50 MG [50 mg tablet IR]
+CC 2024 CL-000005,r172,exact,"PARACETAMOL (ACETAMINOFEN), 500MG, TABLETA, V.O.",P-189 Paracetamol [500 mg tablet IR] || M-608 Tablet PARACETAMOL I.P. 500 MG [500 mg tablet IR]
+CC 2024 CL-000005,r152,exact,"METRONIDAZOL, 125MG/5ML, SUSPENSION, FRASCO, 120ML, V.0.",P-287 Metronidazole Suspension [25 mg/ml suspension ]
+ANTAI-CSS,2023-1-10-0-08-LP-524051,exact,"CLONAZEPAM, 2MG, TABLETA, V.O.","P-364 Clonazepam [2 mg tablet IR]  [unit price 0.2300, qty 31500]"
+B1-prices,2025-1-10-01-08-SCM-005033,exact,"CORTICOIDE BAJA POTENCIA NO FLUORINADO CREMA TUBO 15-30g: DESONIDE, 0.05% CREMA O HIDROCORTISONA, 0.25-2.5%. TUBO
+EL PROVEEDOR DEBERÁ PRESENTAR: 
+1. REGISTRO NACIONAL DE OFERENTE VIGENTE.
+2. REGISTRO SANITARIO VIGENTE.
+3. COPIA SIMPLE DEL MÉTODO O PROCEDIMIENTO DE DESTRUCCIÓN O DISPOSICIÓN FINAL DE LOS DESECHOS FARMACÉUTICOS.
+4. VIGENCIA MÍNIMA DEL PRODUCTO DE 18 MESES. 
+ EL PROVEEDOR ADJUDICADO DEBERÁ CUMPLIR CON EL TIEMPO DE ENTREGA ESTABLECIDO EN ORDEN DE COMPRA.                                                                                        EL PROVEEDOR DEBERÁ ENTREGAR PREFERIBLEMENTE EN CAJAS SELLADAS,  Y DE ACUERDO CON LA PRESENTACIÓN POR LA CUAL SE LE OTORGÓ EL REGISTRO SANITARIO O EN SU DEFECTO EN CUALQUIER PRESENTACIÓN DONDE SE MANTENGA EL MISMO REGISTRO SANITARIO Y LOTE A ENTREGAR. TODO EXCEDENTE SE CONSIDERARA UNA DONACIÓN.","P-263 Hydrocortisone Cream [1 % cream/ointment ]  [unit price 2.5000, qty 1110]"
+B1-prices,2025-1-10-01-08-SCM-002235,exact,"ROSUVASTATINA CALCICA, 10MG CAPSULA O TABLETA COMPRIMIDO RECUBIERTO","P-500 Rosuvastatin [10 mg tablet IR]  [unit price 0.0900, qty 24000]"
+ANTAI-CSS,2024-1-10-0-04-LP-536073,exact,"FLUCONAZOL 150-200mg, tableta o cápsula, V.O._x000D_ / REQUIERE CERTIFICADO DE INTERCAMBIABILIDAD.","M-680 Tablet FLUCONAZOLE 150MG [150 mg tablet IR]  [unit price 1.6500, qty 6000]"
+B1-prices,2026-0-12-18-08-SCM-015873,exact,"LEVOFLOXACINA, 500MG, COMPRIMIDO, V,O UR MEDICINA INTERNA   FT: 10215","P-143 Levofloxacin [500 mg tablet IR] || M-657 Tablet LEVOFLOXACIN HEMIHYDRATE 500MG [500 mg tablet IR]  [unit price 0.6500, qty 1700]"
+ANTAI-CSS,2023-1-10-0-15-LP-487117,exact,"DICLOFENACO SÓDICO, 50MG, CÁPSULA O TABLETA DE LIBERACIÓN CONVENCIONAL O CON CAPA ENTÉRICA, V.O. /  / DESCRIPCION DEL PRODUCTO: / USO: TRATAMIENTO DE LA ARTRITIS REUMATOIDE, DE LA OSTEOARTRITIS Y DE ESPONDILITIS ANQUILOSANTE. /  / CONSUMO: 3 MESES / TRAMITE: FONDO FI","P-168 Diclofenac Sodium & Potassium [50 mg tablet IR] || M-602 Tablet DICLOFENAC SODIUM -50 MG [50 mg tablet IR]  [unit price 0.0800, qty 15000]"
+B1-prices,2026-0-12-27-08-SCM-009627,exact,"BESILATO DE AMLODIPINA EQUIVALENTE A 5 mg DE AMLODIPINA BASE, comprimido, v.o. - F.T. 10656","P-331 Amlodipin Besylate [5 mg tablet IR] || M-681 Tablet AMLODIPINE BESILATE 5MG [5 mg tablet IR]  [unit price 0.0200, qty 144000]"
+B1-prices,2025-1-10-01-02-SCM-000568,exact,"ROSUVASTATINA 10MG. CAPSULA O TABLETA V.O FICHA TECNICA Nª 106461 
+REQUIERE CERTIFICADO DE INTERCAMBIABILIDAD Debe presentar el registro sanitario vigente en la Recepción del Almacén de Farmacia con la Certificación Expedida por el Fabricante en la que consten las Fechas de Producción, Lotes del Producto y Números de Unidades de Cada Lote. “Deben presentar el método o procedimiento de destrucción del producto o disposición dictado por el fabricante.” Se solicita incluir la monografía del producto a ofertar El proveedor antes de hacer la entrega debe retirar la orden de compra original en el departamento de Compras de la Coordinación Administrativa de Coclé.
+ Tipo Producto: Medicamentos y productos de nutrición Código Externo(ATC): C10AA07 Nivel de Complejidad: 1 Clase de Riesgo: N Presentación: Comprimido recubierto Especialidad: Accesorios Sin accesorios Consumibles Sin consumibles Observaciones sugeridas para el pliego de cargos: Cada institución establecerá en el Pliego de Cargos la forma farmacéutica y la presentación de acuerdo a su necesidad, a su Lista Oficial de Medicamentos y a la información descrita en la Ficha Técnica aprobada por el CTNI . 
+Para la adquisición pública se solicitará por unidad. 
+La instalación Pública de Salud determinará en el Pliego de Cargo, la entrega, de acuerdo a su necesidad (Envases Hospitalarios, Cajas, Blíster o cualquier otra presentación que facilite su distribución). 
+Concentración: 10MG Actividad Radioactiva- No aplica Diagnostico: Actividad Radioactiva- No aplica Terapia: Forma Farmacéutica: Comprimido Recubierto Vía de administración: V.O","P-500 Rosuvastatin [10 mg tablet IR]  [unit price 0.0800, qty 180000]"
+PCv3-2026-harvest,2025-3-60-01-08-CM-001144,exact,TABLETAS DE LOPERAMIDA 2 MG,"M-677 Tablet LOPERAMIDE 2MG [2 mg tablet IR]  [unit price 0.7500, qty 30]"
+ANTAI-CSS,2023-1-10-0-08-LP-520025,exact,"BENZOILO PEROXIDO 5%, GEL, TUBO 40-60G, VÍA TÓPICA","P-247 Benzoyl Peroxide gel [5 % gel ]  [unit price 6.0000, qty 300]"
+B1-prices,2025-1-10-01-01-SCM-012939,exact,MEBENDAZOL 100MG TABLETA,"P-280 Mebendazole [100 mg tablet IR] || M-630 Tablet MEBENDAZOLE 100MG [100 mg tablet IR]  [unit price 0.2300, qty 18000]"
+ANTAI-CSS,2025-1-10-01-08-SCM-006108,exact,"PREDNISONA O PREDNISOLONA 5MG, TAB,VO","M-622 Tablet PREDNISOLONE 5MG [5 mg tablet IR]  [unit price 0.2400, qty 30000]"
+B1-prices,2025-1-10-01-08-SCM-013621,exact,"TOPIRAMATO 100MG. COMPRIMIDO, V.O.
+
+MEDICAMENTO DESABASTECIDO EN EL DEPOSITO CENTRAL DE MEDICAMENTOS
+EL PRODUCTO OFRECIDO DEBE CUMPLIR CON TODAS LAS ESPECIFICACIONES CONTENIDAS EN LA LEY","P-522 Topiramate [100 mg tablet IR]  [unit price 1.0500, qty 9000]"
+B1-prices,2026-0-12-21-07-SCM-014110,exact,"Rosuvastatina Cálcica, 10 mg comprimido recubierto F.T:106461
+CONSUMO:   PARA 6 MESES A PARTIR DE LA FECHA DE RECEPCIÓN.
+Comprimido recubierto
+REQUIERE CERTIFICADO DE INTERCAMBIABILIDAD
+
+
+FECHA DE VENCIMIENTO NO MENOR DE 18 MESES AL MOMENTO DE RECIBIDO.  EN EL CASO QUE EL PROVEEDOR NO CUENTE CON EL VENCIMIENTO SOLICITADO EN EL PLIEGO, PUEDE COLOCAR EN LA PROPUESTA LA (S) FECHA (S) DE VENCIMIENTO CON LA (S) QUE CUENTA AL MOMENTO DE PARTICIPAR.                                                                                                                                                                                                                                                                                   EN CASOS DONDE EXISTA LA NECESIDAD URGENTE DE DETERMINADO MEDICAMENTO, ESTABLECIDA POR LA INSTALACIÓN, SE PODRÁ ANALIZAR Y APROBAR LA RECEPCIÓN DEL MISMO CON UNA FECHA DE VENCIMIENTO MENOR A LA INDICADA Y CON CARTA DE COMPROMISO.  DE VENCERSE LOS PRODUCTOS RECIBIDOS CON CARTA DE COMPROMISO ANTES DE SU USO, SE NOTIFICARÁ AL CONTRATISTA DENTRO DE UN PERIODO DE HASTA UN MES DESPUES DEL VENCIMIENTO DEL PRODUCTO. EL TERMINO PARA QUE EL PROVEEDOR RETIRE SU MERCANCIA SERÁ DE 45 DÍAS CALENDARIO DESPUES DE NOTIFICADO MEDIANTE NOTA DEL JEFE DE ALMACEN Y 45 DIAS CALENDARIOS ADICIONALES CONTADO A PARTIR DE LA FECHA DEL RETIRO ESTIPULADO EN LA NOTA. DE NO PODER REPONER EL PRODUCTO VENCIDO EN EL ALMACEN CON CARTA DE COMPROMISO, EL CONTRATISTA DEBERÁ PAGAR EL VALOR CORRESPONDIENTE A LA MERCANCIA NO REPUESTA. SI LA MERCANCIA VENCIDA CON CARTA DE COMPROMISO NO ES RETIRADA POR EL CONTRATISTA EN EL TERMINO ESTIPULADO, DEBERÁ PAGAR UNA MULTA PROGRESIVA. DECRETO EJECUTIVO No. 27 DE 10 DE MAYO DE 2024, CAPITULO XI ART. 818. SE REQUIERE MÉTODO DE DESTRUCCIÓN. EN LOS RENGLONES QUE EXISTAN RANGOS DE PRESENTACIÓN, SE TOMARÁ EN CUENTA EL MENOR PRECIO POR UNIDAD DE MEDIDA (MILILITROS, GRAMOS, ONZAS, UNIDAD INTERNACIONAL, ETC).
+OBSERVACIÓN: HORARIO DE RECEPCIÓN DE ALMACÉN, DE LUNES A VIERNES DE 8:00AM A 2:00 PM","P-500 Rosuvastatin [10 mg tablet IR]  [unit price 0.0900, qty 60000]"

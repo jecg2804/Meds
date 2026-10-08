@@ -1,0 +1,28 @@
+line,5p_low,5p_base,5p_high,15p_low,15p_base,15p_high
+A. 3PL warehouse bill,,,,,,
+Storage (positions x rate),100,150,225,300,450,675
+Handling in (per pallet),25,40,75,75,120,225
+Handling out (cases picked + order fee),22,86,280,44,172,560
+WMS/admin + insurance,10,95,230,30,135,290
+Minimum-fee top-up,143,229,390,0,0,0
+= 3PL monthly bill,300,600,1200,449,878,1750
+Own regent (part-time),400,450,600,400,450,600
+3PL review/onboarding (amortised),69,83,111,69,83,111
+"= 3PL model, storage side",769,1133,1911,918,1411,2461
+B. Own GDP storage room,,,,,,
+Rent incl. maintenance,800,1080,1800,1200,1800,3000
+Electricity (A/C 24/7),300,450,700,450,700,1100
+Warehouse staff,390,975,1300,780,1219,1950
+Regent,450,700,1200,450,700,1200
+Maintenance/calibration/insurance/IT,250,500,900,330,700,1300
+Build-out capex / 36 months,444,1028,2069,689,1500,2778
+"= Own model, storage side",2634,4733,7969,3899,6619,11328
+C. Common to both,,,,,,
+Deliveries to MINSA/CSS,100,460,1690,350,1440,3710
+Import: broker + LCL + drayage,390,785,1655,852,1832,4175
+TOTAL 3PL model,1259,2378,5256,2120,4683,10346
+TOTAL own-warehouse model,3124,5978,11314,5101,9891,19213
+Own minus 3PL,1865,3599,6058,2980,5208,8867
+3PL storage side per pallet,154,227,382,61,94,164
+Own storage side per pallet,527,947,1594,260,441,755
+Own: upfront cash (capex + 2-month deposit),17600,39160,78100,27200,57600,106000

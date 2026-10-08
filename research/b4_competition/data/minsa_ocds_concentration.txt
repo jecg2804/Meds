@@ -1,0 +1,70 @@
+
+## MINSA pharma awarded renglones 2020 (OCDS): n=85 suppliers=24 HHI(count)=865 CR4=51.8%
+   REPRICO                                    renglones=  14  16.5%
+   CORPORACION IMPA-DOEL                      renglones=  13  15.3%
+   US PHARMACY SYSTEMS                        renglones=  10  11.8%
+   NUTRIMED                                   renglones=   7   8.2%
+   DROGUERIA RAMON GONZALEZ REVILLA           renglones=   4   4.7%
+   CELMAR                                     renglones=   4   4.7%
+   C G DE HASETH                              renglones=   4   4.7%
+   PISA FARMACEUTICA                          renglones=   4   4.7%
+   COMPANIA ASTOR                             renglones=   3   3.5%
+   PROQUIFAR S A                              renglones=   3   3.5%
+   PROMED (PROMOCION MEDICA)                  renglones=   2   2.4%
+   PANAMED                                    renglones=   2   2.4%
+
+## MINSA pharma awarded renglones 2021 (OCDS): n=1405 suppliers=94 HHI(count)=464 CR4=35.7%
+   REPRICO                                    renglones= 170  12.1%
+   C G DE HASETH                              renglones= 119   8.5%
+   CORPORACION IMPA-DOEL                      renglones= 112   8.0%
+   COMPANIA ASTOR                             renglones= 100   7.1%
+   PANAMED                                    renglones=  64   4.6%
+   DROGUERIA RAMON GONZALEZ REVILLA           renglones=  63   4.5%
+   PISA FARMACEUTICA                          renglones=  54   3.8%
+   NUTRIMED                                   renglones=  45   3.2%
+   CELMAR                                     renglones=  43   3.1%
+   VITALIS                                    renglones=  35   2.5%
+   PROMED (PROMOCION MEDICA)                  renglones=  31   2.2%
+   SEKTASA                                    renglones=  31   2.2%
+
+## MINSA pharma awarded renglones 2022 (OCDS): n=1731 suppliers=87 HHI(count)=444 CR4=33.1%
+   REPRICO                                    renglones= 195  11.3%
+   C G DE HASETH                              renglones= 139   8.0%
+   CORPORACION IMPA-DOEL                      renglones= 129   7.5%
+   PISA FARMACEUTICA                          renglones= 110   6.4%
+   COMPANIA ASTOR                             renglones=  97   5.6%
+   DROGUERIA RAMON GONZALEZ REVILLA           renglones=  95   5.5%
+   PHARMA SUPPLIES CORP                       renglones=  69   4.0%
+   NUTRIMED                                   renglones=  66   3.8%
+   PANAMED                                    renglones=  56   3.2%
+   LANCO MEDICAL GROUP                        renglones=  38   2.2%
+   LABORATORIOS RIGAR                         renglones=  37   2.1%
+   SEVEN PHARMA                               renglones=  35   2.0%
+
+## MINSA pharma awarded renglones 2023 (OCDS): n=2004 suppliers=94 HHI(count)=431 CR4=32.8%
+   REPRICO                                    renglones= 204  10.2%
+   C G DE HASETH                              renglones= 176   8.8%
+   CORPORACION IMPA-DOEL                      renglones= 147   7.3%
+   PISA FARMACEUTICA                          renglones= 130   6.5%
+   COMPANIA ASTOR                             renglones= 101   5.0%
+   DROGUERIA RAMON GONZALEZ REVILLA           renglones=  98   4.9%
+   PHARMA SUPPLIES CORP                       renglones=  91   4.5%
+   NUTRIMED                                   renglones=  70   3.5%
+   LABORATORIOS RIGAR                         renglones=  58   2.9%
+   SEVEN PHARMA                               renglones=  55   2.7%
+   LABORATORIO INDUSTRIAL FARMACEUTICO S A    renglones=  53   2.6%
+   US PHARMACY SYSTEMS                        renglones=  46   2.3%
+
+## MINSA pharma awarded renglones 2024 (OCDS): n=247 suppliers=45 HHI(count)=443 CR4=27.9%
+   PISA FARMACEUTICA                          renglones=  20   8.1%
+   C G DE HASETH                              renglones=  19   7.7%
+   REPRICO                                    renglones=  16   6.5%
+   PHARMA SUPPLIES CORP                       renglones=  14   5.7%
+   LABORATORIO JAYOR                          renglones=  14   5.7%
+   CORPORACION IMPA-DOEL                      renglones=  13   5.3%
+   CELMAR                                     renglones=  13   5.3%
+   COMPANIA ASTOR                             renglones=  13   5.3%
+   DROGUERIA RAMON GONZALEZ REVILLA           renglones=  12   4.9%
+   F P LATAM S A                              renglones=  12   4.9%
+   VITALIS                                    renglones=  10   4.0%
+   IMEXSATEC S A                              renglones=   8   3.2%

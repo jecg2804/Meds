@@ -1,0 +1,174 @@
+res985_no,active_raw,active_fixed,molecules,n_components,reference_brand,holder
+1,Abacavir,abacavir,abacavir,1,Ziagen,ViiV Healthcare
+2,Abacavir + Lamivudina,abacavir + lamivudina,abacavir+lamivudina,2,Kivexa,ViiV Healthcare
+3,Abiraterona,abiraterona,abiraterona,1,Zytiga,Patheon/Janssen
+4,Aciclovir,aciclovir,aciclovir,1,Zovirax,GlaxoSmithKline
+5,Alopurinol,alopurinol,alopurinol,1,Zyloprim,Aspen
+6,Amantadina,amantadina,amantadina,1,PK-Merz,Merz Pharmaceuticals
+7,Amiodarona,amiodarona,amiodarona,1,Corda ro ne,Sanofi
+8,Amlodipina,amlodipina,amlodipina,1,Norvasc,Pfizer
+9,Anastrozol,anastrozol,anastrozol,1,Arimidex,AstraZeneca
+10,Aprepitant,aprepitant,aprepitant,1,Emend,Merck Sharp & Dohme
+11,Atenolol,atenolol,atenolol,1,Tenormin,AstraZeneca
+12,Atorvastatina,atorvastatina,atorvastatina,1,Lipitor,Pfizer
+13,Axitinib,axitinib,axitinib,1,lnlyta,Pfizer
+14,Azacitidina,azacitidina,azacitidina,1,Vidaza,Celgene
+15,Azitromicina,azitromicina,azitromicina,1,Zithromax,Pfizer
+16,Bicalutamida,bicalutamida,bicalutamida,1,Casodex,AstraZeneca
+17,Bictegravir + Emtricitabina + Tenotovir,bictegravir + emtricitabina + tenofovir,bictegravir+emtricitabina+tenofovir,3,Biktarvy,Gilead Sciences
+18,Budesonida,budesonida,budesonida,1,Pulmicort,AstraZeneca
+19,Budesonida + Formoterol,budesonida + formoterol,budesonida+formoterol,2,Symbicort,AstraZeneca
+20,Bumetanida,bumetanida,bumetanida,1,Burinex,Leo Pharmaceuticals
+21,Calcipotriol + Betametasona,calcipotriol + betametasona,betametasona+calcipotriol,2,Daivobet,Leo Pharmaceuticals
+22,Candesartán,candesartan,candesartan,1,Atacand,AstraZeneca
+23,Capecitabina,capecitabina,capecitabina,1,Xeloda,F. Hoffmann-La Roche
+24,Captopril,captopril,captopril,1,Capoten,Bristol Myers Squibb
+25,Carbamazepina,carbamazepina,carbamazepina,1,Tegretol,Novartis
+26,Carvedilol,carvedilol,carvedilol,1,Coreg,F. Hoffmann-La Roche
+27,Cetalexina,cefalexina,cefalexina,1,Keflex,Eli Lilly
+28,Ciclosporina,ciclosporina,ciclosporina,1,Sandimmun Neoral,Novartis
+29,Cinacalcet,cinacalcet,cinacalcet,1,Mimpara,Patheon/Amgen
+30,Ciprofloxacina,ciprofloxacina,ciprofloxacina,1,Ciproxina,Bayer
+31,Claritromicina,claritromicina,claritromicina,1,Klaricid,Abbott
+32,Clindamicina,clindamicina,clindamicina,1,Dalacin e,Pfizer
+33,Clonazepam,clonazepam,clonazepam,1,Rivotril,F. Hoffmann-La Roche
+34,Clopidogrel,clopidogrel,clopidogrel,1,Plavix,Sanofi
+35,Clorambucilo,clorambucilo,clorambucilo,1,Leukeran,Aspen
+36,Clozapina,clozapina,clozapina,1,Leponex,Novartis
+37,Crizotinib,crizotinib,crizotinib,1,Xalkori,Pfizer
+38,Dabigatrán,dabigatran,dabigatran,1,Pradaxa,Boehringer lngelheim
+39,Danazol,danazol,danazol,1,Ladogal,Sanofi
+40,Dapagliflozina,dapagliflozina,dapagliflozina,1,Forxiga,AstraZeneca
+41,Desvenlafaxina,desvenlafaxina,desvenlafaxina,1,Pristiq,Pfizer
+42,Dexketoproteno,dexketoprofeno,dexketoprofeno,1,Enantyum,Menarini
+43,Dexketoprofeno + Tramado!,dexketoprofeno + tramadol,dexketoprofeno+tramadol,2,Enantyum Plus,Menarini
+44,Didanosina,didanosina,didanosina,1,Videx,Bristol Myers Squibb
+45,Digoxina,digoxina,digoxina,1,Lanoxin,Aspen
+46,Divalproato de sodio,divalproato de sodio,divalproato de sodio,1,Epival,Abbott/Abbvie
+47,Dolutegravir,dolutegravir,dolutegravir,1,Tivicay,GlaxoSmithKline
+48,Donepecilo,donepecilo,donepecilo,1,Eranz / Aricept,Pfizer
+49,Doxazocina,doxazosina,doxazosina,1,Cardura,Pfizer
+50,Duloxetina,duloxetina,duloxetina,1,Cymbalta,Eli Lilly
+51,Efavirenz,efavirenz,efavirenz,1,Strocin,Merck Sharp & Dohme
+52,Efavirenz + Emtricitabina + Tenofovir,efavirenz + emtricitabina + tenofovir,efavirenz+emtricitabina+tenofovir,3,Atripla,Merck Sharp & Dohme/ Gilead
+53,Emtricitabina + Tenofovir,emtricitabina + tenofovir,emtricitabina+tenofovir,2,Truvada,Gilead Science
+54,Enalapril,enalapril,enalapril,1,Renitec,Merck Sharp & Dohme
+55,Erlotinib,erlotinib,erlotinib,1,Tarceva,F. Hoffmann-La Roche
+56,Escitalopram,escitalopram,escitalopram,1,Lexapro,Lundbeck
+57,Espironolactona,espironolactona,espironolactona,1,Aldactone,Pfizer
+58,Estavudina,estavudina,estavudina,1,Zerit,Bristol Myers Squibb
+59,Etoricoxib,etoricoxib,etoricoxib,1,Arcoxia,Merck Sharp & Dohme
+60,Everolimus,everolimus,everolimus,1,Afinitor,Novartis
+61,Exe mesta no,exemestano,exemestano,1,Aromasin,Pfizer
+62,Fenitoína,fenitoina,fenitoina,1,Dilantin,Pfizer
+63,Fenobarbital,fenobarbital,fenobarbital,1,Fenobit,Laboratorios Prieto
+64,Fenofibrato,fenofibrato,fenofibrato,1,Controlip,Abbott
+65,Finasteride,finasteride,finasteride,1,Prosear,Merck Sharp & Dohme
+66,Fingolimod,fingolimod,fingolimod,1,Gilenya,Novartis
+67,Fluconazol,fluconazol,fluconazol,1,Diflucan,Pfizer
+68,Fluoxetina,fluoxetina,fluoxetina,1,Prozac,Eli Lilly
+69,Formoterol,formoterol,formoterol,1,Oxis Turbuhaler,AstraZeneca
+70,Fosamprenavir,fosamprenavir,fosamprenavir,1,Telzir,ViiV Healthcare
+71,Furosemida,furosemida,furosemida,1,Lasix,Sanofi
+72,Fusidato,fusidato,acido fusidico,1,Fucidin,Leo Pharmaceuticals
+73,Gabapentina,gabapentina,gabapentina,1,Neurontin,Pfizer
+74,Gefitinib,gefitinib,gefitinib,1,lressa,AstraZeneca
+75,Glibenclamida,glibenclamida,glibenclamida,1,Daonil,Sanofi
+76,Goserelina,goserelina,goserelina,1,Zoladex,AstraZeneca
+77,Haloperidol,haloperidol,haloperidol,1,Haldol,Janssen
+78,Hidroxicarbamida (Hidroxiurea),hidroxicarbamida (hidroxiurea),hidroxicarbamida,1,Hydrea,Bristol Myers Squibb
+79,Hidroxicloroquina,hidroxicloroquina,hidroxicloroquina,1,Plaquinol,Sanofi
+80,Hierro sacarosa,hierro sacarosa,hierro sacarosa,1,Venofer,Vifor
+81,lbandrónico ácido,ibandronico acido,ibandronico acido,1,Bonviva,F.Hoffmann-La Roche
+82,lmatinib,imatinib,imatinib,1,Glivec,Novartis
+83,lndapamida,indapamida,indapamida,1,Natrilix,Servier
+84,lndinavir,indinavir,indinavir,1,Crixivan,Merck Sharp & Dohme
+85,lrbesartán,irbesartan,irbesartan,1,Aprovel,Sanofi
+86,lsotretinoína,isotretinoina,isotretinoina,1,Roaccutan,F. Hoffmann-La Roche
+87,ltraconazol,itraconazol,itraconazol,1,Sporanox,Janssen
+88,lvabradina,ivabradina,ivabradina,1,Procoralan,Servier
+89,Lamivudina,lamivudina,lamivudina,1,3TC / Epivir,GlaxoSmithKline /
+90,Lamivudina + Zidovudina,lamivudina + zidovudina,lamivudina+zidovudina,2,Combivir,GlaxoSmithKline
+91,Lamotrigina,lamotrigina,lamotrigina,1,Lamictal,GlaxoSmithKline
+92,Leflunomida,leflunomida,leflunomida,1,Arava,Sanofi
+93,Lenalidomida,lenalidomida,lenalidomida,1,Revlimid,Celgene
+94,Letrozol,letrozol,letrozol,1,Femara,Novartis
+95,Leuprolida,leuprolida,leuprolida,1,Lucrin Depot,Abbott
+96,Levetiracetam,levetiracetam,levetiracetam,1,Keppra,GlaxoSmithKline
+97,Levodopa + Benserazida,levodopa + benserazida,benserazida+levodopa,2,Prolopa,F. Hoffmann-La Roche
+98,Levodopa + Carbidopa,levodopa + carbidopa,carbidopa+levodopa,2,Sinemet,Merck Sharp & Dohme
+99,Levofloxacino,levofloxacino,levofloxacina,1,Elequine,Janssen
+100,Levoti roxi na,levotiroxina,levotiroxina,1,Eutirox,Merck
+101,Lidocaína,lidocaina,lidocaina,1,Versatis,Grünenthal
+102,Linezolid,linezolid,linezolid,1,Zyvox,Pfizer
+103,Lisinopril,lisinopril,lisinopril,1,Zestril,AstraZeneca
+104,Litio,litio,litio,1,Carbolit,Medipan
+105,Lopinavir + Ritonavir,lopinavir + ritonavir,lopinavir+ritonavir,2,Kaletra,Abbott/Abbvie
+106,Loprazolam,loprazolam,loprazolam,1,Dormonoct,Sanofi
+107,Maraviroc,maraviroc,maraviroc,1,Celsentri,Pfizer
+108,Medroxiprogesterona,medroxiprogesterona,medroxiprogesterona,1,Provera,Pfizer
+109,Melfalano,melfalano,melfalano,1,Alkeran,Aspen
+110,Mercaptopurina,mercaptopurina,mercaptopurina,1,Puri-Nethol,Aspen
+111,Metformina,metformina,metformina,1,Glisulin,Merck
+112,Metilfenidato,metilfenidato,metilfenidato,1,·concerta,Janssen
+113,Metilprednisolona Acetato,metilprednisolona acetato,metilprednisolona,1,Depo-Medrol,Pfizer
+114,Metotrexato,metotrexato,metotrexato,1,Metotrexato,Ebewe
+115,Metronidazol,metronidazol,metronidazol,1,Flagyl,Sanofi
+116,Micofenolato,micofenolato,micofenolato,1,Cellcept,Roche
+117,Montelukast,montelukast,montelukast,1,Singulair,Merck Sharp & Dohme
+118,Morfina,morfina,morfina,1,Morfinex,Laboratorios Prieto
+119,Nelfinavir,nelfinavir,nelfinavir,1,Viracept,F. Hoffman-La Roche
+120,Nilotinib,nilotinib,nilotinib,1,Tasigna,Novartis
+121,Octreotide,octreotide,octreotide,1,Sandostatin LAR,Novartis
+122,Olanzapina,olanzapina,olanzapina,1,Zyprexa,Eli Lilly
+123,Olaparib,olaparib,olaparib,1,Lynparza,AstraZeneca
+124,Omeprazol,omeprazol,omeprazol,1,Losec,AstraZeneca
+125,Osimertinib,osimertinib,osimertinib,1,Tagrisso,AstraZeneca
+126,Oxcarbazepina,oxcarbazepina,oxcarbazepina,1,Trileptal,Novartis
+127,Oxicodona,oxicodona,oxicodona,1,Oxycontin,Mundipharma Laboratories
+128,Paliperidona,paliperidona,paliperidona,1,lnvega,Janssen
+129,Paricalcitol,paricalcitol,paricalcitol,1,Zemplar,Abbvie
+130,Perindopril,perindopril,perindopril,1,Coversyl,Servier
+131,Piridostigmina,piridostigmina,piridostigmina,1,Mestinon,Laboratorios Grossman
+132,Prazocina,prazosina,prazosina,1,Apo-Prazo,Apotex
+133,Pregabalina,pregabalina,pregabalina,1,Lyrica,Pfizer
+134,Propofol,propofol,propofol,1,Diprivan,AstraZeneca
+135,Propranolol,propranolol,propranolol,1,lnderal,AstraZeneca
+136,Raltegravir,raltegravir,raltegravir,1,lsentress,Merck Sharp & Dohme
+137,Ramipril,ramipril,ramipril,1,Tritace,Sanofi
+138,Ribociclib,ribociclib,ribociclib,1,Kisqali,Novartis
+139,Ritonavir,ritonavir,ritonavir,1,Norvir,Abbott
+140,Rivaroxabán,rivaroxaban,rivaroxaban,1,Xarelto,Bayer
+141,Rivastigmina,rivastigmina,rivastigmina,1,Exelon Patch,Novartis
+142,Rosuvastatina,rosuvastatina,rosuvastatina,1,Crestor,AstraZeneca
+143,Salbutamol,salbutamol,salbutamol,1,Ventolin,GlaxoSmithKline
+144,Saquinavir,saquinavir,saquinavir,1,lnvirase,F.Hoffman-La Roche
+145,Sertralina,sertralina,sertralina,1,Altruline,Pfizer
+146,Sevelamer,sevelamer,sevelamer,1,Renvela,Genzyme
+147,Simvastatina,simvastatina,simvastatina,1,Zocor,Merck Sharp & Dohme
+148,Sirolimus,sirolimus,sirolimus,1,Rapamune,Pfizer
+149,Sitagliptina,sitagliptina,sitagliptina,1,Januvia,Merck Sharp & Dohme
+150,Sitagliptina + Metformina,sitagliptina + metformina,metformina+sitagliptina,2,Janumet,Merck Sharp & Dohme
+151,Sofosbuvir + Ledipasvir,sofosbuvir + ledipasvir,ledipasvir+sofosbuvir,2,Harvoni,Patheon/ Gilead Science
+152,Sofosbuvir + Veltapasvir,sofosbuvir + velpatasvir,sofosbuvir+velpatasvir,2,Epclusa,Patheon/ Gilead Science
+153,Sorafenib,sorafenib,sorafenib,1,Nexavar,Bayer
+154,Sulfasalazina,sulfasalazina,sulfasalazina,1,Azulfidine,Pfizer
+155,Sulpirida,sulpirida,sulpirida,1,Dogmatil,Sanofi
+156,Sunitinib,sunitinib,sunitinib,1,Sutent,Pfizer
+157,Tacrolimus,tacrolimus,tacrolimus,1,Prograf,Astellas
+158,Tamoxifeno,tamoxifeno,tamoxifeno,1,Novaldex D,AstraZeneca
+159,Temozolamida,temozolomida,temozolomida,1,Temodal,Merck Sharp & Dohme
+160,Tenofovir,tenofovir,tenofovir,1,Vemlidy,Patheon/ Gilead Science
+161,Terazocina,terazosina,terazosina,1,Hitrin,Abbott
+162,Tiamazol,tiamazol,tiamazol,1,Tapazol,Farma de Colombia S.A.
+163,Ticagrelor,ticagrelor,ticagrelor,1,Brilinta,AstraZeneca
+164,Tizanidina,tizanidina,tizanidina,1,Sirdalud,Novartis
+165,Tramado!,tramadol,tramadol,1,Tramal,Grunenthal
+166,Trimetazidina,trimetazidina,trimetazidina,1,Vastarel,Servier
+167,Valganciclovir,valganciclovir,valganciclovir,1,Valixa,F. Hoffmann-La Roche
+168,Valproato de magnesio,valproato de magnesio,valproato de magnesio,1,Atemperator,Armstrong Laboratorios
+169,Verapamilo,verapamilo,verapamilo,1,lsoptin,Abbott
+170,Voriconazol,voriconazol,voriconazol,1,Vfend,Pfizer
+171,Warfarina,warfarina,warfarina,1,Coumadin,Bristol Myers Squibb
+172,Zidovudina,zidovudina,zidovudina,1,Retrovir,GlaxoSmithKline
+173,Zolpidem,zolpidem,zolpidem,1,Stilnox,Sanofi

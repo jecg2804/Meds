@@ -1,0 +1,873 @@
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-90-0-08-CM-0547512501526 2020-11-30T12:12:44-05:00 ['award'] UNIVERSIDAD DE PANAMÁ
+title: COMPRA DE INSUMOS DE LABORATORIO PARA EL PROYECTO DE SAMUEL ESCUDERO, GANADOR DE LA CONVOCATORIA UNIVERSITARIA A FONDOS DE INVESTIGACIÓN VIP
+desc: COMPRA DE INSUMOS DE LABORATORIO PARA EL PROYECTO DE SAMUEL ESCUDERO, GANADOR DE LA CONVOCATORIA UNIVERSITARIA A FONDOS DE INVESTIGACIÓN VIP
+value: {'amount': 348.81, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | PROBETA O CILINDRO DE VIDRIO, 500 ML, GRADUADO, CLASE B, BASE HEXAGONAL PLASTICA, SUB DIV.: 5.0ML, TOLERANCIA: +/- 5.0ML. MARCA Y CASA PRODUCTORA: EISCO. CATALOGO: CH0346F. PAIS: INDIA
+  T-item: 1.0 Unidad 0.0 | REFRACTOMETRO DE MANO, RANGO DE 0-80% BRIX, PRECISIÓN DE 0.5% BRIX, CALIBRADOS A 20°C. MARCA Y CASA PRODUCTORA: EUROMEX. CATALOGO: RF6580. PAIS: HOLANDA
+  T-item: 1.0 Unidad 0.0 | ALCOHOL AL 95%. MARCA Y CASA PRODUCTORA: HASSETH. CATALOGO: JAV-GAL-050. PAIS: PANAMA
+  T-item: 2.0 Unidad 0.0 | ALCOHOL AL 70%. MARCA Y CASA PRODUCTORA: HASSETH. CATALOGO: JAV-GAL-146. PAIS: PANAMA
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO O MEDIDOR DE TEMPERATURA Y HUMEDAD, -0° A 50°C (32 A 122°F), RANGO DE HUMEDAD 10-995, +/-1, PANT. LCD 8.5X10CM, PANTALLA ILUMINADA. MARCA Y CASA PRODUCTORA: BIOBASE. PAIS: CHINA. CATALOGO: BK-6C
+  T-item: 1.0 Unidad 0.0 | DEXTROSA, MONOHIDRATADA O GLUCOSA CAS: 5996-10-1. MARCA Y CASA PRODUCTORA: LOBA CHEMIE. CATALOGO: 3168-500GR
+  T-item: 1.0 Unidad 0.0 | JUEGO O KIT DE DISECCIÓN ELEMENTAL. INLUYE: TIJERA, GOTERO, PINZA FORCEPS, AGUJA DE DISECIÓN, REGLA, BISTURI, ESCARPELO, ESTUCHE DE CUERO. MARCA Y CASA PRODUCTORA: NASCO. PIAS: CHINA. CATALOGO: SB07839M
+  T-item: 1.0 Unidad 0.0 | CAJA DE POLIPROPILENO CON TAPA DE 100 POSICIONES PARA MICROTUBOS DE 1.5 Y 2 ML, DE COLOR SURTIDO. AUTOCLAVABLES Y SOPORTA ALMACENAMIENTO A -80°C. MARCA Y CASA PRODUCTORA: VWR. PAIS: USA. CATALOGO: 40000-332
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-04-LP-3851692462429 2020-11-18T13:01:31-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO (PSICROMETRO)     CTNI 100680
+desc: TERMOHIGROMETRO (PSICROMETRO)     CTNI 100680
+value: {'amount': 6900.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 30.0 Unidad 0.0 | 	TERMOHIGROMETRO (PSICROMETRO) CTNI 100680   B/. 230.00 C/U
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-15-LP-3886512478222 2020-11-16T14:19:18-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+desc: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+value: {'amount': 662.9, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-0-36-0-08-CM-0127792485054 2020-11-12T10:32:11-05:00 ['award'] INSTITUTO DE MEDICINA LEGAL Y CIENCIAS FORENSES
+title: CALIBRACION DE 3 MEDIDORES DE TEMPERATURA Y HUMEDAD DIGITAL, (TERMOHIGROMETROS), MARCA: THOMAS SCIENTIFIC, No. Activo 38136, 38137, 38138; asignado a la Sección de Documentología Forense de Panamá
+desc: CALIBRACION DE 3 MEDIDORES DE TEMPERATURA Y HUMEDAD DIGITAL, (TERMOHIGROMETROS), MARCA: THOMAS SCIENTIFIC, No. Activo 38136, 38137, 38138; asignado a la Sección de Documentología Forense de Panamá
+value: {'amount': 1284.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 3.0 Servicio 0.0 | CALIBRACION DE 3 MEDIDORES DE TEMPERATURA Y HUMEDAD DIGITAL, (TERMOHIGROMETROS), MARCA: THOMAS SCIENTIFIC, No. Activo 38136, 38137, 38138; asignado a la Sección de Documentología Forense de Panamá
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-0-12-18-08-CM-0250432481926 2020-11-09T08:45:02-05:00 ['award'] MINISTERIO DE SALUD
+title: CALIBRACIÓN DE TERMOMETROS DE REFRIGERADORAS/CONGELADORES CRS-185-2020 BIOMÉDICARENGLONES: 1, 2, Y 3 EPIDEMIOLOGÍA 4 Y 5 LABORATORIO CLÍNICO.
+desc: CALIBRACIÓN DE TERMOMETROS DE REFRIGERADORAS/CONGELADORES CRS-185-2020 BIOMÉDICARENGLONES: 1, 2, Y 3 EPIDEMIOLOGÍA 4 Y 5 LABORATORIO CLÍNICO.
+value: {'amount': 1675.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | CALIBRACIÓN DE TERMOMETRO DE REFRIGERADORA/CONGELADOR MARCA: DIAGHGER, SERIE: 161018204
+  T-item: 1.0 Unidad 0.0 | CALIBRACIÓN DE TERMOMETRO DE REFRIGERADORA/CONGELADOR MARCA: DIAGGER, SERIE: 170117134
+  T-item: 1.0 Unidad 0.0 | CALIBRACIÓN DE TERMOMETRO DE REFRIGERADORA /CONGELADOR CONTROL COMPANY, MODELO: 6430, SERIE: 150406401
+  T-item: 12.0 Unidad 0.0 | CALIBRACIÓN DE TERMOMETROS DE REFRIGERADORAS/CONGELADOR MARCA: FISHER BRAND
+  T-item: 6.0 Unidad 0.0 | CALIBRACIÓN DE TERMOMETROS REFRIGERADORA/CONGELADOR MARCA CADENA DE FRIO LA EMPRESA DEBE COLOCAR EN SITIO UN TERMOHIGROMETRO CALIBRADO, DURANTE EL PERIODO DE LA CALIBRACIÓN. ENTREGAR CERTIFICADO DE CALIBRACIÓN CON TRAZABILIDAD NIST A LA UNIDAD. 
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-0-0-08-CM-0001562466755 2020-11-06T16:56:58-05:00 ['award'] INSTITUTO TECNICO SUPERIOR ESPECIALIZADO
+title: SUMINISTRO E INSTALACIÓN DE ESTANTERÍAS PARA TALLER DE LOGÍSTICA Y DEPÓSITOS DE ARTES CULINARIAS
+desc: SUMINISTRO E INSTALACIÓN DE ESTANTERÍAS PARA TALLER DE LOGÍSTICA Y DEPÓSITOS DE ARTES CULINARIAS
+value: {'amount': 15898.06, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 2.0 Unidad 0.0 | Estanterías para paletización convencional (Rack Selectivo) 
+  T-item: 5.0 Unidad 0.0 | Estantería de mediana capacidad de dos (2) módulos
+  T-item: 4.0 Unidad 0.0 | Estantería de mediana capacidad de tres (3) módulos
+  T-item: 4.0 Unidad 0.0 | Estantería de mediana capacidad módulos individuales
+  T-item: 3.0 Unidad 0.0 | Estantería liviana 
+  AWARD 2020-11-06T16:56:58-05:00 active {'amount': 3095.0, 'currency': 'PAB'} ['Comep Rack S.A']
+    A-item: 2.0 Unidad 1817.89 | Estanterías para almacenaje.
+Estanterías para paletización convencional (Rack Selectivo).
+    A-item: 5.0 Unidad 512.89 | Estanterías para almacenaje.
+Estantería de mediana capacidad de dos (2) módulos
+    A-item: 4.0 Unidad 597.89 | Estanterías para almacenaje.
+Estantería de mediana capacidad de tres (3) módulos
+    A-item: 4.0 Unidad 427.89 | Estanterías para almacenaje.
+Estantería de mediana capacidad módulos individuales.
+    A-item: 3.0 Unidad 377.89 | Estanterías para almacenaje.
+Estantería liviana.
+  BID {'amount': 8008, 'currency': 'PAB'} ['ALCH Enterprises S A']
+  BID {'amount': 3734, 'currency': 'PAB'} ['Comep Rack S.A']
+  BID {'amount': 4135, 'currency': 'PAB'} ['Panamur S,A,']
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-04-CM-3892772481133 2020-10-30T15:26:48-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO, CALIBRACION Y CERTIFICACION DE OPERACIÓN
+desc: SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO, CALIBRACION Y CERTIFICACION DE OPERACIÓN
+value: {'amount': 2675.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 2.0 Unidad 0.0 | SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO, CALIBRACION Y CERTIFICACION DE OPERACIÓN DE DOS (2) TERMOMETROS DE LABORATORIO
+  T-item: 11.0 Unidad 0.0 | SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO, CALIBRACION  Y CERTIFICACION DE OPERACION DE ONCE (11) MICROPIPETAS DE LABORATORIO
+  T-item: 5.0 Unidad 0.0 | SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO, CALIBRACION Y CERTIFICACIÓN DE OPERACIÓN DE CINCO (5) REFRIGERADORAS
+  T-item: 2.0 Unidad 0.0 | SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO, CALIBRACIÓN Y CERTIFICACION DE OPERACIÓN DE DOS (2) TERMOMETROS DE LABORATORIO
+  T-item: 2.0 Unidad 0.0 | SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO, CALIBRACIÓN Y CERTIFICACIÓN DE OPERACIÓN DE DOS (2) TERMOHIGROMETROS DE LABORATORIO
+  T-item: 2.0 Unidad 0.0 | SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO, CALIBRACIÓN Y CERTIFICACION DE OPERACION DE DOS (2) ROTADORES SEROLOGICOS DE LABORATORIO
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-0-41-0-08-PE-0028512479812 2020-10-29T14:25:16-05:00 ['tenderUpdate'] FISCALIA GENERAL ELECTORAL
+title: ALQUILER DE 210 MTS CUADRADOS, EN EL EDIFICIO 752 CORREGIMIENTO DE BALBOA DISTRITO DE PANAMÀ  DE LA AUTORIDAD DEL CANAL DE PANAMÀ. PERIODO DEL 1 DE NOVIEMBRE DE 2020 AL 31 DE DICIEMBRE DE 2020
+desc: ALQUILER DE 210 MTS CUADRADOS, EN EL EDIFICIO 752 CORREGIMIENTO DE BALBOA DISTRITO DE PANAMÀ  DE LA AUTORIDAD DEL CANAL DE PANAMÀ. PERIODO DEL 1 DE NOVIEMBRE DE 2020 AL 31 DE DICIEMBRE DE 2020
+value: {'amount': 3145.8, 'currency': 'PAB'} method: Procedimiento Excepcional status: withdrawn
+  T-item: 1.0 Servicio 0.0 | ALQUILER DE BODEGA DE 210 METROS CUADRADOS 
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-08-LP-3744342414758 2020-08-19T16:56:48-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: LICITACIÓN PUBLICA DE MENOR CUANTÍA Nº 1000703164-08-94 (TERMOHIGROMETRO (PSICROMETRO)
+desc: LICITACIÓN PUBLICA DE MENOR CUANTÍA Nº 1000703164-08-94 (TERMOHIGROMETRO (PSICROMETRO)
+value: {'amount': 1100.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 5.0 Unidad 0.0 | TERMOHIGROMETRO (PSICROMETRO)
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-06-LP-3749402417494 2020-08-19T08:59:00-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: REQUISICION NO. 1000704463-06-01 TERMOHIGROMETRO (PSICROMETRO)
+desc: REQUISICION NO. 1000704463-06-01 TERMOHIGROMETRO (PSICROMETRO)
+value: {'amount': 2850.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: active
+  T-item: 15.0 Unidad 0.0 | TERMOHIGROMETRO (PSICROMETRO)
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-08-CM-3680572388853 2020-07-10T10:31:15-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: SERVICIO DE REVISION Y CALIBRACION DE (35) MICROPIPETAS DE POSTON VOLUMEN VARIABLE. 
+REQ-1000688245-08-37
+desc: SERVICIO DE REVISION Y CALIBRACION DE (35) MICROPIPETAS DE POSTON VOLUMEN VARIABLE. 
+REQ-1000688245-08-37
+value: {'amount': 12200.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 35.0 Unidad 0.0 | SERVICIO DE REVISION Y CALIBRACION DE (35) MICROPIPETAS DE POSTON VOLUMEN VARIABLE. 
+  T-item: 2.0 Unidad 0.0 | SERVICIO DE REVISION Y CALIBRACION DE (2) PHMETRO.(673591, 661642)
+
+  T-item: 2.0 Unidad 0.0 | SERVICIO DE REVISION Y CALIBRACION DE (2) DISPENSADORES VOLUMEN VARIABLES. 
+
+  T-item: 20.0 Unidad 0.0 | SERVICION DE REVISION Y CALIBRACION DE (20) PIPETAS DE VIDRIOS VOLUMETRICAS. 
+  T-item: 8.0 Unidad 0.0 | SERVICIO DE REVISION Y CALIBRACION DE (8) TERMOMETROS N/A EN TRES PUNTOS
+
+  T-item: 8.0 Unidad 0.0 | SERVICIO DE REVISION Y CALIBRACION DE (8) TERMOMETROS DIGITALES EN TRES PUNTOS.
+
+  T-item: 10.0 Unidad 0.0 | SERVICIO DE REVISION Y CALIBRACION DE DIEZ(10)TERMOHIGROMETROS 
+  AWARD 2020-07-10T10:31:15-05:00 active {'amount': 1485.0, 'currency': 'PAB'} ['Promoción Médica S.A.']
+    A-item: 35.0 Unidad 100.0 | Ensayo o calibrado de equipos
+    A-item: 2.0 Unidad 450.0 | Ensayo o calibrado de equipos
+    A-item: 2.0 Unidad 200.0 | Ensayo o calibrado de equipos
+    A-item: 20.0 Unidad 85.0 | Ensayo o calibrado de equipos
+    A-item: 8.0 Unidad 200.0 | Ensayo o calibrado de equipos
+    A-item: 8.0 Unidad 200.0 | Ensayo o calibrado de equipos
+    A-item: 10.0 Unidad 250.0 | Ensayo o calibrado de equipos
+  BID {'amount': 1485, 'currency': 'PAB'} ['Promoción Médica S.A.']
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-08-CM-3697852396716 2020-06-26T10:38:23-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETROS  INALAMBRICO
+desc: TERMOHIGROMETROS  INALAMBRICO
+value: {'amount': 3100.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETROS INALAMBRICO
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-08-LP-3635472373753 2020-05-19T11:35:31-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: CALIBRACION DE CENTRIFUGAS. / CALIBRACION DE TIMER -CRONOMETRO / CARACTERIZACION DE INCUBADORAS / CALIBRACION DE TERMOHIGROMETROS. / CALIBRACION DE MICROSPIPETAS. / CARACTERIZACION DE REFRIGERADORAS.
+desc: CALIBRACION DE CENTRIFUGAS. / CALIBRACION DE TIMER -CRONOMETRO / CARACTERIZACION DE INCUBADORAS / CALIBRACION DE TERMOHIGROMETROS. / CALIBRACION DE MICROSPIPETAS. / CARACTERIZACION DE REFRIGERADORAS.
+value: {'amount': 7070.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 7.0 Servicio 0.0 | CALIBRACION DE CENTRIFUGAS. 
+  T-item: 4.0 Servicio 0.0 | CALIBRACION DE TIMER - CRONOMETRO 
+  T-item: 1.0 Servicio 0.0 | CARACTERIZACION DE INCUBADORAS 
+  T-item: 5.0 Servicio 0.0 | CALIBRACION DE TERMOHIGROMETROS. 
+  T-item: 16.0 Servicio 0.0 | CALIBRACION DE MICROSPIPETAS. 
+  T-item: 11.0 Servicio 0.0 | CARACTERIZACION DE REFRIGERADORAS. 
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-08-LP-3646622379226 2020-05-14T11:51:16-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO PARA USO CONTINUO
+desc: TERMOHIGROMETRO PARA USO CONTINUO
+value: {'amount': 185.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO  PARA USO CONTINUO
+===  pa_2020.jsonl.gz ocds-emvi6n-2020-1-10-0-06-LP-3588402355635 2020-02-14T09:30:00-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: LICITACIÓN PUBLICA DE MENOR CUANTÍA PARA EL SUMINISTRO DE TERMOHIGROMETRO PARA MEDIR TEMPERATURA, AMBIENTAL PARA LA POLICLINICA ROBERTO RAMIREZ DE DIEGO. REQ. 1000668370-06-03
+desc: LICITACIÓN PUBLICA DE MENOR CUANTÍA PARA EL SUMINISTRO DE TERMOHIGROMETRO PARA MEDIR TEMPERATURA, AMBIENTAL PARA LA POLICLINICA ROBERTO RAMIREZ DE DIEGO. REQ. 1000668370-06-03
+value: {'amount': 3150.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: active
+  T-item: 9.0 Unidad 0.0 | TERMOHIGROMETRO PARA MEDIR, TEMPERATURA, AMBIENTAL
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-12-18-08-CM-0294102754462 2021-12-06T09:37:50-05:00 ['award'] MINISTERIO DE SALUD
+title: Calibración de Termohigrometro, Marca: Extech descritos en Sol: CRS-060-2022 Biomédica
+desc: Calibración de Termohigrometro, Marca: Extech descritos en Sol: CRS-060-2022 Biomédica
+value: {'amount': 3500.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 7.0 Servicio 0.0 | Calibración de Termohigrometro, Marca: Extech, Modelo: 445715
+  T-item: 7.0 Servicio 0.0 | Calibración de Termohigrometro, Marca: Fisher Band.
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-05-0-08-CM-0102532728919 2021-12-01T09:25:24-05:00 ['tenderUpdate'] MINISTERIO DE RELACIONES EXTERIORES
+title: “SERVICIO DE ALQUILER DE DEPÓSITO”
+desc: “SERVICIO DE ALQUILER DE DEPÓSITO”
+value: {'amount': 48000.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 12.0 Mes 0.0 | SERVICIO DE ALQUILER DE DEPOSITO (Área aproximada entre trescientos (300) a cuatrocientos (400) metros cuadrados )
+  AWARD 2021-12-01T09:25:24-05:00 active {'amount': 2985.25, 'currency': 'PAB'} ['Golden Storage Corp.']
+    A-item: 12.0 Mes 5492.86 | Alquiler de instalaciones comerciales o industriales.
+
+350 metros cuadrados por 12 meses
+  BID {'amount': 5492, 'currency': 'PAB'} ['Golden Storage Corp.']
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-09-LP-4390722729059 2021-11-11T10:05:50-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO C.T.N.I. 100680
+TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I.102518
+desc: TERMOHIGROMETRO C.T.N.I. 100680
+TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I.102518
+value: {'amount': 9800.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 32.0 Unidad 0.0 | TERMOHIGROMETRO C.T.N.I. 100680 
+  T-item: 9.0 Unidad 0.0 | TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I.102518
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-12-214-12-CM-0075662732482 2021-11-09T10:56:06-05:00 ['award'] MINISTERIO DE SALUD
+title: Servicio de alquiler de local para DEPOSITO DE ALIMENTOS de uso exclusivo del Departamento de Nutrición por seis (6) meses.
+desc: Servicio de alquiler de local para DEPOSITO DE ALIMENTOS de uso exclusivo del Departamento de Nutrición por seis (6) meses.
+value: {'amount': 1284.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 6.0 Mes 0.0 | Contratación de alquiler de local para Depósito de Alimentos (almacenar cantidades de insumos de alimentos secos y desechables)  que comprende de Julio a Diciembre de 2021; y de uso exclusivo del Departamento de Nutrición de Minsa Ngabe Bugle.
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-15-LP-4390792729111 2021-11-08T08:37:45-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO MEDIR TEMPERATURA AMBIENTAL
+desc: TERMOHIGROMETRO MEDIR TEMPERATURA AMBIENTAL
+value: {'amount': 2250.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 10.0 Unidad 0.0 | TERMOHIGROMETRO MEDIR TEMPERATURA AMBIENTAL
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-04-LP-4381872724530 2021-10-25T13:16:26-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL.
+CTNI:100680
+desc: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL.
+CTNI:100680
+value: {'amount': 1239.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 7.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL. CTNI:100680
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-36-0-08-CM-0142782727665 2021-10-25T10:09:48-05:00 ['award'] INSTITUTO DE MEDICINA LEGAL Y CIENCIAS FORENSES
+title: Suministro de Termohigrometro para refrigeradores/congeladores
+desc: Suministro de Termohigrometro para refrigeradores/congeladores
+value: {'amount': 924.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 6.0 Unidad 0.0 | Termohigrometros para refrigeradores/congeladores. Precisión +- 1°C a + 70°C, resolución 0,1°C, que cumpla con triple acreditación, ISO IEC 17025:2005, acreditado por A2LA, indica trazabilidad de estándares + proporcionados por NIST.
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-12-0-08-LP-0349402659644 2021-10-21T11:28:43-05:00 ['award'] MINISTERIO DE SALUD
+title: Servicio de alquiler de depósito, para los archivos inactivos y de descarte de la UGSAF-MINSA.
+desc: Servicio de alquiler de depósito, para los archivos inactivos y de descarte de la UGSAF-MINSA.
+value: {'amount': 17462.4, 'currency': 'PAB'} method: Licitación Pública Banco Interamericano de Desarrollo status: complete
+  T-item: 12.0 Unidad 0.0 | Servicio de alquiler de depósito: Período del servicio: doce (12) meses. El área del local debe contar con las siguientes especificaciones técnica: Dimensiones: con un mínimo de 170 a 180 mts. o aproximado, Servicio de suministro básico: Electricidad (int
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-09-LP-4373382720072 2021-10-20T14:36:36-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO C.T.N.I. 100680
+TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I.102518
+desc: TERMOHIGROMETRO C.T.N.I. 100680
+TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I.102518
+value: {'amount': 9800.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 32.0 Unidad 0.0 | TERMOHIGROMETRO C.T.N.I. 100680
+  T-item: 9.0 Unidad 0.0 | TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I.102518
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-09-LP-4355202710694 2021-10-07T14:19:35-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO  C.T.N.I. 100680
+TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I. 102518
+desc: TERMOHIGROMETRO  C.T.N.I. 100680
+TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I. 102518
+value: {'amount': 9800.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 32.0 Unidad 0.0 | TERMOHIGROMETRO C.T.N.I. 100680 
+  T-item: 9.0 Unidad 0.0 | TERMOMETRO, DIGITAL,PARA CONGELADORES C.T.N.I. 102518
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-12-214-12-CM-0074862715989 2021-10-05T10:16:12-05:00 ['tenderUpdate'] MINISTERIO DE SALUD
+title: COMPRA DE TERMOHIGROMETRO ESTO EQUIPO DE LABORATORIO CLINICO ES PARA SER UTILISADOS EN QUEBRADA HACHA
+desc: COMPRA DE TERMOHIGROMETRO ESTO EQUIPO DE LABORATORIO CLINICO ES PARA SER UTILISADOS EN QUEBRADA HACHA
+value: {'amount': 1346.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: withdrawn
+  T-item: 2.0 Unidad 0.0 | TERMOHIGROMETRO F.T. 1000680
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-12-14-08-CM-0221632699470 2021-09-24T09:54:39-05:00 ['award'] MINISTERIO DE SALUD
+title: REQ 21-0867/TERMOHIGROMETRO DIGITAL CON TRIPLE PANTALLA PARA INSTALAR EN MESA O PARED MIDE TEMEPERATURA Y HUMEDAD RELOJ EN TIEMPO REAL RANGO DE TEMPERATURA DE 32-120° F RANGO DE HUMEDAD DE 10% A 90%
+desc: REQ 21-0867/TERMOHIGROMETRO DIGITAL CON TRIPLE PANTALLA PARA INSTALAR EN MESA O PARED MIDE TEMEPERATURA Y HUMEDAD RELOJ EN TIEMPO REAL RANGO DE TEMPERATURA DE 32-120° F RANGO DE HUMEDAD DE 10% A 90%
+value: {'amount': 3475.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 50.0 Unidad 0.0 | TERMOHIGROMETRO DIGITAL CON TRIPLE PANTALLA PARA INSTALAR EN MESA O PARED MIDE TEMEPERATURA Y HUMEDAD RELOJ EN TIEMPO REAL RANGO DE TEMPERATURA DE 32-120° F RANGO DE HUMEDAD DE 10% A 90% 
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-04-LP-4285292678877 2021-09-23T11:44:04-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL, CON LA SIGUIENTE DESCRIPCION DEL PRODUCTO: TERMOHIDROMETRO (PSICOMETRO)
+desc: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL, CON LA SIGUIENTE DESCRIPCION DEL PRODUCTO: TERMOHIDROMETRO (PSICOMETRO)
+value: {'amount': 267.8, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 4.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL, CON LA SIGUIENTE DESCRIPCION DEL PRODUCTO: TERMOHIDROMETRO (PSICOMETRO)
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-04-LP-4303212687322 2021-09-03T14:50:26-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+CTNI: 100680
+desc: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+CTNI: 100680
+value: {'amount': 720.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 4.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL CTNI: 100680
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-04-LP-4298962685244 2021-08-30T10:02:51-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+CTNI:100680
+desc: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+CTNI:100680
+value: {'amount': 720.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 4.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL CTNI:100680
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-04-LP-4295012683281 2021-08-26T10:59:12-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+CTNI:100680
+desc: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+CTNI:100680
+value: {'amount': 720.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 4.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL CTNI:100680
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-11-0-08-CM-0118042634601 2021-07-08T17:12:59-05:00 ['tenderUpdate'] INSTITUTO CONMEMORATIVO GORGAS DE ESTUDIOS DE LA SALUD
+title: Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.
+desc: Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.
+value: {'amount': 17600.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 8.0 Mes 0.0 | Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.                                                                                                     Se requiere que estos mini d
+  BID {'amount': 3500, 'currency': 'PAB'} ['albrook italian food, s.a']
+  BID {'amount': 2200, 'currency': 'PAB'} ['Red Box, S.A.']
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-06-LP-4139272607135 2021-07-02T13:10:03-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: REQ. 1000759878-06-01 TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+desc: REQ. 1000759878-06-01 TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+value: {'amount': 3060.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 17.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-36-0-08-CM-0134882602554 2021-06-28T16:34:25-05:00 ['award'] INSTITUTO DE MEDICINA LEGAL Y CIENCIAS FORENSES
+title: CALIBRACIÓN A TRES (3) TERMOHIGRÓMETROS PP07R-20L,MARCA THOMAS SCIENTIFIC, CON N° ACTIVOS 38136 / 38137 / 38138.
+desc: CALIBRACIÓN A TRES (3) TERMOHIGRÓMETROS PP07R-20L,MARCA THOMAS SCIENTIFIC, CON N° ACTIVOS 38136 / 38137 / 38138.
+value: {'amount': 1284.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 3.0 Servicio 0.0 | calibración de 3 equipos termohigrometros PP07R-20L, MARCA THOMAS SCIENTIFIC
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-11-0-08-CM-0118042617269 2021-06-11T14:02:48-05:00 ['tenderUpdate'] INSTITUTO CONMEMORATIVO GORGAS DE ESTUDIOS DE LA SALUD
+title: Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.
+desc: Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.
+value: {'amount': 17600.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 8.0 Mes 0.0 | Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.                                                                                                     Se requiere que estos mini d
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-04-LP-4141192607905 2021-06-09T08:31:01-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. MICROPIPETAS (13) RANGO DE 2 A 1000 UL
+desc: SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. MICROPIPETAS (13) RANGO DE 2 A 1000 UL
+value: {'amount': 5640.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 13.0 Servicio 0.0 | SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. MICROPIPETAS (13) RANGO DE 2 A 1000 UL
+  T-item: 9.0 Servicio 0.0 | SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. TERMOHIGROMETRO DIGITAL 
+  T-item: 5.0 Servicio 0.0 | SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. REFRIGERADORAS
+  T-item: 4.0 Servicio 0.0 | SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. CENTRIFUGA
+  T-item: 1.0 Servicio 0.0 | SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO.  INCUBADORA
+  T-item: 1.0 Servicio 0.0 | SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. ROTADOR SEROLOGICO
+  T-item: 1.0 Servicio 0.0 | SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. CABINA DE SEGURIDAD BIOLOGICA
+  T-item: 1.0 Servicio 0.0 | SERVICIO DE MANTENIIENTO PREVENTIVO, VERIFICACION, CARACTERIZACION, CALIBRACION YCERTIFICACION DE EQUIPOS DE LABORATORIO CLINICO. BALANZA DE CONTRAPESO
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-6-02-0-08-CM-0017862611690 2021-06-08T12:05:26-05:00 ['award'] INDICASAT - AIP
+title: ALQUILER DE DEPOSITO DE 30 METROS CUADRADOS POR UN PERIODO DE 24 MESES
+desc: ALQUILER DE DEPOSITO DE 30 METROS CUADRADOS POR UN PERIODO DE 24 MESES
+value: {'amount': 9432.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 24.0 Servicio 0.0 | 24 Meses de alquiler de depósito de 30 metros cuadrados, climatizado, con seguro para la mercancia almacenada. Acceso para autos. Almacenamiento de alta calidad. Las instalaciones debe contar con altos estandares de limpieza, seguridad y 
+  T-item: 24.0 Servicio 0.0 | SEGURO BASICO
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-11-0-08-CM-0118042595649 2021-05-20T15:54:19-05:00 ['tenderUpdate'] INSTITUTO CONMEMORATIVO GORGAS DE ESTUDIOS DE LA SALUD
+title: Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.
+desc: Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.
+value: {'amount': 17600.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 8.0 Mes 0.0 | Alquiler de depósito en planta baja y planta alta que sumen un total de 216m2 para los meses de mayo a diciembre de 2021.                                                                                                     Se requiere que estos mini d
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-90-0-08-CM-0562122565642 2021-05-20T09:41:09-05:00 ['award'] UNIVERSIDAD DE PANAMÁ
+title: COMPRA DE INSUMOS DE LABORATORIO PARA EL PROYECTO DE JERICO CLEMENT
+desc: COMPRA DE INSUMOS DE LABORATORIO PARA EL PROYECTO DE JERICO CLEMENT
+value: {'amount': 211.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO, CERTIFICADO, TEMPERATURA 0 A 50°C Ó 32 A 122°F, HUMEDAD RELATIVA: 0-90% Y RELOJ. MARCA Y CASA PRODUCTORA: VWR. PAIS: USA. CODIGO: 62344-734. 
+  T-item: 1.0 Caja 0.0 | GUANTES DE NITRILO DESECHABLES, NO ESTERIL, LIBRE DE POLVO, TALLA LARGO. PK/100. CODIGO: 82026-428. MARCA Y CASA PRODUCTORA: VWR. PAIS: USA. 
+  T-item: 1.0 Unidad 0.0 | PORTAOBJETOS 76X25MM, 3X1", ESMERILADO, SIN BANDA. PK/72. CODIGO: BI0082B. MARCA Y CASA PRODUCTORA: EISCO. PAIS: INDIA
+  T-item: 1.0 Unidad 0.0 | CUBREOBJETOS, 22X22MM, ESPESOR (0.16-0.19MM). PK/100. CODIGO: COBJ2222. MARCA Y CASA PRODUCTORA: LABGILLS. PAIS: ESPAÑA
+  T-item: 2.0 Unidad 0.0 | HIDROXIDO DE POTASIO, LENTEJAS, PURISIMO, PH, EUR, BP, NF, CAS #1310-58-3. 500 GRAMOS. CODIGO: PO02660500. MARCA Y CASA PRODUCTORA: SCHARLAU. PAIS: ESPAÑA
+  T-item: 1.0 Unidad 0.0 | BISTURI #21 O HOJAS METALICAS DE CORTE SRGICAL SCALPEL BLADES NO. 21-PK/100- CODIGO: SB09347M. MARCA Y CASA PRODUCTORA: NASCO. PAIS: CHINA
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-03-CM-4005862544268 2021-05-19T10:22:59-05:00 ['tenderCancellation'] CAJA DE SEGURO SOCIAL
+title: REQ-1000736824,MANTE Y REP EQUP.MEDICO CALIBRACION Y CARACTERIZACIÓN DE 9 RENGLONES .ETC
+
+VER EN MAS REQUISITOS LA AMPLIACIÓN DE LO SOLICITADO POR DEPTO SOLICITANTE.
+desc: REQ-1000736824,MANTE Y REP EQUP.MEDICO CALIBRACION Y CARACTERIZACIÓN DE 9 RENGLONES .ETC
+
+VER EN MAS REQUISITOS LA AMPLIACIÓN DE LO SOLICITADO POR DEPTO SOLICITANTE.
+value: {'amount': 14790.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: cancelled
+  T-item: 9.0 Unidad 0.0 | MANT Y REP. EQ.MED. VERIFCACIONES Y CALIBRACIONES CARACTERIZACIONES DE (9), NEVERAS 
+  T-item: 6.0 Unidad 0.0 | MANT Y REP. EQ.MED. VERIFICACIÓN Y CALIBRACION DE (6), CENTRIFUGAS
+  T-item: 1.0 Unidad 0.0 | MANT Y VERIFICACION, CALIBRACIÓN Y CERTIFICACION, DE UNA (1), CBINA DE BIOSEGURIDAD, 
+  T-item: 1.0 Unidad 0.0 | MANT VERIFICAION Y CERTIFICACION DE UN (1), CABINA DE FLUJO LAMINAR, MARCA: LABCONCO,MODELO: CLASS II
+  T-item: 8.0 Unidad 0.0 | MANT VERIFICAION Y CALIBRACION DE (8), MICROPIPETAS
+  T-item: 1.0 Unidad 0.0 | MANT VERIFICACION MICROPIPETA MULTICANAL, MARCA: SLAMED
+  T-item: 4.0 Unidad 0.0 | MANT VERIFICACION Y CALIBRACION DE (4) INCUBADORA, SERIE: A0692, 410BA0566, 699091080, 41362873,MARCA: (2) ELCONAP, (1) NAPCO (1)THERMO SCIENTIFIC. MODELO:(2) MEDDAC (1) C02 (1) HERATHERN OVERFORMA 
+  T-item: 1.0 Unidad 0.0 | MANT Y VERIFICAION Y CALIBRACION DE (1), BALANZA
+  T-item: 6.0 Unidad 0.0 | MANT VERIFICACIONES Y CALIBRACIONES DE (6), TERMOHIGROMETROS
+  T-item: 1.0 Unidad 0.0 | MANT VERIFICACION, CALIBRACION Y CARACTERIZACION DE (1) AUTOCLAVE
+  T-item: 1.0 Unidad 0.0 | MANT VERIFICACION Y CALIBRACION DE (1) ROTADOR SEROLOGICO. MODELO: VRN-360.MARCA: GEMMY. ACT: 313824. 
+  AWARD 2021-03-23T13:25:35-05:00 active {'amount': 6275.0, 'currency': 'PAB'} ['Soluciones Integrales en Gestion de Calidad']
+    A-item: 9.0 Unidad 250.0 | Refrigeradora Act: 182295, 736950, 182284, 203325, 625396, 634394, 624397, A29678, 56624.Marcas: Sanyo Scientific (2) Thermo Scientific. Modelo: (7) Medicool. (2) Revco
+Mantenimiento Preventivo
+- Evaluación de instalación y condiciones ambientales
+- Re
+    A-item: 6.0 Unidad 140.0 | Centrífuga Act: 736443, 785476,785468, 785475, 564095, 94214 Marca: (5) Eppendorf, (1) Thermo Scientific. Modelo: (5) Centrifuge 5702 (1)
+Soruall St16
+Mantenimiento Preventivo
+- Evaluación de instalación y condiciones ambientales
+- Revisión de compone
+    A-item: 1.0 Unidad 2500.0 | Cabina de Seguridad Biológica. Act: A15073, Serie:2015-105781, Marca: Esco Modelo: Ac2-4e9
+- Prueba de velocidad de flujo de aire en la entrada.
+- Prueba de velocidad y volumen de flujo de aire descendente.
+- Prueba de integridad de filtros.
+- Prueba 
+    A-item: 1.0 Unidad 2000.0 | Cabina de Flujo Laminar. Marca: Labconco, Modelo: Class II, Act: 172059, Serie:297950
+- Prueba de velocidad y volumen de flujo de aire.
+- Prueba de integridad de filtros HEPA/ULPA.
+- Certificación general del equipo.
+Documentación
+Informe digital o i
+    A-item: 8.0 Unidad 80.0 | Micropipeta Serie: C032636, Cs68760, 146860033, 946850070, 903068, 146840030, 10146905, 11000283. (4) Marca: Labsystems Y (4)Biohit. Modelo: (4) 4500 Y (4) 0.5-10 Ul
+Mantenimiento Preventivo
+- Evaluación de instalación y condiciones ambientales
+- Revis
+    A-item: 1.0 Unidad 600.0 | Micropipeta Multicanal Slamed, Serie: 951830013, Modelo: 20-200 Ul
+Mantenimiento Preventivo
+- Evaluación de instalación y condiciones ambientales
+- Revisión de componentes
+- Limpieza y lubricación general
+Calibración
+- Metodología: fotometría radiom
+    A-item: 4.0 Unidad 225.0 | Incubadora Serie: A0692, 410ba0566, 699091080, 41362873, Marca: (2) Elconap, (1) Napco (1)Thermo Scientific. Modelo:(2) Meddac (1) C02 (1) Herathern Over
+Mantenimiento Preventivo
+- Evaluación de instalación y condiciones ambientales
+- Revisión de compo
+    A-item: 1.0 Unidad 130.0 | Balanza Analítica. Serie: Aa28752. Act:736439. Marca: Harvad. Modelo: Aa
+Datos Del Cliente Y Del Equipo
+Mantenimiento Preventivo
+ - Evaluación De Instalación Y Condiciones Ambientales
+ - Revisión De Componentes
+ - Limpieza Y Lubricación General
+ Cal
+    A-item: 6.0 Unidad 80.0 | Higrotermómetro Serie: 160679402, 160679398, 160679153, 160679396, 160679154, 160679156.Marca: (3) Fisher Scientific Y (3) Thermo Hygro.
+Modelo: Traceable Y (3) Mc-21157
+Calibración
+- Instrumento: higrotermómetro patrón de referencia industrial.
+- Pun
+    A-item: 1.0 Unidad 200.0 | Autoclave Modelo:1321d, Marca: Vaccam Drying. Act: 624476
+Verificación
+- Instrumento: termómetro digital de referencia.
+- Puntos de verificación: 121 °C a 134 °C
+- Resultados de mediciones.
+- Declaracio&#769;n de incertidumbre de la medicio&#769;n.
+
+    A-item: 1.0 Unidad 70.0 | Rotador Serológico Modelo: Vrn-360.Marca: Gemmy. Act: 313824
+Mantenimiento Preventivo
+- Evaluación de instalación y condiciones ambientales
+- Revisión de componentes
+- Limpieza y lubricación general
+Verificación
+- Instrumento: tacómetro patrón de re
+  BID {'amount': 5880, 'currency': 'PAB'} ['Promoción Médica S.A.']
+  BID {'amount': 6275, 'currency': 'PAB'} ['Soluciones Integrales en Gestion de Calidad']
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-12-99-08-CM-0106882587907 2021-05-07T10:43:50-05:00 ['award'] MINISTERIO DE SALUD
+title: TRMOMETROS
+desc: TRMOMETROS
+value: {'amount': 1455.2, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 9.0 Unidad 0.0 | TERMOHIGROMETRO 
+  T-item: 2.0 Unidad 0.0 | TRMOMETRO PARA CONGELADOR
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-08-CM-4056292567076 2021-04-27T11:34:58-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: SERVICIO DE REVISIÓN Y CALIBRACIÓN MICRO PIPETAS DE VOLUMEN VARIABLE. VER ESP. ADJUNTA
+COTIZADORA: MARLENE BETHANCOURT
+desc: SERVICIO DE REVISIÓN Y CALIBRACIÓN MICRO PIPETAS DE VOLUMEN VARIABLE. VER ESP. ADJUNTA
+COTIZADORA: MARLENE BETHANCOURT
+value: {'amount': 12450.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 35.0 Servicio 0.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE TREINTA Y CINCO (35) MICRO PIPETAS DE VOLUMEN VARIABLE
+  T-item: 2.0 Servicio 0.0 | Revisión y Calibración de dos (2) PHmetro
+  T-item: 20.0 Servicio 0.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE VEINTE (20) PIPETAS DE VIDRIO VOLUMÉTRICAS
+  T-item: 1.0 Servicio 0.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE UNA (1) AUTOCLAVES.
+  T-item: 8.0 Servicio 0.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE OCHO (8)TERMÓMETROS N/A.
+  T-item: 8.0 Servicio 0.0 |  SERVICIO DE REVISIÓN Y CALIBRACIÓN DE OCHO (8) TERMÓMETROS DIGITALES 
+  T-item: 10.0 Servicio 0.0 |  SERVICIO DE REVISIÓN Y CALIBRACIÓN DE DIEZ (10) MEDIDORES DE TEMPERATURA Y HUMEDAD RELATIVA (TERMOHIGROMETROS). 
+  T-item: 2.0 Servicio 0.0 |  SERVICIO DE REVISIÓN Y CALIBRACIÓN DE DOS(2) DISPENSADORES DE VIDRIO 
+  AWARD 2021-04-27T11:34:58-05:00 active {'amount': 1730.0, 'currency': 'PAB'} ['Promoción Médica S.A.']
+    A-item: 35.0 Servicio 95.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE TREINTA Y CINCO (35) MICRO PIPETAS DE VOLUMEN VARIABLE
+    A-item: 2.0 Servicio 450.0 | Revisión y Calibración de dos (2) PHmetro
+    A-item: 20.0 Servicio 85.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE VEINTE (20) PIPETAS DE VIDRIO VOLUMÉTRICAS
+    A-item: 1.0 Servicio 250.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE UNA (1) AUTOCLAVES.
+    A-item: 8.0 Servicio 200.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE OCHO (8)TERMÓMETROS N/A.
+    A-item: 8.0 Servicio 200.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE OCHO (8) TERMÓMETROS DIGITALES
+    A-item: 10.0 Servicio 250.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE DIEZ (10) MEDIDORES DE TEMPERATURA Y HUMEDAD RELATIVA (TERMOHIGROMETROS).
+    A-item: 2.0 Servicio 200.0 | SERVICIO DE REVISIÓN Y CALIBRACIÓN DE DOS(2) DISPENSADORES DE VIDRIO
+  BID {'amount': 1730, 'currency': 'PAB'} ['Promoción Médica S.A.']
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-10-0-08-CM-0311722564075 2021-04-14T13:25:08-05:00 ['award'] MINISTERIO DE DESARROLLO AGROPECUARIO
+title: Calibración de termohigrómetros puntos de calibración (20, 25, 30) ºC (33, 43, 75 %)., y Calibración de sensor de temperatura, puntos de calibración (-10, -20, -30) ºC.
+desc: Calibración de termohigrómetros puntos de calibración (20, 25, 30) ºC (33, 43, 75 %)., y Calibración de sensor de temperatura, puntos de calibración (-10, -20, -30) ºC.
+value: {'amount': 12454.8, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 1.0 Servicio 0.0 | Calibración de termohigrómetros puntos de calibración (20, 25, 30) ºC (33, 43, 75 %). Códigos: lcp-eq-57, lcp-eq-58, lcp-eq-59, lcp-eq-68, lcp-eq-69, lcp-eq-70, lrt-eq-142, lrt-eq-134, lrt-eq-136, lrt-eq-138, lrt-eq-131, lrt-eq-133, lrt-eq-140, lrt-eq-139
+  T-item: 1.0 Servicio 0.0 | Calibración de sensor de temperatura, puntos de calibración (-10, -20, -30) ºC, códigos:  lcp-eq-58,  lcp-eq-59,  lrt-eq-142,  lrt-eq-134,  lrt-eq-136,  lrt-eq-138,  lrt-eq-133,  lrt-eq-140,  lrt-eq-139,  lrt-eq-40,  lrt-eq-135,  lrt-eq-165.
+  AWARD 2021-04-14T13:25:08-05:00 active {'amount': 11640.0, 'currency': 'PAB'} ['Promoción Médica S.A.']
+    A-item: 1.0 Servicio 9647.4 | CALIBRACIÓN DE TERMOHIGROMETRO
+T. DE ENTREGA: 45 DIAS CALENDARIO
+VALIDEZ DE LA PROPUESTA: 120 DIAS HABILES
+VIGENCIA DEL CONTRATO: 75 DIAS CALEND.
+PRECIO: LOCAL
+FORMA DE PAGO: CREDITO
+L. DE ENTREGA: Laboratorio del MIDA -Salud Vegetal
+Garant.30 dias
+    A-item: 1.0 Servicio 2807.4 | CALIBRACIÓN SENSOR DE TERMPERATURA
+TERM DE ENTREGA: 45 DIAS CALENDARIO
+VALIDEZ/LA PROP: 120 DIAS HABILES
+VIGENCIA DEL CONTRATO: 75 DIAS CALENDARIO
+CLASE DE PRECIO: LOCAL
+F/ PAGO: CREDITO
+LUG DE ENT: Laboratorio del MIDA ? Salud Veget
+Garant.30 dias
+  BID {'amount': 12454, 'currency': 'PAB'} ['Promoción Médica S.A.']
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-46-0-08-CM-0041832550008 2021-03-31T14:08:23-05:00 ['award'] AUTORIDAD NACIONAL PARA LA INNOVACIÓN GUBERNAMENTAL
+title: SERVICIO DE ARRENDAMIENTO DE GALERA PARA ALMACENAJE PARA LA AIG
+desc: SERVICIO DE ARRENDAMIENTO DE GALERA PARA ALMACENAJE PARA LA AIG
+value: {'amount': 48000.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 12.0 Mes 0.0 | SERVICIO DE ARRENDAMIENTO DE GALERA PARA ALMACENAJE PARA LA AIG POR 12 MESES
+  AWARD 2021-03-31T14:08:23-05:00 active {'amount': 3640.19, 'currency': 'PAB'} ['FRUVERTROPIK S.A.']
+    A-item: 12.0 Mes 6697.95 | SERVICIO DE ARRENDAMIENTO DE GALERA PARA ALMACENAJE PARA LA AIG POR 12 MESES
+  BID {'amount': 6697, 'currency': 'PAB'} ['FRUVERTROPIK S.A.']
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-12-18-08-CM-0262112547350 2021-03-23T14:59:19-05:00 ['award'] MINISTERIO DE SALUD
+title: PEDIDO CRS-135-2021 PARA EL ALQUILER DE BODEGA DE LA SECCION DE ADMINISTRACION
+desc: PEDIDO CRS-135-2021 PARA EL ALQUILER DE BODEGA DE LA SECCION DE ADMINISTRACION
+value: {'amount': 11299.05, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 1.0 Servicio 0.0 | 1.	ALQUILER DE BODEGA
+DESCRIPCION: UN DEPOSITO DE 53,80 MT2 
+- ALARMA CONTRA INCENDIO
+- SEGURIDAD LAS 24 HORAS
+- FACILIDAD DE ACCESO PARA CARGAR-DESCARGAR MERCANCIA
+-MANTENIMIENTO GENERAL DE LA BODEGA (AIRE ACONDICIONADO)
+
+  AWARD 2021-03-23T14:59:19-05:00 active {'amount': 11299.05, 'currency': 'PAB'} ['INVERSIONES BESPA,S.A.']
+    A-item: 1.0 Servicio 11299.05 | Alquiler de deposito de 53.80 metros por 21 meses
+  BID {'amount': 11299, 'currency': 'PAB'} ['INVERSIONES BESPA,S.A.']
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-46-0-08-CM-0041832537369 2021-03-10T11:47:48-05:00 ['tenderUpdate'] AUTORIDAD NACIONAL PARA LA INNOVACIÓN GUBERNAMENTAL
+title: SERVICIO DE ARRENDAMIENTO DE GALERA PARA ALMACENAJE PARA LA AIG
+desc: SERVICIO DE ARRENDAMIENTO DE GALERA PARA ALMACENAJE PARA LA AIG
+value: {'amount': 48000.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 12.0 Mes 0.0 | SERVICIO DE ARRENDAMIENTO DE GALERA PARA ALMACENAJE PARA LA AIG POR 12 MESES
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-0-12-99-08-CM-0103072530209 2021-02-22T15:05:21-05:00 ['award'] MINISTERIO DE SALUD
+title: TERMOHIGROMETRO
+desc: TERMOHIGROMETRO
+value: {'amount': 235.4, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-10-0-04-LP-3955432521862 2021-02-22T12:24:16-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+desc: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+value: {'amount': 1350.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 6.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-11-0-08-CM-0110282529039 2021-02-19T12:23:44-05:00 ['award'] INSTITUTO CONMEMORATIVO GORGAS DE ESTUDIOS DE LA SALUD
+title: ALQUILER DEPÓSITO
+desc: ALQUILER DEPÓSITO
+value: {'amount': 8800.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 4.0 Mes 0.0 | Alquiler de depósito en planta baja y planta alta que sumen
+un total de 216m2 para los meses de enero a abril de 2021.
+Se requiere que estos mini depósitos estén por áreas de la
+Vía José Agustin Arango con acceso al Corredor Sur.
+Que el depósito este 
+===  pa_2021.jsonl.gz ocds-emvi6n-2021-1-11-0-08-CM-0110312530689 2021-02-18T14:54:02-05:00 ['tenderUpdate'] INSTITUTO CONMEMORATIVO GORGAS DE ESTUDIOS DE LA SALUD
+title: Servicio de alquiler de depósito 3-13 de aproximadamente 14 metros cuadrados con atmósfera controlada
+desc: Servicio de alquiler de depósito 3-13 de aproximadamente 14 metros cuadrados con atmósfera controlada
+value: {'amount': 6720.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: withdrawn
+  T-item: 12.0 Mes 0.0 | Servicio de alquiler de depósito 3-13 de aproximadamente 14 metros cuadrados con atmósfera controlada y debe estar ubicado en Bella Vista. Horario Flexible de lunes a domingo. Periodo de enero a  diciembre de 2021.
+  T-item: 12.0 Mes 0.0 | Servicio de alquiler de depósito 9-22 de aproximadamente 14 metros cuadrados con atmósfera controlada y debe estar ubicado en Bella Vista. Horario Flexible de lunes a domingo. Periodo de enero a diciembre de 2021.
+  T-item: 12.0 Mes 0.0 | Servicio de alquiler de depósito 9-01 de aproximadamente 14 metros cuadrados con atmósfera controlada y debe estar ubicado en Bella Vista. Horario Flexible de lunes a domingo. Periodo de enero a diciembre de 2021.
+  T-item: 12.0 Mes 0.0 | Servicio de alquiler de depósito 3-23 de aproximadamente 14 metros cuadrados con atmósfera controlada y debe estar ubicado en Bella Vista. Horario Flexible de lunes a domingo. Periodo de enero a diciembre de 2021.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-12-0-08-LP-0386862862713 2022-12-15T11:35:37-05:00 ['award'] MINISTERIO DE SALUD
+title: PEDIDO 22-463 SERVICIO Y TRÁMITES ADUANEROS DE VACUNAS E INSUMOS DEL 1°,2°, 3° Y 4° TRIMESTRE DE 2022.
+desc: PEDIDO 22-463 SERVICIO Y TRÁMITES ADUANEROS DE VACUNAS E INSUMOS DEL 1°,2°, 3° Y 4° TRIMESTRE DE 2022.
+value: {'amount': 197893.29, 'currency': 'PAB'} method: Licitación Pública que exceda B/.175,000 status: complete
+  T-item: 1.0 Servicio 0.0 | SERVICIO Y TRÁMITES ADUANEROS DE VACUNAS E INSUMOS DEL 1°,2°, 3° Y 4° TRIMESTRE DE 2022.
+  AWARD 2022-12-15T11:35:37-05:00 active {'amount': 182869.16, 'currency': 'PAB'} ['SERVICIOS ADUANEROS GUTIERREZ, S.A.']
+    A-item: 1.0 Servicio 195670.0 | SERVICIOS Y TRAMITES ADUANEROS PARA LAS VACUNAS E INSUMOS DEL 1°, 2°, 3° Y 4° TRIMESTRES DEL PROGRAMA AMPLIADO DE INMUNIZACIONES, DEL MINISTERIO DE SALUD.
+  BID {'amount': 150000, 'currency': 'PAB'} ['OLMEDO ALVARADO']
+  BID {'amount': 195670, 'currency': 'PAB'} ['SERVICIOS ADUANEROS GUTIERREZ, S.A.']
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-12-0-09-CM-0410043009324 2022-11-29T14:36:49-05:00 ['award'] MINISTERIO DE SALUD
+title: REQ. 1023- TERMOHIGROMETRO PARA DETERMINAR TEMPERATURA AMBIENTAL Y HUMEDAD RELATIVA CON PANTALLA LCD Y SONDA CON CABLE PARA TEMPERATURA
+desc: REQ. 1023- TERMOHIGROMETRO PARA DETERMINAR TEMPERATURA AMBIENTAL Y HUMEDAD RELATIVA CON PANTALLA LCD Y SONDA CON CABLE PARA TEMPERATURA
+value: {'amount': 268.57, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO PARA DETERMINAR TEMPERATURA AMBIENTAL Y HUMEDAD RELATIVA CON PANTALLA LCD Y SONDA CON CABLE PARA TEMPERATURA
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-CM-4808882974854 2022-11-24T11:29:47-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: MICROPIPETAS DE VOLUMEN VARIABLES
+desc: MICROPIPETAS DE VOLUMEN VARIABLES
+value: {'amount': 12525.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 35.0 Unidad 0.0 | MICROPIPETAS DE VOLUMEN VARIABLES 
+  T-item: 2.0 Unidad 0.0 | PHMETRO 
+  T-item: 20.0 Unidad 0.0 | PIPETAS DE VIDRIO VOLUMETRICAS 
+  T-item: 2.0 Unidad 0.0 | AUTOCLAVES
+  T-item: 5.0 Unidad 0.0 |  TERMOMETROS DIGITALES N/A EN TRES PUNTOS 
+  T-item: 8.0 Unidad 0.0 |  TERMOMETROS DIGITALES N/A EN TRES PUNTOS 
+  T-item: 10.0 Unidad 0.0 | MEDIDORES DE TEMPERATURA Y HUMEDAD RELATIVA (TERMOHIGROMETROS
+  T-item: 2.0 Unidad 0.0 | DISPENSADORES 
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-CM-4824392984002 2022-11-14T10:42:28-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: MICROPIPETAS DE VOLUMEN VARIABLES , VER ESP. ADJUNTA
+desc: MICROPIPETAS DE VOLUMEN VARIABLES , VER ESP. ADJUNTA
+value: {'amount': 12525.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 35.0 Unidad 0.0 | 	MICROPIPETAS DE VOLUMEN VARIABLES
+  T-item: 2.0 Unidad 0.0 |  PHMETRO 
+  T-item: 20.0 Unidad 0.0 | PIPETAS DE VIDRIO VOLUMETRICAS
+  T-item: 2.0 Unidad 0.0 |  AUTOCLAVES 
+  T-item: 8.0 Unidad 0.0 |  TERMOMETROS DIGITALES N/A EN TRES PUNTOS  
+  T-item: 8.0 Unidad 0.0 | TERMOMETRO DIGITALES EN TRES PUNTOS 
+  T-item: 10.0 Unidad 0.0 |  MEDIDORES DE TEMPERATURA Y HUMEDAD RELATIVA (TERMOHIGROMETROS)( 
+  T-item: 2.0 Unidad 0.0 | DISPENSADORES 
+  AWARD 2022-11-14T10:42:28-05:00 active {'amount': 1730.0, 'currency': 'PAB'} ['Promoción Médica S.A.']
+    A-item: 35.0 Unidad 95.0 | CALIBRACIÓN DE (35) MICROPIPETAS DE VOLUMEN VARIABLE
+    A-item: 2.0 Unidad 450.0 | CALIBRACIÓN DE (2) MEDIDOR DE pH
+    A-item: 20.0 Unidad 85.0 | CALIBRACIÓN DE (20) PIPETAS VOLUMETRICAS DE VIDRIO
+    A-item: 2.0 Unidad 250.0 | CARACTERIZACIÓN DE AUTOCLAVE
+    A-item: 8.0 Unidad 200.0 | CALIBRACIÓN DE (8) TERMOMETROS DIGITALES EN TRES PUNTOS
+    A-item: 8.0 Unidad 200.0 | CALIBRACIÓN DE (8) TERMOMETROS DIGITALES EN TRES PUNTOS
+    A-item: 10.0 Unidad 250.0 | CALIBRACIÓN DE (10) TERMOHIGROMETROS
+    A-item: 2.0 Unidad 200.0 | CALIBRACIÓN DE (2) DISPENSADORES
+  BID {'amount': 1730, 'currency': 'PAB'} ['Promoción Médica S.A.']
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-12-0-09-CM-0406212993672 2022-11-07T13:42:20-05:00 ['award'] MINISTERIO DE SALUD
+title: TERMOHIGROMETRO MEDIDOR DE TEMPERATURA AMBIENTAL Y HUMEDAD.
+REQ 899
+desc: TERMOHIGROMETRO MEDIDOR DE TEMPERATURA AMBIENTAL Y HUMEDAD.
+REQ 899
+value: {'amount': 235.4, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO MEDIDOR DE TEMPERATURA AMBIENTAL Y HUMEDAD. REQ 899
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-12-214-12-CM-0085382988144 2022-11-02T09:36:15-05:00 ['award'] MINISTERIO DE SALUD
+title: SERVICIO DE ALQUILER DE LOCAL PARA DE DEPOSITO DE ALIMENTOS desde 1 de Julio de 2021 hasta 31 de Diciembre de 2021.
+desc: SERVICIO DE ALQUILER DE LOCAL PARA DE DEPOSITO DE ALIMENTOS desde 1 de Julio de 2021 hasta 31 de Diciembre de 2021.
+value: {'amount': 1284.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 6.0 Mes 0.0 | Contratacion de alquiler de local para Depósito de Alimentos secos para consumos humanos, que comprende de 1 de Julio de 2021 hasta 31 de Diciembre de 2021; Departamento de Nutrición de Minsa Ngabe Bugle.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-LP-4755342945623 2022-10-31T12:55:57-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO MEDIR  TEMP AMBIENTAL
+desc: TERMOHIGROMETRO MEDIR  TEMP AMBIENTAL
+value: {'amount': 588.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 4.0 Unidad 0.0 | TERMOHIGROMETRO MEDIR TEMP AMBIENTAL
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-36-0-09-CM-0153122975890 2022-10-11T09:10:34-05:00 ['award'] INSTITUTO DE MEDICINA LEGAL Y CIENCIAS FORENSES
+title: Servicio de Mantenimiento preventivo para Refrigerador, Congelador y Centrifugas, equipo Vortex y Termohigrometros del Laboratorio de Análisis Biomolecular del IMELCF, de la Provincia de Veraguas.
+desc: Servicio de Mantenimiento preventivo para Refrigerador, Congelador y Centrifugas, equipo Vortex y Termohigrometros del Laboratorio de Análisis Biomolecular del IMELCF, de la Provincia de Veraguas.
+value: {'amount': 4834.26, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Servicio 0.0 | Mantenimiento preventivo para una (1) Refrigeradora de baja temperatura, marca: Sankey, modelo RCF-550B No. Activo 6322 del Laboratorio de ADN de Veraguas
+  T-item: 1.0 Servicio 0.0 | Mantenimiento preventivo para un Congelador con Refrigeradora, modelo MC20SSSAEE-TS, Activo 34103, del Laboratorio de ADN de Veraguas,
+  T-item: 3.0 Servicio 0.0 | Mantenimiento preventivo para tres (3) Centrifugas: Centrifuga de plato, modelo 5430, marca: EPPENDORF, Activo 33860. Centrifuga modelo 5415D, marca: EPPENDORF, Activo 3800 Centrifuga modelo Minispin, marca EPPENDORF, Activo 3795.
+  T-item: 3.0 Servicio 0.0 | Mantenimiento preventivo y Calibración de tres (3) Equipo Vortex, marca: VWR, Activos: 17859, 17860 y 17861, incluye: Limpieza del equipo, Revisión de los componentes, Lubricación, Entregar certificado de mantenimiento. Etiqueta de datos.
+  T-item: 4.0 Servicio 0.0 | Calibración de cuatro (4) Termohigrometros, Traceable, marca: Thomas Scientific, con No. Activo 20378, 20380, 20381, 21593.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-CM-4704982914160 2022-10-10T10:16:24-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: SERVICIO DE CALIBRACIÓN MICROPIPETAS
+desc: SERVICIO DE CALIBRACIÓN MICROPIPETAS
+value: {'amount': 20136.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 62.0 Servicio 0.0 | SERVICIO DE CALIBRACIÓN PARA MICROPIPETAS
+  T-item: 15.0 Servicio 0.0 | SERVICIO DE CARACTERIZACIÓN PARA REFRIGERADORAS
+  T-item: 6.0 Servicio 0.0 | SERVICIO DE CARACTERIZACIÓN PARA CONGELADORES
+  T-item: 7.0 Servicio 0.0 | SERVICIO DE CARACTERIZACIÓN PARA INCUBADORAS
+  T-item: 1.0 Servicio 0.0 | SERVICIO DE CARACTERIZACIÓN PARA BAÑO SECO Baño Seco 87425 Hematología
+  T-item: 1.0 Servicio 0.0 | SERVICIO DE CALIBRACIÓN PARA ROTADOR SEROLOGICO Rotador Serológico Fisher Scientific 174008 Serología
+  T-item: 5.0 Servicio 0.0 | SERVICIO DE CERTIFICACIÓN PARA CABINAS DE BIOSEGURIDAD
+  T-item: 14.0 Servicio 0.0 | SERVICIO DE CALIBRACIÓN PARA CENTRIFUGAS Centrifugas Eppendorf
+  T-item: 2.0 Servicio 0.0 | SERVICIO DE CARACTERIZACIÓN PARA AUTOCLAVES Autoclave Tuttnauer 379152 Microbiología Autoclave Tuttnauer 370937 Microbiología 
+  T-item: 18.0 Servicio 0.0 | SERVICIO DE CALIBRACIÓN PARA TERMOHIGROMETROS
+  T-item: 30.0 Servicio 0.0 | SERVICIO DE CALIBRACIÓN PARA TERMOMETROS
+  AWARD 2022-10-10T10:16:24-05:00 active {'amount': 2250.0, 'currency': 'PAB'} ['Soluciones Integrales en Gestion de Calidad']
+    A-item: 62.0 Servicio 65.0 | SERVICIO DE CALIBRACIÓN PARA MICROPIPETAS.
+    A-item: 15.0 Servicio 200.0 | SERVICIO DE CARACTERIZACIÓN PARA REFRIGERADORAS.
+    A-item: 6.0 Servicio 200.0 | SERVICIO DE CARACTERIZACIÓN PARA CONGELADORES.
+    A-item: 7.0 Servicio 200.0 | SERVICIO DE CARACTERIZACIÓN PARA INCUBADORAS.
+    A-item: 1.0 Servicio 150.0 | SERVICIO DE CARACTERIZACIÓN PARA BAÑO SECO Baño Seco 87425 Hematología.
+    A-item: 1.0 Servicio 70.0 | SERVICIO DE CALIBRACIÓN PARA ROTADOR SEROLOGICO Rotador Serológico Fisher Scientific 174008 Serología.
+    A-item: 5.0 Servicio 1000.0 | SERVICIO DE CERTIFICACIÓN PARA CABINAS DE BIOSEGURIDAD.
+    A-item: 14.0 Servicio 120.0 | SERVICIO DE CALIBRACIÓN PARA CENTRIFUGAS Centrifugas Eppendorf.
+    A-item: 2.0 Servicio 105.0 | SERVICIO DE CARACTERIZACIÓN PARA AUTOCLAVES Autoclave Tuttnauer 379152 Microbiología Autoclave Tuttnauer 370937.
+    A-item: 18.0 Servicio 70.0 | SERVICIO DE CALIBRACIÓN PARA TERMOHIGROMETROS.
+    A-item: 30.0 Servicio 70.0 | SERVICIO DE CALIBRACIÓN PARA TERMOMETROS.
+  BID {'amount': 2032, 'currency': 'PAB'} ['Promoción Médica S.A.']
+  BID {'amount': 2250, 'currency': 'PAB'} ['Soluciones Integrales en Gestion de Calidad']
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-01-CM-4812552976966 2022-10-07T14:43:19-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL *** VER ESPECIFICACIONES TECNICAS ADJUNTAS
+desc: TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL *** VER ESPECIFICACIONES TECNICAS ADJUNTAS
+value: {'amount': 660.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 3.0 Unidad 0.0 | TERMOHIGROMETRO, MEDIR, TEMP, AMBIENTAL ** VER ESPECIFICACIONES ADJUNTAS
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-36-0-08-CM-0152542960121 2022-09-22T16:32:21-05:00 ['award'] INSTITUTO DE MEDICINA LEGAL Y CIENCIAS FORENSES
+title: Suministro de soluciones químicas para la verificación de equipos para análisis de muestras de aguas en el Laboratorio de Química Forense de Panamá.
+desc: Suministro de soluciones químicas para la verificación de equipos para análisis de muestras de aguas en el Laboratorio de Química Forense de Panamá.
+value: {'amount': 2224.7, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 2.0 Unidad 0.0 | Buffer de pH 4, con su respectiva certificación de análisis. BUFFER PH 4, COLOR ROJO -1LT. MARCA: SCHARLAU. CASA PRODUCTORA: SCHARLAU. PAIS: ESPAÑA. Catalogo:SO20041000.
+VENCIMIENTO: 1 AÑO, AL MOMENTO DE ENTREGA EN EL ALMACEN DE LA INSTITUCIÓN
+  T-item: 2.0 Unidad 0.0 | Buffer pH 7 con su respectiva certificación de análisis. BUFFER PH 7, COLOR AMARILLO -1LT. MARCA: SCHARLAU. CASA PRODUCTORA: SCHARLAU. PAIS: ESPAÑA. Catalogo: SO20071000. VENCIMIENTO: 1 AÑO, AL MOMENTO DE ENTREGA EN EL ALMACEN DE LA INSTITUCIÓN
+  T-item: 2.0 Unidad 0.0 | Buffer pH10 con su respectiva certificación de análisis. BUFFER PH 10.00 (AZUL) -1LT. MARCA: SCHARLAU. CASA PRODUCTORA: SCHARLAU. PAIS: ESPAÑA. CATALOGO: SO20101000. VENCIMIENTO: 1 AÑO, AL MOMENTO DE ENTREGA EN EL ALMACEN DE LA INSTITUCIÓN.
+  T-item: 2.0 Unidad 0.0 | Estándar de turbiedad de 30ntu con su respectivo certificado de análisis, envases de 0.5 litros. (500ML). ESTANDAR DE TURBIDEZ AMCO CLEAR 30 NTU. TURBIDITY STD REF: 86759. MARCA: GFS CHEMICALS. CASA PRODUCTORA: THOMAS SCIENTIFIC. PAIS: USA. CATALOGO:
+  T-item: 2.0 Unidad 0.0 | Estándar de turbiedad de 10ntu con su respectivo certificado de análisis, envase de 0.5 litros. (500 ML). ESTANDAR DE TURBIDEZ AMCO CLEAR 10 NTU. TURBIDITY STD REF: 85065. MARCA: GFS CHEMICALS. CASA PRODUCTORA: THOMAS SCIENTIFIC. PAIS: USA. CATALOGO:
+  T-item: 12.0 Unidad 0.0 | Solución de oxígeno disuelto envases de 0.230 litros. 230ML. SOLUCION DE OXIGENO CERO O ZERO OXYGEN. CALIBRATION SOLUTION -230ML. MARCA: MILWAUKEE INSTRUMENTS. CASA PRODUCTORA: MILWAUKEE INSTRUMENTS. PAIS: RUMANIA. CATALOGO: MA9070. VENCIMIENTO: 1 AÑ
+  T-item: 3.0 Unidad 0.0 | Termohigrometros digital de rango de temperatura de 0°C a 50°C y de humedad relativa de 20 a 90% o mejor, con certificación. TERMOHIGROMETRO, CERTIFICADO, TEMPERATURA 0 A 50°C O 32 A 122°F , HUMEDAD RELATIVA: 20?90% Y RELOJ *GTIA 03 MESES POR DESPERF
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-CM-4750022941949 2022-09-21T15:22:18-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: MICROPIPETAS DE VOLUMEN VARIABLES, VER ESP. ADJUNTA
+REQ: 1000855610-08-37
+COTIZADORA: MARLENE BETHANCOURT
+desc: MICROPIPETAS DE VOLUMEN VARIABLES, VER ESP. ADJUNTA
+REQ: 1000855610-08-37
+COTIZADORA: MARLENE BETHANCOURT
+value: {'amount': 12525.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 35.0 Unidad 0.0 |  MICROPIPETAS DE VOLUMEN VARIABLES (19031842,19051939,10011996,FD540CB,19051940,AU11061,19051938,12715,19052111,9008311,9040643, 9040641,9040637,9040640,AR66443,136918D,13699D,136997D,130845D,130749D,130785D,134856D, 
+  T-item: 2.0 Unidad 0.0 |  PHMETRO (673591, 661642)  
+  T-item: 20.0 Unidad 0.0 |  PIPETAS DE VIDRIO VOLUMETRICAS 
+  T-item: 2.0 Unidad 0.0 | AUTOCLAVES 
+  T-item: 5.0 Unidad 0.0 |  TERMOMETROS DIGITALES N/A EN TRES PUNTOS 
+  T-item: 8.0 Unidad 0.0 | TERMOMETRO DIGITALES EN TRES PUNTOS 
+  T-item: 10.0 Unidad 0.0 | MEDIDORES DE TEMPERATURA Y HUMEDAD RELATIVA (TERMOHIGROMETROS)(
+  T-item: 2.0 Unidad 0.0 | DISPENSADORES 
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-06-0-08-CM-0072622939676 2022-09-13T10:32:27-05:00 ['award'] SECRETARÍA NACIONAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN
+title: SERVICIO DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA UN PERIODO DE 12 MESES. PARA LA SENACYT.
+desc: SERVICIO DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA UN PERIODO DE 12 MESES. PARA LA SENACYT.
+value: {'amount': 13000.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 12.0 Mes 0.0 | SERVICIO DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA UN PERIODO DE 12 MESES. PARA LA SENACYT.
+  AWARD 2022-09-13T10:32:27-05:00 active {'amount': 1000.0, 'currency': 'PAB'} ['Prestige Storage Mini Depositos, S.A.']
+    A-item: 12.0 Mes 1000.0 | Depósitos
+  BID {'amount': 1000, 'currency': 'PAB'} ['Prestige Storage Mini Depositos, S.A.']
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-04-CM-4768942953382 2022-09-08T11:45:22-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: SERVICIO DE MANTENIMIENTO, VERIFICACIÓN Y CALIBRACIÓN DE EQUIPOS DE LABORATORIO.
+desc: SERVICIO DE MANTENIMIENTO, VERIFICACIÓN Y CALIBRACIÓN DE EQUIPOS DE LABORATORIO.
+value: {'amount': 6700.0, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Servicio 0.0 | SE SOLCITA CARACTERIZACION DE INCUBADORA DE MICROBIOLOGIA. PATRON DE CALIBRACIÓN CON CERTIFICADO DE CALIBRACIÓN VIGENTE. Parámetro a medir Temperatura.Alcance: 20 °C a 70 °C ? Servicio con trazabilidad metrológica Mantenimiento Preventivo ? Evaluació
+  T-item: 1.0 Servicio 0.0 | SE SOLICITA VERIFICACIÓN DE CRONÓMETROS CON PATRON DE REFERENCIA. Parámetro a medir: segundo Se debe declarar la incertidumbre y trazabilidad metrológica. El certificado calibración del patrón a utilizar debe estar vigente. Los trabajos deben realiza
+  T-item: 1.0 Servicio 0.0 | SE SOLICITA VERIFICACION DE ROTADORES Verificación: Parámetro de Medición: Revoluciones por minuto. Alcance: 50 RPM a 10,000 RPM Servicio con trazabilidad metrológica al Sistema Internacional de Unidades Mantenimiento Preventivo Evaluación de instala
+  T-item: 1.0 Servicio 0.0 | SE SOLICITA CARACTERIZACION DE 3 NEVERAS CON PATRON CALIBRADO. CERTIFICADO DE CALIBRACION DE PATRON VIGENTE Parámetro de Medición: Temperatura (°C) Alcance: -80 °C a 0 °C Servicio con trazabilidad metrológica al Sistema Internacional de Unidades Mant
+  T-item: 1.0 Servicio 0.0 | SE SOLICITA CALIBRACION DE TERMOMETRO CON PATRON CALIBRADO CON CERTIFICADO VIGENTE. Parámetro de medición: Temperatura (°C) Alcance: -30 °C a 100 °C Servicio con trazabilidad metrológica al Sistema Internacional de Unidades El personal técnico debe s
+  T-item: 1.0 Servicio 0.0 | SE SOLICITA CALIBRACION DE 7 TERMOHIGROMETROS CON PATRON CALIBRADO CON CERTIFICADO DE CALIBRACION VIGENTE. Parámetro de medición: Humedad Relativa (%), Temperatura °C Alcance: 20 % RH a 80% RH / 22 °C a 24 °C Servicio con trazabilidad metrológica al 
+  T-item: 1.0 Servicio 0.0 | SE SOLICITA CALIBRACION DE MICROPIPETAS Parámetro de medición: volumen en microlitros (uL) Alcance: 1 uL ? 1000 uL Puntos a calibrar: Calibración en punto máximo y mínimo de micropipeta de volumen variable. Calibración en un solo punto de micropipeta
+  T-item: 1.0 Servicio 0.0 | Certificación de Cabinas de bioseguridad Clase II, , de acuerdo con la Norma NSF/ANSI 49 2018. Pruebas a realizar: Prueba de velocidad de flujo de ingreso. Prueba de velocidad de flujo vertical y de suministro Prueba de fuga de filtros. Prueba de int
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-06-0-08-CM-0072452930496 2022-08-25T11:40:44-05:00 ['tenderUpdate'] SECRETARÍA NACIONAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN
+title: SERVICIO DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA UN PERIODO DE 12 MESES. PARA LA SENACYT.
+desc: SERVICIO DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA UN PERIODO DE 12 MESES. PARA LA SENACYT.
+value: {'amount': 13000.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 12.0 Mes 0.0 | SERVICIO DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA UN PERIODO DE 12 MESES. PARA LA SENACYT.
+  BID {'amount': 1840, 'currency': 'PAB'} ['Prestige Storage Mini Depositos, S.A.']
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-36-0-08-CM-0151702929304 2022-08-24T09:01:14-05:00 ['award'] INSTITUTO DE MEDICINA LEGAL Y CIENCIAS FORENSES
+title: Servicio de Calibración para 3 equipos Termohigrometros PP07R-20L marca: Thomas Scientific, activos 38136/38137/38138 de la Sección de Documentología de Panamá.
+desc: Servicio de Calibración para 3 equipos Termohigrometros PP07R-20L marca: Thomas Scientific, activos 38136/38137/38138 de la Sección de Documentología de Panamá.
+value: {'amount': 1508.7, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 3.0 Servicio 0.0 | Servicio de Calibración para 3 equipos Termohigrometros PP07R-20L marca: Thomas Scientific, activos 38136/38137/38138 de la Sección de Documentología de Panamá. (ver adjunto especificación del servicio solicitado).
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-36-0-08-CM-0151762930633 2022-08-19T15:38:37-05:00 ['award'] INSTITUTO DE MEDICINA LEGAL Y CIENCIAS FORENSES
+title: CALIBRACIÓN DE EQUIPOS ( laboratorio de Química Forense)
+desc: CALIBRACIÓN DE EQUIPOS ( laboratorio de Química Forense)
+value: {'amount': 2289.8, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 4.0 Servicio 0.0 | CALIBRACIÓN DE CUATRO (4) TERMOMETROS: Tres (3) con rango de -5 a 50°C ( sin marca) Uno (1) con rango de -50 a 150° Marca: Thermo Scientific, Modelo: 93229H01
+  T-item: 2.0 Servicio 0.0 | CALIBRACIÓN DE DOS (2) TERMOHIGROMETROS: Uno (1) Marca: Traceable con marbete: 31364 Uno (1) Marca: Sper Scientific, sin mabete
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-06-0-08-CM-0072122923602 2022-08-16T12:00:00-05:00 ['tenderUpdate'] SECRETARÍA NACIONAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN
+title: SERVICIO  DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA  UN PERIODO DE 12 MESES. PARA LA SENACYT
+desc: SERVICIO  DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA  UN PERIODO DE 12 MESES. PARA LA SENACYT
+value: {'amount': 13000.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: active
+  T-item: 12.0 Mes 0.0 | SERVICIO DE ALQUILER DE BODEGA DE 120.00 METRO CUADRADOS DE ESPACIO FISICO EN EL AREA METROPOLITANA UN PERIODO DE 12 MESES. PARA LA SENACYT
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-CM-4705182914242 2022-08-12T11:55:08-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: MICRO-PIPETAS DE VOLUMEN VARIABLES, VER ESP ADJUNTO
+desc: MICRO-PIPETAS DE VOLUMEN VARIABLES, VER ESP ADJUNTO
+value: {'amount': 12525.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: unsuccessful
+  T-item: 35.0 Unidad 0.0 | MICROPIPETAS DE VOLUMEN VARIABLES (19031842,19051939,10011996,FD540CB,19051940,AU11061,19051938,12715,19052111,9008311,9040643, 9040641,9040637,9040640,AR66443,136918D,13699D,136997D,130845D,130749D,130785D,134856D,134844D,G29171E,G29381E,032436D,H27
+  T-item: 2.0 Unidad 0.0 | PHMETRO (673591, 661642) 
+  T-item: 20.0 Unidad 0.0 | PIPETAS DE VIDRIO VOLUMETRICAS 
+  T-item: 2.0 Unidad 0.0 | AUTOCLAVES 
+  T-item: 5.0 Unidad 0.0 | TERMOMETROS DIGITALES N/A EN TRES PUNTOS
+  T-item: 8.0 Unidad 0.0 | TERMOMETRO DIGITALES EN TRES PUNTOS
+  T-item: 10.0 Unidad 0.0 |  MEDIDORES DE TEMPERATURA Y HUMEDAD RELATIVA (TERMOHIGROMETROS)( 
+  T-item: 2.0 Unidad 0.0 |  DISPENSADORES 
+  BID {'amount': 1730, 'currency': 'PAB'} ['Promoción Médica S.A.']
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-5-29-29-04-CM-0026332925714 2022-08-10T09:56:47-05:00 ['award'] MUNICIPIO DE BUGABA
+title: EQUIPAMIENTO PARA EL CENTRO DE SALUD DEL CORREGIMIENTO DE ASERRIO DE GARICHE
+desc: EQUIPAMIENTO PARA EL CENTRO DE SALUD DEL CORREGIMIENTO DE ASERRIO DE GARICHE
+value: {'amount': 7179.7, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | INCINERADOR ELECTRICO DE MESA PARA AGUJAS HIPODERMICAS HOMOLOGADO 11-1-07(VER FICHA TECNICA 6071)
+  T-item: 1.0 Unidad 0.0 | REFRIGERADORA DE LABORATORIO DE 12´(VER FICHA TECNICA 60960)
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO (VER FICHA TECNICA 100680)
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-12-211-15-CM-0032162911040 2022-08-05T15:04:41-05:00 ['award'] MINISTERIO DE SALUD
+title: TERMOHIGROMETRO DIGITAL REQ:22-2298
+desc: TERMOHIGROMETRO DIGITAL REQ:22-2298
+value: {'amount': 436.56, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 3.0 Unidad 0.0 | TERMOHIGROMETRO DIGITAL, RANGO (0 A +50)°C/(10A95)% HR, RESOL:0.1°C/0.1%HR, PANTALLA LCD 2 LÍNEAS, CALCULO DE PUNTO DE ROCÍO INCLUYEN CALIBRACION Y CERTIFICADO.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-11-0-08-CM-0145042877692 2022-08-04T11:33:09-05:00 ['award'] INSTITUTO CONMEMORATIVO GORGAS DE ESTUDIOS DE LA SALUD
+title: KIT DE DESTORNILLADORES FINOS CORTOs AISLADOS
+desc: KIT DE DESTORNILLADORES FINOS CORTOs AISLADOS
+value: {'amount': 408.02, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Caja 0.0 | KIT DE DESTORNILLADORES FINOS CORTOS AISLADOS
+  T-item: 1.0 Caja 0.0 | KIT DE DESTORNILLADORES FINOS LARGOS AISLADOS
+  T-item: 1.0 Unidad 0.0 | LAMPARA DE TRABAJO TIPO LED
+  T-item: 5.0 Unidad 0.0 | LUBRICANTE DE PARTES ELECTRONICAS, MINIMO 10.5 ML
+  T-item: 1.0 Caja 0.0 | MULTI HERRAMIENTA ROTATORIA CON EXTENSION
+  T-item: 1.0 Caja 0.0 | KIT DE PUNTAS PARA MULTI HERRAMIENTA ROTATORIA
+  T-item: 5.0 Unidad 0.0 | EXACTOS
+  T-item: 1.0 Unidad 0.0 | ATORNILLADOR ELECTRICO INALAMBRICO
+  T-item: 6.0 Unidad 0.0 | TEFLON
+  T-item: 2.0 Unidad 0.0 | CONECTORES SURTIDOS PARA ALAMBRES
+  T-item: 2.0 Unidad 0.0 | JUEGOS DE LLAVES  HEXAGONALES MINIMO 9 PIEZAS
+  T-item: 1.0 Unidad 0.0 | TERMOHIGROMETRO PORTATIL
+  T-item: 1.0 Unidad 0.0 | ENDOSCOPIO INDUSTRIAL 
+  T-item: 1.0 Unidad 0.0 | SONDAS DE TEMPERATURA
+  T-item: 1.0 Caja 0.0 | CAJA DE TERMOENCOGIBLES ELECTRICOS 
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-12-0-08-CM-0392192897261 2022-07-05T13:42:06-05:00 ['award'] MINISTERIO DE SALUD
+title: Renovación del Servicio de Alquiler de la Bodega para la Dirección de Provisión de los Servicios de Salud (DPSS-MINSA).
+desc: Renovación del Servicio de Alquiler de la Bodega para la Dirección de Provisión de los Servicios de Salud (DPSS-MINSA).
+value: {'amount': 7190.4, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 12.0 Mes 0.0 | Alquiler de un (1) depósito con un área de 70 mts2, por un período de 365 días, contados a partir del 1° de enero 2022 hasta el 31 de diciembre 2022.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-04-LP-4658512889720 2022-06-30T14:33:53-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO
+desc: TERMOHIGROMETRO
+value: {'amount': 79.96, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 4.0 Unidad 0.0 | TERMOHIGROMETRO
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-10-0-08-CM-0347272889805 2022-06-24T11:04:15-05:00 ['award'] MINISTERIO DE DESARROLLO AGROPECUARIO
+title: 9 CALIBRACIÓN DE TERMÓMETROS DE VIDRIO Y SONDA, 4 CALIBRACIÓN DE TERMO HIGRÓMETROS
+desc: 9 CALIBRACIÓN DE TERMÓMETROS DE VIDRIO Y SONDA, 4 CALIBRACIÓN DE TERMO HIGRÓMETROS
+value: {'amount': 3980.4, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 9.0 Servicio 0.0 | CALIBRACION DE TERMOMETROS DE VIDRIO Y SONDAS.
+GARANTIA 6 MESES
+  T-item: 4.0 Servicio 0.0 | CALIBRACION DE TERMOHIGROMETROS
+GARANTIA 6 MESES 
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-04-LP-4643282882220 2022-06-21T15:29:56-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO
+II CONVOCATORIA
+desc: TERMOHIGROMETRO
+II CONVOCATORIA
+value: {'amount': 79.96, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 4.0 Unidad 0.0 | TERMOHIGROMETRO 
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-10-0-08-CM-0346602883872 2022-06-17T10:51:57-05:00 ['award'] MINISTERIO DE DESARROLLO AGROPECUARIO
+title: 9 CALIBRACIÓN DE TERMÓMETROS DE VIDRIO Y SONDA, 4 CALIBRACIÓN DE TERMO HIGRÓMETROS
+desc: 9 CALIBRACIÓN DE TERMÓMETROS DE VIDRIO Y SONDA, 4 CALIBRACIÓN DE TERMO HIGRÓMETROS
+value: {'amount': 6387.96, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 9.0 Unidad 0.0 | CALIBRACION DE TERMOMETROS DE VIDRIO Y SONDAS JUNTO CON LAS 4 CALIBRACION DE TERMOHIGROMETROS
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-12-214-12-PE-0081572875183 2022-06-09T16:33:38-05:00 ['tenderUpdate'] MINISTERIO DE SALUD
+title: ARRENDAMIENTO DE LOCAL PARA DEPOSITO DE MEDICAMENTOS DEL MINSA NGABE BUGLE.
+desc: ARRENDAMIENTO DE LOCAL PARA DEPOSITO DE MEDICAMENTOS DEL MINSA NGABE BUGLE.
+value: {'amount': 22774.2, 'currency': 'PAB'} method: Procedimiento Excepcional status: withdrawn
+  T-item: 12.0 Mes 0.0 | ARRENDAMIENTO O ALQUILER DE LOCAL PARA DEPOSITO DE MEDICAMENTOS DEL MINSA NGABE BUGLE.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-LP-4565682834215 2022-06-09T13:53:40-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO
+desc: TERMOHIGROMETRO
+value: {'amount': 1710.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 9.0 Unidad 0.0 | 	TERMOHIGROMETRO
+===  pa_2022.jsonl.gz ocds-emvi6n-2021-0-12-0-08-PE-0357482705922 2022-06-07T10:03:22-05:00 ['tenderCancellation'] MINISTERIO DE SALUD
+title: ALQUILER DE ALMACEN REGIONAL DE INSUMOS SANITARIOS, SOLICITADO POR LA DIRECCION ADMINISTRATIVA DE LA RMS., REQ.21-841
+desc: ALQUILER DE ALMACEN REGIONAL DE INSUMOS SANITARIOS, SOLICITADO POR LA DIRECCION ADMINISTRATIVA DE LA RMS., REQ.21-841
+value: {'amount': 57335.74, 'currency': 'PAB'} method: Procedimiento Excepcional status: cancelled
+  T-item: 12.0 Mes 0.0 | ALQUILER DE ALMACEN REGIONAL DE INSUMOS SANITARIOS DE 01 DE ENERO A 31 DE DICIEMBRE DE 2021 (12 MESES)
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-01-LP-4618812863942 2022-06-03T14:21:05-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO  PARA MEDIR   TEMPERATURA , AMBIENTAL.
+CCTNI: 100680,   IIIRA. CONVOCATORIA .
+desc: TERMOHIGROMETRO  PARA MEDIR   TEMPERATURA , AMBIENTAL.
+CCTNI: 100680,   IIIRA. CONVOCATORIA .
+value: {'amount': 75.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 3.0 Unidad 0.0 | TERMOHIGROMETRO PARA MEDIR TEMPERATURA , AMBIENTAL. CCTNI: 100680, IIIRA. CONVOCATORIA .
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-01-LP-4610722860067 2022-05-27T11:57:53-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO PARA  MEDIR, TEMPERATURA , AMBIENTAL.
+CTNI: 100680.   IIDA. CONVOCATORIA.
+desc: TERMOHIGROMETRO PARA  MEDIR, TEMPERATURA , AMBIENTAL.
+CTNI: 100680.   IIDA. CONVOCATORIA.
+value: {'amount': 75.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 3.0 Unidad 0.0 | TERMOHIGROMETRO  PARA  MEDIR, TEMPERATURA , AMBIENTAL. CTNI: 100680. IIDA. CONVOCATORIA.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-04-LP-4591322848918 2022-05-27T11:10:39-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO
+desc: TERMOHIGROMETRO
+value: {'amount': 1360.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 10.0 Unidad 0.0 | TERMOHIGROMETRO
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-01-LP-4600982853887 2022-05-24T10:58:06-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO.   PARA MEDIR, TEMP, AMBIENTAL.
+CTNI: 100680.
+desc: TERMOHIGROMETRO.   PARA MEDIR, TEMP, AMBIENTAL.
+CTNI: 100680.
+value: {'amount': 75.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 3.0 Unidad 0.0 | TERMOHIGROMETRO. PARA MEDIR, TEMP, AMBIENTAL. CTNI: 100680.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-90-0-08-CM-0673462851589 2022-05-19T13:58:41-05:00 ['award'] UNIVERSIDAD DE PANAMÁ
+title: COMPRA DE EQUIPO DE LABORATORIO SOLICITADA POR EL PROFESOR CARLOS GUERRA
+desc: COMPRA DE EQUIPO DE LABORATORIO SOLICITADA POR EL PROFESOR CARLOS GUERRA
+value: {'amount': 310.48, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | LUXOMETRO DIGITAL RANGO 0-200,000 LUX O 0-18,500 FC, NO INCLUYE BATERIA. CATALOGO: LXM001. MARCA Y CASA PRODUCTORA: UNITED SCIENTIFIC. PAIS: USA
+  T-item: 1.0 Unidad 0.0 | PSICROMETRO TERMOHIGROMETRO PORTATIL RANGO HR 0-100% RANGO TEMPERATURA -30+100°C. CATALOGO: PCE-555. MARCA Y CASA PRODUCTORA: PCE INSTRUMENTS. PAIS: ESPAÑA
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-95-0-08-CM-0211812840391 2022-05-05T13:53:35-05:00 ['award'] UNIVERSIDAD TECNOLÓGICA DE PANAMÁ
+title: TERMOHIGROMETRO DIGITAL
+desc: TERMOHIGROMETRO DIGITAL
+value: {'amount': 1669.2, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 8.0 Unidad 0.0 | TERMOHIGROMETRO DIGITAL Registrador y presentación de lecturas de temperatura y humedad simultáneamente -Rango de medición de temperatura (mínimo): -30°C a + 70° C (-22°F a + 158°F) -Rango de medición de Humedad: 0% a 100% (VER DOCUMENTO ADJUNTO)
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-LP-4535272816389 2022-04-12T15:16:13-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO
+desc: TERMOHIGROMETRO
+value: {'amount': 760.0, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: complete
+  T-item: 4.0 Unidad 0.0 | TERMOHIGROMETRO
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-12-012-07-CM-0034612812625 2022-04-01T14:42:43-05:00 ['award'] MINISTERIO DE SALUD
+title: REQ. 041-22- PARA LA COMPRA DE TERMOHIGROMETRO. F.T. 100680.
+desc: REQ. 041-22- PARA LA COMPRA DE TERMOHIGROMETRO. F.T. 100680.
+value: {'amount': 1060.69, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 10.0 Unidad 0.0 | TERMOHIGROMETRO. F.T. 100680
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-LP-4518742808371 2022-03-29T11:30:00-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO
+desc: TERMOHIGROMETRO
+value: {'amount': 850.5, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: active
+  T-item: 9.0 Unidad 0.0 | TERMOHIGROMETRO
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-08-0-08-CM-0166622803969 2022-03-23T14:46:47-05:00 ['award'] MINISTERIO DE COMERCIO E INDUSTRIAS
+title: SERVICIO DE CALIBRACIÓN DE EQUIPOS DE USO EN EL LABORATORIO DE ANALISIS DE MINERALES
+desc: SERVICIO DE CALIBRACIÓN DE EQUIPOS DE USO EN EL LABORATORIO DE ANALISIS DE MINERALES
+value: {'amount': 8463.7, 'currency': 'PAB'} method: Compra Menor hasta B/.10,000 status: complete
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE BALANZA  E LAB-013 MARCA METLER TOLEDO
+  T-item: 1.0 Unidad 0.0 | CALIBRACIÓN DE BALANZA-E-LAB-014 MARCA: METTLER TOLEDO
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE BALANZA -E-LAB-015 MARCA METTLER TOLEDO
+  T-item: 1.0 Unidad 0.0 | CALIBRACIÓN DE MICROBALANZA E-LAB--032 MARCA: METTLER TOLEDO
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE BALANZA- E-LAB-086 MARCA: METTLER TOLEDO 
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE TERMOHIGROMETRO -E-LAB- 028 MARCA: EXTECH
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE TERMOHIGROMETRO-E-LAB- 29 MARCA: EXTECH
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE TERMOHIGROMETRO E-LAB-031. MARCA DICKSON
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE TERMOHIGROMETRO -E-LAB-099. MARCA EXTECH.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE TERMOHIGROMETRO -E-LAB- 101. MARCA: EXTECH.
+  T-item: 1.0 Unidad 0.0 | CARACTERIZACION DE HORNO E-LAB-010 MARCA EQUATERM UBICACION AREA DE QUIMICA HUMEDA 2.
+  T-item: 1.0 Unidad 0.0 | CARACTERIZACION DE PLACA DE CALENTAMIENTO E-LAB-094. MARCA: WITEG. UBICACION AREA DE QUIMICA HUMEDA 1.
+  T-item: 1.0 Unidad 0.0 | CARACTERIZACION DE PLACA DE CALENTAMIENTO- E- LAB-095. MARCA: WITEG.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MTRZ VOLUMETRICO- CLASE A DE 100ML ID:M 100-96, M-100-98, M-100-100, M-100-101, M-100-102, M-100-103, M-100-104, M-100-105;
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MICROPIPETA - E- LAB-049 VOLUMEN : (10  A 100) ML MARCA: FISHERBRAND.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MICROPIPETA - E- LAB- 078 MARCA: EPPENDORF
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MICROPIPETA - E- LAB- 079 MARCA: EPPENDORF
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MICROPIPETA E- LAB- 080 MARCA: EPPENDORF.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MICROPIPETA -E-LAB- 081 MARCA: EPPENDORF
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MICROPIPETA - E- LAB - 153 MARCA HEATHROW SC.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MICROPIPETA - E- LAB- 155. MARCA: OHUS.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE MICROPIPETA -E-LAB- 154 MARCA: HEATHROW SC.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE JUEGO DE MASAS- E- LAB - 51 DE IG A 100 G CANTIDAD DE MASAS EN EL JUEGO DE 19 UNIDADES.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE PIPETA - P - 20-8 DE 20 ML CLASE A CALIBRACION POR METODO  GRAVIMETRICO.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE PIPETA - P - 20-9 DE 20 ML CLASE A DE CALIBRACION POR METODO GRAVIMETRICO.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE PROBETA - PR- 251 DE 25 ML CLASE A CALIBRACION POR METODO GRAVIMETRICO.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE PROBETA - PR-25-2 DE 25 ML; CLASE DE CALIBRACION POR METODO GRAVIMETRICO.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE BURETA B- 10- 1 DE MIL CLASE A CALIBRACION POR METODO GRAVIMETRICO.
+  T-item: 1.0 Unidad 0.0 | CALIBRACION DE BURETA B- 50- 4 DE 50 ML CLASE CALIBRACION POR METODO GRAVIMETRICO.
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-LP-4499642799502 2022-03-23T10:44:24-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO
+desc: TERMOHIGROMETRO
+value: {'amount': 850.5, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 9.0 Unidad 0.0 | 	TERMOHIGROMETRO
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-0-05-0-08-CM-0104482788315 2022-03-17T15:54:24-05:00 ['award'] MINISTERIO DE RELACIONES EXTERIORES
+title: SERVICIO DE ALQUILER DE DEPOSITOS
+desc: SERVICIO DE ALQUILER DE DEPOSITOS
+value: {'amount': 48000.0, 'currency': 'PAB'} method: Compra Menor que exceda B/.10,000 hasta B/.50,000 status: complete
+  T-item: 12.0 Mes 0.0 | SERVICIO DE ALQUILER DE DEPOSITO (Área aproximada entre trescientos cincuenta (350) a cuatrocientos (400) metros cuadrados )
+  AWARD 2022-03-17T15:54:24-05:00 active {'amount': 2985.25, 'currency': 'PAB'} ['Golden Storage Corp.']
+    A-item: 12.0 Mes 5492.86 | Alquiler de instalaciones comerciales o industriales, servicio de alquiler de depositos
+  BID {'amount': 5492, 'currency': 'PAB'} ['Golden Storage Corp.']
+===  pa_2022.jsonl.gz ocds-emvi6n-2022-1-10-0-08-LP-4489072793334 2022-03-14T12:55:56-05:00 ['tenderUpdate'] CAJA DE SEGURO SOCIAL
+title: TERMOHIGROMETRO
+desc: TERMOHIGROMETRO
+value: {'amount': 850.5, 'currency': 'PAB'} method: Ley 51 - Caja de Seguro Social status: unsuccessful
+  T-item: 9.0 Unidad 0.0 | 	TERMOHIGROMETRO
+===  pa_2023.jsonl.gz ocds-emvi6n-2023-0-12-99-08-CM-0147043075457 2023-04-21T14:12:01-05:00 ['award'] MINISTERIO DE SALUD
+title: None
+desc: 
+value: None method: None status: None
+  AWARD 2023-04-21T14:12:01-05:00 active {'amount': 4050.0, 'currency': 'PAB'} ['SERVICIO Y MANTENIMIENTO DE EQUIPOS MEDICOS, S.A,']
+    A-item: 6.0 Unidad 2132.25 | Gabinete Modular para acesorios quirurgico, F.T. 101253
+    A-item: 6.0 Unidad 1582.25 | Carro abierto distribucion y el transporte de insumos medicos, F.T. 107196
+    A-item: 12.0 Unidad 782.25 | cubo conico de acero inoxidable con asa y ruedas
+    A-item: 4.0 Unidad 1282.25 | Carro con rodos de 2 repisas para traslado de equipo segun 48093
+  BID {'amount': 5779, 'currency': 'PAB'} ['SERVICIO Y MANTENIMIENTO DE EQUIPOS MEDICOS, S.A,']
+===  pa_2023.jsonl.gz ocds-emvi6n-2023-1-10-0-08-CM-4910883042280 2023-03-16T10:50:49-05:00 ['award'] CAJA DE SEGURO SOCIAL
+title: None
+desc: 
+value: None method: None status: None
+  AWARD 2023-03-16T10:50:49-05:00 active {'amount': 41670.0, 'currency': 'PAB'} ['Estanterias Dorsy, S.A.']
+    A-item: 1.0 Unidad 41670.0 | Servidores de acceso.
+SUMINISTRO E INSTALACIÓN DE ESTANTERÍA PESADA CON ALTILLO.
+  BID {'amount': 44965, 'currency': 'PAB'} ['Remodelaciones JC S.A']
+  BID {'amount': 41670, 'currency': 'PAB'} ['Estanterias Dorsy, S.A.']

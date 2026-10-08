@@ -1,0 +1,24 @@
+CSS medicine acts by type & year (ANTAI; act = distinct 'Numero'; value = sum of medicine rows in act)
+  CONTRATACION MENOR                   2023: acts=  24 total=B/.      46,766 median=B/.      487 p75=B/.    3,950 p90=B/.    6,400 max=B/.     12,000
+  CONTRATACION MENOR                   2024: acts=  44 total=B/.     410,105 median=B/.    4,622 p75=B/.   13,268 p90=B/.   25,200 max=B/.     49,999
+  CONTRATACION MENOR                   2025: acts=1117 total=B/.  13,753,290 median=B/.    5,400 p75=B/.   14,616 p90=B/.   39,330 max=B/.     74,952
+  CONTRATACION MENOR                   2026: acts= 439 total=B/.   6,505,070 median=B/.    7,056 p75=B/.   17,550 p90=B/.   48,117 max=B/.     88,138
+  COMPRA MENOR AGIL                    2024: acts=  17 total=B/.     271,913 median=B/.   11,000 p75=B/.   14,040 p90=B/.   48,000 max=B/.     49,946
+  COMPRA MENOR AGIL                    2025: acts= 151 total=B/.   2,681,678 median=B/.   10,580 p75=B/.   29,645 p90=B/.   42,400 max=B/.     49,959
+  COMPRA MENOR AGIL                    2026: acts=  34 total=B/.     750,264 median=B/.   16,987 p75=B/.   39,095 p90=B/.   49,716 max=B/.     49,975
+  LICITACION PUBLICA DE MENOR CUANTIA  2023: acts= 889 total=B/.   4,340,066 median=B/.    2,600 p75=B/.    6,000 p90=B/.   12,210 max=B/.     66,600
+  LICITACION PUBLICA DE MENOR CUANTIA  2024: acts= 825 total=B/.   5,517,171 median=B/.    3,870 p75=B/.    8,974 p90=B/.   16,934 max=B/.     53,640
+  LICITACION PUBLICA DE MAYOR CUANTIA  2023: acts=  82 total=B/.   4,406,249 median=B/.   43,398 p75=B/.   57,000 p90=B/.   95,040 max=B/.    186,300
+  LICITACION PUBLICA DE MAYOR CUANTIA  2024: acts= 133 total=B/.   7,110,778 median=B/.   44,100 p75=B/.   49,875 p90=B/.   95,760 max=B/.    199,940
+  LICITACION PUBLICA                   2025: acts=  34 total=B/.   5,388,885 median=B/.  180,000 p75=B/.  195,636 p90=B/.  197,505 max=B/.    199,872
+  LICITACION PUBLICA                   2026: acts=  17 total=B/.   2,465,942 median=B/.  158,400 p75=B/.  198,000 p90=B/.  198,000 max=B/.    198,000
+  LICITACION APREMIANTE                2023: acts=  32 total=B/.     475,708 median=B/.   14,866 p75=B/.   25,440 p90=B/.   29,344 max=B/.     29,967
+  LICITACION APREMIANTE                2024: acts=  39 total=B/.     809,077 median=B/.   21,600 p75=B/.   27,427 p90=B/.   29,890 max=B/.     55,672
+  RECETAS ESPECIALES                   2023: acts=  62 total=B/.   2,395,488 median=B/.   20,943 p75=B/.   47,424 p90=B/.  118,560 max=B/.    189,616
+  RECETAS ESPECIALES                   2024: acts=  43 total=B/.   2,811,494 median=B/.   41,127 p75=B/.  124,755 p90=B/.  144,472 max=B/.    184,800
+
+All CSS 'CONTRATACION MENOR' acts (all goods): n=26863, share <= B/.50,000: 98.5%, p99=B/.59,960, max=B/.342,504
+All CSS 'COMPRA MENOR AGIL' acts: n=861, share <= B/.10,000: 37.4%, p95=B/.49,822, max=B/.99,594
+All CSS 'LICITACION PUBLICA DE MENOR CUANTIA' acts: n=10379, share <= B/.175,000: 100.0%, median=B/.3,750, max=B/.122,572
+
+CSS small medicine acts by 'unidad de compra' code (5th field of act number): [('08', 741), ('04', 343), ('13', 214), ('02', 168), ('06', 131), ('03', 91), ('09', 79), ('01', 59), ('07', 48), ('?', 8), ('SCM', 3), ('CM', 2), ('15', 1), ('SCA', 1), ('scm', 1)]

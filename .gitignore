@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.npy
+*.npz
+model/cf_*.npy
+model/v3_*.npy
+.DS_Store
+personal.json
+*_personal*.xlsx
+Modelo_financiero_distribuidora_medicamentos_Panama.xlsx

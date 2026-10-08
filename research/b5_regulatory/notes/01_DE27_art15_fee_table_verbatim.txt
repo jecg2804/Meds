@@ -1,0 +1,293 @@
+SOURCE: Decreto Ejecutivo N.27 de 10 de mayo de 2024 (Gaceta Oficial Digital No. 30028-C, viernes 10 de mayo de 2024), pages 18-22, Articulo 15.
+URL: https://www.minsa.gob.pa/sites/default/files/general/decreto_ejecutivo_27_de_10_de_mayo_de_2024.pdf
+Fetched: 2026-10-05 (HTTP 200, 1,461,094 bytes, 178 pages). Extracted with pdftotext -layout. VERBATIM below.
+NOTE: check whether later decrees (2025-2026) amended Art. 15 fees.
+-----
+
+         Tasas por los servicios que presta la Dirección Nacional de Farmacia y Drogas
+
+Artículo 15. Se establecen las tasas en concepto de servicios que presta la Dirección, para
+medicamentos, cosméticos y otros productos para la salud humana, entre otros, las cuales deberán
+ser canceladas en la Dirección Nacional de Farmacia y Drogas, o a través de plataforma digitales
+al momento de la presentación de la solicitud respectiva, según se detalla a continuación:
+
+                                      Tasas por Servicios
+
+                       Tasa por Servicio de Registro Sanitario Inicial
+
+                                   Servicio                                       Tasa (B/.)
+
+ Expedición de registro sanitario para productos farmacéuticos de síntesis
+                                                                                   500.00
+ química.
+
+ Expedición de registro sanitario para productos farmacéuticos innovadores,
+                                                                                   750.00
+ biológicos, biotecnológicos y biosimilares
+
+ Expedición de registro sanitario por trámite abreviado.                           750.00
+
+ Expedición de registro sanitario para productos similares y productos de
+                                                                                   500.00
+ higiene personal.
+
+ Expedición de registro sanitario para cosméticos. (Hasta 10 variedades).          500.00
+
+ Expedición de registro sanitario para medicamentos de fuentes alternas de
+                                                                                   500.00
+ fabricación
+
+ Expedición de registro sanitario para cosméticos por cada 10 variedades
+                                                                                   200.00
+ adicionales.
+
+ Expedición del Certificado de Inscripción de medicamentos huérfanos.               50.00
+
+ Expedición del Certificado de Registro Sanitario de otros productos para la
+ salud humana y Registro Sanitario de plaguicidas de uso doméstico y de salud      500.00
+ pública para uso profesional.
+
+ Certificado de Intercambiabilidad bajo la condición de medicamento de
+                                                                                   400.00
+ referencia o intercambiable.
+
+ Expedición del Certificado de Registro Sanitario por Reconocimiento Mutuo         500.00
+
+ Prioridad para el trámite de solicitud de registros sanitarios de medicamentos
+                                                                                  1,000.00
+ innovadores inicial, renovación y modificación.
+
+                        Tasa por Servicio de Renovación de Registro
+
+ Renovación de registro sanitario para productos farmacéuticos de síntesis
+                                                                                   500.00
+ química.
+
+ Renovación de registro sanitario para productos farmacéuticos innovadores,        750.00
+
+
+                                                                                               18
+No. 30028-C           Gaceta Oficial Digital, viernes 10 de mayo de 2024              19
+
+
+ biológicos, biotecnológicos y biosimilares
+
+ Renovación de registro sanitario por trámite abreviado.                         750.00
+
+ Renovación de registro sanitario para cosméticos y similares, y productos
+                                                                                 500.00
+ sanitarios de higiene personal.
+
+ Renovación de registro sanitario de otros productos para la salud humana y
+ de Registro Sanitario de plaguicidas de uso doméstico y de salud pública para   500.00
+ uso profesional.
+
+ Renovación de la intercambiabilidad bajo la condición de medicamento de
+                                                                                 250.00
+ Referencia o Intercambiable.
+
+ Renovación de registro sanitario por reconocimiento mutuo                       500.00
+
+ Renovación de registro sanitario para medicamentos de fuentes alternas de
+                                                                                 500.00
+ fabricación
+
+                              Tasa por Servicio de Modificación
+
+ Ampliación de presentación                                                      200.00
+
+ Cambio o modificación en el nombre comercial                                    200.00
+
+ Cambio de razón social del fabricante, empacador o titular en el certificado
+                                                                                 200.00
+ de registro
+
+ Cambio en la monografía, inserto, adición de inserto                            200.00
+
+ Cambio en el periodo de vida útil                                               200.00
+
+ Cambio en las condiciones de almacenamiento                                     200.00
+
+ Cambio de empacador primario                                                    200.00
+
+ Cambio de empacador secundario                                                  200.00
+
+ Cambio o adición en el tipo de material del empaque primario o del sistema      200.00
+ envase cierre
+
+ Adición de un nuevo empaque primario                                            200.00
+
+ Cambio de Titular                                                               200.00
+
+ Cambio de origen o en caso de fabricación por terceros:                         200.00
+    a. Cambio de Fabricante.
+    b. Cambio de fabricante y de país de origen
+ Cambio de modalidad de venta                                                    200.00
+
+ Cambio de excipientes                                                           200.00
+
+ Cambio de información o diseño en el etiquetado primario y secundario           200.00
+
+ Cambio en el sitio de fabricación dentro de un mismo país                       200.00
+
+ Cambio en el representante legal o del profesional responsable                  200.00
+
+ Cambio o actualización en las especificaciones del producto terminado           200.00
+
+ Cambio o actualización en la metodología analítica                              200.00
+
+
+                                                                                           19
+No. 30028-C            Gaceta Oficial Digital, viernes 10 de mayo de 2024                 20
+
+
+ Cambio o ampliación de indicaciones terapéuticas                                   200.00
+
+ Autorización de comercialización conjunta (Co-Empaques)                            200.00
+
+ Modificación de las vías de administración                                         200.00
+
+ Cambio del Fabricante del diluyente                                                200.00
+
+ Modificación de la denominación del principio activo                               200.00
+
+ Cambio del Representante Legal que reside en el país autorizado por el titular.     25.00
+
+ Cambio del Profesional responsable autorizado por el titular.                       25.00
+
+ Otros cambios en la información aportada en la obtención del Registro
+                                                                                    200.00
+ Sanitario.
+
+ Modificaciones para Medicamentos Huérfanos.                                         10.00
+
+                  Servicio de emisión de Licencia de operación por dos años:
+
+ Farmacia.                                                                           50.00
+
+ Distribuidora.                                                                     200.00
+
+ Laboratorio y droguería.                                                           200.00
+
+ Botiquines de pueblo.                                                               25.00
+
+               Servicio de emisión de Inscripción de operación por dos años:
+
+ Establecimiento no farmacéutico, máquina expendedora                               100.00
+
+ Establecimiento no farmacéutico para la elaboración de productos cosméticos         50.00
+ artesanales.
+
+                    Renovación de Licencias e inscripciones por dos años:
+
+ Renovación de Licencias de Operación                                               200.00
+
+ Renovación de inscripción de Establecimientos No Farmacéuticos                     100.00
+
+ Renovación de inscripción de Establecimiento no farmacéutico para la                50.00
+ elaboración de productos cosméticos artesanales.
+                                 Otros servicios para licencias
+
+ Modificación de las licencias de operación.                                         20.00
+
+ Licencia de Fabricación de Derivados del Cannabis Medicinal                       150,000.00
+
+ Licencia Especial de Sustancias Controladas                                        100.00
+
+ Modificación de la Licencia Especial de Sustancias Controladas y de                 25.00
+ Fabricación de Derivados del Cannabis Medicinal.
+
+ Renovación de Licencia de Fabricación de Derivados del Cannabis Medicinal         150,000.00
+
+ Renovación de Licencia Especial de Sustancias Controladas                          100.00
+
+                                         Otros servicios
+
+ Autenticación de documentos.                                                        30.00
+
+                                                                                                20
+No. 30028-C            Gaceta Oficial Digital, viernes 10 de mayo de 2024                     21
+
+
+ Reposición del Certificado de Registro Sanitario.                                    200.00
+ Reposición del Certificado de Intercambiabilidad                                     200.00
+ Reposición del Certificado de la Licencia de Operación.                              30.00
+ Inscripción, por 5 años, de cosmético de hotelería                                   100.00
+ Inscripción, por 5 años, de materia prima, insumos y otros.                          100.00
+ Expedición de Certificaciones en general: buenas prácticas, bioequivalencia,
+ farmacovigilancia, relacionado con el registro sanitario, sustancia controlada,      200.00
+ y otros.
+ Expedición de Certificaciones de indicaciones terapéuticas para entidades
+                                                                                     Sin costo
+ públicas
+ Certificado de Liberación de Lote.                                                   100.00
+ Certificación de Importación al amparo de Registro Sanitario vigente.                500.00
+ Expedición de Certificado de Libre Venta o Certificado de Productos
+                                                                                      200.00
+ Farmacéuticos
+ Permisos para la autorización de medicamento para estudios clínicos.                Sin costo
+ Excepción de Registro Sanitario para pacientes.                                     Sin costo
+ Excepción de Registro Sanitario para adquisición Pública o Privada.                  500.00
+ Excepción de Registro Sanitario para adquisición Pública por compra directa
+                                                                                     Sin costo
+ por el Estado
+ Cancelación del certificado de registro sanitario a solicitud del titular            50.00
+ Aprobación de publicidad y propaganda de medicamentos con prescripción
+                                                                                      50.00
+ médica.
+                                                                                   Tasa fijada
+                                                                                     por el
+                                                                                   Laboratorio
+ Análisis para control de calidad pre y post registro.
+                                                                                       de
+                                                                                   Referencia
+                                                                                   de Análisis
+
+ Libretas de narcóticos                                                                5.00
+
+ Permiso de importación, exportación y reexportación de sustancias                    50.00
+ controladas.
+
+ Formulario de informe trimestral para sustancia controlada.                           5.00
+
+ Inspección de Apertura de establecimientos farmacéuticos                             50.00
+
+ Guía impresa para Auditorías de Buenas Prácticas de Manufactura de                   10.00
+ Establecimientos Farmacéuticos.
+
+ Auditoría y Expedición de Certificado de Buenas Prácticas de Fabricación.            300.00
+
+ Auditoría y Expedición de Certificado de Buenas Prácticas de                         100.00
+ Almacenamiento.
+
+                                                                                   5% del valor
+ Supervisión de la destrucción de productos no aptos para uso y Consumo               total a
+ humano.                                                                             destruir
+                                                                                   hasta un tope
+
+                                                                                                   21
+No. 30028-C             Gaceta Oficial Digital, viernes 10 de mayo de 2024                   22
+
+
+                                                                                     de B/.
+                                                                                   10,000.00
+
+                                                                                 20% del total
+                                                                                  de la Carga
+ Custodia para reexportación de productos introducidos ilegalmente al país.
+                                                                                 Custodiada a
+                                                                                  reexportar
+
+                                                                             El 2% del
+ Supervisión del tránsito de productos farmacéuticos para la destrucción de
+                                                                            valor total de
+ una zona franca a otra.
+                                                                              la carga
+
+ Modificación del Certificado de Buenas Prácticas.                                   50.00
+ Modificación de Inscripción de Materia Prima.                                       50.00
+ Permiso especial de Operación a Estaciones de Medicamentos en Clínicas de
+                                                                                     100.00
+ Atención Médica o Clínicas ubicadas en Embarcaciones.
+ Solicitudes de copia del expediente del registro sanitario, licencias y otros
+                                                                                      1.00

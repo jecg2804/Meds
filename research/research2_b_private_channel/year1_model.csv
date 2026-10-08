@@ -1,0 +1,49 @@
+scenario,sku,unit,shelf_B,pharmacy_cost_B,importer_net_B,units_yr,importer_revenue_B
+"75 pharmacies, via distributor",Paracetamol 500 mg,tab,0.07,0.048,0.037,270000,10027
+"75 pharmacies, via distributor",Amoxicilina+clav 500/125 mg,tab,0.84,0.579,0.446,54000,24064
+"75 pharmacies, via distributor",Ceftriaxona 1 g vial,vial,2.33,1.607,1.236,7200,8900
+"75 pharmacies, via distributor",Albendazol susp,fco,2.08,1.434,1.103,4500,4966
+"75 pharmacies, via distributor",Mebendazol 100 mg,tab,0.85,0.586,0.451,27000,12175
+"75 pharmacies, via distributor",Nistatina susp,fco,3.21,2.214,1.703,3600,6131
+"75 pharmacies, via distributor",Hidrocortisona 1% crema,tubo,9.27,6.393,4.918,2700,13278
+"75 pharmacies, via distributor",Mometasona crema,tubo,9.0,6.207,4.775,1800,8594
+"75 pharmacies, via distributor",Metronidazol 500 mg,tab,0.41,0.283,0.218,54000,11745
+"75 pharmacies, via distributor",Ibuprofeno 400 mg,tab,0.23,0.159,0.122,180000,21963
+"75 pharmacies, via distributor",Omeprazol 20 mg,cap,0.55,0.379,0.292,81000,23634
+"75 pharmacies, via distributor",TOTAL,,,,,,145475
+"150 pharmacies, via distributor",Paracetamol 500 mg,tab,0.07,0.048,0.037,540000,20053
+"150 pharmacies, via distributor",Amoxicilina+clav 500/125 mg,tab,0.84,0.579,0.446,108000,48127
+"150 pharmacies, via distributor",Ceftriaxona 1 g vial,vial,2.33,1.607,1.236,14400,17799
+"150 pharmacies, via distributor",Albendazol susp,fco,2.08,1.434,1.103,9000,9931
+"150 pharmacies, via distributor",Mebendazol 100 mg,tab,0.85,0.586,0.451,54000,24350
+"150 pharmacies, via distributor",Nistatina susp,fco,3.21,2.214,1.703,7200,12261
+"150 pharmacies, via distributor",Hidrocortisona 1% crema,tubo,9.27,6.393,4.918,5400,26556
+"150 pharmacies, via distributor",Mometasona crema,tubo,9.0,6.207,4.775,3600,17188
+"150 pharmacies, via distributor",Metronidazol 500 mg,tab,0.41,0.283,0.218,108000,23491
+"150 pharmacies, via distributor",Ibuprofeno 400 mg,tab,0.23,0.159,0.122,360000,43926
+"150 pharmacies, via distributor",Omeprazol 20 mg,cap,0.55,0.379,0.292,162000,47268
+"150 pharmacies, via distributor",TOTAL,,,,,,290951
+"150 pharmacies, direct to pharmacy",Paracetamol 500 mg,tab,0.07,0.048,0.043,540000,23462
+"150 pharmacies, direct to pharmacy",Amoxicilina+clav 500/125 mg,tab,0.84,0.579,0.521,108000,56309
+"150 pharmacies, direct to pharmacy",Ceftriaxona 1 g vial,vial,2.33,1.607,1.446,14400,20825
+"150 pharmacies, direct to pharmacy",Albendazol susp,fco,2.08,1.434,1.291,9000,11619
+"150 pharmacies, direct to pharmacy",Mebendazol 100 mg,tab,0.85,0.586,0.528,54000,28490
+"150 pharmacies, direct to pharmacy",Nistatina susp,fco,3.21,2.214,1.992,7200,14345
+"150 pharmacies, direct to pharmacy",Hidrocortisona 1% crema,tubo,9.27,6.393,5.754,5400,31070
+"150 pharmacies, direct to pharmacy",Mometasona crema,tubo,9.0,6.207,5.586,3600,20110
+"150 pharmacies, direct to pharmacy",Metronidazol 500 mg,tab,0.41,0.283,0.254,108000,27484
+"150 pharmacies, direct to pharmacy",Ibuprofeno 400 mg,tab,0.23,0.159,0.143,360000,51393
+"150 pharmacies, direct to pharmacy",Omeprazol 20 mg,cap,0.55,0.379,0.341,162000,55303
+"150 pharmacies, direct to pharmacy",TOTAL,,,,,,340412
+"300 pharmacies, via distributor",Paracetamol 500 mg,tab,0.07,0.048,0.037,1080000,40106
+"300 pharmacies, via distributor",Amoxicilina+clav 500/125 mg,tab,0.84,0.579,0.446,216000,96255
+"300 pharmacies, via distributor",Ceftriaxona 1 g vial,vial,2.33,1.607,1.236,28800,35599
+"300 pharmacies, via distributor",Albendazol susp,fco,2.08,1.434,1.103,18000,19862
+"300 pharmacies, via distributor",Mebendazol 100 mg,tab,0.85,0.586,0.451,108000,48700
+"300 pharmacies, via distributor",Nistatina susp,fco,3.21,2.214,1.703,14400,24522
+"300 pharmacies, via distributor",Hidrocortisona 1% crema,tubo,9.27,6.393,4.918,10800,53112
+"300 pharmacies, via distributor",Mometasona crema,tubo,9.0,6.207,4.775,7200,34377
+"300 pharmacies, via distributor",Metronidazol 500 mg,tab,0.41,0.283,0.218,216000,46981
+"300 pharmacies, via distributor",Ibuprofeno 400 mg,tab,0.23,0.159,0.122,720000,87851
+"300 pharmacies, via distributor",Omeprazol 20 mg,cap,0.55,0.379,0.292,324000,94536
+"300 pharmacies, via distributor",TOTAL,,,,,,581901

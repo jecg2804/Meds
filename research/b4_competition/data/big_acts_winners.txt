@@ -1,0 +1,25 @@
+
+## LPU 01-2022 1st call (2021-1-10-0-99-LP-442452; 404 renglones; 53 participants)
+   ANTAI rows=515, distinct items=150, distinct winning firms=41, value=B/.2,343,044
+   items per winning firm (1..10+): [(1, 16), (2, 6), (3, 5), (4, 3), (5, 2), (6, 1), (7, 2), (9, 1), (10, 5)]
+   top by #items: [('REPRICO', 13, '18%'), ('CELMAR', 12, '2%'), ('C G DE HASETH', 11, '8%'), ('LABORATORIOS RIGAR', 10, '3%'), ('NUTRIMED', 10, '5%'), ('LANCO MEDICAL GROUP', 9, '11%'), ('DROGUERIA RAMON GONZALEZ ', 7, '10%'), ('LIFAR', 7, '5%'), ('CORPORACION IMPA-DOEL', 6, '4%'), ('PISA FARMACEUTICA', 5, '2%')]
+
+## LPU 01-2022 2nd call (2023-1-10-0-99-LP-508748; 55 renglones)
+   ANTAI rows=63, distinct items=17, distinct winning firms=12, value=B/.217,495
+   items per winning firm (1..10+): [(1, 11), (6, 1)]
+   top by #items: [('MEDIPAN', 6, '38%'), ('MEDIEQUIPOS', 1, '5%'), ('INVERSIONES Y SERVICIOS N', 1, '21%'), ('LABORATORIOS RIGAR', 1, '12%'), ('PHARMA SUPPLIES CORP', 1, '3%'), ('COMPANIA ASTOR', 1, '10%'), ('C G DE HASETH', 1, '5%'), ('CABADI', 1, '0%'), ('LANCO MEDICAL GROUP', 1, '1%'), ('REPRICO', 1, '5%')]
+
+## LPU 01-2026 / SPU-000009 (348 renglones; 57 participants)
+   ANTAI rows=69, distinct items=69, distinct winning firms=22, value=B/.36,115,207
+   items per winning firm (1..10+): [(1, 8), (2, 3), (3, 4), (4, 1), (5, 3), (6, 1), (9, 2)]
+   top by #items: [('PHARMA SUPPLIES CORP', 9, '2%'), ('LABORATORIOS RIGAR', 9, '3%'), ('REPRICO', 6, '8%'), ('LABORATORIO JAYOR', 5, '5%'), ('PISA FARMACEUTICA', 5, '0%'), ('CORPORACION IMPA-DOEL', 5, '67%'), ('NUTRIMED', 4, '0%'), ('DROGUERIA E IMPORTADORA A', 3, '1%'), ('COMPANIA ASTOR', 3, '2%'), ('BIOPLUS CARE', 3, '2%')]
+
+## Compra conjunta 2023 CL-000002 (351 products)
+   ANTAI rows=120, distinct items=87, distinct winning firms=33, value=B/.36,318,454
+   items per winning firm (1..10+): [(1, 17), (2, 7), (3, 1), (4, 3), (5, 2), (6, 1), (10, 2)]
+   top by #items: [('PISA FARMACEUTICA', 13, '2%'), ('DROGUERIA RAMON GONZALEZ ', 12, '66%'), ('REPRICO', 6, '9%'), ('LIFAR', 5, '2%'), ('CELMAR', 5, '3%'), ('LABORATORIOS RIGAR', 4, '6%'), ('DROGUERIA E IMPORTADORA A', 4, '0%'), ('MEDIEQUIPOS', 4, '1%'), ('COMPANIA ASTOR', 3, '1%'), ('LABORATORIOS PALM', 2, '1%')]
+
+## Compra conjunta 2024 CL-000005 (220 renglones)
+   ANTAI rows=59, distinct items=55, distinct winning firms=22, value=B/.36,114,203
+   items per winning firm (1..10+): [(1, 8), (2, 6), (3, 3), (4, 3), (6, 1), (9, 1)]
+   top by #items: [('CELMAR', 9, '18%'), ('CORPORACION IMPA-DOEL', 6, '47%'), ('LABORATORIOS RIGAR', 4, '3%'), ('REPRICO', 4, '6%'), ('SEVEN PHARMA', 4, '1%'), ('NUTRIMED', 3, '1%'), ('DROGUERIA RAMON GONZALEZ ', 3, '3%'), ('LANCO MEDICAL GROUP', 3, '4%'), ('LABORATORIO JAYOR', 2, '0%'), ('PROMED (PROMOCION MEDICA)', 2, '1%')]

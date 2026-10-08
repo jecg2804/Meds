@@ -1,0 +1,39 @@
+Indian manufacturer -> Panamanian bidder (OCDS MINSA/CSS pharma item-bids 2020-Apr 2024): bids (won)
+  SUN PHARMA        : PHARMA CHIMIQUE DE PANAMA IMPORT EXPOR 4(2)
+  CIPLA             : PHARMA SUPPLIES,CORP. 1(1); REPRESENTACIONES CELMAR, S.A. 1(0)
+  AUROBINDO         : none found
+  TORRENT           : PHARMA SUPPLIES,CORP. 1(1)
+  ZYDUS/CADILA      : none found
+  INTAS/ACCORD      : none found
+  MACLEODS          : VESALIUS PHARMA,S.A 3(3)
+  LUPIN             : none found
+  GLENMARK          : none found
+  ALEMBIC           : none found
+  MICRO LABS        : none found
+  DR REDDYS         : none found
+  HETERO            : SEVEN PHARMA PANAMA,S.A. 29(14)
+  EMCURE            : none found
+  GLAND             : REPRICO, S.A 3(2)
+  BIOCON            : none found
+  NATCO             : none found
+  MSN               : none found
+  AJANTA            : none found
+  IPCA              : none found
+  UNICHEM           : none found
+  STRIDES           : none found
+  CLARIS            : none found
+  AMNEAL            : none found
+  CELON             : SEVEN PHARMA PANAMA,S.A. 5(1); SERFASA, S. A. 1(1)
+  SWISS PARENTERALS : SERFASA, S. A. 38(18); DROGUERIA SARO, S.A. 2(2)
+  KWALITY           : DROGUERIA E IMPORTADORA ALEMANA S.A. 14(7); DISTRIBUIDORA PROFARMA S. A. 5(0); ARPAFARMA S.A. 2(0); MEDIKCORP PHARMA 1(0)
+  SAKAR             : VESALIUS PHARMA,S.A 10(3)
+  J.B./UNIQUE       : LABORATORIO JAYOR PANAMA, S.A. 10(6)
+  ASPIRO            : SEVEN PHARMA PANAMA,S.A. 9(4)
+  SYDLER            : SEKTASA CORP 14(6); C.G. DE HASETH & CIA. S.A. 1(1)
+  UNITED BIOTECH    : U.S. PHARMACY SYSTEMS, INC. 6(4); IMEXSATEC, S.A. 3(1); SERFASA, S. A. 1(0); ARPAFARMA S.A. 1(0)
+  SAMARTH           : DROGUERIA E IMPORTADORA ALEMANA S.A. 16(10); SERFASA, S. A. 5(3)
+  SPARSHA           : U.S. PHARMACY SYSTEMS, INC. 1(1)
+  NAPROD            : none found
+  VENUS             : none found
+  NEON              : none found
+  BHARAT SERUM      : SEVEN PHARMA PANAMA,S.A. 1(0)

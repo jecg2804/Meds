@@ -1,0 +1,41 @@
+block,assumption,unit,low,base,high,basis,sources/notes
+common,inventory value per pallet,USD,4000,4000,4000,F(project),"Cuestionario_operativo_5_tarimas.xlsx: CIF ~20,000 / 5 pallets"
+common,"delivery trip Panama City metro (dedicated van, 10-40 cases)",USD/trip,50,80,120,E,No published per-trip tariff found; CSS home delivery 2.50/parcel (A07) is not comparable
+common,delivery trip mid-provinces (Colón/Coclé/Herrera/Los Santos/Veraguas),USD/trip,200,300,450,D,"OCDS freight to Los Santos & Herrera ~350 (C13,C14); reefer truck day rental 203-214/day (C11)"
+common,delivery trip far (Chiriquí/Bocas/Darién),USD/trip,400,600,1000,D,"Reefer trip to Darién 275 (C09); Crowley container haul David 1,690 / Changuinola 3,388 (C01,C03) = FTL ceiling"
+import,"customs broker per month (1 declaration, CIF ~20k) [5p]",USD,90,175,300,D,"Statutory minimum B/.80 + B/.2/extra line (E01,E04); market premium = E"
+import,LCL destination charges (10 m3) [5p],USD,150,360,865,D,"Crowley DHC 65 + decon 0.20/cft (min 55) + AMSA 15 (E05,E06) vs movers' quote 86.50/CBM (E07); base = geometric mean"
+import,port-to-warehouse drayage [5p],USD,150,250,490,D,Crowley inland Panama City 490 per container (C06) as ceiling; low/base = E
+import,customs broker per month (2 declarations) [15p],USD,180,350,600,D,2 x statutory minimum (~B/.95 each at CIF 30k) + premium
+import,"LCL destination charges (30 m3, 2 shipments) [15p]",USD,372,982,2595,D,"Crowley tariff (E05,E06) vs 86.50/CBM (E07); base = geometric mean"
+import,port-to-warehouse drayage [15p],USD,300,500,980,D,2 moves; Crowley 490 (C06)
+3pl,"storage per pallet-month (15-25 °C, DNFD-licensed)",USD/pallet-month,20,30,45,D,"US ambient avg 20.17, temp-controlled 25-50 (H01); Panama storage quote 24.50/CBM-month = ~47/pallet at 1.92 m3 (E07)"
+3pl,"inbound handling per pallet (receipt, lot/expiry, put-away)",USD/pallet,5,8,15,D,"US in/out 4-8, receiving 10+ (H01); 8 in / 6 out example (H02); IMA tender bills in/out per pallet (G17)"
+3pl,picking per full case,USD/case,0.4,0.75,1.25,E,no public figure
+3pl,"order/dispatch fee (docs, lot traceability)",USD/order,5,10,20,E,no public figure
+3pl,WMS/reporting/admin fee,USD/month,0,75,200,E,no public figure
+3pl,insurance on stored value,% of value per month,0.05,0.1,0.15,D,Crowley Nicaragua 0.12%/month of CIF+duties (H03)
+3pl,minimum monthly billing,USD/month,300,600,1200,D,US example 337.50/month (H01); Panama pharma minimum not published = E
+3pl,"own regent pharmacist, part-time (agency licence still required)",USD/month,400,450,600,F(project),SignatureLex fee sheet: regent $400-500/month (F06); high +20%
+3pl,"one-off 3PL legal/quality review + onboarding, amortised 36 m",USD/month,69.44,83.33,111.11,F(project)+E,"B/.2,500 3PL review (project fee sheet) + onboarding 0/500/1,500"
+3pl,orders per month [5p],orders,2,3,4,F(project),questionnaire 2-4
+3pl,orders per month [15p],orders,4,6,8,E,scaled
+3pl,cases per order,cases,15,25,40,F(project),questionnaire 10-40
+own,unit size (incl. office; storage room 40-60 m2) [5p],m2,100,120,150,E,BPA segregation: quarantine/reject/returns/dispatch
+own,rent incl. maintenance [5p],USD/m2-month,8,9,12,F/D,"Listings 2026: 6.00-8.50 Tocumen/Juan Díaz/Arraiján (B06-B16); small units 10-11+ (B10, G03); Newmark 7.35 avg Q2-2022 (B23)"
+own,electricity 24/7 A/C + lights [5p],USD/month,300,450,700,E,"~1,500-2,500 kWh; tariff NOT verified this session"
+own,warehouse assistant incl. ~30% on-costs [5p],USD/month,390.0,975.0,1300.0,D,min wage B/.3.02/h ~B/.522 (F04); on-costs CSS 13.25%+1.5%+riesgos+13th month (F05)
+own,"regent pharmacist (more presence: daily checks, inspections) [5p]",USD/month,450,700,1200,D,"400-500 part-time (F06); full-time ~2,000-2,700 (F01,F02 weak)"
+own,"maintenance, calibration, pest control, alarm monitoring, consumables [5p]",USD/month,150,300,500,D,calibration 70-250 per instrument (G10)
+own,insurance property/liability/stock [5p],USD/month,50,100,200,E,
+own,IT/WMS/internet [5p],USD/month,50,100,200,E,
+own,build-out capex total [5p],USD,16000,37000,74500,D,"A/C 6-20k (CSS ~2,300-2,700/TR: G14,G15); envelope 3-12k E; monitoring 1-5k (G10,G11); mapping 1-5k E; racks/equipment 2-6k (G12); security 1-4k E; backup power 0.5-13.5k (G16); office/IT 0.5-3k E; SOPs/validation 1-6k E"
+own,unit size (storage room 80-100 m2) [15p],m2,150,200,250,E,
+own,rent incl. maintenance [15p],USD/m2-month,8,9,12,F/D,as above
+own,electricity [15p],USD/month,450,700,1100,E,tariff NOT verified
+own,warehouse staff incl. on-costs [15p],USD/month,780.0,1218.75,1950.0,D,"F04,F05"
+own,regent pharmacist [15p],USD/month,450,700,1200,D,"F06,F01,F02"
+own,maintenance etc. [15p],USD/month,200,400,700,D,G10
+own,insurance [15p],USD/month,80,150,300,E,
+own,IT/WMS/internet [15p],USD/month,50,150,300,E,
+own,build-out capex total [15p],USD,24800,54000,100000,D,"same items scaled (A/C 9-30k, envelope 5-18k, racks 3.5-10k, backup 1-15k)"

@@ -1,0 +1,69 @@
+
+## MINIST CM 2020-24 (OCDS): renglones=6283
+   bidders/renglón: mean=3.44 median=3  dist 1:30% 2:19% 3:16% 4:9% 5+:26%
+   valid (qualified) bids/renglón: 0:7% 1:47% 2:15% 3+:30%   renglones awarded (among those w/ bids): 75%
+   2nd-lowest vs lowest bid gap: median=12%  p25=3% p75=36%  (n=2126)
+   winning unit price vs reference unit price (single-item acts): median=-3%  p25=-25% p75=+0% (n=1239)
+   renglones with an Indian-origin offer: 211 (3.4%), Indian offer won 114 (54%)
+
+## MINIST CM 2021: renglones=1864
+   bidders/renglón: mean=3.90 median=3.0  dist 1:28% 2:20% 3:15% 4:8% 5+:29%
+   valid (qualified) bids/renglón: 0:8% 1:42% 2:14% 3+:35%   renglones awarded (among those w/ bids): 66%
+   2nd-lowest vs lowest bid gap: median=14%  p25=3% p75=40%  (n=523)
+   winning unit price vs reference unit price (single-item acts): median=-2%  p25=-24% p75=+0% (n=508)
+   renglones with an Indian-origin offer: 57 (3.1%), Indian offer won 23 (40%)
+
+## MINIST CM 2022: renglones=1900
+   bidders/renglón: mean=3.37 median=3.0  dist 1:31% 2:17% 3:17% 4:9% 5+:25%
+   valid (qualified) bids/renglón: 0:5% 1:50% 2:14% 3+:31%   renglones awarded (among those w/ bids): 80%
+   2nd-lowest vs lowest bid gap: median=12%  p25=3% p75=35%  (n=693)
+   winning unit price vs reference unit price (single-item acts): median=-3%  p25=-29% p75=+0% (n=698)
+   renglones with an Indian-origin offer: 53 (2.8%), Indian offer won 30 (57%)
+
+## MINIST CM 2023: renglones=2150
+   bidders/renglón: mean=3.19 median=3.0  dist 1:29% 2:19% 3:16% 4:11% 5+:25%
+   valid (qualified) bids/renglón: 0:5% 1:48% 2:19% 3+:29%   renglones awarded (among those w/ bids): 79%
+   2nd-lowest vs lowest bid gap: median=12%  p25=3% p75=35%  (n=771)
+   renglones with an Indian-origin offer: 85 (4.0%), Indian offer won 52 (61%)
+
+## MINIST LP 2020-24 (OCDS): renglones=955
+   bidders/renglón: mean=2.47 median=2  dist 1:46% 2:20% 3:12% 4:7% 5+:14%
+   valid (qualified) bids/renglón: 0:12% 1:68% 2:7% 3+:13%   renglones awarded (among those w/ bids): 82%
+   2nd-lowest vs lowest bid gap: median=12%  p25=2% p75=33%  (n=357)
+   winning unit price vs reference unit price (single-item acts): median=+0%  p25=-21% p75=+0% (n=334)
+   renglones with an Indian-origin offer: 33 (3.5%), Indian offer won 17 (52%)
+
+## MINIST LP 2021: renglones=242
+   bidders/renglón: mean=2.45 median=2.0  dist 1:48% 2:22% 3:9% 4:1% 5+:21%
+   valid (qualified) bids/renglón: 0:9% 1:71% 2:6% 3+:14%   renglones awarded (among those w/ bids): 78%
+   2nd-lowest vs lowest bid gap: median=11%  p25=2% p75=35%  (n=80)
+   winning unit price vs reference unit price (single-item acts): median=-0%  p25=-16% p75=+0% (n=132)
+   renglones with an Indian-origin offer: 7 (2.9%), Indian offer won 6 (86%)
+
+## MINIST LP 2022: renglones=250
+   bidders/renglón: mean=2.42 median=2.0  dist 1:45% 2:19% 3:16% 4:12% 5+:8%
+   valid (qualified) bids/renglón: 0:6% 1:73% 2:6% 3+:15%   renglones awarded (among those w/ bids): 91%
+   2nd-lowest vs lowest bid gap: median=14%  p25=3% p75=37%  (n=101)
+   winning unit price vs reference unit price (single-item acts): median=-0%  p25=-26% p75=+0% (n=157)
+   renglones with an Indian-origin offer: 15 (6.0%), Indian offer won 7 (47%)
+
+## MINIST LP 2023: renglones=356
+   bidders/renglón: mean=2.50 median=2.0  dist 1:47% 2:19% 3:14% 4:7% 5+:13%
+   valid (qualified) bids/renglón: 0:6% 1:69% 2:10% 3+:15%   renglones awarded (among those w/ bids): 89%
+   2nd-lowest vs lowest bid gap: median=11%  p25=1% p75=28%  (n=126)
+   renglones with an Indian-origin offer: 6 (1.7%), Indian offer won 4 (67%)
+
+## CAJA CM 2020-24 (OCDS): renglones=5
+   bidders/renglón: mean=1.60 median=2  dist 1:40% 2:60% 3:0% 4:0% 5+:0%
+   valid (qualified) bids/renglón: 0:20% 1:80% 2:0% 3+:0%   renglones awarded (among those w/ bids): 80%
+   2nd-lowest vs lowest bid gap: median=50%  p25=1% p75=60%  (n=3)
+   winning unit price vs reference unit price (single-item acts): median=-23%  p25=-23% p75=-23% (n=1)
+
+MINSA methods (renglones): [('Compra Menor que exceda B/.10,000 hasta B/.50,000', 3810), ('', 2899), ('Licitacion Pública que exceda B/.50,000 hasta B/.175,000', 427), ('Licitación Pública que exceda B/.175,000', 119), ('Licitaciones Mejor Valor que exceda B/.500,000', 25)]
+
+## MINSA Compra Menor que exceda B/.10,000 hasta B/.50,000: renglones=3810
+   bidders/renglón: mean=3.61 median=3.0  dist 1:30% 2:18% 3:17% 4:8% 5+:27%
+   valid (qualified) bids/renglón: 0:7% 1:47% 2:14% 3+:33%   renglones awarded (among those w/ bids): 73%
+   2nd-lowest vs lowest bid gap: median=12%  p25=3% p75=36%  (n=1234)
+   winning unit price vs reference unit price (single-item acts): median=-3%  p25=-25% p75=+0% (n=1239)
+   renglones with an Indian-origin offer: 113 (3.0%), Indian offer won 55 (49%)

@@ -1,0 +1,41 @@
+source,id,level,tender_description,catalog_item(s)
+DE16,r365,exact,"VALPROICO ÁCIDO SAL SODICA O MAGNÉSICA, O DIVALPROATO SÓDICO (DIVALPROEX), 500 MG, CÁPSULA O COMPRIMIDO O COMPRIMIDO DE LIBERACIÓN MODIFICADA CON CAPA ENTÉRICA, V.O.",P-374 Divalproex Sodium Extended Release [500 mg tablet MR]
+DE16,r233,exact,"LORAZEPAM, 2MG, TABLETA, V.O.",P-428 Lorazepam [2 mg tablet IR] || M-628 Tablet LORAZEPAM I.P 2MG [2 mg tablet IR]
+DE16,r235,exact,"MALEATO DE CLORFENIRAMINA 4 MG, COMPRIMIDO, V.O.",M-669 Tablet CHLORPHENIRAMINE MALEATE 4MG [4 mg tablet IR]
+DE16,r309,exact,"PROPRANOLOL CLORHIDRATO, 40MG, TABLETA, V.O.",P-029 Propranolol [40 mg tablet IR] || P-484 Propranolol [40 mg tablet IR]
+DE16,r375,exact,"ZOLPIDEM, 10 MG, COMPRIMIDO RANURADO, V.O.",P-544 Zolpidem Tartrate [10 mg tablet IR]
+DE16,r12,exact,"ALBENDAZOL, 40MG/ML, SUSPENSIÓN, FRASCO, V.O.",P-283 Albendazole Suspension [40 mg/ml suspension ]
+DE16,r88,strength_diff,"DEXAMETASONA 4MG, TABLETA, V.O.",M-621 Tablet DEXAMETHASONE I.P 0.5MG [0.5 mg tablet IR]
+DE16,r226,exact,"LINAGLIPTINA 5 MG, TABLETA, V.O.",P-026 Linagliptin [5 mg tablet IR]
+DE16,r56,strength_diff,"CEFUROXIMA 250MG/SML SUSPENSIÓN, V.O.",P-592 Cefuroxime Dry Syrup [25 mg/ml suspension ]
+DE16,r80,exact,"CORTICOIDE POTENCIA ALTA: AMCINONIDE 0.1%, O BETAMETASONA DIPROPIONATO 0.05%, O FLUOCINOLONA ACETONIDA 0.2%, O MOMETASONA 0.1%, CREMA, VÍA TÓPICA.",P-264 Mometasone Furoate Cream [0.1 % cream/ointment ]
+DE16,r276,exact,"OMEPRAZOL 20 MG, CÁPSULA O CÁPSULA CON MICROESFERAS GASTRORESISTENTES O COMPRIMIDO V.O.",P-212 Omeprazole [20 mg capsule IR] || M-700 Capsule OMEPRAZOLE 20MG [20 mg capsule IR]
+DE16,r175,exact,"HALOPERIDOL, 5 MG, COMPRIMIDO, V.O.",P-409 Haloperidol [5 mg tablet IR] || M-713 Tablet HALOPERIDOL 5MG [5 mg tablet IR]
+LPU 01-2026,r298,exact,"PREDNISONA O PREDNISOLONA, 5MG, TABLETA, V.O.",M-622 Tablet PREDNISOLONE 5MG [5 mg tablet IR]
+CC 2024 CL-000005,r41,exact,"CEFTAZIDIMA 1g, polvo liofilizado, I.M., I.V.",P-563 Ceftazidime For Injection [1000 mg injection_powder ]
+CC 2023 CL-000002,r269,exact,"FLUCONAZOL 150-200mg, tableta o cápsula, V.O.",M-680 Tablet FLUCONAZOLE 150MG [150 mg tablet IR]
+LPU 01-2026,r102,exact,"CORTICOIDE POTENCIA ALTA: AMCINONIDE 0.1% o BETAMETASONA DIPROPIONATO 0.05% o FLUOCINOLONA ACETÓNIDA 0.2% o HALCINONIDA 1% o MOMETASONA FUROATO 0.1%, crema, tubo, 15g, Vía Tópica.",P-264 Mometasone Furoate Cream [0.1 % cream/ointment ]
+CC 2023 CL-000002,r124,exact,"CIPROFLOXACINA, 500MG, CÁPSULA O TABLETA, V.O.",P-138 Ciprofloxacin [500 mg tablet IR] || M-655 Tablet CIPROFLOXACIN 500MG [500 mg tablet IR]
+LPU 01-2026,r304,exact,"QUETIAPINA FUMARATO, 200mg, tableta, V.O.",P-489 Quetiapine [200 mg tablet IR]
+CC 2023 CL-000002,r122,exact,"CLINDAMICINA CLORHIDRATO 300mg, cápsula o tableta, V.O.",P-153 Clindamycin [300 mg capsule IR]
+LPU 01-2026,r77,strength_diff,"CEFUROXIMA 250mg/5ml suspensión, V.O.",P-592 Cefuroxime Dry Syrup [25 mg/ml suspension ]
+LPU 01-2026,r229,exact,"LORATADINA, 10MG, CÁPSULA O TABLETA, V.O.",P-124 Loratadine [10 mg tablet IR]
+CC 2023 CL-000002,r142,exact,"OLANZAPINA 10mg, tableta o tableta dispersable, V.O.",P-451 Olanzapine [10 mg tablet IR] || P-456 Olanzapine Mouth Dissolving [10 mg tablet DT]
+LPU 11-2026,rb037,exact,"ZOLPIDEM 10mg, tableta ranurada, V.O.",P-544 Zolpidem Tartrate [10 mg tablet IR]
+CC 2023 CL-000003,r47,exact,"ERITROMICINA (BASE, ESTEARATO O ETILSUCCIONATO), 500MG, TABLETA, V.O. En CONAMEP 107322 está en solución inyectable de 500mg I.V.)",P-133 Erythromycin Stearate [500 mg tablet IR]
+LPU 01-2026,r158,exact,"ESCITALOPRAM 10mg, tableta, V.O",P-386 Escitalopram [10 mg tablet IR]
+CC 2024 CL-000005,r12,exact,"AMLODIPINA 5mg, tableta, V.O.",P-331 Amlodipin Besylate [5 mg tablet IR] || M-681 Tablet AMLODIPINE BESILATE 5MG [5 mg tablet IR]
+ANTAI-CSS,2023-1-10-0-03-LP-520540,exact,"CLORFENIRAMINA MALEATO, 4MG,TABLETA,VO","M-669 Tablet CHLORPHENIRAMINE MALEATE 4MG [4 mg tablet IR]  [unit price 0.2000, qty 9000]"
+R2A-update,2025-1-10-01-08-SCM-013886,exact,"LINAGLIPTINA 5MG TABLETA, V. O.","P-026 Linagliptin [5 mg tablet IR]  [unit price 1.1700, qty 27000]"
+ANTAI-CSS,2024-1-10-0-09-LP-539885,exact,"HALOPERIDOL, 5MG, TABLETA, V.O.","P-409 Haloperidol [5 mg tablet IR] || M-713 Tablet HALOPERIDOL 5MG [5 mg tablet IR]  [unit price 1.1000, qty 3000]"
+B1-prices,2026-0-12-23-09-SCM-014582,exact,"CLARITROMICINA 500MG, COMPRIMIDO O CAPSULA O COMPRIMIDO RECUBIERTO V.O. FICHA TECNICA: 10632. CERTIFICADO DE INTERCAMBIABILIDAD: PRESENTAR SI EL MEDICAMENTO LO REQUIERE","P-131 Clarithromycin [500 mg tablet IR]  [unit price 0.6400, qty 3500]"
+B1-prices,2025-1-10-01-08-SCM-007408,exact,"PARACETAMOL (ACETAMINOFEN), 500MG, TAB, V.O., CTNI 10637, REQUISICION 1001064900","P-189 Paracetamol [500 mg tablet IR] || M-608 Tablet PARACETAMOL I.P. 500 MG [500 mg tablet IR]  [unit price 0.0200, qty 456000]"
+B1-prices,2025-1-10-01-04-SCM-010357,exact,"PARACETAMOL (ACETAMINOFEN) 500MG, COMPRIMIDO, V.O.","P-189 Paracetamol [500 mg tablet IR] || M-608 Tablet PARACETAMOL I.P. 500 MG [500 mg tablet IR]  [unit price 0.0200, qty 180000]"
+ANTAI-CSS,2023-1-10-0-02-CM-518336,exact,"AMOXICILINA BASE TRIHIDRATADA, 250MG/5ML POLVO PARA SUSPENSIÓN O JARABE, FRASCO 60-100ML, V.O. /  / FT: 10763 /  / Debe presentar copia  del Registro Sanitario, en la Recepción Del Almacén De Farmacia.   /  / Pre","P-295 Amoxicillin Dry Syrup [50 mg/ml suspension ]  [unit price 2.5000, qty 200]"
+B1-prices,2024-1-10-0-08-LP-539416,exact,"PARACETAMOL (ACETAMINOFEN),500MG, TABLETA,VO","P-189 Paracetamol [500 mg tablet IR] || M-608 Tablet PARACETAMOL I.P. 500 MG [500 mg tablet IR]  [unit price 0.0194, qty 160000]"
+B1-prices,2025-1-10-01-03-SCM-008224,exact,"PARACETAMOL (ACETAMINOFEN), 500MG, TAB, VO","P-189 Paracetamol [500 mg tablet IR] || M-608 Tablet PARACETAMOL I.P. 500 MG [500 mg tablet IR]  [unit price 0.0200, qty 180000]"
+R2A-update,2026-3-45-0-08-CM-002154,exact,Acetaminofen 500 mg en tableta. Tiempo de vencimiento de un año.,"P-189 Paracetamol [500 mg tablet IR] || M-608 Tablet PARACETAMOL I.P. 500 MG [500 mg tablet IR]  [unit price 0.0500, qty 600]"
+ANTAI-ION,SCM-000394,exact,PREGABALINA 150 MG. CAPSULA O COM 101991,"P-478 Pregabalin [150 mg capsule IR]  [unit price 0.3100, qty 19320]"
+B1-prices,2026-1-10-01-07-SCM-016823,exact,"AMLODIPINA BESILATO 5MG, TABLETA. *COMPRA PARA 3 MESES. *SI REQUIERE CERTIFICADO DE INTERCAMBIABILIDAD. *SI REQUIERE CERTIFICADO DE BUENAS PRACTICAS DE MANUFACTURA DEL LABORATORIO FABRICANTE DEL MEDICAMENTO.","P-331 Amlodipin Besylate [5 mg tablet IR] || M-681 Tablet AMLODIPINE BESILATE 5MG [5 mg tablet IR]  [unit price 0.0200, qty 360000]"
+B1-prices,2025-1-10-01-04-SCM-000865,exact,"Divalproato  Hidrógeno de Sodio 500mg de liberación Prolongada, comprimido","P-374 Divalproex Sodium Extended Release [500 mg tablet MR]  [unit price 0.2500, qty 10000]"
+ANTAI-CSS,2023-1-10-0-08-LP-487926,exact,"LEVOFLOXACINA 500MG TABLETA, V. O.","P-143 Levofloxacin [500 mg tablet IR] || M-657 Tablet LEVOFLOXACIN HEMIHYDRATE 500MG [500 mg tablet IR]  [unit price 0.7200, qty 20000]"

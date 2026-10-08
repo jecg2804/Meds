@@ -1,0 +1,21 @@
+Same molecule+strength+form bought by CSS both in centralized acts (precio único/compra conjunta) and in small acts (contratación menor/compra menor ágil/LP menor cuantía), ANTAI 2023-26: n=105
+  median small/centralized unit-price ratio = 1.82x; p25=1.03x; p75=3.57x; share where small acts pay more = 78%
+   ('FINASTERIDA', '5MG', 'TAB')  centralized B/.0.050  small B/.0.950  ratio 19.0x (n_small=7)
+   ('BLOQUEADORES', '2MG', 'TAB')  centralized B/.0.040  small B/.0.610  ratio 15.2x (n_small=5)
+   ('ANTAGONISTAS', '2MG', 'INY')  centralized B/.0.510  small B/.7.350  ratio 14.4x (n_small=2)
+   ('AMOXICILINA', '500MG', 'TAB')  centralized B/.0.040  small B/.0.280  ratio 7.0x (n_small=2)
+   ('PARICALCITOL', '5MCG', 'INY')  centralized B/.1.330  small B/.8.925  ratio 6.7x (n_small=6)
+   ('CIANOCOBALAMINA', '1.000MCG', 'INY')  centralized B/.0.160  small B/.1.050  ratio 6.6x (n_small=2)
+   ('ACIDO', '70MG', 'TAB')  centralized B/.0.510  small B/.2.820  ratio 5.5x (n_small=11)
+   ('QUETIAPINA', '200MG', 'TAB')  centralized B/.0.060  small B/.0.330  ratio 5.5x (n_small=26)
+   ('ISOSORBIDE', '10MG', 'TAB')  centralized B/.0.030  small B/.0.160  ratio 5.3x (n_small=3)
+   ('CLOPIDOGREL', '75MG', 'TAB')  centralized B/.0.040  small B/.0.210  ratio 5.2x (n_small=11)
+   ('GLICLAZIDA', '80MG', 'TAB')  centralized B/.0.050  small B/.0.260  ratio 5.2x (n_small=5)
+   ('HIERRO', '20MG', 'INY')  centralized B/.1.270  small B/.6.150  ratio 4.8x (n_small=8)
+   ...lowest:
+   ('TRIMETOPRIN', '16MG', 'INY')  centralized B/.14.480  small B/.4.200  ratio 0.29x (n_small=3)
+   ('INSULINA', '100UI', 'INY')  centralized B/.40.390  small B/.12.000  ratio 0.30x (n_small=8)
+   ('LENALIDOMIDA', '25MG', 'TAB')  centralized B/.24.240  small B/.10.010  ratio 0.41x (n_small=2)
+   ('PERINDOPRIL', '5MG', 'TAB')  centralized B/.0.480  small B/.0.220  ratio 0.46x (n_small=3)
+   ('IBUPROFENO', '400MG', 'TAB')  centralized B/.0.040  small B/.0.020  ratio 0.50x (n_small=7)
+   ('PARACETAMOL', '500MG', 'TAB')  centralized B/.0.030  small B/.0.020  ratio 0.67x (n_small=20)

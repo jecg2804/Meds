@@ -1,0 +1,28 @@
+molecules: 536; multi-source (>=3 winning firms): 132; single-winner: 299
+
+### CSS medicines 2023-26, multi-source molecules only (>=3 distinct winning firms): rows=2851 firms=151 total=B/.60,502,379 HHI=668 CR4=44.0%
+   CELMAR                                          9,427,822  15.6%  n=71
+   DROGUERIA RAMON GONZALEZ REVILLA                8,321,393  13.8%  n=93
+   CORPORACION IMPA-DOEL                           6,114,885  10.1%  n=73
+   PROMED (PROMOCION MEDICA)                       2,737,005   4.5%  n=110
+   BAXTER                                          2,327,962   3.8%  n=91
+   LABORATORIO JAYOR                               2,280,325   3.8%  n=51
+   LABORATORIOS RIGAR                              2,078,859   3.4%  n=57
+   LANCO MEDICAL GROUP                             2,075,256   3.4%  n=112
+   ABASTECEDORA MEDICA S A                         1,654,085   2.7%  n=40
+   PISA FARMACEUTICA                               1,524,028   2.5%  n=124
+   COMPANIA ASTOR                                  1,474,106   2.4%  n=129
+   C G DE HASETH                                   1,471,148   2.4%  n=186
+   SEVEN PHARMA                                    1,469,198   2.4%  n=94
+   NUTRIMED                                        1,341,024   2.2%  n=170
+   REPRICO                                         1,241,706   2.1%  n=81
+
+### CSS medicines 2023-26, single-winner molecules: rows=1212 firms=98 total=B/.89,987,734 HHI=3,365 CR4=82.1%
+   CORPORACION IMPA-DOEL                          48,968,997  54.4%  n=315
+   DROGUERIA RAMON GONZALEZ REVILLA               16,294,590  18.1%  n=78
+   REPRICO                                         5,135,125   5.7%  n=172
+   C G DE HASETH                                   3,526,158   3.9%  n=103
+   BAXTER                                          3,436,355   3.8%  n=6
+   BIOTECHNOLOGY SERVICES CORP                     2,145,600   2.4%  n=12
+   IMEDICASA                                       1,203,907   1.3%  n=25
+   INTERNACIONAL BIOFARMACEUTICA                   1,103,942   1.2%  n=19

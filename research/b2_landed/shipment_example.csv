@@ -1,0 +1,7 @@
+scenario,mode,cbm,fob_value_usd_assumed,ocean,dest_cfs_thc,dest_fixed_delivery_other,broker,insurance,duty,total_logistics,logistics_pct_of_fob,logistics_usd_per_cbm
+low,LCL,10.0,20000.0,1000,80,270,100,35,0,1485,7.4%,148
+low,FCL20 (filled),25,50000,2600,200,200,100,87,0,3187,6.4%,127
+base,LCL,10.0,20000.0,2000,250,495,200,73,0,3018,15.1%,302
+base,FCL20 (filled),19,38000,3750,300,375,200,138,0,4763,12.5%,251
+high,LCL,10.0,20000.0,3000,400,825,350,127,0,4702,23.5%,470
+high,FCL20 (filled),15,30000,5500,450,625,350,195,0,7120,23.7%,475

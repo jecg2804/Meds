@@ -1,0 +1,6 @@
+MINSA CM (OCDS 2020-Apr 2024): item-bids=21585, renglones=6283; P(win|any bid)=22%
+   multi-bid renglones: P(win|lowest price)=74% (n=2406); P(win|lowest & valid)=96%; P(win|not lowest)=7% (n=2947)
+   P(win|bid) by number of bidders in renglón: 1: 77%, 2: 37%, 3: 25%, 4: 20%, 5: 15%, 6+: 8%
+MINSA LP (OCDS 2020-Apr 2024): item-bids=2358, renglones=955; P(win|any bid)=33%
+   multi-bid renglones: P(win|lowest price)=64% (n=427); P(win|lowest & valid)=95%; P(win|not lowest)=7% (n=507)
+   P(win|bid) by number of bidders in renglón: 1: 85%, 2: 42%, 3: 29%, 4: 22%, 5: 12%, 6+: 8%

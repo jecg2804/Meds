@@ -1,0 +1,5 @@
+Renglones (OCDS MINSA/CSS pharma 2020-24) with both an Indian-origin and a non-Indian priced offer: 177
+  median ratio best Indian unit price / best non-Indian = 1.00  (p25 0.82, p75 1.19)
+  Indian strictly cheapest in 88 (50%); when cheapest, Indian bid won 69 (78%) and was disqualified 17 (19%)
+  rank of best Indian price among distinct prices: [(1, 101), (2, 52), (3, 19), (4, 4), (5, 1)]
+  Indian offer won the renglón in 79 (45%); had >=1 valid Indian bid in 80 (45%)

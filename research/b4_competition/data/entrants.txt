@@ -1,0 +1,10 @@
+CSS medicine winners 2025: firms=110, new vs 2023-24=23 (21%), value share of new=2.6%; top new: NOZOMI DEL ISTMO S A B/.1,046,445; BIOTECHNOLOGY SERVICES CORP B/.720,000; GENIMVE PHARMA S A B/.109,260; LABORATORIOS B/.68,623; CENFARMA B/.48,600; OPKOM S A B/.45,771
+CSS medicine winners 2026: firms=89, new vs 2023-24=23 (26%), value share of new=19.9%; top new: BIOTECHNOLOGY SERVICES CORP B/.1,425,600; LOGISTICS BUSINESS SERVICES  B/.304,440; GRUPO VALO S A B/.300,000; PHARMAINT S A B/.74,900; NOZOMI DEL ISTMO S A B/.66,291; DISTRIMEDIEQ PANAMA S A B/.45,615
+MINSA OCDS 2020: bidders=42, winners=24, first-seen bidders=42; of first-seen bidders, share that won >=1 renglón that year=57%
+MINSA OCDS 2021: bidders=143, winners=102, first-seen bidders=103; of first-seen bidders, share that won >=1 renglón that year=62%
+MINSA OCDS 2022: bidders=134, winners=95, first-seen bidders=34; of first-seen bidders, share that won >=1 renglón that year=38%
+MINSA OCDS 2023: bidders=135, winners=98, first-seen bidders=27; of first-seen bidders, share that won >=1 renglón that year=33%
+MINSA OCDS 2024: bidders=71, winners=48, first-seen bidders=3; of first-seen bidders, share that won >=1 renglón that year=33%
+MINSA OCDS: entrant (first seen 2022-23) vs incumbent (seen 2020-21), bids in 2022-23:
+  entrants: item-bids=579, win=17%, disqualified=56%, firms=61
+  incumbents: item-bids=14211, win=26%, disqualified=34%, firms=111

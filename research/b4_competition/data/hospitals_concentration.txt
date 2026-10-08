@@ -1,0 +1,45 @@
+
+==== Hospital Santo Tomás: all rows=129, medicine rows=46; types: [('LICITACION PUBLICA LEY 41', 26), ('LICITACION PUBLICA', 20)]
+
+### Hospital Santo Tomás medicines 2023-2026 (ANTAI): rows=46 firms=4 total=B/.6,614,847 HHI=8,339 CR4=100.0%
+   0                                               6,029,573  91.2%  n=41
+   DROGUERIA RAMON GONZALEZ REVILLA                  304,000   4.6%  n=1
+   CORPORACION IMPA-DOEL                             144,000   2.2%  n=1
+   REPRICO                                           137,274   2.1%  n=3
+
+==== Hospital del Niño: all rows=17257, medicine rows=832; types: [('CONTRATACION MENOR', 555), ('COMPRA MENOR', 160), ('CONTRATACION MENOR LEY 41', 70), ('COMPRA MENOR LEY 419', 28), ('LICITACION PUBLICA', 18), ('LICITACION', 1)]
+
+### Hospital del Niño medicines 2023-2026 (ANTAI): rows=832 firms=78 total=B/.6,792,603 HHI=607 CR4=36.9%
+   C G DE HASETH                                     842,302  12.4%  n=49
+   DROGUERIA RAMON GONZALEZ REVILLA                  614,917   9.1%  n=25
+   CELMAR                                            539,696   7.9%  n=41
+   CORPORACION IMPA-DOEL                             507,404   7.5%  n=33
+   NUTRIMED                                          478,369   7.0%  n=67
+   DROGUERIA E IMPORTADORA ALEMANA                   409,372   6.0%  n=33
+   PHARMA SUPPLIES CORP                              407,360   6.0%  n=28
+   REPRICO                                           405,584   6.0%  n=39
+   US PHARMACY SYSTEMS                               321,177   4.7%  n=17
+   PISA FARMACEUTICA                                 300,752   4.4%  n=74
+   COMPANIA ASTOR                                    260,426   3.8%  n=34
+   IMEXSATEC S A                                     206,508   3.0%  n=30
+
+==== Instituto Oncológico Nacional: all rows=8912, medicine rows=769; types: [('COMPRA MENOR', 71), ('LICITACION PUBLICA', 44), ('4200630637', 6), ('4200693428', 6), ('COMPRA DIRECTA', 5), ('4200586335', 3)]
+
+### Instituto Oncológico Nacional medicines 2023-2026 (ANTAI): rows=769 firms=78 total=B/.71,174,651 HHI=2,658 CR4=74.2%
+   CORPORACION IMPA-DOEL                          34,488,558  48.5%  n=49
+   REPRICO                                         8,251,874  11.6%  n=72
+   C G DE HASETH                                   6,127,013   8.6%  n=54
+   INSUMOS Y MEDICAMENTOS                          3,967,051   5.6%  n=7
+   DROGUERIA SARO                                  3,794,332   5.3%  n=14
+   COMPANIA ASTOR                                  3,602,136   5.1%  n=41
+   DROGUERIA RAMON GONZALEZ REVILLA                1,771,251   2.5%  n=25
+   SEVEN PHARMA                                    1,325,843   1.9%  n=53
+   NUTRIMED                                        1,094,502   1.5%  n=46
+   ORGANIZACION PANAMERICANA DE                      636,541   0.9%  n=9
+   CIA IMPORTADORA DE MEDICAMENTOS                   635,240   0.9%  n=14
+   INVERSIONES TAGORE                                550,086   0.8%  n=13
+
+==== MINSA (sede): all rows=820, medicine rows=1; types: [('CONVENIO MARCO', 1)]
+
+### MINSA (sede) medicines 2023-2026 (ANTAI): rows=1 firms=1 total=B/.284 HHI=10,000 CR4=100.0%
+   IMPORTADORA TRANSMUNDI S A                            284 100.0%  n=1
