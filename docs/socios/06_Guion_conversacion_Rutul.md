@@ -56,7 +56,7 @@ La idea es simple: usted no pide, usted traslada lo que piden otros. Cada mensaj
 
 ## Mensaje de apertura
 
-Cinco burbujas, en inglés, seguidas, en el grupo. Adjuntos: en la segunda, el cuestionario en blanco del 3PL (3PL_questionnaire_blank_EN.xlsx) para que vea qué piden; en la tercera, la hoja de datos de fábrica (Factory_data_for_3PL_quote.xlsx). Tono casual pero profesional; sin nombres de operadores ni cifras internas; nada que suene a redacción automática. Solo dos pedidos esta noche: la hoja de datos y el paquete del proveedor.
+Seis burbujas, en inglés, seguidas, en el grupo. Adjuntos: en la segunda, el cuestionario en blanco del 3PL (3PL_questionnaire_blank_EN.xlsx) para que vea qué piden; en la tercera, la hoja de datos de fábrica (Factory_data_for_3PL_quote.xlsx). Tono casual pero profesional; sin nombres de operadores ni cifras internas; nada que suene a redacción automática. Solo tres pedidos esta noche: la hoja de datos, el paquete del proveedor y su correo electrónico (Jaime no lo tiene).
 
 Burbuja 1:
 
@@ -92,6 +92,12 @@ Burbuja 5:
 
 ```text
 And since we're partners in this: could you share the usual regulatory and commercial package you give your distributors (El Salvador, Colombia)? CPP per product, WHO-GMP certificate and manufacturing licence, factory price list with MOQ and shelf life, and a sample of what ships with the goods (CoA, packing list, invoice). With that we can lock the first products and put a proper next-steps list on the table for both sides.
+```
+
+Burbuja 6 (el correo de Rutul, que hoy no tenemos):
+
+```text
+Also, what's the best email for you? Some of this is easier to send properly than over chat.
 ```
 
 Lo que hace: explica el retraso sin excusas, convierte la falla del 3PL en el primer pedido con una razón que no es nuestra, y la última burbuja lo mide: un exportador con la experiencia que dice tener manda ese paquete en un día, y cada documento lleva el nombre del fabricante, así que él mismo nos lo dice. Si pregunta por capital o porcentajes, la respuesta de las reglas: la propuesta de términos viene después de la lista de precios. Si contesta con generalidades, un solo recordatorio: «even the packing list of your last export shipment works, the logistics people only need the format».

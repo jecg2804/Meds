@@ -27,7 +27,7 @@ DOC_INDEX = [
     ('Resumen_ejecutivo_socios_inversionistas.md', 'Cuatro páginas para un socio o inversionista: qué es el negocio, veredicto, números, el 77% y cómo baja, tramos de capital, riesgos', 'Presentar el negocio'),
     ('Modelo_financiero_socios.xlsx', 'El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación', 'Cambiar un supuesto y ver el efecto'),
     ('Factory_data_for_3PL_quote.xlsx y 3PL_questionnaire_blank_EN.xlsx', 'Lo único que va a Rutul: la hoja de datos que debe llenar la fábrica y el cuestionario del 3PL en blanco', 'Reenviar'),
-    ('Anexo_Plan_de_negocio_completo.md', 'El plan de negocio en una sola pieza, del que salen los documentos 00 a 05', 'Consultar todo junto'),
+    ('Anexo_Plan_de_negocio_completo.md', 'El plan de negocio en una sola pieza, del que salen los documentos 00 a 05; repite su contenido, por eso vive solo en el repositorio y en el proyecto de Claude, no en Drive', 'Consultar todo junto'),
     ('Anexo_DD_hallazgos_en.md', 'Hallazgos de la primera ronda de debida diligencia, en inglés, con cada enlace', 'Verificar fuente por fuente'),
 ]
 
@@ -351,8 +351,9 @@ def apply_post(name, md):
         md = _rep(md, PEND_3PL_OLD, PEND_3PL_NEW, name)
         md = _rep(md, PASOS_3PL_OLD, PASOS_3PL_NEW, name)
     if name.startswith('01'):
-        md = _cut(md, '## Lo que un fabricante exportador manda sin que se lo pidan dos veces', '## Fuentes',
-                  'La lista de documentos que un fabricante exportador entrega sin que se los pidan dos veces (CPP, COPP, expediente CTD, artes, poderes, acuerdo de calidad, lista de precios, packing list) está en 06_Guion_conversacion_Rutul.md, donde se usa para pedirlos.\n\n', name, keep_end=True)
+        md = _cut(md, '## Lo que un fabricante exportador manda sin que se lo pidan dos veces', '## Fuentes', '', name, keep_end=True)
+        md = _rep(md, 'Se le piden los documentos que cualquier distribuidor pide (ver la sección siguiente) y se contrasta en privado.',
+                  'Se le piden los documentos que cualquier distribuidor pide (la lista del paquete estándar de un exportador está en 06_Guion_conversacion_Rutul.md) y se contrasta en privado.', name)
     if name.startswith('02'):
         md = _rep(md, '*(Gráfico: Cadena de valor y flujo de dinero · 4 eslabones, caso base. Ver el modelo en Excel.)*', CADENA, name)
         md = _cut(md, CAL_OLD_START, CAL_OLD_END, CALENDARIO, name)
@@ -372,6 +373,9 @@ def apply_post(name, md):
         md = _cut(md, HERR_OLD_START, HERR_OLD_END, HERR_NEW, name)
         md = _rep(md, LISTA_ABAJO_OLD, LISTA_ABAJO_NEW, name)
     if name.startswith('06'):
+        md = _rep(md, 'Cinco burbujas, en inglés, seguidas, en el grupo.', 'Seis burbujas, en inglés, seguidas, en el grupo.', name)
+        md = _rep(md, 'Solo dos pedidos esta noche: la hoja de datos y el paquete del proveedor.', 'Solo tres pedidos esta noche: la hoja de datos, el paquete del proveedor y su correo electrónico (Jaime no lo tiene).', name)
+        md = _rep(md, "Lo que hace: explica el retraso sin excusas,", "Burbuja 6 (el correo de Rutul, que hoy no tenemos):\n\n```text\nAlso, what's the best email for you? Some of this is easier to send properly than over chat.\n```\n\nLo que hace: explica el retraso sin excusas,", name)
         # tabla de seguimiento: celdas por llenar llevan guion
         def fill(m):
             return m.group(0).replace('|  |', '| — |').replace('|  |', '| — |')

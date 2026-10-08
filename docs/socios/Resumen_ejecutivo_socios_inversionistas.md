@@ -39,10 +39,10 @@ Capital acumulado que ponen los socios, por mes y escenario (incluye la fase 0):
 
 | Escenario | Mes 6 | Mes 9 | Mes 12 | Mes 18 | Mes 27 | Mes 36 | Mes 48 | Mes 60 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Pesimista | B/.-116 mil | B/.-148 mil | B/.-175 mil | B/.-229 mil | B/.-321 mil | B/.-402 mil | B/.-501 mil | B/.-599 mil |
-| Base (tarifas de mercado) | B/.-71 mil | B/.-90 mil | B/.-132 mil | B/.-225 mil | B/.-258 mil | B/.-258 mil | B/.-258 mil | B/.-258 mil |
-| Planificación (SignatureLex) | B/.-102 mil | B/.-121 mil | B/.-163 mil | B/.-265 mil | B/.-297 mil | B/.-297 mil | B/.-297 mil | B/.-297 mil |
-| Optimista | B/.-43 mil | B/.-51 mil | B/.-107 mil | B/.-184 mil | B/.-184 mil | B/.-184 mil | B/.-184 mil | B/.-184 mil |
+| Pesimista | B/.116 mil | B/.148 mil | B/.175 mil | B/.229 mil | B/.321 mil | B/.402 mil | B/.501 mil | B/.599 mil |
+| Base (tarifas de mercado) | B/.71 mil | B/.90 mil | B/.132 mil | B/.225 mil | B/.258 mil | B/.258 mil | B/.258 mil | B/.258 mil |
+| Planificación (SignatureLex) | B/.102 mil | B/.121 mil | B/.163 mil | B/.265 mil | B/.297 mil | B/.297 mil | B/.297 mil | B/.297 mil |
+| Optimista | B/.43 mil | B/.51 mil | B/.107 mil | B/.184 mil | B/.184 mil | B/.184 mil | B/.184 mil | B/.184 mil |
 
 En el caso base el dinero se recupera por dividendos desde el cierre del año 3 y el grueso en el año 4; en el pesimista no hay techo si nadie cierra, y para eso existen las compuertas.
 

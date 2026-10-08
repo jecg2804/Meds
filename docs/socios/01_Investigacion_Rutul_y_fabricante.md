@@ -69,9 +69,7 @@ Qué pedir antes de firmar nada:
 | Zywie pondría el capital de arranque (primera versión); después preguntó cuánto pondría el lado panameño; la última versión es 50/50 | No es verificable por registros; Bueno cerró el año fiscal 2025 con pérdida neta y deuda garantizada del orden de sus ventas | La posición de capital hay que fijarla por escrito (paso 9 del guion) antes de constituir nada |
 | Calidad de exportación | Dos lotes de Bueno fallaron pruebas oficiales en marzo de 2024 (ceftriaxona 1 g, uno de nuestros 11 productos, y amoxicilina dispersable); ninguna alerta nueva desde entonces | Se pide el informe de causa y corrección sin citar la fuente; si lo entrega por iniciativa propia es buena señal |
 
-Nada de esta tabla se le dice a Rutul. Se le piden los documentos que cualquier distribuidor pide (ver la sección siguiente) y se contrasta en privado.
-
-La lista de documentos que un fabricante exportador entrega sin que se los pidan dos veces (CPP, COPP, expediente CTD, artes, poderes, acuerdo de calidad, lista de precios, packing list) está en 06_Guion_conversacion_Rutul.md, donde se usa para pedirlos.
+Nada de esta tabla se le dice a Rutul. Se le piden los documentos que cualquier distribuidor pide (la lista del paquete estándar de un exportador está en 06_Guion_conversacion_Rutul.md) y se contrasta en privado.
 
 ## Fuentes
 

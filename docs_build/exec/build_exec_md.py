@@ -16,7 +16,7 @@ def k(x):
 def cum_row(label, key):
     c = D[key]['cum']
     pts = [6, 9, 12, 18, 27, 36, 48, 60]
-    return f'| {label} | ' + ' | '.join(k(-c[m - 1]) for m in pts) + ' |'
+    return f'| {label} | ' + ' | '.join(k(abs(c[m - 1])) for m in pts) + ' |'
 
 
 CURVAS = """| Escenario | Mes 6 | Mes 9 | Mes 12 | Mes 18 | Mes 27 | Mes 36 | Mes 48 | Mes 60 |
