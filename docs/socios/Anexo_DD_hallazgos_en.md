@@ -1,6 +1,6 @@
 # B6 Partner DD — Findings summary (public sources; compiled 2026-10-06 UTC)
 Subject: Rutul Divyakant Patel (DIN 05194106) / Zywie Worldwide / Nosher Pharmaceutical LLP / Shape Wellness Pvt Ltd / Modi Life Care Industries Ltd; plus newly identified Bueno Salud Care (India) Pvt Ltd.
-Raw log with every URL: notes/00_log.md. Downloads under downloads/ (untrusted).
+Raw log with every URL: research/b6_partner/notes/00_log.md in the code repository (Meds); downloads are kept there as untrusted data.
 
 ## A. VERIFIED FACTS (page opened; URL; access date 2026-10-06 UTC)
 

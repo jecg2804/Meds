@@ -6,20 +6,23 @@
 
 | Archivo | Qué contiene | Léalo para |
 | --- | --- | --- |
-| 00_Resumen_y_plan.md (este) | Veredicto, números que valen, línea de tiempo, plan por fases, posición de trabajo, pendientes, glosario | Entender el negocio en 15 minutos |
-| 01_Investigacion_Rutul_y_fabricante.md | Debida diligencia sobre Rutul Patel, Zywie, el fabricante identificado y sus empresas; qué pedirle | Saber con quién estamos tratando |
-| 02_Mercado_requisitos_y_competencia.md | Cómo compra el Estado, precios adjudicados frente a costo, competencia, ruta regulatoria y legal, canal privado | Saber dónde está el dinero y qué exige la ley |
-| 03_Costos_capital_y_proyeccion.md | Costos de arranque (mercado y SignatureLex), costos fijos, inversión hasta la primera venta y hasta el pico, proyección, riesgo simulado, supuestos | Saber cuánto hay que poner y cuánto puede volver |
-| 04_Logistica_y_operacion.md | Cómo funciona la operación, vida útil y bodega, cómo trabaja un 3PL y con quién cotizar, estimación logística, correos de cotización listos | Cerrar las cotizaciones |
+| LEAME.md | Esta guía: qué es cada archivo, en qué orden leerlo según su papel, dónde vive cada cosa y qué cambió en cada versión | Empezar |
+| 00_Resumen_y_plan.md (este) | Veredicto, números que valen, línea de tiempo, plan por fases y compuertas, posición de trabajo, pendientes, glosario | Entender el negocio en 15 minutos |
+| 01_Investigacion_Rutul_y_fabricante.md | Debida diligencia sobre Rutul Patel, Zywie y el fabricante identificado; qué pedirle y qué ha dicho frente a lo encontrado | Saber con quién estamos tratando |
+| 02_Mercado_requisitos_y_competencia.md | Cómo compra el Estado, canales de venta, precios adjudicados frente a costo, competencia, ruta regulatoria y legal, quién decide y cuánto tarda la DNFD | Saber dónde está el dinero y qué exige la ley |
+| 03_Costos_capital_y_proyeccion.md | Costos de arranque (mercado y SignatureLex), costos fijos, inversión por hito y por socio, proyección, sensibilidad, riesgo simulado, supuestos | Saber cuánto hay que poner y cuánto puede volver |
+| 04_Logistica_y_operacion.md | Operación, vida útil y bodega, operadores logísticos con licencia y estado de las cotizaciones, estimación logística, correos enviados | Cerrar las cotizaciones |
 | 05_Trato_socios_y_hoja_de_ruta.md | Estructura del trato con Patel, capital por socio, roles, pasos de constitución, contratos, honorarios legales, herramientas | Decidir cómo nos organizamos |
 | 06_Guion_conversacion_Rutul.md | Mensajes en inglés por etapas, respuestas a objeciones, qué no decir, señales, tabla de seguimiento | Hablar con Rutul |
+| 07_Auditoria_y_confianza.md | Cifra por cifra: fuente, verificación, confianza y cómo argumentarla; cómo leer el 77%; brechas y verificaciones posteriores | Defender los números ante socios e inversionistas |
+| Cotizaciones_3PL_seguimiento.md | Operadores logísticos: canal de contacto, evidencia de licencia, qué se pidió, cuándo, y qué respondieron | Seguir las cotizaciones |
+| Resumen_ejecutivo_socios_inversionistas.md | Cuatro páginas para un socio o inversionista: qué es el negocio, veredicto, números, el 77% y cómo baja, tramos de capital, riesgos | Presentar el negocio |
 | Modelo_financiero_socios.xlsx | El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación | Cambiar un supuesto y ver el efecto |
 | Factory_data_for_3PL_quote.xlsx y 3PL_questionnaire_blank_EN.xlsx | Lo único que va a Rutul: la hoja de datos que debe llenar la fábrica y el cuestionario del 3PL en blanco | Reenviar |
-| 07_Auditoria_y_confianza.md | Qué cifra está firme, cuál es supuesto, de dónde sale cada una, cómo argumentarla y qué falta; cómo leer el 77% | Defender los números ante socios e inversionistas |
 | Anexo_Plan_de_negocio_completo.md | El plan de negocio en una sola pieza, del que salen los documentos 00 a 05 | Consultar todo junto |
 | Anexo_DD_hallazgos_en.md | Hallazgos de la primera ronda de debida diligencia, en inglés, con cada enlace | Verificar fuente por fuente |
 
-Regla de uso: los documentos 00 a 06 y el modelo son para los tres socios panameños. A Rutul solo van la hoja de datos, el cuestionario del 3PL y, más adelante, el acuerdo de confidencialidad y la propuesta de términos. Nada de la investigación se le reenvía ni se le cita: se le piden los documentos y se contrastan en privado.
+Regla de uso: los documentos 00 a 07, el seguimiento de cotizaciones y el modelo son para los tres socios panameños. A Rutul solo van la hoja de datos, el cuestionario del 3PL y, más adelante, el acuerdo de confidencialidad y la propuesta de términos. Nada de la investigación se le reenvía ni se le cita: se le piden los documentos y se contrastan en privado.
 
 ## Veredicto
 
@@ -88,7 +91,12 @@ Si los registros se atrasan hasta septiembre de 2027 (pesimista), la primera ven
 
 El orden es verificar antes de constituir, registrar antes de comprar inventario y escalar solo con ventas probadas; cada compuerta es un punto para salir con la pérdida acotada.
 
-*(Gráfico: Plan por fases · 4 fases, 3 compuertas. Ver el modelo en Excel.)*
+| Fase | Qué se hace | Capital acumulado (caso base / con SignatureLex) | Termina en |
+| --- | --- | --- | --- |
+| 0. Verificar (ahora) | Hoja de datos y paquete del fabricante, lista de precios, cotizaciones (3PL, fianzas, regente, contador, IEA), segunda opinión legal, acuerdo de confidencialidad | Unos B/.2,700 entre los tres socios panameños | Compuerta 0: precio hasta 1.1 veces la referencia FOB, 150 días de crédito, registros pagados por Bueno, planta y fabricante del sistema nervioso verificados |
+| 1. Constituir y registrar (meses 0–6) | Pacto de accionistas, S.A., cuenta bancaria, licencia de la DNFD, contrato con el 3PL, 11 registros sanitarios | B/.70 mil / B/.100 mil | Compuerta 1: 8 o más registros aprobados, contrato con el 3PL, regente y Registro de Oferentes |
+| 2. Operar (meses 6–15) | Primer inventario, ofertas en compras menores, primer cobro, primer contrato centralizado | Hasta la primera venta, B/.90 mil / B/.121 mil; hasta el pico del mes 27, B/.258 mil / B/.297 mil | Compuerta 2: ventas anualizadas de B/.90 mil o más nueve meses después de la primera venta y menos de 30% de ofertas descalificadas |
+| 3. Escalar (año 2 en adelante) | Segunda ola (seis productos del sistema nervioso) y segunda licitación de precio único | Se define con la compuerta 2 | — |
 
 La fase 1 usa el plazo de 5–6 meses que plantearon los socios panameños para empresa, licencia y registros; la primera venta llega cuando entra el primer inventario, después del registro.
 
@@ -112,7 +120,7 @@ Próximos pasos de la fase 0:
 - [ ] Pedir a un bufete independiente una cotización del mismo alcance y una opinión escrita sobre el parentesco con el ministro.
 - [ ] Decidir quién opera a diario y cómo se reparte el capital entre los tres socios panameños.
 - [ ] Negociar la hoja de términos con las siete condiciones de la sección del trato.
-- [ ] Cotizar regente, contador y coordinador, y pedir una cotización indicativa del 3PL: los costos fijos son el supuesto que más mueve el resultado.
+- [ ] Cotizar regente, contador y coordinador (las cotizaciones indicativas de 3PL se pidieron el 8 de octubre): los costos fijos son el supuesto que más mueve el resultado.
 
 La cotización firme del 3PL puede esperar a la fase 1.
 
@@ -137,7 +145,7 @@ Lo que todavía no está verificado o cotizado, en orden de impacto en el result
 - [ ] Licencias de fabricación de la FDCA de Gujarat por bloque y planta de fabricación de cada producto (Sanand o Roorkee).
 - [ ] Si la fábrica tiene registros vigentes en Panamá o aprobaciones en países de referencia de la OMS (abrirían la ruta rápida).
 - [ ] Pliego de la compra conjunta MINSA-CSS del Decreto 16 de 2026 y fecha de la próxima LPU de la CSS.
-- [ ] Comparación detallada de los siete operadores logísticos (servicios, zonas, requisitos de alta) y validación del flete con un transitario.
+- [ ] Cotizaciones de 3PL: solicitudes indicativas enviadas el 8 de octubre a J. Cain, Osala, DSV e Interworld; BP Logistics, DHL y Farmazona por formulario o WhatsApp; cotización firme con la hoja de datos de fábrica; validación del flete con un transitario (seguimiento en Cotizaciones_3PL_seguimiento.md).
 - [ ] Tarifa real del IEA y patrones de referencia que debe aportar el solicitante.
 - [ ] Fabricante, licencias y certificados de los productos del sistema nervioso de la segunda ola.
 - [ ] Consulta escrita a la DNFD: si el depósito de un 3PL puede declararse como depósito de la agencia y si el regente del 3PL puede cubrirla o cada agencia necesita el suyo (DE 27, arts. 382 y 396–398); define el costo fijo más grande después del coordinador.

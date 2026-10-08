@@ -6,7 +6,12 @@
 
 La S.A. compraría genéricos terminados a Bueno a través de Zywie, los registraría en Panamá, los guardaría en un 3PL licenciado y los vendería por licitación a la CSS, el MINSA y los patronatos.
 
-*(Gráfico: Cadena de valor y flujo de dinero · 4 eslabones, caso base. Ver el modelo en Excel.)*
+| Eslabón | Qué hace | Qué gana (caso base) |
+| --- | --- | --- |
+| Bueno (fábrica, Sanand) | Fabrica, emite el CPP y los certificados, firma la carta del fabricante | Su margen de fábrica (si Patel participa en ella, no está verificado) |
+| Zywie (Rutul Patel) | Exporta y factura; hoy con margen propio | 15% sobre el precio de fábrica en la propuesta; el plan pide 5% o menos a libro abierto |
+| La S.A. panameña | Registra, licencia, almacena en un 3PL, oferta, entrega y cobra | Precio adjudicado menos costo puesto: 49–96% de margen bruto en compras menores; −24% a 92% en precio único |
+| CSS, MINSA y patronatos | Compran por PanamaCompra y pagan a 90 días desde la cuenta (unos 150 reales) | — |
 
 Gana por la diferencia entre el precio adjudicado y el costo puesto en Panamá: 49–96% de margen bruto estimado en compras menores y entre −24% y 92% en precio único ofertando 5% bajo el precio adjudicado, según el producto. Pierde por tiempo: el capital queda atado en registros, inventario, cuentas por cobrar y colateral de fianzas antes del primer cobro.
 
@@ -31,9 +36,16 @@ Las compras descentralizadas de la CSS pagan una mediana de 1.8 veces el precio 
 
 Tamaño al alcance de este catálogo: los productos de Zywie y Modi coinciden exactamente con B/.12.3 millones anuales de compras públicas. De eso, B/.4.4 millones no exigen equivalencia terapéutica ni licencia de controlados, y 43% del valor centralizado tuvo dos postores o menos. Los 11 productos de Bueno de la primera ola suman B/.2.2 millones al año en compras públicas; a precio de oferta y solo en los canales donde el margen permite ofertar, B/.1.5 millones.
 
-La LPU 01-2026 (proceso 2025-1-10-01-99-SPU-000009; precio de referencia B/.95.3 millones por 349 renglones, B/.91.98 millones según la CSS) recibió ofertas el 1 y 2 de diciembre de 2025; la CSS anunció 282 renglones adjudicados por unos B/.77.9 millones el 26 de marzo de 2026 y PanamaCompra la registra como adjudicada desde el 15 de mayo de 2026. Su vigencia es de 15 meses desde que quede ejecutoriada la adjudicación (cláusula 20 del pliego), así que vence hacia la segunda mitad de 2027. La LPU 11-2026 (antirretrovirales, controlados e intercambiables) aparece adjudicada el 31 de agosto de 2026. No hay una nueva LPU de medicamentos publicada ni un plan anual de compras de la CSS en PanamaCompra, así que la próxima LPU de síntesis química llegaría al vencer la actual, en la segunda mitad de 2027. Mientras tanto, el MINSA compra por subastas electrónicas de un solo producto (sin fianza de propuesta, 20% de cumplimiento, cantidades fijas) y ambas instituciones por contrataciones menores: en lo que va de 2026 llevan unas 3,300 contrataciones menores y 270 compras menores ágiles de medicamentos (MINSA 2,323 y 160; CSS 1,010 y 111).
+Qué hay en el calendario de compras, al 7 de octubre de 2026:
 
-Canal privado: el mercado de farmacias existe (importaciones de medicamentos por unos US$670 millones en 2024 y más de 1,100 puntos de venta), pero cuatro grupos integrados concentran 63% de las importaciones, la sustitución en mostrador solo se permite con productos de la lista de intercambiables de la DNFD, el MINSA vende 140 genéricos básicos a precio de licitación a cualquiera con receta, y los fabricantes indios fueron 14 de los 35 rechazos de registro de 2025. Para una marca desconocida sin visitadores, una primera etapa realista son 50–100 farmacias independientes a través de una droguería: B/.70–150 mil de ventas al año con 30–40% de margen bruto, menos un vendedor, el descuento de 20% a jubilados y cobros a 60–90 días. Suma entre B/.5 y 35 mil al año de contribución y no cambia el veredicto; el modelo no lo incluye.
+| Acto | Fechas verificadas | Qué implica para el plan |
+| --- | --- | --- |
+| LPU 01-2026 de la CSS (síntesis química; proceso 2025-1-10-01-99-SPU-000009; referencia B/.95.3 millones por 349 renglones, B/.91.98 millones según la CSS) | Ofertas el 1 y 2 de diciembre de 2025; 282 renglones adjudicados por unos B/.77.9 millones anunciados el 26 de marzo de 2026; estado «Adjudicado» en PanamaCompra desde el 15 de mayo de 2026; vigencia de 15 meses desde que quede ejecutoriada (cláusula 20) | Vence hacia la segunda mitad de 2027; la próxima LPU de síntesis química llegaría entonces. No hay LPU nueva ni plan anual de compras de la CSS publicado |
+| LPU 11-2026 de la CSS (antirretrovirales, controlados e intercambiables) | Adjudicada el 31 de agosto de 2026 | Fuera de nuestro catálogo |
+| Subastas en reversa del MINSA (un producto por acto) | 33 entre junio y el 6 de octubre de 2026, 28 adjudicadas | El canal centralizado disponible hoy: sin fianza de propuesta, 20% de cumplimiento, cantidades fijas |
+| Contrataciones menores y compras menores ágiles de medicamentos, 2026 | Unas 3,300 y 270 (MINSA 2,323 y 160; CSS 1,010 y 111) | El canal de la primera venta |
+
+El canal privado de farmacias y los demás canales fuera de PanamaCompra se comparan en la sección siguiente; ninguno cambia el veredicto de la fase 0.
 
 ## Canales de venta: lo que cubre el plan y lo que deja fuera
 
@@ -52,8 +64,6 @@ El modelo cubre un solo canal, la venta al Estado por PanamaCompra, porque es el
 ## Precios adjudicados frente al costo puesto en Panamá
 
 Ofertando 10% bajo la mediana de las compras menores, los 11 productos de Bueno dejan entre 49% y 96% de margen bruto estimado; ofertando 5% bajo el precio de la LPU, la ceftriaxona pierde dinero y otros dos no llegan al 20%.
-
-*(Gráfico: Precios: PanamaCompra y ANTAI, 2025–2026 · costo: referencias de India + logística, caso base del modelo. Ver el modelo en Excel.)*
 
 | Producto | Costo puesto, base (B/.) | Precio LPU (B/.) | Precio en compras menores (B/.) | Compras públicas al año (miles de B/.) |
 | --- | --- | --- | --- | --- |
@@ -114,6 +124,20 @@ Los productos de Bueno van por la ruta ordinaria: la autoridad india no figura e
 - Precios de transferencia: si Patel es accionista de la S.A. y dueño o socio de Zywie, las compras a Zywie son operaciones con parte relacionada en el exterior. Obligan a presentar el [Informe 930](https://dgi.mef.gob.pa/Internacional/I930.php) dentro de los 6 meses del cierre fiscal y a tener estudio de precios de transferencia; la multa por no presentarlo es 1% de esas operaciones.
 - Parentesco con el ministro de Salud: en una primera lectura no figura entre las incapacidades del art. 24 de la Ley 22, pero debe confirmarlo por escrito un abogado independiente (Ley 22, Ley 419 y Código de Ética de los servidores públicos). Mientras tanto, la S.A. solo oferta en actos competitivos publicados, no usa procedimientos excepcionales, nadie contacta funcionarios sobre actos en curso y se documenta que el ministro no interviene en los actos donde oferte. La [Ley 316 de 2022 y la circular ANTAI-DS-001-2026](https://antai.gob.pa/wp-content/uploads/2026/03/Circular-ANTAI-DS-001-2026.pdf) obligan a accionistas, directores y beneficiarios finales de toda empresa adjudicataria a presentar una declaración jurada de intereses particulares ante la ANTAI antes de firmar el contrato, así que el vínculo quedará declarado de todos modos.
 
+## Quién decide y cuánto tarda la DNFD
+
+El registro sanitario lo evalúa la Dirección Nacional de Farmacia y Drogas (DNFD) del MINSA, que dirige Uriel Pérez (director nacional desde al menos enero de 2025); el ministro de Salud es Fernando Boyd Galindo. La DNFD no publica tiempos reales por expediente; lo que sí publica da el orden de magnitud de su carga y de la nuestra:
+
+| Dato verificado | Fuente | Qué implica para el plan |
+| --- | --- | --- |
+| Entre julio de 2022 y junio de 2023 la DNFD recibió 844 solicitudes de registro de medicamentos nuevos y 1,326 de renovación, y emitió 1,322 registros; el propio informe habla de «por arriba de 1,000 solicitudes» y «más de 1,000 certificados» al año | MINSA, 4.º informe de gestión 2022–2023 | Nuestros 11 expedientes son 1% de la cola anual: el plazo lo fija la cola, no nuestro volumen; por eso el modelo usa 5–9 meses y no los 80 días hábiles de la ley |
+| Ruta abreviada del DE 2 de 2025 para productos ya registrados por una autoridad de referencia de la OMS: revisión en un máximo de 10 días hábiles más 5 para subsanar | TVN-2, 15 de enero de 2025 | No aplica a los productos de Bueno (la CDSCO no es autoridad de referencia); sí beneficia a competidores con registros de la FDA o la EMA |
+| La salida de EE. UU. de la OMS podría sacar a la FDA de la lista de referencia; la DNFD dijo que en ese caso ajustaría el decreto | La Estrella, 31 de enero de 2025 | Riesgo para los competidores que dependen de la ruta rápida, no para nosotros |
+| El IEA (Universidad de Panamá) hace el análisis de control previo y los estudios de estabilidad para la zona climática IVb; en 2015 recibía unas 900 solicitudes al año y tardaba entre 3 meses y 1 año por análisis | TVN-2, enero de 2025; La Prensa vía Salud y Fármacos, agosto de 2015 | La Ley 419 fija 60 días hábiles; el dato de 2015 es viejo, pero explica por qué el modelo deja margen |
+| Los certificados OMS-BPM (COPP) de la India se tramitan solo en línea, por el portal ONDLS, desde el 15 de agosto de 2025 (circulares de la CDSCO del 25 de junio y del 15 de julio de 2025) | Medical Dialogues, 11 de agosto de 2025 | Pedir a Rutul el COPP emitido por ONDLS, verificable en línea; un certificado reciente solo en papel es una señal amarilla |
+
+Documentos extranjeros: lo que entra al expediente va en español o con traducción de traductor público autorizado; el costo por página no está regulado y se cotiza junto con los expedientes.
+
 ## Fuentes
 
 Compras públicas
@@ -141,3 +165,8 @@ Mercado y pagos
 - Canal privado: [Comtrade, importaciones de medicamentos 2024](https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=591&period=2024&cmdCode=3004&flowCode=M) · [La Estrella: concentración de importadores](https://www.laestrella.com.pa/panama/nacional/las-razones-detras-del-alto-precio-de-los-medicamentos-BF8755425) · [MINSA: programa de medicamentos accesibles y precios mínimos en farmacias](https://www.minsa.gob.pa/sites/default/files/general/programa_medicamentos_baratos_7_julio_2025.pdf) · [DNFD: lotes subestándar 2025–2026](https://dnfd.minsa.gob.pa/medicamentos-subestandar)
 - [La Prensa: caso Bio Materiales](https://www.prensa.com/unidad-investigativa/el-minsa-autorizo-a-la-antigua-empresa-del-ministro-boyd-a-importar-medicinas-sin-registro-sanitario/)
 - [Panamá América: el MINSA niega favorecimiento a Bio Materiales](https://www.panamaamerica.com.pa/sociedad/minsa-niega-favorecimiento-empresa-y-justifica-compra-excepcional-de-farmacos-1263043)
+
+Autoridad sanitaria y capacidad
+
+- [MINSA: 4.º informe de gestión 2022–2023 (Departamento de Registro Sanitario, gráfica 15)](https://www.minsa.gob.pa/sites/default/files/publicacion-general/4to_informe_de_gestion_2022-2023consolidado_22-09-23.pdf) · [TVN-2, 15 de enero de 2025: registro abreviado en 10 días hábiles; Uriel Pérez, director nacional de Farmacia y Drogas](https://www.tvn-2.com/contenido-exclusivo/panama-ley-de-medicamentos-seguridad-pacientes-minsa_1_2172763.html) · [La Estrella, 31 de enero de 2025: salida de EE. UU. de la OMS y registro de medicamentos](https://www.laestrella.com.pa/panama/nacional/salida-de-ee-uu-de-la-oms-complica-al-minsa-y-el-registro-de-medicamentos-NC10476319)
+- [Salud y Fármacos (La Prensa, 26 de agosto de 2015): carga de trabajo del IEA](https://www.saludyfarmacos.org/?p=47058) · [Medical Dialogues, 11 de agosto de 2025: solicitudes de WHO-GMP y COPP solo por el portal ONDLS desde el 15 de agosto de 2025](https://medicaldialogues.in/news/industry/pharma/cdsco/no-more-physical-who-gmp-certificate-applications-after-august-15-dcgi-alerts-pharma-firms-153274)

@@ -1,10 +1,13 @@
-import json, base64, io
+import json, base64, io, os
+HERE = os.path.dirname(os.path.abspath(__file__))
+BUILD = os.environ.get('BUILD_DIR', os.path.join(HERE, '..', '..', 'build'))
+os.makedirs(BUILD, exist_ok=True)
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 
-D = json.load(open('/tmp/claude-0/-home-claude/2629068a-9884-5985-86af-4e8c2e8b881c/scratchpad/exec/curves.json'))
+D = json.load(open(os.path.join(HERE, 'curves.json')))
 BLUE, ORANGE, AQUA = '#2a78d6', '#eb6834', '#1baf7a'
 INK, INK2, GRID = '#0b0b0b', '#52514e', '#e6e5e1'
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 10, 'axes.edgecolor': GRID, 'axes.labelcolor': INK2,
@@ -51,5 +54,5 @@ for s in ('top', 'right'): ax.spines[s].set_visible(False)
 ax.tick_params(axis='y', length=0)
 c2 = b64(fig)
 
-json.dump({'c1': c1, 'c2': c2}, open('/tmp/claude-0/-home-claude/2629068a-9884-5985-86af-4e8c2e8b881c/scratchpad/exec/charts.json', 'w'))
+json.dump({'c1': c1, 'c2': c2}, open(os.path.join(BUILD, 'charts.json'), 'w'))
 print('charts ok', len(c1) // 1024, len(c2) // 1024, 'KB')

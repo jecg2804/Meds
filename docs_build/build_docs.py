@@ -14,6 +14,8 @@ os.makedirs(OUT, exist_ok=True)
 XIN = os.path.join(HERE, '..', 'model', 'xlsx_inputs')                    # questionnaire + factory sheet (repo)
 PERSONAL_XLSX = os.environ.get('PERSONAL_MODEL_XLSX', os.path.join(UD, 'Modelo_financiero_distribuidora_medicamentos_Panama.xlsx'))
 EX = os.path.join(HERE, 'exports')
+XLSX_OUT = os.environ.get('XLSX_OUT', os.path.join(HERE, '..', 'outputs'))   # Excel deliverables live in outputs/, not with the md
+os.makedirs(XLSX_OUT, exist_ok=True)
 rd = lambda n: open(os.path.join(EX, n), encoding='utf-8').read()
 plan = rd('Plan_de_negocio_distribuidora_de_medicamentos_para_compras_públicas_en_Panamá.md')
 guion = rd('Conversación_con_Rutul_guion_por_etapas.md')
@@ -358,7 +360,9 @@ assert DICHO_OLD in DICHO; DICHO = DICHO.replace(DICHO_OLD, DICHO_NEW)
 assert PENDIENTES_OLD in PENDIENTES; PENDIENTES = PENDIENTES.replace(PENDIENTES_OLD, PENDIENTES_NEW)
 assert MAPA_OLD in MAPA; MAPA = MAPA.replace(MAPA_OLD, MAPA_NEW)
 H['Cotizar el 3PL: con quién y cómo'] = H['Cotizar el 3PL: con quién y cómo'].rstrip() + HOJA_RFQ_NOTE
+HEADER0 = HEADER
 HEADER = HEADER.replace('Preparado el 7 de octubre de 2026', 'Preparado el 7 de octubre de 2026 y revisado el 8 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md)')
+guion_md = guion_md.replace(HEADER0, HEADER, 1)   # 06 lleva el mismo encabezado revisado
 
 # ---------- 00 ----------
 doc00 = doc('Distribuidora de medicamentos en Panamá: resumen, plan y guía de lectura', '', [
@@ -382,7 +386,7 @@ doc01 = doc('Investigación sobre Rutul Patel, Zywie y el fabricante', '', [
     sec(P, 'Debida diligencia del socio', 'Hallazgos'),
     DICHO,
     sec(G, 'Lo que un fabricante exportador manda sin que se lo pidan dos veces'),
-], fuentes('Compras públicas', extra=dd_extra))
+], '## Fuentes\n\n' + dd_extra + '\n')
 
 # ---------- 02 ----------
 doc02 = doc('Mercado, requisitos y competencia', '', [
@@ -441,8 +445,12 @@ files = {
     '07_Auditoria_y_confianza.md': doc07(HEADER).replace('## Fuentes de esta auditoría', VERIF_PRECIOS + '\n## Fuentes de esta auditoría').replace('- Las demás fuentes de la capa 1', VERIF_FUENTES + '- Las demás fuentes de la capa 1'),
     'Anexo_Plan_de_negocio_completo.md': anexo_plan,
 }
+from audit_edits2 import apply_post, LEAME
+files['LEAME.md'] = LEAME
 for name, md in files.items():
+    md = apply_post(name, md)          # tercera pasada de auditoría (8 de octubre, noche)
     md = re.sub(r'\n{3,}', '\n\n', md)
+    files[name] = md
     open(os.path.join(OUT, name), 'w', encoding='utf-8').write(md)
     print(f'{name}: {len(md.encode()):,} bytes, {md.count(chr(10))} lines')
 
@@ -456,7 +464,9 @@ for word in ('100,000', 'ahorros de B/.', 'otra oportunidad'):
 print('checks ok: messages clean, no private figures')
 
 # ---------- annex: English DD findings ----------
-shutil.copy(os.path.join(HERE, '..', 'research', 'b6_partner', 'notes', '01_findings_summary.md'), os.path.join(OUT, 'Anexo_DD_hallazgos_en.md'))
+_dd = open(os.path.join(HERE, '..', 'research', 'b6_partner', 'notes', '01_findings_summary.md'), encoding='utf-8').read()
+_dd = _dd.replace('Raw log with every URL: notes/00_log.md. Downloads under downloads/ (untrusted).', 'Raw log with every URL: research/b6_partner/notes/00_log.md in the code repository (Meds); downloads are kept there as untrusted data.')
+open(os.path.join(OUT, 'Anexo_DD_hallazgos_en.md'), 'w', encoding='utf-8').write(_dd)
 
 # ---------- blank 3PL questionnaire (English tab only) ----------
 from openpyxl import load_workbook
@@ -465,8 +475,8 @@ for s in list(wb.sheetnames):
     if 'Ingl' not in s:
         del wb[s]
 wb.active = 0
-wb.save(os.path.join(OUT, '3PL_questionnaire_blank_EN.xlsx'))
-shutil.copy(os.path.join(XIN, 'Factory_data_for_3PL_quote.xlsx') if os.path.exists(os.path.join(XIN, 'Factory_data_for_3PL_quote.xlsx')) else os.path.join(UD, 'Factory_data_for_3PL_quote.xlsx'), os.path.join(OUT, 'Factory_data_for_3PL_quote.xlsx'))
+wb.save(os.path.join(XLSX_OUT, '3PL_questionnaire_blank_EN.xlsx'))
+shutil.copy(os.path.join(XIN, 'Factory_data_for_3PL_quote.xlsx') if os.path.exists(os.path.join(XIN, 'Factory_data_for_3PL_quote.xlsx')) else os.path.join(UD, 'Factory_data_for_3PL_quote.xlsx'), os.path.join(XLSX_OUT, 'Factory_data_for_3PL_quote.xlsx'))
 
 # ---------- partner version of the Excel model ----------
 if os.path.exists(PERSONAL_XLSX):
@@ -499,7 +509,7 @@ if os.path.exists(PERSONAL_XLSX):
             for c in row:
                 if isinstance(c.value, str) and 'Capital personal' in c.value:
                     c.value = c.value.replace('Capital personal', 'Capital por socio')
-    xl = os.path.join(OUT, 'Modelo_financiero_socios.xlsx')
+    xl = os.path.join(XLSX_OUT, 'Modelo_financiero_socios.xlsx')
     wb.save(xl)
     print('partner excel saved')
 else:

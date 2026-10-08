@@ -5,8 +5,11 @@ Run: python3 build_html.py [SOCIOS_DIR]
 """
 import os, re, subprocess, sys, html, json
 
-SRC = sys.argv[1] if len(sys.argv) > 1 else '/mnt/user-data/outputs/socios'
-OUT_HTML = os.path.join(SRC, 'Farma_paquete_socios.html')
+HERE = os.path.dirname(os.path.abspath(__file__))
+SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, '..', 'docs', 'socios')
+BUILD = os.environ.get('BUILD_DIR', os.path.join(HERE, '..', 'build'))   # HTML is an intermediate for the PDF; not versioned
+os.makedirs(BUILD, exist_ok=True)
+OUT_HTML = os.path.join(BUILD, 'Farma_paquete_socios.html')
 DOCS = [
     ('00', '00_Resumen_y_plan.md', 'Resumen y plan'),
     ('01', '01_Investigacion_Rutul_y_fabricante.md', 'Investigación de Rutul y el fabricante'),
@@ -16,6 +19,7 @@ DOCS = [
     ('05', '05_Trato_socios_y_hoja_de_ruta.md', 'Trato, socios y hoja de ruta'),
     ('06', '06_Guion_conversacion_Rutul.md', 'Guion de conversación con Rutul'),
     ('07', '07_Auditoria_y_confianza.md', 'Auditoría y confianza'),
+    ('CO', 'Cotizaciones_3PL_seguimiento.md', 'Cotizaciones de 3PL: seguimiento'),
 ]
 TITLE = {k: t for k, _, t in DOCS}
 
@@ -112,7 +116,7 @@ pre code{font-family:inherit;font-size:inherit}
 
 parts, nav, issues = [], [], []
 # executive summary body
-exec_path = os.path.join(SRC, 'Resumen_ejecutivo_socios_inversionistas.html')
+exec_path = os.path.join(BUILD, 'Resumen_ejecutivo_socios_inversionistas.html')
 if os.path.exists(exec_path):
     e = open(exec_path, encoding='utf-8').read()
     body = e[e.index('<div class="page">') + len('<div class="page">'):e.rindex('</div></body>')]
@@ -127,8 +131,8 @@ for key, fn, title in DOCS:
     h = link_refs(h)
     h, toc = heading_ids(h, 'd' + key)
     # first h1 → section title with anchor
-    h = re.sub(r'<h1>(.*?)</h1>', lambda m: f'<h1>{key} · {m.group(1)}</h1>', h, count=1)
-    h = h.replace('<p><em>Preparado el', '<p class="meta"><em>Preparado el', 1)
+    h = re.sub(r'<h1>(.*?)</h1>', lambda m: (f'<h1>{key} · {m.group(1)}</h1>' if key != 'CO' else f'<h1>{m.group(1)}</h1>'), h, count=1)
+    h = h.replace('<p><em>Preparado el', '<p class="meta"><em>Preparado el', 1).replace('<p><em>Actualizado el', '<p class="meta"><em>Actualizado el', 1)
     parts.append(f'<section class="doc" id="doc-{key}">{h}</section>')
     nav.append((key, title, [(t, s) for lvl, t, s in toc if lvl == '2']))
 
@@ -154,16 +158,17 @@ index = """
 <tr><td><a href="#doc-04">04 Logística y operación</a></td><td>3PL, vida útil, costos logísticos y su naturaleza, correos de cotización</td></tr>
 <tr><td><a href="#doc-05">05 Trato, socios y hoja de ruta</a></td><td>Estructura del trato, capital por socio, roles, hoja de términos, contratos, honorarios legales</td></tr>
 <tr><td><a href="#doc-06">06 Guion de conversación con Rutul</a></td><td>Qué pedir, en qué orden, con qué palabras; señales; tabla de seguimiento</td></tr>
-<tr><td><a href="#doc-07">07 Auditoría y confianza</a></td><td>Cifra por cifra: fuente, verificación, confianza y cómo argumentarla; brechas</td></tr>
+<tr><td><a href="#doc-07">07 Auditoría y confianza</a></td><td>Cifra por cifra: fuente, verificación, confianza y cómo argumentarla; brechas; verificaciones posteriores</td></tr>
+<tr><td><a href="#doc-CO">Cotizaciones de 3PL: seguimiento</a></td><td>Operadores logísticos, canal, licencias, qué se pidió y cuándo, respuestas</td></tr>
 </tbody></table>
-<p class="meta">Reglas: ninguna cifra se cambia a mano en este archivo; se corrige la fuente (Markdown) y se regenera. Los archivos de Excel (modelo, hoja de datos de fábrica, cuestionario del 3PL) acompañan a este paquete.</p>
+<p class="meta">Este PDF se genera desde los archivos Markdown del paquete (fuente única; índice en LEAME.md); ninguna cifra se cambia a mano aquí. Los archivos de Excel (modelo, hoja de datos de fábrica, cuestionario del 3PL) acompañan al paquete.</p>
 </div>
 </section>
 """
 
 navhtml = '<nav><h1>Farma · socios</h1><div class="doc"><a href="#top">Cómo leer este paquete</a></div>'
 for key, title, subs in nav:
-    label = ('Resumen ejecutivo' if key == 'RE' else f'{key} {title}')
+    label = ('Resumen ejecutivo' if key == 'RE' else title if key == 'CO' else f'{key} {title}')
     navhtml += f'<div class="doc"><a href="#doc-{key}">{label}</a></div>'
     if subs:
         navhtml += '<ul>' + ''.join(f'<li><a href="#{s}">{html.escape(t)}</a></li>' for t, s in subs[:12]) + '</ul>'
@@ -177,4 +182,4 @@ print('package:', OUT_HTML, len(page) // 1024, 'KB')
 print('audit issues:', len(issues))
 for i in issues[:60]:
     print(' -', i)
-json.dump(issues, open(os.path.join(SRC, 'html', 'audit_issues.json'), 'w'), ensure_ascii=False, indent=1)
+json.dump(issues, open(os.path.join(BUILD, 'audit_issues.json'), 'w'), ensure_ascii=False, indent=1)

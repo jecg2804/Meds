@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 import json, os
-C = json.load(open('/tmp/claude-0/-home-claude/2629068a-9884-5985-86af-4e8c2e8b881c/scratchpad/exec/charts.json'))
-OUT = '/mnt/user-data/outputs/socios'
+HERE = os.path.dirname(os.path.abspath(__file__))
+BUILD = os.environ.get('BUILD_DIR', os.path.join(HERE, '..', '..', 'build'))
+C = json.load(open(os.path.join(BUILD, 'charts.json')))
+OUT = BUILD   # the HTML is only an intermediate for the PDF; Markdown is the reading format
 
 CSS = """
 :root{--ink:#0b0b0b;--ink2:#52514e;--muted:#8a8984;--line:#e6e5e1;--surface:#ffffff;--tile:#f6f5f2;--accent:#2a78d6;--warn:#b45309}

@@ -9,3 +9,5 @@ personal.json
 *_personal*.xlsx
 Modelo_financiero_distribuidora_medicamentos_Panama.xlsx
 private/
+build/
+docs_build/audit_report.json

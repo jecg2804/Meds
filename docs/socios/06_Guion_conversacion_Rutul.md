@@ -1,6 +1,6 @@
 # Conversación con Rutul: guion por etapas
 
-*Preparado el 7 de octubre de 2026 para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras salen del modelo financiero adjunto (Modelo_financiero_socios.xlsx) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 8 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras salen del modelo financiero adjunto (Modelo_financiero_socios.xlsx) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 Objetivo: conseguir de Rutul, en el grupo de WhatsApp y sin que lo sienta como un ataque, los documentos y las condiciones que deciden si el negocio vale la pena, y de paso medirlo como socio. Se pide como socios que necesitan saber antes de poner dinero, no como investigadores: nada de lo que ya sabemos por registros públicos se menciona; se pide el documento y se contrasta en privado. Un pedido por mensaje, en inglés y corto, esperando su respuesta antes del siguiente.
 
@@ -239,13 +239,13 @@ Anote aquí cada pedido al mandarlo y cada respuesta al recibirla; con esta tabl
 
 | # | Pedido | Mandado por | Fecha de envío | Respuesta de Rutul | Documento recibido | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Packing list y ficha técnica por producto | Jaime |  |  |  | Por pedir |
-| 2 | Confirmación de los 11 productos y CPP de cada uno | Jaime |  |  |  | Por pedir |
-| 3 | Lista de precios FOB, lote mínimo y vida útil | Jaime |  |  |  | Por pedir |
-| 4 | Posición sobre quién paga los registros | Jaime |  |  |  | Por pedir |
-| 5 | COPP vigente, licencias por bloque e informe de los lotes de 2024 | Jaime o Francisco |  |  |  | Por pedir |
-| 6 | Accionistas, estados auditados, El Salvador y dos referencias | Francisco |  |  |  | Por pedir |
-| 7 | Crédito de 150–180 días sin anticipo | Jaime |  |  |  | Por pedir |
-| 8 | Quién factura y margen de Zywie a libro abierto | Francisco |  |  |  | Por pedir |
-| 9 | Empaque impreso con el número de licitación en corridas pequeñas | Jaime |  |  |  | Por pedir |
-| 10 | Propuesta de términos de una página (la mandamos nosotros) | Francisco y Jaime |  |  |  | Por pedir |
+| 1 | Packing list y ficha técnica por producto | Jaime | — | — | — | Por pedir |
+| 2 | Confirmación de los 11 productos y CPP de cada uno | Jaime | — | — | — | Por pedir |
+| 3 | Lista de precios FOB, lote mínimo y vida útil | Jaime | — | — | — | Por pedir |
+| 4 | Posición sobre quién paga los registros | Jaime | — | — | — | Por pedir |
+| 5 | COPP vigente, licencias por bloque e informe de los lotes de 2024 | Jaime o Francisco | — | — | — | Por pedir |
+| 6 | Accionistas, estados auditados, El Salvador y dos referencias | Francisco | — | — | — | Por pedir |
+| 7 | Crédito de 150–180 días sin anticipo | Jaime | — | — | — | Por pedir |
+| 8 | Quién factura y margen de Zywie a libro abierto | Francisco | — | — | — | Por pedir |
+| 9 | Empaque impreso con el número de licitación en corridas pequeñas | Jaime | — | — | — | Por pedir |
+| 10 | Propuesta de términos de una página (la mandamos nosotros) | Francisco y Jaime | — | — | — | Por pedir |

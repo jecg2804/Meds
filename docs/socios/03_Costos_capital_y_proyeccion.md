@@ -53,7 +53,7 @@ Evidencia pública de costos revisada el 7 de octubre de 2026. Ninguna asegurado
 | Flete | US$200 por m³ marítimo + 100 de destino | Tarifa FAK de 20 pies India–Manzanillo: US$3,750 en junio de 2026 (+44% desde febrero); desconsolidación US$86.5 por m³; THC en Manzanillo US$275 por contenedor | Contenedor a US$180–220 por m³; la carga consolidada puede subir a 250–300 |
 | Corredor de aduana | Dentro del flete | Mínimo legal: B/.50 + 0.15% del CIF, más B/.2 por línea | B/.200–400 por embarque |
 | ITBMS de importación | Medicamentos exentos | Confirmado: capítulo 30 del arancel, Código Fiscal art. 1057-V | Sin cambio |
-| Cargas laborales | 28% | CSS patronal 13.25% (14.25% desde marzo de 2027), seguro educativo 1.5%, riesgos profesionales \~1.5%, XIII mes 8.33%, prima de antigüedad 1.92% | Se mantiene; sube un punto en 2027 |
+| Cargas laborales | 28% | CSS patronal 13.25% (14.25% desde marzo de 2027), seguro educativo 1.5%, riesgos profesionales unos 1.5%, XIII mes 8.33%, prima de antigüedad 1.92% | Se mantiene; sube un punto en 2027 |
 | Seguro de carga | B/.100 al mes | 0.3–0.5% del CIF para carga farmacéutica | Equivalente |
 
 ## Inversión hasta la primera venta y hasta el pico
@@ -96,8 +96,6 @@ Lectura: hasta la primera venta, 82% del dinero son arranque, registros y costos
 
 El capital lo consume el tiempo: se paga al proveedor antes de embarcar y se cobra unos 150 días después de entregar, así que en el caso base los socios ponen unos B/.222 mil hasta el mes 18 y B/.255 mil hasta el mes 27, cuando hay que afianzar la segunda LPU.
 
-*(Gráfico: Modelo financiero, caso base · aportes acumulados de los meses 1 a 27. Ver el modelo en Excel.)*
-
 Ciclo de caja del caso base: 30% de anticipo al ordenar y 70% al embarcar; tres meses de reposición; tres meses de cobertura para compras menores; cobro a 150 días (los pliegos pagan a 90 días desde la cuenta, más recepción y atrasos). El colateral viene de las fianzas: 30% del valor máximo del contrato de 15 meses en la LPU y 20% en el MINSA, más 10% de la oferta como fianza de propuesta en la LPU mientras se evalúa, con la mitad en efectivo.
 
 Los pagos del Estado mejoraron: la gestión de cobro en la Contraloría bajó de 188.5 a 5.4 días en promedio en 2025 (de 220.8 a 32.9 días para cobros mayores de B/.200 mil, la cifra que aplica a una LPU), y la Contraloría reporta 3.8 días en septiembre de 2026 ([Panamá América](https://www.panamaamerica.com.pa/sociedad/gestiones-de-cobro-en-la-contraloria-pasan-de-1885-dias-en-la-administracion-cortizo-54)), aunque eso mide solo ese paso del cobro. La CSS todavía reconocía pagos pendientes a proveedores en marzo de 2026 ([Panamá América](https://www.panamaamerica.com.pa/sociedad/la-css-es-un-reflejo-de-la-economia-nacional-asegura-dino-mon-1259540/amp)). Un préstamo bancario es poco probable sin dos años de estados auditados, que también piden las aseguradoras para las fianzas, junto con codeudores solidarios y colateral líquido o bancario para una empresa sin historial.
@@ -117,8 +115,6 @@ Con Bueno pagando los registros, 180 días de crédito, precio a libro abierto, 
 ## Proyección financiera
 
 En el caso base, el negocio vende unos B/.265 mil al año desde el año 3 y gana unos B/.64 mil netos, pero exige B/.255 mil de capital y devuelve 6.8% anual. No alcanza la tasa mínima de 15% de este informe, y a 30%, la que el modelo asigna a una pyme nueva con riesgo de socio y de cobro, el VPN es −B/.107 mil.
-
-*(Gráfico: Modelo financiero · caso base y variante con Bueno financiando, meses 0 a 60. Ver el modelo en Excel.)*
 
 | Indicador | Pesimista | Base | Optimista |
 | --- | --- | --- | --- |
@@ -159,8 +155,6 @@ El modelo ya incluye las cargas laborales del regente y del coordinador (28%), e
 
 En 20,000 simulaciones, la S.A. como la propone Patel pierde dinero en 77% de los casos y su múltiplo mediano es 0.62x. Ninguna de las cinco estructuras tiene valor esperado positivo al 15%: van de −B/.158 mil a −B/.25 mil. Con Bueno financiando, la de menor probabilidad de pérdida, da −B/.32 mil, y +B/.18 mil solo si un socio opera sin sueldo.
 
-*(Gráfico: Simulación de Monte Carlo del modelo financiero · 20,000 escenarios por estructura. Ver el modelo en Excel.)*
-
 Cada escenario sortea todos los supuestos entre su valor pesimista, base y optimista; si cada registro se aprueba; y si cada renglón centralizado se gana en cada ciclo. También sortea un problema de planta (15% de probabilidad; la fase 0 lo detecta en 80% de los casos y, si pasa, termina en falla de calidad, fianza ejecutada e inventario perdido) y una ruptura con el proveedor (4% anual).
 
 Las compuertas recortan pérdidas: en la versión por etapas, la fase 0 descarta el trato en 21% de los casos con un costo promedio de unos B/.3,300, y la compuerta operativa cierra otro 17% cuando las ventas anualizadas no llegan a B/.90 mil nueve meses después de la primera venta. Con la rampa base de 12 meses, ese umbral equivale a unos B/.108 mil en madurez, algo más que el equilibrio de B/.106 mil; en las versiones con los productos del sistema nervioso, las dos compuertas cierran 12% y 4.5%. El problema es cuánto se pone antes de saber: al llegar a la compuerta operativa, la mediana ya va en B/.197–226 mil (B/.165 mil si Bueno financia).
@@ -169,7 +163,22 @@ La simulación solo descarta el trato en la fase 0 por problemas de planta o por
 
 La simulación sale peor que el caso base por tres razones: los riesgos se cargan hacia abajo (todo tarda más y cuesta más), 13–30% de los escenarios tienen una falla grave, y ganar un contrato centralizado exige colateral e inventario de golpe.
 
-*(Gráfico: Modelo financiero, caso base · sensibilidad de un supuesto a la vez. Ver el modelo en Excel.)*
+Sensibilidad del caso base (VPN al 15%: −B/.56 mil; capital B/.255 mil), moviendo un supuesto a la vez de su valor pesimista a su valor optimista, ordenada por el tamaño del efecto:
+
+| Supuesto | Pesimista → optimista | VPN al 15% (pesimista / optimista) | Capital (pesimista / optimista) |
+| --- | --- | --- | --- |
+| Costos fijos mensuales con cargas laborales e ITBMS | B/.8,400 → B/.2,655 al mes | −B/.181 mil / +B/.10 mil | B/.358 mil / B/.205 mil |
+| Probabilidad de ganar un renglón centralizado ofertado | 15% → 45% | −B/.100 mil / −B/.10 mil | B/.231 mil / B/.283 mil |
+| Participación madura en compras descentralizadas (valor) | 10% → 32% | −B/.92 mil / −B/.24 mil | B/.249 mil / B/.262 mil |
+| Caída anual de precios a partir del año 2 | 6% → 0% al año | −B/.83 mil / −B/.27 mil | B/.258 mil / B/.252 mil |
+| Precio del proveedor frente a la referencia FOB de India | 1.80 → 1.00 veces la referencia | −B/.90 mil / −B/.35 mil | B/.220 mil / B/.295 mil |
+| Cantidad realmente comprada frente a la máxima del contrato | 55% → 90% | −B/.84 mil / −B/.34 mil | B/.252 mil / B/.258 mil |
+| Probabilidad de que el MINSA haga su compra centralizada en el año | 30% → 70% | −B/.78 mil / −B/.32 mil | B/.255 mil / B/.256 mil |
+| Registros aprobados sobre registros presentados | 70% → 95% | −B/.81 mil / −B/.38 mil | B/.241 mil / B/.265 mil |
+| Factor de mercado (demanda futura frente a los datos de 2025–2026) | 0.75 → 1.00 | −B/.81 mil / −B/.38 mil | B/.242 mil / B/.264 mil |
+| Mes del primer contrato centralizado (LPU de la CSS o subasta del MINSA) | mes 27 → mes 12 | −B/.87 mil / −B/.45 mil | B/.289 mil / B/.238 mil |
+| Productos de la segunda ola (sin equivalencia terapéutica, con fabricante verificado) | 0 → 12 productos | −B/.76 mil / −B/.38 mil | B/.218 mil / B/.301 mil |
+| Tarifas legales: SignatureLex frente a mercado | tarifas de SignatureLex → tarifas de mercado | −B/.92 mil / −B/.56 mil | B/.294 mil / B/.255 mil |
 
 Los dos supuestos que más mueven el resultado son los costos fijos, el único que por sí solo vuelve positivo el VPN del caso base, y la tasa de victoria. Los costos se pueden cotizar en la fase 0; la tasa de victoria solo se conoce compitiendo, y para eso está la compuerta operativa.
 
@@ -232,4 +241,3 @@ Costos y logística
 - [DNFD: establecimientos con licencia al 28 de septiembre de 2026](https://dnfd.minsa.gob.pa/)
 - Documentos del proyecto: propuesta y tabla de honorarios de SignatureLex, lista de productos de Zywie, catálogo de Modi, Decreto Ejecutivo 16 de 2026 y cuestionario de BP Logistics.
 
-Debida diligencia: enlaces en la tabla de esa sección.

@@ -63,7 +63,7 @@ Dos reglas que protegen a los tres: los honorarios de SignatureLex a la S.A. los
 
 - [ ] Acuerdo de confidencialidad mutuo con Zywie y Bueno antes de intercambiar precios y expedientes (una página; Francisco).
 - [ ] Recibir de Rutul la hoja de datos de fábrica y el paquete estándar; correr los precios en el modelo (compuerta 0: hasta 1.1 veces la referencia de la hoja SKUs).
-- [ ] Cotizar con la hoja de datos: tres 3PL (lista abajo), dos aseguradoras de fianzas, regente, contador, IEA.
+- [ ] Cotizar con la hoja de datos: 3PL (solicitudes indicativas enviadas el 8 de octubre; operadores en 04), dos aseguradoras de fianzas, regente, contador, IEA.
 - [ ] Segunda opinión legal de un bufete independiente sobre alcance y precio de SignatureLex, y opinión escrita sobre el parentesco con el ministro.
 - [ ] Auditoría documental o virtual de la planta de Sanand por un auditor independiente.
 - [ ] Decidir quién opera a diario.
@@ -110,9 +110,9 @@ Recomendación: pedir la segunda cotización con el mismo alcance (está en la f
 
 ## Herramientas y orden
 
-- Carpeta compartida en Google Drive con esta estructura: 00 Socios (pacto, actas), 01 Empresa (S.A., RUC, aviso, banco), 02 Proveedor (acuerdo de confidencialidad, paquete regulatorio por producto, precios, packing lists, informes de calidad), 03 Registros DNFD (por producto), 04 Licencia y 3PL, 05 Licitaciones (pliegos, ofertas, cuadros), 06 Fianzas y seguros, 07 Finanzas (modelo, estados), 08 Rutul (capturas del grupo y acuerdos confirmados por escrito). Acceso: los tres socios; Rutul solo a lo que se le comparta.
-- Los documentos de trabajo son archivos Markdown y Excel (este paquete) en la carpeta compartida; se actualizan y se vuelven a entregar cuando cambian, con fecha en el encabezado.
-- Repositorio privado en GitHub solo para el código del modelo; los socios no lo necesitan.
+- Carpeta compartida en Google Drive, raíz `Farma`, con tres carpetas por audiencia: `01 Privado (solo Jaime)`; `02 Socios Panamá`, para los tres socios (`00 Plan y análisis` con este paquete, `01 Empresa`, `02 Proveedor y fábrica`, `03 Registros DNFD`, `04 Licencia y 3PL`, `05 Licitaciones`, `06 Fianzas y seguros`, `07 Finanzas`); y `03 Zywie (compartido con Rutul)` (`01 Documentos enviados a Zywie`, `02 Lo que Zywie manda`). Rutul solo ve la tercera.
+- Formato: los documentos de trabajo son archivos Markdown (fuente única) y Excel; para imprimir o enviar fuera se genera el PDF del paquete. Se actualizan y se vuelven a entregar cuando cambian, con fecha en el encabezado.
+- Repositorio privado en GitHub (Meds) con el código del modelo y la fuente de estos documentos; los socios no lo necesitan.
 - La tabla de seguimiento del guion es el registro de todo lo pedido a Rutul y lo recibido.
 - Reunión corta de los tres socios con tres puntos fijos: qué mandó Rutul, qué se cotizó, qué se decide.
 

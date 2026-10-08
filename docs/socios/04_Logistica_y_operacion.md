@@ -20,38 +20,40 @@ Volumen físico de los 11 productos en madurez (caso base): unos 74 m³ y 38 tar
 
 Inventario del caso base: tres meses de cobertura para compras menores (las entregas se piden en días) y dos meses en contratos de precio único (la LPU exige al menos uno), con reposición mensual en carga consolidada. Eso supone 30 meses o más de vida útil: con 24 meses la cobertura tendría que bajar a 1.5 meses, y el embarque trimestral en contenedor solo cabe con 36 meses. Despacho por fecha de vencimiento. El pliego de la LPU exige que el empaque secundario lleve impreso el número de la licitación y no acepta reetiquetado ni sobreetiquetado; el del MINSA pide «Propiedad del MINSA/Panamá». Cada canal necesita su corrida de empaque en fábrica y el lote mínimo puede dejar inventario varado.
 
-3PL o bodega propia, sin contar el regente que ambas necesitan: con 5 tarimas, un 3PL cuesta unos B/.680 al mes contra B/.4,030 más B/.37 mil de inversión en bodega propia; con 15 tarimas, B/.960 contra B/.5,920 más B/.54 mil. Los operadores que ya alojan más agencias con licencia de la DNFD son J. Cain (24), Panalog/Farmazona (22), DHL (16), Osala (15), Grupo TLA (11) y BP Logistics (8). En la fase 0 basta una cotización indicativa del 3PL; la firme hace falta en la fase 1.
+A este volumen la bodega propia no tiene sentido (la comparación está en la estimación logística, más abajo). Los operadores que ya alojan más agencias con licencia de la DNFD son J. Cain (24), Panalog/Farmazona (22), DHL (16), Osala (15), Grupo TLA (11) y BP Logistics (8). En la fase 0 basta una cotización indicativa del 3PL; la firme hace falta en la fase 1.
 
 Roles mínimos: regente (al menos 4 horas diarias), coordinador de licitaciones que vigile PanamaCompra a diario y arme cotizaciones, logística, cobros (cuentas y gestión de cobro) y farmacovigilancia.
 
-## Cuánto tiempo puede estar el producto en bodega
-
-Los pliegos exigen 18 meses de vida útil al entregar. Entre la liberación en fábrica (1 mes), el tránsito y la aduana (2 meses) y el despacho, el tiempo máximo en bodega depende de la vida útil aprobada de cada producto: con 24 meses, unos 2.75 meses, lo que obliga a reponer cada mes con inventario de mes y medio; con 30 meses, unos 8.75; con 36, unos 14.75, que permite un contenedor trimestral. Por eso la vida útil aprobada y el lote mínimo están en la hoja de datos: definen el tamaño del embarque y el capital en inventario. Despacho siempre por fecha de vencimiento.
-
 ## Cotizar el 3PL: con quién y cómo
 
-Cómo funciona un 3PL farmacéutico, para saber qué se contrata: su bodega tiene licencia de la DNFD y se declara como el depósito de nuestra agencia; recibe el contenedor (con su corredor de aduana o el nuestro), lo pone en cuarentena hasta que el regente libera, almacena por lote y vencimiento, prepara los despachos por cajas y entrega en los almacenes de la CSS o del MINSA con nuestros documentos; cobra al mes por posición de tarima, por recepción y despacho, y aparte el etiquetado u otros servicios. Lo que no hace: la licencia, el regente, los registros, las ofertas y la factura al Estado siguen siendo de la S.A. El flujo de una venta es: orden de compra de la entidad a la S.A., instrucción de la S.A. al 3PL, entrega del 3PL con acta de recibido, factura de la S.A., cuenta en la entidad, cobro.
+Qué contrata la S.A. cuando contrata un 3PL farmacéutico:
 
-Las dos cotizaciones anteriores no llegaron porque el formulario fue con estimaciones y sin fichas; para un 3PL eso es un cliente que todavía no existe. La próxima ronda va con la hoja de datos llena por la fábrica y una solicitud de una página.
+- Lo que hace: su bodega tiene licencia de la DNFD y se declara como el depósito de nuestra agencia; recibe el contenedor (con su corredor de aduana o el nuestro), lo pone en cuarentena hasta que el regente libera, almacena por lote y vencimiento, prepara los despachos por cajas y entrega en los almacenes de la CSS o del MINSA con nuestros documentos.
+- Lo que cobra: al mes por posición de tarima, por recepción y por despacho; aparte el etiquetado u otros servicios; casi siempre con un mínimo mensual.
+- Lo que no hace: la licencia, el regente, los registros, las ofertas y la factura al Estado siguen siendo de la S.A.
+- El flujo de una venta: orden de compra de la entidad a la S.A. → instrucción de la S.A. al 3PL → entrega del 3PL con acta de recibido → factura de la S.A. → cuenta en la entidad → cobro.
 
-| Operador | Dónde | Por qué |
-| --- | --- | --- |
-| J. Cain & Cía | Zona Libre de Colón y Panamá Pacífico | Aloja 24 agencias con licencia de la DNFD; temperatura controlada, etiquetado, cotiza por marca según volumen |
-| Panalog / Farmazona | Panamá | Aloja 22 agencias con licencia |
-| DHL Supply Chain | Panamá | Aloja 16 agencias; estándar internacional |
-| Osala Logistics | Tocumen (régimen de depósito logístico) | Aloja 15 agencias; distribución a hospitales y farmacias |
-| Grupo TLA | Panamá | Aloja 11 agencias |
-| BP Logistics (Grupo Hilasal, El Salvador) | Panamá Pacífico | Aloja 8 agencias; se presenta como operador logístico autorizado por el MINSA, con bodegas de 15–25 °C y de 2–8 °C; duplicó su área de temperatura controlada en 2025; es a quien ya se le mandó el cuestionario |
-| Interworld Freight | Panamá (con opción de depósito aduanero y Zona Libre de Colón) | Bodega farmacéutica con zonas de 2–8 °C y 15–25 °C; menos conocido, vale una cotización |
-| DSV | Colón | 3,500 posiciones, sistema de calidad para salud, etiquetado |
+Estado de las cotizaciones: las dos solicitudes anteriores no prosperaron porque fueron con estimaciones y sin fichas. El 8 de octubre de 2026 se enviaron solicitudes de cotización indicativa, o de tarifario estándar, a los cuatro operadores con correo público (J. Cain, Osala, DSV e Interworld); BP Logistics y DHL solo reciben por formulario web y Farmazona por WhatsApp. La ficha logística por producto se les manda cuando la fábrica llene la hoja de datos, y con ella se pide la cotización firme. El detalle de cada operador, las respuestas al formulario de BP Logistics y la tabla de seguimiento están en Cotizaciones_3PL_seguimiento.md.
 
-La solicitud de cotización lleva: la hoja de datos de fábrica; volúmenes (5 tarimas iniciales en carga consolidada, 3–5 tarimas al mes con picos de 10, 11 productos, 15–25 °C, control por lote y vencimiento, 2–4 despachos al mes a almacenes de la CSS y del MINSA); servicios (depósito licenciado, recepción, picking por cajas, despacho; sin reetiquetado para la LPU); y las preguntas: tarifa por posición de tarima al mes, recepción y despacho por tarima o caja, mínimo mensual, costo de alta, si ofrecen regente o licencia compartida, y tiempo de respuesta. Pedir a tres a la vez y decir que se pide a tres.
+| Operador | Dónde | Evidencia pública (licencia, certificados) | Agencias con licencia que aloja (lista DNFD, 28-sep-2026) | Estado al 8 de octubre |
+| --- | --- | --- | --- | --- |
+| J. Cain & Cía | Zona Libre de Colón y Panamá Pacífico | Licencias MINSA 3-009 L y 13-001 LA; certificado BPM de acondicionamiento vigente a julio de 2027; INVIMA a diciembre de 2028; áreas de 2–8 y 15–25 °C | 24 | Correo enviado |
+| Osala Logistics (Bomi Group / UPS Healthcare) | Terminal de carga de Tocumen, depósito aduanero logístico | Publica certificación DNFD de importación, almacenamiento y distribución de medicamentos con cadena de frío; ISO 9001 y 13485 | 15 | Correo enviado |
+| DSV Panamá | Zona Libre de Colón | 8,000 m² y 3,500 posiciones; sistema de calidad para salud; sin licencia DNFD publicada | — | Correo enviado |
+| Interworld Freight Panamá | Panamá, en bodega de un socio | Almacén farmacéutico de 2–8 y 15–25 °C; sin licencia DNFD visible | — | Correo enviado; pedir el número de licencia |
+| BP Logistics (Grupo Hilasal) | Panamá Pacífico | Licencia MINSA 13-006 LA; certificado BPM 012-23 con vencimiento el 25 de octubre de 2025 en la lista (confirmar renovación); 15–25 y 2–8 °C | 8 | Formulario web de 13 preguntas con las respuestas listas (Cotizaciones_3PL_seguimiento.md); ya recibió el cuestionario anterior |
+| DHL (Global Forwarding Panamá; Supply Chain) | Parque Industrial Sur, Tocumen | Licencia MINSA 8-236 L; certificado BPM de acondicionamiento 015-24 a agosto de 2026 | 16 | Formulario web pendiente |
+| Farmazona / FZ Logistics (Panalog) | Fuerte Davis, Colón | Licencia MINSA 3-011 L; certificado BPM 021-24 a noviembre de 2026; INVIMA a mayo de 2029 | 22 | WhatsApp pendiente (mensaje listo) |
+| Grupo TLA | Panamá Pacífico | Aloja a Vanguard Medical Logistics (Promed), licencia 13-012 LA; sin licencia propia visible | 11 | Baja prioridad |
+| Alliance Transport Logistics (Grupo ALG) · Master Logistic Solutions · Kuehne+Nagel · FedEx Logistics Center | Panamá Pacífico y Tocumen | Licencias 13-002 LA y 13-003 LA (los dos primeros); áreas de 2–8 y 15–25 °C y CEIV Pharma (los dos últimos) | — | Segunda ronda, si los cuatro primeros no responden |
 
-Nota de la auditoría del 8 de octubre: los 3PL no publican tarifas y la ley no dice en una sola línea si el regente del operador cubre al cliente; por eso el correo pregunta por regente o licencia compartida, y conviene una consulta escrita a la DNFD en paralelo. BP Logistics pertenece al Grupo Hilasal (El Salvador) y se presenta como operador autorizado por el MINSA; Interworld Freight también ofrece bodega farmacéutica con cadena de frío.
+Nota: las listas públicas de la DNFD que se pudieron abrir son las de laboratorios acondicionadores con certificado de BPM y la de establecimientos con licencia; la licencia de almacén o de agencia es otra categoría sin lista pública consolidada. Que un operador no aparezca no significa que no tenga licencia de almacenamiento: por eso el correo pide el número de licencia.
+
+Dos preguntas que ningún operador contesta solo y que van en paralelo a la DNFD por consulta escrita: si el depósito del 3PL puede declararse como depósito de la agencia y si el regente del operador puede cubrir a una agencia nueva o cada agencia necesita el suyo (DE 27, arts. 382 y 396–398). La respuesta define el costo fijo más grande después del coordinador.
 
 ## La hoja de datos de fábrica y el cuestionario del 3PL
 
-Los operadores logísticos cotizan por posición de tarima, por manejo y por servicios; la naviera y el consolidador por metro cúbico y peso; la aseguradora por valor CIF. Ninguno cotiza sobre estimaciones. El cuestionario que mandó el 3PL (3PL_questionnaire_blank_EN.xlsx, versión en inglés y en blanco) pide pesos, dimensiones, volumen, valor por embarque, sensibilidad, control por lote, fichas técnicas y fotos: casi todo depende de la fábrica. Por eso la hoja Factory_data_for_3PL_quote.xlsx pide, por producto: unidades por empaque, empaques por caja máster, dimensiones y peso de la caja, cajas por tarima, condiciones de almacenamiento, vida útil aprobada y mínima garantizada al embarcar, código arancelario, planta, tamaño de lote, lote mínimo, tiempo de entrega, precio FOB, y si hay CPP, hoja de seguridad y fotos; y, por embarque: incoterm, puerto, tipo de tarima, valor, documentos que viajan con la carga y si pueden imprimir el número de licitación en el empaque. Con esa hoja llena se cotiza a tres operadores a la vez (correos listos más abajo).
+Los operadores logísticos cotizan por posición de tarima, por manejo y por servicios; la naviera y el consolidador por metro cúbico y peso; la aseguradora por valor CIF. Ninguno cotiza sobre estimaciones. El cuestionario que mandó el 3PL (3PL_questionnaire_blank_EN.xlsx, versión en inglés y en blanco) pide pesos, dimensiones, volumen, valor por embarque, sensibilidad, control por lote, fichas técnicas y fotos: casi todo depende de la fábrica. Por eso la hoja Factory_data_for_3PL_quote.xlsx pide, por producto: unidades por empaque, empaques por caja máster, dimensiones y peso de la caja, cajas por tarima, condiciones de almacenamiento, vida útil aprobada y mínima garantizada al embarcar, código arancelario, planta, tamaño de lote, lote mínimo, tiempo de entrega, precio FOB, y si hay CPP, hoja de seguridad y fotos; y, por embarque: incoterm, puerto, tipo de tarima, valor, documentos que viajan con la carga y si pueden imprimir el número de licitación en el empaque. Con esa hoja llena se afinan las cotizaciones indicativas ya pedidas y se pide la firme (el correo enviado está más abajo).
 
 ## Estimación de costos logísticos mientras no haya cotización firme
 
@@ -73,24 +75,40 @@ Comparación con una bodega propia, sin contar el regente que ambas necesitan: c
 
 Qué se le puede decir a Rutul y cómo defenderlo: las cifras de flete y de THC son avisos públicos de las navieras, con fecha; el almacenamiento es nuestro presupuesto de trabajo mientras los 3PL no coticen, y así hay que presentarlo. Si pregunta de dónde salen los números, la respuesta es exactamente esa: «freight and terminal charges are published carrier notices (CMA CGM June 2026, Maersk October 2026); the storage range is our budget assumption, built from Panama warehouse rent benchmarks and the way 3PLs price (receiving, pallet position, picking); it is not a quote, which is why we need the factory data».
 
-## Correos de cotización listos para enviar
+## Correos de cotización
 
-Se mandan desde un correo de la empresa en formación (o de Francisco), con la hoja de datos de fábrica llena adjunta cuando corresponda. Pedir a tres a la vez y decirlo.
+El correo a los operadores logísticos se envió el 8 de octubre de 2026 desde el correo de Jaime a J. Cain, Osala, DSV e Interworld; el mismo texto sirve para la segunda ronda. Los correos a las aseguradoras de fianzas y al IEA siguen pendientes de envío. Pedir a varios a la vez y decirlo.
 
-### Al 3PL (tres operadores a la vez)
+### A los operadores logísticos (enviado el 8 de octubre de 2026)
 
 ```text
-Asunto: Solicitud de cotización – almacenamiento y distribución de medicamentos (agencia en constitución)
+Asunto: Solicitud de cotización indicativa – almacenamiento y distribución de medicamentos (agencia en constitución)
 
-Estimados:
+Estimados señores de [operador]:
 
-Somos una agencia distribuidora de medicamentos en constitución, que importará 11 genéricos (tabletas, suspensiones, cremas e inyectables en polvo) para suministrar a la CSS y al MINSA por licitación. Necesitamos un depósito con licencia de Farmacia y Drogas que pueda declararse como nuestro depósito.
+Somos una agencia distribuidora de medicamentos en proceso de constitución en Panamá. Importaremos 11 medicamentos genéricos de síntesis química (tabletas, suspensiones orales, cremas e inyectables en polvo, todos a temperatura ambiente controlada de 15 a 25 °C) para suministrarlos a la Caja de Seguro Social y al Ministerio de Salud mediante licitación pública. Necesitamos un depósito con licencia de la Dirección Nacional de Farmacia y Drogas que pueda declararse como depósito de nuestra agencia, y estamos solicitando cotización indicativa a tres o cuatro operadores para decidir con quién trabajar.
 
-Volúmenes: primer ingreso de 5 tarimas (unos 9 m³, carga consolidada); después 3 a 5 tarimas al mes con picos de 10; almacenamiento a 15–25 °C; control por lote y vencimiento (FEFO); 2 a 4 despachos al mes, por cajas completas, a almacenes de la CSS y del MINSA en la ciudad de Panamá. Adjuntamos la ficha logística por producto (dimensiones, pesos, unidades por caja, condiciones).
+Volúmenes estimados:
+- Primer ingreso: 5 tarimas (unos 9 m3), carga consolidada marítima desde la India vía Manzanillo.
+- Régimen: 3 a 5 tarimas al mes, con picos de hasta 10; 11 productos (SKU); control por lote y fecha de vencimiento (FEFO); 2 a 4 despachos al mes, por cajas completas, a los almacenes de la CSS y del MINSA en la ciudad de Panamá.
+- Sin cadena de frío por ahora; sin reetiquetado (los pliegos lo prohíben).
 
-Agradecemos cotizar: tarifa por posición de tarima al mes; recepción y despacho por tarima y por caja; mínimo mensual; costo de alta; corredor de aduana y acarreo desde el puerto, si lo ofrecen; etiquetado, si lo ofrecen; y si cuentan con regente o licencia compartida para agencias nuevas. Fecha estimada de inicio: al obtener los registros sanitarios.
+Agradeceríamos una cotización indicativa, o su tarifario estándar, con:
+1. Tarifa mensual por posición de tarima (15 a 25 °C) y mínimo mensual facturable.
+2. Recepción y despacho, por tarima y por caja; costo de alta o apertura de cuenta.
+3. Corredor de aduana y acarreo desde el puerto, si lo ofrecen.
+4. Entrega a los almacenes de la CSS y del MINSA, si la ofrecen, y su costo.
+5. Número de licencia de operación de Farmacia y Drogas del depósito y si pueden cubrir, con su licencia y regente farmacéutico, a una agencia nueva, o qué requieren de nuestra parte.
+6. Tiempo de implementación una vez firmado el contrato.
 
-Quedamos atentos y disponibles para una visita.
+La ficha logística por producto (dimensiones y pesos de caja máster, unidades por caja, cajas por tarima, código arancelario) la estamos recibiendo de la fábrica y se la enviaremos en cuanto la tengamos, para que puedan afinar la cotización. Fecha estimada de inicio de operaciones: al obtener los registros sanitarios.
+
+Quedamos atentos y con gusto coordinamos una visita a sus instalaciones.
+
+Saludos cordiales,
+
+Jaime Cucalon
+Socio, agencia distribuidora de medicamentos (en constitución)
 ```
 
 ### A la aseguradora de fianzas (Mapfre, Internacional, ASSA, Interamericana de Fianzas)
@@ -127,8 +145,6 @@ Costos y logística
 - [DNFD: establecimientos con licencia al 28 de septiembre de 2026](https://dnfd.minsa.gob.pa/)
 - Documentos del proyecto: propuesta y tabla de honorarios de SignatureLex, lista de productos de Zywie, catálogo de Modi, Decreto Ejecutivo 16 de 2026 y cuestionario de BP Logistics.
 
-Debida diligencia: enlaces en la tabla de esa sección.
-
 Compras públicas
 
 - [LPU 01-2026 de la CSS: cuadro de propuestas](https://apisv3.panamacompra.gob.pa/documentos-actos-publico/cuadroPropuesta/12/procesoVistaCuadroPropuesta/712894) · [pliego](https://apisv3.panamacompra.gob.pa/procesos-contratacion-archivos/v2/download-file-2325E044-04B2-F011-80EA-0017A477FC74-ZA-101-1AZ-8120731-ZA-101-1AZ-8120731) (fianzas, pago, compra mínima, carta del fabricante y empaque: cláusulas 8, 11, 13, 18 y 24 y contrato modelo)
@@ -137,3 +153,5 @@ Compras públicas
 - [Decreto Ejecutivo 16 de 2026, listado conjunto de desabastecimiento crítico](https://www.minsa.gob.pa/normatividad/decreto-ejecutivo-ndeg-16-lunes-09-de-marzo-2026-que-declara-el-listado-conjunto-de) · Pliego de la compra conjunta 2024: enlace de PanamaCompra caído al 7 de octubre de 2026
 - [ANTAI: reportes mensuales de contrataciones de la CSS, el MINSA y los patronatos](https://monitoreo.antai.gob.pa/)
 - Comunicados de la CSS: [3 de diciembre de 2025, LPU por B/.91.98 millones y 348 renglones](https://prensa.css.gob.pa/2025/12/03/css-invertira-91-millones-de-dolares-en-compra-masiva-de-medicamentos/) · [6 de enero de 2026, ahorro de B/.37.4 millones](https://prensa.css.gob.pa/2026/01/06/compras-estrategicas-de-medicamentos-logran-ahorro-record-de-b-37-4-millones/) · [26 de marzo de 2026, 282 renglones adjudicados por B/.77.9 millones](https://prensa.css.gob.pa/2026/03/26/llegan-miles-de-medicamentos-css-refuerza-a-nivel-nacional/) · PanamaCompra, búsqueda pública de procesos (estado «Adjudicado» de la LPU 01-2026 el 15 de mayo de 2026 y de la LPU 11-2026 el 31 de agosto de 2026; 33 subastas en reversa del MINSA en 2026)
+
+- Seguimiento de las cotizaciones de 3PL: Cotizaciones_3PL_seguimiento.md (canales, licencias, fechas y respuestas).

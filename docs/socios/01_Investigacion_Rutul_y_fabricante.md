@@ -71,35 +71,9 @@ Qué pedir antes de firmar nada:
 
 Nada de esta tabla se le dice a Rutul. Se le piden los documentos que cualquier distribuidor pide (ver la sección siguiente) y se contrasta en privado.
 
-## Lo que un fabricante exportador manda sin que se lo pidan dos veces
-
-Rutul dice que Bueno vende en El Salvador y Colombia. Un exportador de medicamentos con esa experiencia tiene un paquete estándar listo para cualquier distribuidor nuevo, porque todas las agencias sanitarias piden lo mismo (el expediente en formato CTD de la OMS). Pedirlo no es desconfiar; es lo normal del negocio. Si no lo tiene a mano, eso también es información.
-
-| Documento | Para qué sirve | Quién lo emite |
-| --- | --- | --- |
-| CPP (Certificate of Pharmaceutical Product, formato OMS) por producto, apostillado | Registro sanitario en Panamá | Autoridad india (CDSCO o FDCA de Gujarat) |
-| Certificado OMS-BPM (COPP) de la planta y licencia de fabricación por bloque | Registro; carta del fabricante en la LPU | FDCA de Gujarat / CDSCO |
-| Expediente técnico por producto (módulo 3 del CTD): fórmula, especificaciones, método analítico validado, estabilidad en zona IVb, certificados de análisis de tres lotes | El IEA analiza con esto; sin él no hay registro | Bueno (QA y asuntos regulatorios) |
-| Artes de empaque, inserto en español y muestras | Registro y pliegos | Bueno |
-| Certificado de libre venta en India y registros vigentes en otros países, si existen | Registro; referencia | Autoridades de cada país |
-| Poder o carta de autorización al distribuidor (apostillado) y contrato de distribución exclusiva | Registro a nombre de la S.A.; licitaciones | Bueno |
-| Carta de compromiso solidario del fabricante (modelo del pliego de la CSS) | Adjudicación de la LPU | Bueno |
-| Acuerdo técnico de calidad: quejas, retiros, farmacovigilancia, reposición de producto | Licencia de la DNFD; buenas prácticas de distribución | Ambos |
-| Lista de precios FOB, lote mínimo, vida útil, tiempo de entrega y condiciones de pago | Decidir qué registrar y dónde ofertar | Zywie o Bueno |
-| Packing list y ficha logística por producto (lo que piden los 3PL) | Bodega, flete y seguro | Bueno (exportación) |
-| MSDS y declaración de carga no peligrosa | Flete y 3PL | Bueno |
-| Cuestionario de calificación de proveedor: alertas regulatorias, retiros y reclamos de los últimos tres años, con causa y corrección | Debida diligencia estándar de cualquier distribuidor | Bueno |
+La lista de documentos que un fabricante exportador entrega sin que se los pidan dos veces (CPP, COPP, expediente CTD, artes, poderes, acuerdo de calidad, lista de precios, packing list) está en 06_Guion_conversacion_Rutul.md, donde se usa para pedirlos.
 
 ## Fuentes
-
-Compras públicas
-
-- [LPU 01-2026 de la CSS: cuadro de propuestas](https://apisv3.panamacompra.gob.pa/documentos-actos-publico/cuadroPropuesta/12/procesoVistaCuadroPropuesta/712894) · [pliego](https://apisv3.panamacompra.gob.pa/procesos-contratacion-archivos/v2/download-file-2325E044-04B2-F011-80EA-0017A477FC74-ZA-101-1AZ-8120731-ZA-101-1AZ-8120731) (fianzas, pago, compra mínima, carta del fabricante y empaque: cláusulas 8, 11, 13, 18 y 24 y contrato modelo)
-- [LPU 11-2026 de la CSS: cuadro de propuestas](https://apisv3.panamacompra.gob.pa/documentos-actos-publico/cuadroPropuesta/12/procesoVistaCuadroPropuesta/712187)
-- [Pliego de subasta en reversa del MINSA 2026](https://apisv3.panamacompra.gob.pa/procesos-contratacion-archivos/v2/download-file-41E2472E-8233-F111-80EA-0017A477FC74-ZA-101-1AZ-9715601-ZA-101-1AZ-9715601) · [resultado del jarabe de paracetamol](https://apisv3.panamacompra.gob.pa/procesos-contratacion-archivos/v2/download-file-21F2213F-5354-F111-80EB-0017A477FC64-ZA-101-1AZ-10368555-ZA-101-1AZ-10368555) · [PanamaCompra: búsqueda de actos](https://www.panamacompra.gob.pa/) (33 subastas del MINSA de junio al 6 de octubre de 2026; sin acto de compra conjunta)
-- [Decreto Ejecutivo 16 de 2026, listado conjunto de desabastecimiento crítico](https://www.minsa.gob.pa/normatividad/decreto-ejecutivo-ndeg-16-lunes-09-de-marzo-2026-que-declara-el-listado-conjunto-de) · Pliego de la compra conjunta 2024: enlace de PanamaCompra caído al 7 de octubre de 2026
-- [ANTAI: reportes mensuales de contrataciones de la CSS, el MINSA y los patronatos](https://monitoreo.antai.gob.pa/)
-- Comunicados de la CSS: [3 de diciembre de 2025, LPU por B/.91.98 millones y 348 renglones](https://prensa.css.gob.pa/2025/12/03/css-invertira-91-millones-de-dolares-en-compra-masiva-de-medicamentos/) · [6 de enero de 2026, ahorro de B/.37.4 millones](https://prensa.css.gob.pa/2026/01/06/compras-estrategicas-de-medicamentos-logran-ahorro-record-de-b-37-4-millones/) · [26 de marzo de 2026, 282 renglones adjudicados por B/.77.9 millones](https://prensa.css.gob.pa/2026/03/26/llegan-miles-de-medicamentos-css-refuerza-a-nivel-nacional/) · PanamaCompra, búsqueda pública de procesos (estado «Adjudicado» de la LPU 01-2026 el 15 de mayo de 2026 y de la LPU 11-2026 el 31 de agosto de 2026; 33 subastas en reversa del MINSA en 2026)
 
 Debida diligencia
 

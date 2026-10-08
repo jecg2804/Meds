@@ -32,7 +32,12 @@ Correcciones al informe anterior: la levofloxacina y la metformina sí exigen eq
 
 La S.A. compraría genéricos terminados a Bueno a través de Zywie, los registraría en Panamá, los guardaría en un 3PL licenciado y los vendería por licitación a la CSS, el MINSA y los patronatos.
 
-*(Gráfico: Cadena de valor y flujo de dinero · 4 eslabones, caso base. Ver el modelo en Excel.)*
+| Eslabón | Qué hace | Qué gana (caso base) |
+| --- | --- | --- |
+| Bueno (fábrica, Sanand) | Fabrica, emite el CPP y los certificados, firma la carta del fabricante | Su margen de fábrica (si Patel participa en ella, no está verificado) |
+| Zywie (Rutul Patel) | Exporta y factura; hoy con margen propio | 15% sobre el precio de fábrica en la propuesta; el plan pide 5% o menos a libro abierto |
+| La S.A. panameña | Registra, licencia, almacena en un 3PL, oferta, entrega y cobra | Precio adjudicado menos costo puesto: 49–96% de margen bruto en compras menores; −24% a 92% en precio único |
+| CSS, MINSA y patronatos | Compran por PanamaCompra y pagan a 90 días desde la cuenta (unos 150 reales) | — |
 
 Gana por la diferencia entre el precio adjudicado y el costo puesto en Panamá: 49–96% de margen bruto estimado en compras menores y entre −24% y 92% en precio único ofertando 5% bajo el precio adjudicado, según el producto. Pierde por tiempo: el capital queda atado en registros, inventario, cuentas por cobrar y colateral de fianzas antes del primer cobro.
 
@@ -64,8 +69,6 @@ Canal privado: el mercado de farmacias existe (importaciones de medicamentos por
 ## Precios adjudicados frente al costo puesto en Panamá
 
 Ofertando 10% bajo la mediana de las compras menores, los 11 productos de Bueno dejan entre 49% y 96% de margen bruto estimado; ofertando 5% bajo el precio de la LPU, la ceftriaxona pierde dinero y otros dos no llegan al 20%.
-
-*(Gráfico: Precios: PanamaCompra y ANTAI, 2025–2026 · costo: referencias de India + logística, caso base del modelo. Ver el modelo en Excel.)*
 
 | Producto | Costo puesto, base (B/.) | Precio LPU (B/.) | Precio en compras menores (B/.) | Compras públicas al año (miles de B/.) |
 | --- | --- | --- | --- | --- |
@@ -199,14 +202,12 @@ Evidencia pública de costos revisada el 7 de octubre de 2026. Ninguna asegurado
 | Flete | US$200 por m³ marítimo + 100 de destino | Tarifa FAK de 20 pies India–Manzanillo: US$3,750 en junio de 2026 (+44% desde febrero); desconsolidación US$86.5 por m³; THC en Manzanillo US$275 por contenedor | Contenedor a US$180–220 por m³; la carga consolidada puede subir a 250–300 |
 | Corredor de aduana | Dentro del flete | Mínimo legal: B/.50 + 0.15% del CIF, más B/.2 por línea | B/.200–400 por embarque |
 | ITBMS de importación | Medicamentos exentos | Confirmado: capítulo 30 del arancel, Código Fiscal art. 1057-V | Sin cambio |
-| Cargas laborales | 28% | CSS patronal 13.25% (14.25% desde marzo de 2027), seguro educativo 1.5%, riesgos profesionales \~1.5%, XIII mes 8.33%, prima de antigüedad 1.92% | Se mantiene; sube un punto en 2027 |
+| Cargas laborales | 28% | CSS patronal 13.25% (14.25% desde marzo de 2027), seguro educativo 1.5%, riesgos profesionales unos 1.5%, XIII mes 8.33%, prima de antigüedad 1.92% | Se mantiene; sube un punto en 2027 |
 | Seguro de carga | B/.100 al mes | 0.3–0.5% del CIF para carga farmacéutica | Equivalente |
 
 ## Capital de trabajo y financiamiento
 
 El capital lo consume el tiempo: se paga al proveedor antes de embarcar y se cobra unos 150 días después de entregar, así que en el caso base los socios ponen unos B/.222 mil hasta el mes 18 y B/.255 mil hasta el mes 27, cuando hay que afianzar la segunda LPU.
-
-*(Gráfico: Modelo financiero, caso base · aportes acumulados de los meses 1 a 27. Ver el modelo en Excel.)*
 
 Ciclo de caja del caso base: 30% de anticipo al ordenar y 70% al embarcar; tres meses de reposición; tres meses de cobertura para compras menores; cobro a 150 días (los pliegos pagan a 90 días desde la cuenta, más recepción y atrasos). El colateral viene de las fianzas: 30% del valor máximo del contrato de 15 meses en la LPU y 20% en el MINSA, más 10% de la oferta como fianza de propuesta en la LPU mientras se evalúa, con la mitad en efectivo.
 
@@ -227,8 +228,6 @@ Con Bueno pagando los registros, 180 días de crédito, precio a libro abierto, 
 ## Proyección financiera
 
 En el caso base, el negocio vende unos B/.265 mil al año desde el año 3 y gana unos B/.64 mil netos, pero exige B/.255 mil de capital y devuelve 6.8% anual. No alcanza la tasa mínima de 15% de este informe, y a 30%, la que el modelo asigna a una pyme nueva con riesgo de socio y de cobro, el VPN es −B/.107 mil.
-
-*(Gráfico: Modelo financiero · caso base y variante con Bueno financiando, meses 0 a 60. Ver el modelo en Excel.)*
 
 | Indicador | Pesimista | Base | Optimista |
 | --- | --- | --- | --- |
@@ -269,8 +268,6 @@ El modelo ya incluye las cargas laborales del regente y del coordinador (28%), e
 
 En 20,000 simulaciones, la S.A. como la propone Patel pierde dinero en 77% de los casos y su múltiplo mediano es 0.62x. Ninguna de las cinco estructuras tiene valor esperado positivo al 15%: van de −B/.158 mil a −B/.25 mil. Con Bueno financiando, la de menor probabilidad de pérdida, da −B/.32 mil, y +B/.18 mil solo si un socio opera sin sueldo.
 
-*(Gráfico: Simulación de Monte Carlo del modelo financiero · 20,000 escenarios por estructura. Ver el modelo en Excel.)*
-
 Cada escenario sortea todos los supuestos entre su valor pesimista, base y optimista; si cada registro se aprueba; y si cada renglón centralizado se gana en cada ciclo. También sortea un problema de planta (15% de probabilidad; la fase 0 lo detecta en 80% de los casos y, si pasa, termina en falla de calidad, fianza ejecutada e inventario perdido) y una ruptura con el proveedor (4% anual).
 
 Las compuertas recortan pérdidas: en la versión por etapas, la fase 0 descarta el trato en 21% de los casos con un costo promedio de unos B/.3,300, y la compuerta operativa cierra otro 17% cuando las ventas anualizadas no llegan a B/.90 mil nueve meses después de la primera venta. Con la rampa base de 12 meses, ese umbral equivale a unos B/.108 mil en madurez, algo más que el equilibrio de B/.106 mil; en las versiones con los productos del sistema nervioso, las dos compuertas cierran 12% y 4.5%. El problema es cuánto se pone antes de saber: al llegar a la compuerta operativa, la mediana ya va en B/.197–226 mil (B/.165 mil si Bueno financia).
@@ -278,8 +275,6 @@ Las compuertas recortan pérdidas: en la versión por etapas, la fase 0 descarta
 La simulación solo descarta el trato en la fase 0 por problemas de planta o por un precio de más de 1.6 veces la referencia del modelo. Con el tope de 1.1 veces de la compuerta 0, en la versión con Bueno financiando (precio a libro abierto de 0.95 a 1.30 veces) la mitad de los escenarios se detendría en la fase 0 y la probabilidad de perder más que esa fase bajaría a 15%, pero el VPN esperado seguiría negativo (−B/.17 mil).
 
 La simulación sale peor que el caso base por tres razones: los riesgos se cargan hacia abajo (todo tarda más y cuesta más), 13–30% de los escenarios tienen una falla grave, y ganar un contrato centralizado exige colateral e inventario de golpe.
-
-*(Gráfico: Modelo financiero, caso base · sensibilidad de un supuesto a la vez. Ver el modelo en Excel.)*
 
 Los dos supuestos que más mueven el resultado son los costos fijos, el único que por sí solo vuelve positivo el VPN del caso base, y la tasa de victoria. Los costos se pueden cotizar en la fase 0; la tasa de victoria solo se conoce compitiendo, y para eso está la compuerta operativa.
 
@@ -371,7 +366,12 @@ Qué pedir antes de firmar nada:
 
 El orden es verificar antes de constituir, registrar antes de comprar inventario y escalar solo con ventas probadas; cada compuerta es un punto para salir con la pérdida acotada.
 
-*(Gráfico: Plan por fases · 4 fases, 3 compuertas. Ver el modelo en Excel.)*
+| Fase | Qué se hace | Capital acumulado (caso base / con SignatureLex) | Termina en |
+| --- | --- | --- | --- |
+| 0. Verificar (ahora) | Hoja de datos y paquete del fabricante, lista de precios, cotizaciones (3PL, fianzas, regente, contador, IEA), segunda opinión legal, acuerdo de confidencialidad | Unos B/.2,700 entre los tres socios panameños | Compuerta 0: precio hasta 1.1 veces la referencia FOB, 150 días de crédito, registros pagados por Bueno, planta y fabricante del sistema nervioso verificados |
+| 1. Constituir y registrar (meses 0–6) | Pacto de accionistas, S.A., cuenta bancaria, licencia de la DNFD, contrato con el 3PL, 11 registros sanitarios | B/.70 mil / B/.100 mil | Compuerta 1: 8 o más registros aprobados, contrato con el 3PL, regente y Registro de Oferentes |
+| 2. Operar (meses 6–15) | Primer inventario, ofertas en compras menores, primer cobro, primer contrato centralizado | Hasta la primera venta, B/.90 mil / B/.121 mil; hasta el pico del mes 27, B/.258 mil / B/.297 mil | Compuerta 2: ventas anualizadas de B/.90 mil o más nueve meses después de la primera venta y menos de 30% de ofertas descalificadas |
+| 3. Escalar (año 2 en adelante) | Segunda ola (seis productos del sistema nervioso) y segunda licitación de precio único | Se define con la compuerta 2 | — |
 
 La fase 1 usa el plazo de 5–6 meses que plantearon los socios panameños para empresa, licencia y registros; la primera venta llega cuando entra el primer inventario, después del registro.
 
@@ -467,4 +467,3 @@ Costos y logística
 - [DNFD: establecimientos con licencia al 28 de septiembre de 2026](https://dnfd.minsa.gob.pa/)
 - Documentos del proyecto: propuesta y tabla de honorarios de SignatureLex, lista de productos de Zywie, catálogo de Modi, Decreto Ejecutivo 16 de 2026 y cuestionario de BP Logistics.
 
-Debida diligencia: enlaces en la tabla de esa sección.
