@@ -132,6 +132,24 @@ for mk in (0.0,0.05,0.10,0.15,0.25,0.40):
     pat=zy+0.5*pos-0.5*eq; pan=0.5*pos-0.5*eq-ph0
     spl.append(dict(mk=mk, zywie=zy, patel=pat, panama=pan, share=pat/(pat+pan) if (pat+pan)!=0 else float('nan')))
 out['value_split']=spl
+# value split by deal structure (same method), reproducing the table in 05 / Anexo: capital per Panamanian partner = one sixth of eq_in (50/50) or 30%/3 (70/30) plus one third of phase 0
+def split_struct(tag, p, pc, **kw):
+    oo=run(p,**kw); cf=oo['cf_liq'][0]
+    pos=float(np.where(cf[1:]>0,cf[1:],0).sum()); eq=float(oo['eq_in'][0]); zy=float(oo['zywie_profit'][0]); ph0=float(oo['phase0'][0])
+    pat=zy+0.5*pos-pc*eq; pan=0.5*pos-(1-pc)*eq-ph0
+    return dict(tag=tag, patel_cash=pc, eq=eq, zywie=zy, patel=pat, panama=pan, share=pat/(pat+pan) if (pat+pan)!=0 else float('nan'), cap_socio=eq*(1-pc)/3+ph0/3)
+pb5=copy.deepcopy(pb); pb5['zy_markup']=0.05
+out['value_split_struct']=[split_struct('Propuesta 50/50, Zywie 15%', b, 0.5),
+                           split_struct('Libro abierto 5%, Bueno paga registros y 180 días, + SNC', pb5, 0.5, inc_override=inc2),
+                           split_struct('Lo anterior con Patel aportando 70% del efectivo', pb5, 0.7, inc_override=inc2)]
+# creams at Indian customs prices (verification of 8 Oct) and first wave without the two creams
+im=[s['id'] for s in SKUS].index('MOMCRM'); ih=[s['id'] for s in SKUS].index('HCTCRM')
+old_m, old_h = SKUS[im]['fob'], SKUS[ih]['fob']
+SKUS[im]['fob']=0.60; SKUS[ih]['fob']=0.28
+wif('Cremas a precio de aduana india (mometasona 0.60, hidrocortisona 0.28 por tubo)', b)
+SKUS[im]['fob'], SKUS[ih]['fob'] = old_m, old_h
+inc_nc=[ (0 if s['id'] in ('MOMCRM','HCTCRM') else s['inc']) for s in SKUS]
+wif('Primera ola sin las dos cremas', b, inc_override=inc_nc)
 out['whatif']=wi
 json.dump(out, open('analysis.json','w'), ensure_ascii=False, indent=1, default=float)
 print(json.dumps({k:out[k] for k in ('det_pes','det_base','det_opt','cap_decomp_base','breakeven')}, ensure_ascii=False, indent=1, default=float))

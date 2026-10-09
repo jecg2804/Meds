@@ -1,14 +1,14 @@
 # Costos, capital y proyección de ganancias
 
-*Preparado el 7 de octubre de 2026 y revisado el 8 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras salen del modelo financiero adjunto (Modelo_financiero_socios.xlsx) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Estructura de costos
 
-Con tarifas de mercado, arrancar la empresa cuesta B/.10,850 más B/.2,120 por registro sanitario; con la propuesta de SignatureLex, B/.24,750 más B/.3,425 por registro (unos B/.3,570 con muestras). Ambas cifras van sin el 7% de ITBMS, que el modelo suma; en el caso base, la diferencia sube el capital necesario en B/.39,100.
+Con tarifas de mercado, arrancar la empresa cuesta B/.10,850 más B/.2,120 por registro sanitario; con la propuesta de SignatureLex, B/.24,750 más B/.3,420 por registro (unos B/.3,570 con muestras). Ambas cifras van sin el 7% de ITBMS, que el modelo suma; en el caso base, la diferencia sube el capital necesario en B/.39,100.
 
 | Concepto (una sola vez) | Mercado, caso base (B/.) | SignatureLex (B/.) | Tasa oficial (B/.) |
 | --- | --- | --- | --- |
-| Constitución, libros, poderes, RUC, aviso y municipal | 2,500 | 5,700 | Tasa única 300 al año |
+| Constitución, libros, poderes, RUC, aviso y municipal | 2,500 | 5,700 | La tasa única (B/.300 al año) va en los costos fijos |
 | Pacto de accionistas, contrato de suministro y acuerdo de calidad | 2,500 | 1,750 o más | — |
 | Diagnóstico regulatorio y matriz de portafolio | 650 | 650 | — |
 | Apoyo para abrir la cuenta bancaria | 300 | 3,150 | — |
@@ -19,7 +19,7 @@ Con tarifas de mercado, arrancar la empresa cuesta B/.10,850 más B/.2,120 por r
 | Registro patronal en la CSS | 300 | 900 | — |
 | PanamaCompra, Registro de Oferentes y proveedor CSS | 500 | 2,700 | 0 |
 | Total | 10,850 | 24,750 | — |
-| Registro sanitario por producto | 2,120 | 3,425 sin muestras | 570 + análisis del IEA |
+| Registro sanitario por producto | 2,120 | 3,420 sin muestras | 570 + análisis del IEA |
 
 El registro de mercado suma tasas (B/.570), análisis del IEA (B/.600 supuesto), abogado (B/.800) y muestras (B/.150). La partida de B/.1,500 por «revisión de fórmula de la Universidad de Panamá» corresponde al análisis del IEA, que es de la Universidad de Panamá y fija sus propias tarifas (Ley 419, arts. 72, 79 y 82); lo dudoso es el monto, que el IEA cotiza caso a caso (la guía oficial de 2012 daba B/.200–1,000). SignatureLex marca varias líneas como «reducidas» sin decir a cuánto, y cita el arancel mínimo de abogados (Acuerdo 609-A de 2021), que esta ronda no pudo verificar. Que la firma del socio cobre a la empresa del socio pide una segunda cotización y aprobación de los demás socios.
 
@@ -47,11 +47,11 @@ Evidencia pública de costos revisada el 7 de octubre de 2026. Ninguna asegurado
 | Regente, medio tiempo | B/.700 al mes | El DE 27 (art. 382) permite 4 horas diarias declaradas; no hay anuncios con sueldo; un farmacéutico a tiempo completo gana B/.1,200–2,000 | Se mantiene; el mínimo del rango (450) es bajo |
 | Coordinador | B/.1,500 al mes | Asistentes administrativos y de compras B/.650–1,300; semi-senior unos B/.1,030 (Konzerta, 2026) | Puede bajar a 1,200 con perfil de asistente |
 | Contabilidad y auditoría | B/.300 al mes y B/.3,000 al año | Única referencia pública: US$2,300 al año por contabilidad y declaraciones; la auditoría no tiene precio público y la exigen las aseguradoras (dos años de estados auditados) | Se mantiene |
-| Fianzas | Prima 1.6% al año; colateral 50% | Mapfre, Internacional, ASSA e Interamericana de Fianzas emiten 76% de las fianzas; a una empresa sin historial le piden dos años de estados auditados, codeudor solidario y colateral líquido o bancario; la fianza en efectivo o cheque certificado es una alternativa legal sin prima | Colateral de 75–100% es lo probable; con 100% el VPN base baja a −B/.75 mil |
+| Fianzas | Prima 1.6% al año; colateral 50% | Mapfre, Internacional, ASSA e Interamericana de Fianzas emiten 76% de las fianzas; a una empresa sin historial le piden dos años de estados auditados, codeudor solidario y colateral líquido o bancario; la fianza en efectivo o cheque certificado es una alternativa sin prima (formas de garantía de la Ley 22; artículo por confirmar en el Texto Único) | Colateral de 75–100% es lo probable; con 100% el VPN base baja a −B/.75 mil |
 | Vigencia de la fianza de cumplimiento | 15 meses | LPU: ejecución más 3 meses; MINSA: ejecución, liquidación y 6 meses más | Prima algo mayor |
-| Análisis del IEA | B/.600 por producto | Sin tarifario público; guía de 2012 B/.200–1,000; el IEA cotiza caso a caso y el solicitante aporta los patrones de referencia | Base de 800–1,200: +B/.2–7 mil de capital |
-| Flete | US$200 por m³ marítimo + 100 de destino | Tarifa FAK de 20 pies India–Manzanillo: US$3,750 en junio de 2026 (+44% desde febrero); desconsolidación US$86.5 por m³; THC en Manzanillo US$275 por contenedor | Contenedor a US$180–220 por m³; la carga consolidada puede subir a 250–300 |
-| Corredor de aduana | Dentro del flete | Mínimo legal: B/.50 + 0.15% del CIF, más B/.2 por línea | B/.200–400 por embarque |
+| Análisis del IEA | B/.600 por producto | Sin tarifario público; guía de 2012 B/.200–1,000; el IEA cotiza caso a caso y el solicitante aporta los patrones de referencia | Base de 800–1,200: +B/.2–7 mil de capital en la primera ola (+3–10 mil con la segunda) |
+| Flete | US$200 por m³ marítimo + 100 de destino | Tarifa FAK de 20 pies India–Manzanillo: US$3,750 en junio de 2026 (+44% desde febrero); desconsolidación US$0.20 por pie cúbico (unos US$7 por m³, mínimo US$55) en el tarifario de Crowley y US$86.5 por m³ en una cotización privada de 2025; THC en Manzanillo US$275 por contenedor | Contenedor: US$180–220 por m³ solo de flete (US$251 con destino); carga consolidada: US$302 por m³ puesta en bodega en el caso base y hasta 470 en el alto |
+| Corredor de aduana | Dentro del flete | Mínimo legal: B/.50 + 0.15% del CIF, más B/.2 por línea | B/.200–350 por embarque |
 | ITBMS de importación | Medicamentos exentos | Confirmado: capítulo 30 del arancel, Código Fiscal art. 1057-V | Sin cambio |
 | Cargas laborales | 28% | CSS patronal 13.25% (14.25% desde marzo de 2027), seguro educativo 1.5%, riesgos profesionales unos 1.5%, XIII mes 8.33%, prima de antigüedad 1.92% | Se mantiene; sube un punto en 2027 |
 | Seguro de carga | B/.100 al mes | 0.3–0.5% del CIF para carga farmacéutica | Equivalente |
@@ -72,13 +72,13 @@ Capital = aportes acumulados de los socios, incluida la fase 0 (unos B/.2,700 de
 | Por socio panameño, un sexto (capital 50/50 con Patel), hasta la primera venta / hasta el pico | — | B/.20,235 / B/.49,503 | B/.15,028 / B/.42,989 | B/.30,697 / B/.53,492 | B/.8,053 / B/.30,710 |
 | Por socio panameño, un tercio (si Patel no aporta efectivo), hasta la primera venta / hasta el pico | — | B/.40,471 / B/.99,006 | B/.30,055 / B/.85,978 | B/.61,395 / B/.106,985 | B/.16,106 / B/.61,421 |
 
-El plan de negocio cita B/.255 mil de capital en el caso base y B/.294 mil con SignatureLex: son los aportes de los 60 meses sin la fase 0; esta tabla la incluye, por eso difiere en unos B/.2,700. Rango para hablar con inversionistas: hasta la primera venta, entre B/.48 mil y B/.184 mil, con B/.121 mil como cifra de planificación; hasta el pico del mes 27, entre B/.184 mil y B/.321 mil, con B/.297 mil de planificación. En el pesimista el capital no hace pico: si nadie cierra, sigue subiendo hasta B/.599 mil en el mes 60; para eso existe la compuerta operativa, que en ese escenario cierra el negocio con una pérdida de unos B/.265 mil.
+El plan de negocio cita B/.255 mil de capital en el caso base y B/.294 mil con SignatureLex: son los aportes de los 60 meses sin la fase 0; esta tabla la incluye, por eso difiere en unos B/.2,700. Rango para hablar con inversionistas: hasta la primera venta, entre B/.48 mil y B/.184 mil, con B/.121 mil como cifra de planificación; hasta el pico del mes 27, entre B/.184 mil y B/.321 mil, con B/.297 mil de planificación. En el pesimista el capital no hace pico: si nadie cierra, sigue subiendo hasta B/.599 mil en el mes 60; para eso existe la compuerta 2 (operativa), que en ese escenario cierra el negocio con una pérdida de unos B/.265 mil.
 
 En qué se va el dinero, acumulado hasta la primera venta (mes 9) y hasta el pico (mes 27):
 
 | Partida | Mes 9, SignatureLex | Mes 9, mercado | Mes 27, SignatureLex | Mes 27, mercado |
 | --- | --- | --- | --- | --- |
-| Arranque de la empresa: legal, licencia, cumplimiento, registros de proveedor del Estado | B/.26,476 | B/.11,602 | B/.26,476 | B/.11,602 |
+| Arranque de la empresa: legal, licencia, cumplimiento, registros de proveedor del Estado | B/.26,476 | B/.11,603 | B/.26,476 | B/.11,603 |
 | Registros sanitarios de los 11 productos | B/.40,310 | B/.23,936 | B/.62,296 | B/.36,992 |
 | Costos fijos, cargos anuales, posregistro e impuestos | B/.32,623 | B/.32,623 | B/.128,532 | B/.129,626 |
 | Compras pagadas al proveedor | B/.5,213 | B/.5,213 | B/.141,425 | B/.141,425 |
@@ -90,11 +90,11 @@ En qué se va el dinero, acumulado hasta la primera venta (mes 9) y hasta el pic
 | Fase 0 | B/.2,675 | B/.2,675 | B/.2,675 | B/.2,675 |
 | Capital acumulado | B/.121,412 | B/.90,165 | B/.297,017 | B/.257,934 |
 
-Lectura: hasta la primera venta, 82% del dinero son arranque, registros y costos fijos, no inventario; por eso el supuesto de costos fijos es el que más mueve el resultado y por eso cada mes de demora en los registros cuesta unos B/.4,696 más. El salto hasta el mes 27 es capital de trabajo: inventario pagado antes de embarcar, cuentas por cobrar a 150 días y el colateral de la fianza de cumplimiento de la segunda licitación de precio único mientras todavía se cobra la primera.
+Lectura: hasta la primera venta, 82% del dinero (76% con tarifas de mercado) son arranque, registros y costos fijos, no inventario; por eso el supuesto de costos fijos es el que más mueve el resultado y por eso cada mes de demora en los registros cuesta unos B/.4,696 más. El salto hasta el mes 27 es capital de trabajo: inventario pagado antes de embarcar, cuentas por cobrar a 150 días y el colateral de la fianza de cumplimiento de la segunda licitación de precio único mientras todavía se cobra la primera.
 
 ## Capital de trabajo y financiamiento
 
-El capital lo consume el tiempo: se paga al proveedor antes de embarcar y se cobra unos 150 días después de entregar, así que en el caso base los socios ponen unos B/.222 mil hasta el mes 18 y B/.255 mil hasta el mes 27, cuando hay que afianzar la segunda LPU.
+El capital lo consume el tiempo: se paga al proveedor antes de embarcar y se cobra unos 150 días después de entregar, así que en el caso base los socios ponen unos B/.225 mil (222 sin la fase 0) hasta el mes 18 y B/.255 mil hasta el mes 27, cuando hay que afianzar la segunda LPU.
 
 Ciclo de caja del caso base: 30% de anticipo al ordenar y 70% al embarcar; tres meses de reposición; tres meses de cobertura para compras menores; cobro a 150 días (los pliegos pagan a 90 días desde la cuenta, más recepción y atrasos). El colateral viene de las fianzas: 30% del valor máximo del contrato de 15 meses en la LPU y 20% en el MINSA, más 10% de la oferta como fianza de propuesta en la LPU mientras se evalúa, con la mitad en efectivo.
 
@@ -103,7 +103,7 @@ Los pagos del Estado mejoraron: la gestión de cobro en la Contraloría bajó de
 | Palanca | Efecto en el capital del caso base | Costo | Comentario |
 | --- | --- | --- | --- |
 | Crédito del proveedor de 120 días, sin anticipo | −B/.41 mil | Ninguno si lo da Bueno | La palanca más barata |
-| Factoring de 70% de las cuentas del Estado | −B/.48 mil | 1.25% mensual: unos 6% de cada factura cobrada a 150 días | La Ley 22 permite ceder el crédito; baja la TIR de 6.8% a 5.9% |
+| Factoring de 70% de las cuentas del Estado | −B/.48 mil | 1.25% mensual: unos 6% de cada factura cobrada a 150 días | La Ley 22 permite ceder el crédito (art. 97 del Texto Único, por confirmar); baja la TIR de 6.8% a 5.9% |
 | Sin coordinador pagado | −B/.45 mil | Tiempo de los socios | Ninguno de los tres trabaja hoy a tiempo completo en esto |
 | Cobro en 105 días en vez de 150 | −B/.18 mil | — | Depende del Estado |
 | Colateral de 25% en vez de 50% | −B/.26 mil | Prima algo mayor | Negociable con la aseguradora |
@@ -125,7 +125,7 @@ En el caso base, el negocio vende unos B/.265 mil al año desde el año 3 y gana
 | TIR anual | −93% | 6.8% | 111% |
 | Múltiplo del capital | 0.05x | 1.29x | 11.0x |
 
-El pesimista supone que nadie cierra el negocio; con la compuerta operativa (nueve meses después de la primera venta, el mes 22 en ese escenario) la pérdida se queda en unos B/.265 mil. El optimista junta a la vez todos los supuestos favorables y casi no ocurre (ver Riesgo cuantificado).
+El pesimista supone que nadie cierra el negocio; con la compuerta 2 (operativa) (nueve meses después de la primera venta, el mes 22 en ese escenario) la pérdida se queda en unos B/.265 mil. El optimista junta a la vez todos los supuestos favorables y casi no ocurre (ver Riesgo cuantificado).
 
 Punto de equilibrio: unos B/.106 mil de ventas al año cubren los costos fijos con un margen de contribución de 56% (62% de margen bruto menos 6% de costos variables). Los productos de la primera ola llegan a unos B/.213 mil anuales en madurez, así que el negocio se paga cuando funciona; el problema es el capital y el tiempo hasta llegar ahí.
 
@@ -149,7 +149,7 @@ Cinco decisiones del modelo favorecen el caso base. Cada una, por separado, llev
 - sin la segunda ola de seis productos: −B/.76 mil;
 - sin la demanda de albendazol del MINSA, estimada con la compra conjunta de 2023: −B/.100 mil.
 
-El modelo ya incluye las cargas laborales del regente y del coordinador (28%), el ITBMS no recuperable de los servicios (7%), la fianza de propuesta de la LPU, la fianza de cumplimiento sobre la cantidad máxima y el impuesto de aviso de operación (2% del patrimonio cada año). Juntos suben el capital del caso base de B/.209 mil a B/.255 mil y bajan el VPN de −B/.13 mil a −B/.56 mil. En sentido contrario, las subastas del MINSA son por cantidades fijas y el modelo les aplica el mismo 75% de compra real que a la LPU.
+El modelo ya incluye las cargas laborales del regente y del coordinador (28%), el ITBMS no recuperable de los servicios (7%), la fianza de propuesta de la LPU, la fianza de cumplimiento sobre la cantidad máxima y el impuesto de aviso de operación (2% del patrimonio cada año). Juntos suben el capital del caso base de B/.209 mil a B/.255 mil y bajan el VPN de −B/.13 mil a −B/.56 mil (cifras de la versión del 6 de octubre frente a la actual). En sentido contrario, las subastas del MINSA son por cantidades fijas y el modelo les aplica el mismo 75% de compra real que a la LPU.
 
 ## Riesgo cuantificado
 
@@ -157,7 +157,7 @@ En 20,000 simulaciones, la S.A. como la propone Patel pierde dinero en 77% de lo
 
 Cada escenario sortea todos los supuestos entre su valor pesimista, base y optimista; si cada registro se aprueba; y si cada renglón centralizado se gana en cada ciclo. También sortea un problema de planta (15% de probabilidad; la fase 0 lo detecta en 80% de los casos y, si pasa, termina en falla de calidad, fianza ejecutada e inventario perdido) y una ruptura con el proveedor (4% anual).
 
-Las compuertas recortan pérdidas: en la versión por etapas, la fase 0 descarta el trato en 21% de los casos con un costo promedio de unos B/.3,300, y la compuerta operativa cierra otro 17% cuando las ventas anualizadas no llegan a B/.90 mil nueve meses después de la primera venta. Con la rampa base de 12 meses, ese umbral equivale a unos B/.108 mil en madurez, algo más que el equilibrio de B/.106 mil; en las versiones con los productos del sistema nervioso, las dos compuertas cierran 12% y 4.5%. El problema es cuánto se pone antes de saber: al llegar a la compuerta operativa, la mediana ya va en B/.197–226 mil (B/.165 mil si Bueno financia).
+Las compuertas recortan pérdidas: en la versión por etapas, la fase 0 descarta el trato en 21% de los casos con un costo promedio de unos B/.3,300, y la compuerta 2 (operativa) cierra otro 17% cuando las ventas anualizadas no llegan a B/.90 mil nueve meses después de la primera venta. Con la rampa base de 12 meses, ese umbral equivale a unos B/.108 mil en madurez, algo más que el equilibrio de B/.106 mil; en las versiones con los productos del sistema nervioso, las dos compuertas cierran 12% y 4.5%. El problema es cuánto se pone antes de saber: al llegar a la compuerta 2 (operativa), la mediana ya va en B/.197–226 mil (B/.165 mil si Bueno financia).
 
 La simulación solo descarta el trato en la fase 0 por problemas de planta o por un precio de más de 1.6 veces la referencia del modelo. Con el tope de 1.1 veces de la compuerta 0, en la versión con Bueno financiando (precio a libro abierto de 0.95 a 1.30 veces) la mitad de los escenarios se detendría en la fase 0 y la probabilidad de perder más que esa fase bajaría a 15%, pero el VPN esperado seguiría negativo (−B/.17 mil).
 
@@ -180,7 +180,7 @@ Sensibilidad del caso base (VPN al 15%: −B/.56 mil; capital B/.255 mil), movie
 | Productos de la segunda ola (sin equivalencia terapéutica, con fabricante verificado) | 0 → 12 productos | −B/.76 mil / −B/.38 mil | B/.218 mil / B/.301 mil |
 | Tarifas legales: SignatureLex frente a mercado | tarifas de SignatureLex → tarifas de mercado | −B/.92 mil / −B/.56 mil | B/.294 mil / B/.255 mil |
 
-Los dos supuestos que más mueven el resultado son los costos fijos, el único que por sí solo vuelve positivo el VPN del caso base, y la tasa de victoria. Los costos se pueden cotizar en la fase 0; la tasa de victoria solo se conoce compitiendo, y para eso está la compuerta operativa.
+Los dos supuestos que más mueven el resultado son los costos fijos, el único que por sí solo vuelve positivo el VPN del caso base, y la tasa de victoria. Los costos se pueden cotizar en la fase 0; la tasa de victoria solo se conoce compitiendo, y para eso está la compuerta 2 (operativa).
 
 ## Supuestos del modelo y preguntas abiertas
 
@@ -199,7 +199,7 @@ Los supuestos que más pesan y menos se conocen son los costos fijos, la tasa de
 | Demanda centralizada del MINSA | Compra conjunta 2023 como referencia | Datos incompletos | Pliego de la compra conjunta 2026 |
 | Vida útil y lote mínimo | Sin datos | — | Bueno |
 
-Verificación del 8 de octubre contra datos de aduana india (ver 07_Auditoria_y_confianza): las referencias de paracetamol, albendazol, mebendazol y nistatina coinciden con precios reales de exportación; las de las dos cremas (mometasona e hidrocortisona) parecen bajas. Con las cremas al precio de aduana, el VPN del caso base baja de −B/.56 mil a −B/.77 mil y la TIR de 6.8% a 3.3%; por eso la lista de precios de la fábrica decide qué entra en la primera ola.
+Verificación del 8 de octubre contra datos de aduana india (ver 07_Auditoria_y_confianza): las referencias de paracetamol, albendazol, mebendazol y nistatina coinciden con precios reales de exportación; las de las dos cremas (mometasona e hidrocortisona) parecen bajas. Con las cremas al precio de aduana, el VPN del caso base baja de −B/.56 mil a −B/.77 mil y la TIR de 6.8% a 3.3% (sin las dos cremas, −B/.66 mil y 4.6%; ambos casos están en la tabla de qué pasaría si del análisis del modelo); por eso la lista de precios de la fábrica decide qué entra en la primera ola.
 
 Preguntas abiertas:
 

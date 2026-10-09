@@ -26,7 +26,7 @@ DOC_INDEX = [
     ('Cotizaciones_3PL_seguimiento.md', 'Operadores logísticos: canal de contacto, evidencia de licencia, qué se pidió, cuándo, y qué respondieron', 'Seguir las cotizaciones'),
     ('Resumen_ejecutivo_socios_inversionistas.md', 'Cuatro páginas para un socio o inversionista: qué es el negocio, veredicto, números, el 77% y cómo baja, tramos de capital, riesgos', 'Presentar el negocio'),
     ('Modelo_financiero_socios.xlsx', 'El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación', 'Cambiar un supuesto y ver el efecto'),
-    ('Factory_data_for_3PL_quote.xlsx y 3PL_questionnaire_blank_EN.xlsx', 'Lo único que va a Rutul: la hoja de datos que debe llenar la fábrica y el cuestionario del 3PL en blanco', 'Reenviar'),
+    ('Factory_data_for_3PL_quote.xlsx', 'Lo que va a Rutul hoy: la hoja de datos que debe llenar la fábrica', 'Reenviar'),
     ('Anexo_Plan_de_negocio_completo.md', 'El plan de negocio en una sola pieza, del que salen los documentos 00 a 05; repite su contenido, por eso vive solo en el repositorio y en el proyecto de Claude, no en Drive', 'Consultar todo junto'),
     ('Anexo_DD_hallazgos_en.md', 'Hallazgos de la primera ronda de debida diligencia, en inglés, con cada enlace', 'Verificar fuente por fuente'),
 ]
@@ -41,7 +41,7 @@ def mapa_table(current=None):
 
 
 REGLA_USO = ('Regla de uso: los documentos 00 a 07, el seguimiento de cotizaciones y el modelo son para los tres socios panameños. '
-             'A Rutul solo van la hoja de datos, el cuestionario del 3PL y, más adelante, el acuerdo de confidencialidad y la propuesta de términos. '
+             'A Rutul solo van la hoja de datos y, más adelante, el acuerdo de confidencialidad y la propuesta de términos. '
              'Nada de la investigación se le reenvía ni se le cita: se le piden los documentos y se contrastan en privado.')
 
 # ---------------------------------------------------------------- 00: plan por fases en tabla
@@ -300,7 +300,7 @@ Un negocio real, con márgenes altos por producto y un mercado de más de B/.230
 - Formato: la fuente de todo es Markdown (archivos `.md`), que se lee en GitHub, en el proyecto de Claude y en cualquier editor; para imprimir o enviar fuera se genera el PDF del paquete (`Farma_paquete_socios.pdf`). No se editan cifras a mano: se corrige la fuente y se regenera.
 - Toda cifra lleva su naturaleza (norma, pliego, tarifa publicada, referencia indirecta, supuesto). Lo que no tiene cotización firme está marcado como estimación o supuesto; 07 dice cuánta confianza merece cada número.
 - Nombres: Rutul Patel o Patel; Zywie Worldwide; Bueno Salud Care (el fabricante inferido, que Rutul no ha nombrado).
-- Con Rutul solo se comparten la hoja de datos de fábrica, el cuestionario del 3PL en blanco y, más adelante, el acuerdo de confidencialidad y la propuesta de términos.
+- Con Rutul solo se comparten la hoja de datos de fábrica y, más adelante, el acuerdo de confidencialidad y la propuesta de términos.
 
 ## Dónde vive cada cosa
 

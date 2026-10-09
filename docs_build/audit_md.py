@@ -56,10 +56,22 @@ def audit_file(path, all_names):
     # --- frases prohibidas y marcadores
     for i, ln in enumerate(lines, 1):
         for f in FORBIDDEN:
-            if f in ln:
+            # marcadores en mayúsculas: tal cual; frases: sin distinguir mayúsculas y como palabra completa
+            if f.isupper() or f in ('[[', '{OPERADOR}', '[APELLIDOS]'):
+                hit = f in ln
+            else:
+                hit = re.search(r'(?<![\wáéíóúñ])' + re.escape(f) + r'(?![\wáéíóúñ])', ln, flags=re.I) is not None
+            if hit:
                 # «N/A» dentro de una URL o código no cuenta
                 if f in ('N/A', 'n/a') and ('http' in ln or '`' in ln): continue
                 errors.append(f'L{i}: frase o marcador prohibido «{f}»')
+        if not name.endswith('_en.md'):
+            for m in re.finditer(r'\[([^\]]+)\](?!\()', ln):
+                inner = m.group(1)
+                if inner in (' ', 'x', 'X') or inner.startswith('http') or '`' in ln: continue
+                errors.append(f'L{i}: marcador entre corchetes «[{inner}]»')
+        if '3PL_questionnaire_blank_EN' in ln:
+            errors.append(f'L{i}: el cuestionario de BP Logistics ya no forma parte del paquete')
         if '  ' in ln and not ln.startswith(('    ', '|')) and '`' not in ln:
             warns.append(f'L{i}: espacio doble')
         if ln.rstrip() != ln:

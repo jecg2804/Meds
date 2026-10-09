@@ -1,6 +1,6 @@
 # Mercado, requisitos y competencia
 
-*Preparado el 7 de octubre de 2026 y revisado el 8 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras salen del modelo financiero adjunto (Modelo_financiero_socios.xlsx) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Modelo de negocio
 
@@ -9,7 +9,7 @@ La S.A. compraría genéricos terminados a Bueno a través de Zywie, los registr
 | Eslabón | Qué hace | Qué gana (caso base) |
 | --- | --- | --- |
 | Bueno (fábrica, Sanand) | Fabrica, emite el CPP y los certificados, firma la carta del fabricante | Su margen de fábrica (si Patel participa en ella, no está verificado) |
-| Zywie (Rutul Patel) | Exporta y factura; hoy con margen propio | 15% sobre el precio de fábrica en la propuesta; el plan pide 5% o menos a libro abierto |
+| Zywie (Rutul Patel) | Exporta y factura; hoy con margen propio | 15% sobre el precio de fábrica (estimación: Zywie no ha abierto su margen); el plan pide 5% o menos a libro abierto |
 | La S.A. panameña | Registra, licencia, almacena en un 3PL, oferta, entrega y cobra | Precio adjudicado menos costo puesto: 49–96% de margen bruto en compras menores; −24% a 92% en precio único |
 | CSS, MINSA y patronatos | Compran por PanamaCompra y pagan a 90 días desde la cuenta (unos 150 reales) | — |
 
@@ -28,7 +28,7 @@ El Estado compra un estimado de B/.300 millones al año en medicamentos, pero el
 | Modalidad | Tamaño reciente | Cómo se gana | Fianzas | Pago |
 | --- | --- | --- | --- | --- |
 | Licitación de precio único CSS (LPU 01-2026) | B/.92 millones, 348 renglones, 15 meses | Menor precio que cumple | 10% propuesta por 180 días hábiles + 30% cumplimiento por 18 meses; compra mínima garantizada de 50–60% | 90 días desde la cuenta |
-| Subasta en reversa MINSA 2026 | 33 subastas de un solo producto entre junio y el 6 de octubre de 2026, 28 adjudicadas; las primeras 19 sumaron B/.5.8 millones | Puja más baja | 20% cumplimiento, sin fianza de propuesta; cantidades fijas | 90 días desde la cuenta |
+| Subasta en reversa MINSA 2026 | 33 procesos de subasta de un solo producto (19 de medicamentos, el resto insumos) publicados desde abril de 2026, con pujas entre mayo y junio; 26 adjudicados al 7 de octubre por unos B/.6.3 millones frente a B/.8.2 millones de referencia (conteo propio de los informes de cada subasta) | Puja más baja | 20% cumplimiento, sin fianza de propuesta; cantidades fijas | 90 días desde la cuenta |
 | Compra conjunta MINSA-CSS (DE 16 de 2026, 376 renglones) | Sin acto publicado al 7 de octubre de 2026 | Menor precio; la entrega inmediata decide | 15% en la de 2024 | 90 días desde la cuenta |
 | Contratación menor y compra menor ágil (hospitales, regiones, unidades CSS) | Hasta B/.70 mil y B/.50 mil por acto (topes de la Ley 419 para medicamentos; la Ley 22 general fija B/.50 mil); CSS 2025: 1,117 contrataciones menores (B/.13.8 millones) y 151 compras menores ágiles (B/.2.7 millones) | Cotización en línea, menor precio | Sin fianza de propuesta | Según orden de compra |
 
@@ -40,12 +40,12 @@ Qué hay en el calendario de compras, al 7 de octubre de 2026:
 
 | Acto | Fechas verificadas | Qué implica para el plan |
 | --- | --- | --- |
-| LPU 01-2026 de la CSS (síntesis química; proceso 2025-1-10-01-99-SPU-000009; referencia B/.95.3 millones por 349 renglones, B/.91.98 millones según la CSS) | Ofertas el 1 y 2 de diciembre de 2025; 282 renglones adjudicados por unos B/.77.9 millones anunciados el 26 de marzo de 2026; estado «Adjudicado» en PanamaCompra desde el 15 de mayo de 2026; vigencia de 15 meses desde que quede ejecutoriada (cláusula 20) | Vence hacia la segunda mitad de 2027; la próxima LPU de síntesis química llegaría entonces. No hay LPU nueva ni plan anual de compras de la CSS publicado |
-| LPU 11-2026 de la CSS (antirretrovirales, controlados e intercambiables) | Adjudicada el 31 de agosto de 2026 | Fuera de nuestro catálogo |
+| LPU 01-2026 de la CSS (síntesis química; proceso 2025-1-10-01-99-SPU-000009; referencia B/.95.3 millones por 349 renglones, 348 en el cuadro de propuestas; B/.91.98 millones según la CSS) | Ofertas el 1 y 2 de diciembre de 2025; 282 renglones adjudicados por unos B/.77.9 millones anunciados el 26 de marzo de 2026; estado «Adjudicado» en PanamaCompra desde el 15 de mayo de 2026; vigencia de 15 meses desde que quede ejecutoriada (cláusula 20) | Vence hacia la segunda mitad de 2027; la próxima LPU de síntesis química llegaría entonces. No hay LPU nueva ni plan anual de compras de la CSS publicado |
+| LPU 11-2026 de la CSS (antirretrovirales, controlados e intercambiables) | Adjudicada el 31 de agosto de 2026 | Fuera de la primera ola: exige equivalencia terapéutica o licencia de controlados (26 coincidencias con el catálogo de Zywie y Modi) |
 | Subastas en reversa del MINSA (un producto por acto) | 33 entre junio y el 6 de octubre de 2026, 28 adjudicadas | El canal centralizado disponible hoy: sin fianza de propuesta, 20% de cumplimiento, cantidades fijas |
 | Contrataciones menores y compras menores ágiles de medicamentos, 2026 | Unas 3,300 y 270 (MINSA 2,323 y 160; CSS 1,010 y 111) | El canal de la primera venta |
 
-El canal privado de farmacias y los demás canales fuera de PanamaCompra se comparan en la sección siguiente; ninguno cambia el veredicto de la fase 0.
+El canal privado de farmacias y los demás canales fuera de PanamaCompra se comparan en la sección siguiente.
 
 ## Canales de venta: lo que cubre el plan y lo que deja fuera
 
@@ -54,9 +54,9 @@ El modelo cubre un solo canal, la venta al Estado por PanamaCompra, porque es el
 | Canal | Cómo se vende | Tamaño o señal | En el modelo |
 | --- | --- | --- | --- |
 | Compras públicas centralizadas: licitaciones de precio único de la CSS, subastas en reversa y compra conjunta del MINSA | PanamaCompra; gana la oferta más baja que cumple el pliego; fianzas de 20–30% | La CSS presupuesta B/.230 millones para 2027; la LPU 01-2026 adjudicó B/.77.9 millones | Sí: el núcleo del modelo (30% de probabilidad por renglón) |
-| Compras públicas descentralizadas: compras menores de hospitales, regiones de salud y patronatos (Santo Tomás, Oncológico, Hospital del Niño, entre otros) | PanamaCompra, montos menores, entrega en días; pagan 1.8 veces el precio centralizado | Cientos de actos al año (conteo propio 2025–2026) | Sí: participación de 22% en madurez |
+| Compras públicas descentralizadas: compras menores de hospitales, regiones de salud y patronatos (Santo Tomás, Oncológico, Hospital del Niño, entre otros) | PanamaCompra, montos menores, entrega en días; pagan 1.8 veces el precio centralizado | Miles de actos al año (conteo propio 2025–2026: unas 3,300 contrataciones menores y 270 compras ágiles de medicamentos en 2026) | Sí: participación de 22% en madurez |
 | Compras públicas por excepción y emergencia (desabastecimiento crítico, DE 27 arts. 824–829) y compras vía Fondo Estratégico de la OPS | Procedimientos especiales; la OPS compra a fabricantes precalificados, no a distribuidores locales | Puntual | No: no aplica a un distribuidor nuevo |
-| Mercado privado: cadenas de farmacias (Arrocha, Metro y otras), droguerías mayoristas, hospitales y clínicas privadas, aseguradoras | Venta directa con visitadores y crédito, o a través de una droguería | Importaciones de medicamentos de unos US$670 millones en 2024, más de 1,100 puntos de venta; cuatro grupos concentran 63% de las importaciones; sustitución en mostrador solo con la lista de intercambiables | No en la primera fase: una marca desconocida solo entra por una droguería a 50–100 farmacias independientes (B/.70–150 mil al año, 30–40% de margen bruto, cobros a 60–90 días); suma B/.5–35 mil de contribución y exige un vendedor |
+| Mercado privado: cadenas de farmacias (Arrocha, Metro y otras), droguerías mayoristas, hospitales y clínicas privadas, aseguradoras | Venta directa con visitadores y crédito, o a través de una droguería | Importaciones de medicamentos de unos US$670 millones en 2024, más de 1,100 puntos de venta; cuatro grupos concentran 63% de las importaciones; sustitución en mostrador solo con la lista de intercambiables | No en la primera fase. Estimación propia, sin fuente externa: una marca desconocida solo entra por una droguería a 50–100 farmacias independientes (B/.70–150 mil al año, 30–40% de margen bruto, cobros a 60–90 días); suma B/.5–35 mil de contribución y exige un vendedor |
 | Venta a un distribuidor establecido (mayorista a mayorista) | La S.A. registra los productos y los vende a un distribuidor que ya atiende al Estado | Alternativa modelada: capital bajo, 49% de probabilidad de perder más que la fase 0 | Sí, como estructura alternativa (05) |
 | Reexportación desde la Zona Libre de Colón a Centroamérica y el Caribe | Sin registro panameño mientras no entre al territorio fiscal; exige registro sanitario en cada país destino | Panamá es el hub regional (operadores de Colón y Panamá Pacífico) | No: es otro negocio, con registros país por país |
 | Programas sociales, ONG y donaciones | Compras del MINSA bajo programas (medicamentos accesibles) u ONG con licitación propia | Pequeño | Entra por la vía pública si aplica |
@@ -85,7 +85,7 @@ El costo puesto parte de una referencia FOB por producto hecha con precios públ
 
 Se gana por precio y por cumplir: el oferente más barato que califica gana 95% de las veces, pero a los nuevos les descalifican 56% de sus ofertas.
 
-En la LPU 01-2026 de la CSS, de 348 renglones, 35 no recibieron ofertas, 128 recibieron una, 81 dos y 104 tres o más. Se adjudicaron 283 (81%), con una mediana de 0.963 veces el precio de referencia: 1.00 con un solo postor y 0.90 con tres o más.
+En la LPU 01-2026 de la CSS, de 348 renglones, 35 no recibieron ofertas, 128 recibieron una, 81 dos y 104 tres o más. Se adjudicaron 283 según la tabulación propia del cuadro de propuestas (282 según el comunicado de la CSS), 81%, con una mediana de 0.963 veces el precio de referencia: 1.00 con un solo postor y 0.90 con tres o más.
 
 | Indicador | Valor | Base |
 | --- | --- | --- |
@@ -110,7 +110,7 @@ Los productos de Bueno van por la ruta ordinaria: la autoridad india no figura e
 | --- | --- | --- | --- |
 | S.A., RUC y aviso de operación | — | Tasa única B/.300 al año; aviso de operación, 2% del patrimonio al año | DGI; Ley 8 de 2010 |
 | Licencia de agencia distribuidora (regente al menos 4 horas diarias, depósito en el 3PL) | 20 días hábiles para subsanar observaciones | B/.200 por 2 años + B/.50 de inspección | DE 27, arts. 15, 382 y 396–398 |
-| Certificado de buenas prácticas de almacenamiento | — | B/.100 | Res. 181 de 2025 |
+| Certificado de buenas prácticas de almacenamiento | — | B/.100 | DE 27, art. 15 (tasa); Res. 181 de 2025 (procedimiento y vigencia de 2 años) |
 | Registro sanitario por producto, ruta ordinaria | Laboratorio de referencia (IEA o INDICASAT) hasta 60 días hábiles + DNFD hasta 20 días hábiles | B/.500 DNFD + análisis del laboratorio (B/.200–1,000 en la guía de 2012; cotizar a los dos) + MEF y Colegio | Ley 419, arts. 41, 72 y 74; DE 27, arts. 15 y 248–251 |
 | Certificado de intercambiabilidad, si aplica | — | B/.400, sin contar el estudio de bioequivalencia | DE 27, art. 15 |
 | Registro Nacional de Oferentes del MINSA | Hasta 30 días hábiles | Sin tasa; exige estados financieros certificados por contador público | DE 27, arts. 724–731 |
@@ -118,7 +118,7 @@ Los productos de Bueno van por la ruta ordinaria: la autoridad india no figura e
 
 - Equivalencia terapéutica: la [Resolución 985](https://www.minsa.gob.pa/sites/default/files/general/resolucion_985_go30317_08072025.pdf) la exige para 173 principios activos, entre ellos levofloxacina, metformina, omeprazol, amlodipina, rosuvastatina y clindamicina. No la exige para paracetamol, amoxicilina con clavulánico, ceftriaxona, cefotaxima, albendazol, mebendazol, nistatina, hidrocortisona, mometasona, amitriptilina, quetiapina, topiramato ni prednisolona. Sí están en la lista cefalexina (27), azitromicina (15), ciprofloxacina (30) y fluconazol (67), además de claritromicina y metronidazol: cualquier segunda ola debe cruzarse con la resolución antes de pedir precios.
 - Pliegos: en la LPU el registro sanitario no es subsanable; el adjudicatario debe entregar una carta de compromiso solidario del fabricante, apostillada, firmada por Bueno y no por Zywie, dentro de los 45 días siguientes a la fianza de cumplimiento; los productos llegan con 18 meses de vida útil y el empaque secundario impreso con el número de la licitación. Para ofertar hace falta la licencia de operación de la DNFD, así que un fabricante extranjero necesita en la práctica una agencia distribuidora local.
-- Ley 462 de 2025: la excepción de registro para importar exige certificado de buenas prácticas de fabricación vigente y, con más de 10 importaciones al año, el registro ordinario; además regula la importación paralela por la CSS y el MINSA de medicamentos patentados y los topes de los procedimientos excepcionales (ministro hasta B/.500 mil, director de la CSS hasta B/.1 millón).
+- Ley 462 de 2025: la excepción de registro para importar exige certificado de buenas prácticas de fabricación vigente y, con más de 10 importaciones al año, el registro ordinario (regla por confirmar en el texto de la ley); además regula la importación paralela por la CSS y el MINSA de medicamentos patentados y los topes de los procedimientos excepcionales (ministro hasta B/.500 mil, director de la CSS hasta B/.1 millón).
 - Posregistro: al menos dos análisis en los 5 años de vigencia, pagados por el titular (Ley 419, art. 67).
 - Controlados: licencia especial de B/.100 y B/.50 por permiso de importación; quedan fuera de la primera ola.
 - Precios de transferencia: si Patel es accionista de la S.A. y dueño o socio de Zywie, las compras a Zywie son operaciones con parte relacionada en el exterior. Obligan a presentar el [Informe 930](https://dgi.mef.gob.pa/Internacional/I930.php) dentro de los 6 meses del cierre fiscal y a tener estudio de precios de transferencia; la multa por no presentarlo es 1% de esas operaciones.

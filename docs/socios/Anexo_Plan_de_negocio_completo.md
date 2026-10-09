@@ -1,10 +1,10 @@
 # Plan de negocio: distribuidora de medicamentos para compras públicas en Panamá
 
-*Preparado el 7 de octubre de 2026 y revisado el 8 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras salen del modelo financiero adjunto (Modelo_financiero_socios.xlsx) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Veredicto
 
-Un inversionista que pusiera todo el capital no debería entrar en la S.A. tal como la propone Patel. En 20,000 simulaciones pierde dinero en 77% de los casos y exige B/.255 mil de capital en el caso base (B/.343 mil en la mediana simulada).
+Un inversionista que pusiera todo el capital no debería entrar en la S.A. tal como la propone Patel. En 20,000 simulaciones pierde dinero en 77% de los casos y exige B/.255 mil de capital en el caso base, B/.258 mil con la fase 0 (B/.343 mil en la mediana simulada); el caso de planificación, con las tarifas legales de SignatureLex, pide B/.297 mil.
 
 El mercado es real y los márgenes estimados por producto son altos. Lo que falla es la estructura: pocos productos, un intermediario con margen propio, cobro a unos 150 días, fianzas de hasta 30% del contrato y unos B/.4,700 al mes de costos fijos, con cargas laborales e ITBMS, antes de vender. El canal privado de farmacias no cambia la cuenta: para una marca desconocida vale entre B/.5 y 35 mil al año de contribución (ver 02_Mercado_requisitos_y_competencia).
 
@@ -21,12 +21,12 @@ Capital: lo máximo que llegan a poner los socios en los escenarios que pasan la
 Recomendación:
 
 1. No constituir ni pagar más que la fase 0 (unos B/.2,700 entre los tres socios panameños) hasta tener por escrito el precio de fábrica de Bueno, 150–180 días de crédito sin anticipo, registros pagados por Bueno, el fabricante de los productos del sistema nervioso verificado y cotizaciones de regente, contador y coordinador.
-2. Aun con esas condiciones firmadas, el VPN esperado es −B/.32 mil al 15% (−B/.13 mil si el coordinador cuesta B/.1,000 al mes). Solo pasa a positivo (+B/.18 mil) si uno de los socios opera sin sueldo, y aun así es negativo con una tasa de 25% (−B/.21 mil): la fase 0 sirve para decidir con datos reales, no para comprometer capital.
+2. Aun con esas condiciones firmadas, el VPN esperado es −B/.32 mil al 15% (−B/.12.6 mil si el coordinador cuesta B/.1,000 al mes). Solo pasa a positivo (+B/.18 mil) si uno de los socios opera sin sueldo, y aun así es negativo con una tasa de 25% (−B/.21 mil): la fase 0 sirve para decidir con datos reales, no para comprometer capital.
 3. El tope de cada socio panameño debería ser 15% de sus ahorros líquidos, en tramos atados a compuertas. Con capital 50/50 y Bueno financiando, la parte promedio de cada uno de los tres, si el trato sigue, sería B/.43 mil: lo que exceda el tope lo ponen Patel o terceros, o el socio acepta diluirse.
 4. Cambiar el trato: Zywie con comisión fija de 5% o menos sobre precio de fábrica a libro abierto, capital proporcional a las acciones y un abogado independiente para la S.A.
 5. El modelo no da ningún peso a las conexiones: el plan solo se sostiene si gana por precio y cumplimiento.
 
-Correcciones al informe anterior: la levofloxacina y la metformina sí exigen equivalencia terapéutica (Resolución 985, números 99 y 111). Y el capital necesario no son los B/.33–41 mil de arranque de aquel informe, que dejaba aparte el capital de trabajo: el caso base pide B/.255 mil. Esta versión también incluye costos que faltaban (cargas laborales, ITBMS no recuperable, fianzas sobre la cantidad máxima, fianza de propuesta e impuesto de aviso de operación), que bajan el VPN del caso base de −B/.13 mil a −B/.56 mil.
+Correcciones al informe anterior: la levofloxacina y la metformina sí exigen equivalencia terapéutica (Resolución 985, números 99 y 111). Y el capital necesario no son los B/.33–41 mil de arranque de aquel informe, que dejaba aparte el capital de trabajo: el caso base pide B/.255 mil. Esta versión también incluye costos que faltaban (cargas laborales, ITBMS no recuperable, fianzas sobre la cantidad máxima, fianza de propuesta e impuesto de aviso de operación), que bajan el VPN del caso base de −B/.13 mil (versión del 6 de octubre) a −B/.56 mil.
 
 ## Modelo de negocio
 
@@ -62,7 +62,7 @@ Las compras descentralizadas de la CSS pagan una mediana de 1.8 veces el precio 
 
 Tamaño al alcance de este catálogo: los productos de Zywie y Modi coinciden exactamente con B/.12.3 millones anuales de compras públicas. De eso, B/.4.4 millones no exigen equivalencia terapéutica ni licencia de controlados, y 43% del valor centralizado tuvo dos postores o menos. Los 11 productos de Bueno de la primera ola suman B/.2.2 millones al año en compras públicas; a precio de oferta y solo en los canales donde el margen permite ofertar, B/.1.5 millones.
 
-La LPU 01-2026 (proceso 2025-1-10-01-99-SPU-000009; precio de referencia B/.95.3 millones por 349 renglones, B/.91.98 millones según la CSS) recibió ofertas el 1 y 2 de diciembre de 2025; la CSS anunció 282 renglones adjudicados por unos B/.77.9 millones el 26 de marzo de 2026 y PanamaCompra la registra como adjudicada desde el 15 de mayo de 2026. Su vigencia es de 15 meses desde que quede ejecutoriada la adjudicación (cláusula 20 del pliego), así que vence hacia la segunda mitad de 2027. La LPU 11-2026 (antirretrovirales, controlados e intercambiables) aparece adjudicada el 31 de agosto de 2026. No hay una nueva LPU de medicamentos publicada ni un plan anual de compras de la CSS en PanamaCompra, así que la próxima LPU de síntesis química llegaría al vencer la actual, en la segunda mitad de 2027. Mientras tanto, el MINSA compra por subastas electrónicas de un solo producto (sin fianza de propuesta, 20% de cumplimiento, cantidades fijas) y ambas instituciones por contrataciones menores: en lo que va de 2026 llevan unas 3,300 contrataciones menores y 270 compras menores ágiles de medicamentos (MINSA 2,323 y 160; CSS 1,010 y 111).
+La LPU 01-2026 (proceso 2025-1-10-01-99-SPU-000009; precio de referencia B/.95.3 millones por 349 renglones, 348 en el cuadro de propuestas; B/.91.98 millones según la CSS) recibió ofertas el 1 y 2 de diciembre de 2025; la CSS anunció 282 renglones adjudicados por unos B/.77.9 millones el 26 de marzo de 2026 y PanamaCompra la registra como adjudicada desde el 15 de mayo de 2026. Su vigencia es de 15 meses desde que quede ejecutoriada la adjudicación (cláusula 20 del pliego), así que vence hacia la segunda mitad de 2027. La LPU 11-2026 (antirretrovirales, controlados e intercambiables) aparece adjudicada el 31 de agosto de 2026. No hay una nueva LPU de medicamentos publicada ni un plan anual de compras de la CSS en PanamaCompra, así que la próxima LPU de síntesis química llegaría al vencer la actual, en la segunda mitad de 2027. Mientras tanto, el MINSA compra por subastas electrónicas de un solo producto (sin fianza de propuesta, 20% de cumplimiento, cantidades fijas) y ambas instituciones por contrataciones menores: en lo que va de 2026 llevan unas 3,300 contrataciones menores y 270 compras menores ágiles de medicamentos (MINSA 2,323 y 160; CSS 1,010 y 111).
 
 Canal privado: el mercado de farmacias existe (importaciones de medicamentos por unos US$670 millones en 2024 y más de 1,100 puntos de venta), pero cuatro grupos integrados concentran 63% de las importaciones, la sustitución en mostrador solo se permite con productos de la lista de intercambiables de la DNFD, el MINSA vende 140 genéricos básicos a precio de licitación a cualquiera con receta, y los fabricantes indios fueron 14 de los 35 rechazos de registro de 2025. Para una marca desconocida sin visitadores, una primera etapa realista son 50–100 farmacias independientes a través de una droguería: B/.70–150 mil de ventas al año con 30–40% de margen bruto, menos un vendedor, el descuento de 20% a jubilados y cobros a 60–90 días. Suma entre B/.5 y 35 mil al año de contribución y no cambia el veredicto; el modelo no lo incluye.
 
@@ -90,7 +90,7 @@ El costo puesto parte de una referencia FOB por producto hecha con precios públ
 
 Se gana por precio y por cumplir: el oferente más barato que califica gana 95% de las veces, pero a los nuevos les descalifican 56% de sus ofertas.
 
-En la LPU 01-2026 de la CSS, de 348 renglones, 35 no recibieron ofertas, 128 recibieron una, 81 dos y 104 tres o más. Se adjudicaron 283 (81%), con una mediana de 0.963 veces el precio de referencia: 1.00 con un solo postor y 0.90 con tres o más.
+En la LPU 01-2026 de la CSS, de 348 renglones, 35 no recibieron ofertas, 128 recibieron una, 81 dos y 104 tres o más. Se adjudicaron 283 según la tabulación propia del cuadro de propuestas (282 según el comunicado de la CSS), 81%, con una mediana de 0.963 veces el precio de referencia: 1.00 con un solo postor y 0.90 con tres o más.
 
 | Indicador | Valor | Base |
 | --- | --- | --- |
@@ -137,7 +137,7 @@ Los productos de Bueno van por la ruta ordinaria: la autoridad india no figura e
 | --- | --- | --- | --- |
 | S.A., RUC y aviso de operación | — | Tasa única B/.300 al año; aviso de operación, 2% del patrimonio al año | DGI; Ley 8 de 2010 |
 | Licencia de agencia distribuidora (regente al menos 4 horas diarias, depósito en el 3PL) | 20 días hábiles para subsanar observaciones | B/.200 por 2 años + B/.50 de inspección | DE 27, arts. 15, 382 y 396–398 |
-| Certificado de buenas prácticas de almacenamiento | — | B/.100 | Res. 181 de 2025 |
+| Certificado de buenas prácticas de almacenamiento | — | B/.100 | DE 27, art. 15 (tasa); Res. 181 de 2025 (procedimiento y vigencia de 2 años) |
 | Registro sanitario por producto, ruta ordinaria | Laboratorio de referencia (IEA o INDICASAT) hasta 60 días hábiles + DNFD hasta 20 días hábiles | B/.500 DNFD + análisis del laboratorio (B/.200–1,000 en la guía de 2012; cotizar a los dos) + MEF y Colegio | Ley 419, arts. 41, 72 y 74; DE 27, arts. 15 y 248–251 |
 | Certificado de intercambiabilidad, si aplica | — | B/.400, sin contar el estudio de bioequivalencia | DE 27, art. 15 |
 | Registro Nacional de Oferentes del MINSA | Hasta 30 días hábiles | Sin tasa; exige estados financieros certificados por contador público | DE 27, arts. 724–731 |
@@ -153,11 +153,11 @@ Los productos de Bueno van por la ruta ordinaria: la autoridad india no figura e
 
 ## Estructura de costos
 
-Con tarifas de mercado, arrancar la empresa cuesta B/.10,850 más B/.2,120 por registro sanitario; con la propuesta de SignatureLex, B/.24,750 más B/.3,425 por registro (unos B/.3,570 con muestras). Ambas cifras van sin el 7% de ITBMS, que el modelo suma; en el caso base, la diferencia sube el capital necesario en B/.39,100.
+Con tarifas de mercado, arrancar la empresa cuesta B/.10,850 más B/.2,120 por registro sanitario; con la propuesta de SignatureLex, B/.24,750 más B/.3,420 por registro (unos B/.3,570 con muestras). Ambas cifras van sin el 7% de ITBMS, que el modelo suma; en el caso base, la diferencia sube el capital necesario en B/.39,100.
 
 | Concepto (una sola vez) | Mercado, caso base (B/.) | SignatureLex (B/.) | Tasa oficial (B/.) |
 | --- | --- | --- | --- |
-| Constitución, libros, poderes, RUC, aviso y municipal | 2,500 | 5,700 | Tasa única 300 al año |
+| Constitución, libros, poderes, RUC, aviso y municipal | 2,500 | 5,700 | La tasa única (B/.300 al año) va en los costos fijos |
 | Pacto de accionistas, contrato de suministro y acuerdo de calidad | 2,500 | 1,750 o más | — |
 | Diagnóstico regulatorio y matriz de portafolio | 650 | 650 | — |
 | Apoyo para abrir la cuenta bancaria | 300 | 3,150 | — |
@@ -168,7 +168,7 @@ Con tarifas de mercado, arrancar la empresa cuesta B/.10,850 más B/.2,120 por r
 | Registro patronal en la CSS | 300 | 900 | — |
 | PanamaCompra, Registro de Oferentes y proveedor CSS | 500 | 2,700 | 0 |
 | Total | 10,850 | 24,750 | — |
-| Registro sanitario por producto | 2,120 | 3,425 sin muestras | 570 + análisis del IEA |
+| Registro sanitario por producto | 2,120 | 3,420 sin muestras | 570 + análisis del IEA |
 
 El registro de mercado suma tasas (B/.570), análisis del IEA (B/.600 supuesto), abogado (B/.800) y muestras (B/.150). La partida de B/.1,500 por «revisión de fórmula de la Universidad de Panamá» corresponde al análisis del IEA, que es de la Universidad de Panamá y fija sus propias tarifas (Ley 419, arts. 72, 79 y 82); lo dudoso es el monto, que el IEA cotiza caso a caso (la guía oficial de 2012 daba B/.200–1,000). SignatureLex marca varias líneas como «reducidas» sin decir a cuánto, y cita el arancel mínimo de abogados (Acuerdo 609-A de 2021), que esta ronda no pudo verificar. Que la firma del socio cobre a la empresa del socio pide una segunda cotización y aprobación de los demás socios.
 
@@ -196,18 +196,18 @@ Evidencia pública de costos revisada el 7 de octubre de 2026. Ninguna asegurado
 | Regente, medio tiempo | B/.700 al mes | El DE 27 (art. 382) permite 4 horas diarias declaradas; no hay anuncios con sueldo; un farmacéutico a tiempo completo gana B/.1,200–2,000 | Se mantiene; el mínimo del rango (450) es bajo |
 | Coordinador | B/.1,500 al mes | Asistentes administrativos y de compras B/.650–1,300; semi-senior unos B/.1,030 (Konzerta, 2026) | Puede bajar a 1,200 con perfil de asistente |
 | Contabilidad y auditoría | B/.300 al mes y B/.3,000 al año | Única referencia pública: US$2,300 al año por contabilidad y declaraciones; la auditoría no tiene precio público y la exigen las aseguradoras (dos años de estados auditados) | Se mantiene |
-| Fianzas | Prima 1.6% al año; colateral 50% | Mapfre, Internacional, ASSA e Interamericana de Fianzas emiten 76% de las fianzas; a una empresa sin historial le piden dos años de estados auditados, codeudor solidario y colateral líquido o bancario; la fianza en efectivo o cheque certificado es una alternativa legal sin prima | Colateral de 75–100% es lo probable; con 100% el VPN base baja a −B/.75 mil |
+| Fianzas | Prima 1.6% al año; colateral 50% | Mapfre, Internacional, ASSA e Interamericana de Fianzas emiten 76% de las fianzas; a una empresa sin historial le piden dos años de estados auditados, codeudor solidario y colateral líquido o bancario; la fianza en efectivo o cheque certificado es una alternativa sin prima (formas de garantía de la Ley 22; artículo por confirmar en el Texto Único) | Colateral de 75–100% es lo probable; con 100% el VPN base baja a −B/.75 mil |
 | Vigencia de la fianza de cumplimiento | 15 meses | LPU: ejecución más 3 meses; MINSA: ejecución, liquidación y 6 meses más | Prima algo mayor |
-| Análisis del IEA | B/.600 por producto | Sin tarifario público; guía de 2012 B/.200–1,000; el IEA cotiza caso a caso y el solicitante aporta los patrones de referencia | Base de 800–1,200: +B/.2–7 mil de capital |
-| Flete | US$200 por m³ marítimo + 100 de destino | Tarifa FAK de 20 pies India–Manzanillo: US$3,750 en junio de 2026 (+44% desde febrero); desconsolidación US$86.5 por m³; THC en Manzanillo US$275 por contenedor | Contenedor a US$180–220 por m³; la carga consolidada puede subir a 250–300 |
-| Corredor de aduana | Dentro del flete | Mínimo legal: B/.50 + 0.15% del CIF, más B/.2 por línea | B/.200–400 por embarque |
+| Análisis del IEA | B/.600 por producto | Sin tarifario público; guía de 2012 B/.200–1,000; el IEA cotiza caso a caso y el solicitante aporta los patrones de referencia | Base de 800–1,200: +B/.2–7 mil de capital en la primera ola (+3–10 mil con la segunda) |
+| Flete | US$200 por m³ marítimo + 100 de destino | Tarifa FAK de 20 pies India–Manzanillo: US$3,750 en junio de 2026 (+44% desde febrero); desconsolidación US$0.20 por pie cúbico (unos US$7 por m³, mínimo US$55) en el tarifario de Crowley y US$86.5 por m³ en una cotización privada de 2025; THC en Manzanillo US$275 por contenedor | Contenedor: US$180–220 por m³ solo de flete (US$251 con destino); carga consolidada: US$302 por m³ puesta en bodega en el caso base y hasta 470 en el alto |
+| Corredor de aduana | Dentro del flete | Mínimo legal: B/.50 + 0.15% del CIF, más B/.2 por línea | B/.200–350 por embarque |
 | ITBMS de importación | Medicamentos exentos | Confirmado: capítulo 30 del arancel, Código Fiscal art. 1057-V | Sin cambio |
 | Cargas laborales | 28% | CSS patronal 13.25% (14.25% desde marzo de 2027), seguro educativo 1.5%, riesgos profesionales unos 1.5%, XIII mes 8.33%, prima de antigüedad 1.92% | Se mantiene; sube un punto en 2027 |
 | Seguro de carga | B/.100 al mes | 0.3–0.5% del CIF para carga farmacéutica | Equivalente |
 
 ## Capital de trabajo y financiamiento
 
-El capital lo consume el tiempo: se paga al proveedor antes de embarcar y se cobra unos 150 días después de entregar, así que en el caso base los socios ponen unos B/.222 mil hasta el mes 18 y B/.255 mil hasta el mes 27, cuando hay que afianzar la segunda LPU.
+El capital lo consume el tiempo: se paga al proveedor antes de embarcar y se cobra unos 150 días después de entregar, así que en el caso base los socios ponen unos B/.225 mil (222 sin la fase 0) hasta el mes 18 y B/.255 mil hasta el mes 27, cuando hay que afianzar la segunda LPU.
 
 Ciclo de caja del caso base: 30% de anticipo al ordenar y 70% al embarcar; tres meses de reposición; tres meses de cobertura para compras menores; cobro a 150 días (los pliegos pagan a 90 días desde la cuenta, más recepción y atrasos). El colateral viene de las fianzas: 30% del valor máximo del contrato de 15 meses en la LPU y 20% en el MINSA, más 10% de la oferta como fianza de propuesta en la LPU mientras se evalúa, con la mitad en efectivo.
 
@@ -216,7 +216,7 @@ Los pagos del Estado mejoraron: la gestión de cobro en la Contraloría bajó de
 | Palanca | Efecto en el capital del caso base | Costo | Comentario |
 | --- | --- | --- | --- |
 | Crédito del proveedor de 120 días, sin anticipo | −B/.41 mil | Ninguno si lo da Bueno | La palanca más barata |
-| Factoring de 70% de las cuentas del Estado | −B/.48 mil | 1.25% mensual: unos 6% de cada factura cobrada a 150 días | La Ley 22 permite ceder el crédito; baja la TIR de 6.8% a 5.9% |
+| Factoring de 70% de las cuentas del Estado | −B/.48 mil | 1.25% mensual: unos 6% de cada factura cobrada a 150 días | La Ley 22 permite ceder el crédito (art. 97 del Texto Único, por confirmar); baja la TIR de 6.8% a 5.9% |
 | Sin coordinador pagado | −B/.45 mil | Tiempo de los socios | Ninguno de los tres trabaja hoy a tiempo completo en esto |
 | Cobro en 105 días en vez de 150 | −B/.18 mil | — | Depende del Estado |
 | Colateral de 25% en vez de 50% | −B/.26 mil | Prima algo mayor | Negociable con la aseguradora |
@@ -238,7 +238,7 @@ En el caso base, el negocio vende unos B/.265 mil al año desde el año 3 y gana
 | TIR anual | −93% | 6.8% | 111% |
 | Múltiplo del capital | 0.05x | 1.29x | 11.0x |
 
-El pesimista supone que nadie cierra el negocio; con la compuerta operativa (nueve meses después de la primera venta, el mes 22 en ese escenario) la pérdida se queda en unos B/.265 mil. El optimista junta a la vez todos los supuestos favorables y casi no ocurre (ver Riesgo cuantificado).
+El pesimista supone que nadie cierra el negocio; con la compuerta 2 (operativa) (nueve meses después de la primera venta, el mes 22 en ese escenario) la pérdida se queda en unos B/.265 mil. El optimista junta a la vez todos los supuestos favorables y casi no ocurre (ver Riesgo cuantificado).
 
 Punto de equilibrio: unos B/.106 mil de ventas al año cubren los costos fijos con un margen de contribución de 56% (62% de margen bruto menos 6% de costos variables). Los productos de la primera ola llegan a unos B/.213 mil anuales en madurez, así que el negocio se paga cuando funciona; el problema es el capital y el tiempo hasta llegar ahí.
 
@@ -262,7 +262,7 @@ Cinco decisiones del modelo favorecen el caso base. Cada una, por separado, llev
 - sin la segunda ola de seis productos: −B/.76 mil;
 - sin la demanda de albendazol del MINSA, estimada con la compra conjunta de 2023: −B/.100 mil.
 
-El modelo ya incluye las cargas laborales del regente y del coordinador (28%), el ITBMS no recuperable de los servicios (7%), la fianza de propuesta de la LPU, la fianza de cumplimiento sobre la cantidad máxima y el impuesto de aviso de operación (2% del patrimonio cada año). Juntos suben el capital del caso base de B/.209 mil a B/.255 mil y bajan el VPN de −B/.13 mil a −B/.56 mil. En sentido contrario, las subastas del MINSA son por cantidades fijas y el modelo les aplica el mismo 75% de compra real que a la LPU.
+El modelo ya incluye las cargas laborales del regente y del coordinador (28%), el ITBMS no recuperable de los servicios (7%), la fianza de propuesta de la LPU, la fianza de cumplimiento sobre la cantidad máxima y el impuesto de aviso de operación (2% del patrimonio cada año). Juntos suben el capital del caso base de B/.209 mil a B/.255 mil y bajan el VPN de −B/.13 mil a −B/.56 mil (cifras de la versión del 6 de octubre frente a la actual). En sentido contrario, las subastas del MINSA son por cantidades fijas y el modelo les aplica el mismo 75% de compra real que a la LPU.
 
 ## Riesgo cuantificado
 
@@ -270,21 +270,21 @@ En 20,000 simulaciones, la S.A. como la propone Patel pierde dinero en 77% de lo
 
 Cada escenario sortea todos los supuestos entre su valor pesimista, base y optimista; si cada registro se aprueba; y si cada renglón centralizado se gana en cada ciclo. También sortea un problema de planta (15% de probabilidad; la fase 0 lo detecta en 80% de los casos y, si pasa, termina en falla de calidad, fianza ejecutada e inventario perdido) y una ruptura con el proveedor (4% anual).
 
-Las compuertas recortan pérdidas: en la versión por etapas, la fase 0 descarta el trato en 21% de los casos con un costo promedio de unos B/.3,300, y la compuerta operativa cierra otro 17% cuando las ventas anualizadas no llegan a B/.90 mil nueve meses después de la primera venta. Con la rampa base de 12 meses, ese umbral equivale a unos B/.108 mil en madurez, algo más que el equilibrio de B/.106 mil; en las versiones con los productos del sistema nervioso, las dos compuertas cierran 12% y 4.5%. El problema es cuánto se pone antes de saber: al llegar a la compuerta operativa, la mediana ya va en B/.197–226 mil (B/.165 mil si Bueno financia).
+Las compuertas recortan pérdidas: en la versión por etapas, la fase 0 descarta el trato en 21% de los casos con un costo promedio de unos B/.3,300, y la compuerta 2 (operativa) cierra otro 17% cuando las ventas anualizadas no llegan a B/.90 mil nueve meses después de la primera venta. Con la rampa base de 12 meses, ese umbral equivale a unos B/.108 mil en madurez, algo más que el equilibrio de B/.106 mil; en las versiones con los productos del sistema nervioso, las dos compuertas cierran 12% y 4.5%. El problema es cuánto se pone antes de saber: al llegar a la compuerta 2 (operativa), la mediana ya va en B/.197–226 mil (B/.165 mil si Bueno financia).
 
 La simulación solo descarta el trato en la fase 0 por problemas de planta o por un precio de más de 1.6 veces la referencia del modelo. Con el tope de 1.1 veces de la compuerta 0, en la versión con Bueno financiando (precio a libro abierto de 0.95 a 1.30 veces) la mitad de los escenarios se detendría en la fase 0 y la probabilidad de perder más que esa fase bajaría a 15%, pero el VPN esperado seguiría negativo (−B/.17 mil).
 
 La simulación sale peor que el caso base por tres razones: los riesgos se cargan hacia abajo (todo tarda más y cuesta más), 13–30% de los escenarios tienen una falla grave, y ganar un contrato centralizado exige colateral e inventario de golpe.
 
-Los dos supuestos que más mueven el resultado son los costos fijos, el único que por sí solo vuelve positivo el VPN del caso base, y la tasa de victoria. Los costos se pueden cotizar en la fase 0; la tasa de victoria solo se conoce compitiendo, y para eso está la compuerta operativa.
+Los dos supuestos que más mueven el resultado son los costos fijos, el único que por sí solo vuelve positivo el VPN del caso base, y la tasa de victoria (tabla de sensibilidad en 03, sección «Riesgo cuantificado»). Los costos se pueden cotizar en la fase 0; la tasa de victoria solo se conoce compitiendo, y para eso está la compuerta 2 (operativa).
 
 ## Estructura del trato con Patel
 
 Con 50/50 en acciones y en capital y un margen de 15% para Zywie, Patel se lleva 69% del valor creado en 5 años (B/.81 mil contra B/.36 mil del lado panameño) aunque ponga la mitad del capital; y eso sin contar el margen de fábrica de Bueno, si Patel participa en ella (no verificado).
 
-Para Patel, la S.A. es un canal de venta: Zywie gana con cada embarque, se gane o no dinero en Panamá. Por eso lo justo es que el lado que cobra en cada embarque cargue más del riesgo de capital, o que renuncie al margen intermedio. Bueno cerró el año fiscal 2025 con pérdida neta y deuda garantizada del orden de sus ventas, así que su capacidad de pagar registros y dar 180 días de crédito debe probarse con sus estados auditados antes de contar con ella.
+Para Patel, la S.A. es un canal de venta: Zywie gana con cada embarque, se gane o no dinero en Panamá. Por eso lo justo es que el lado que cobra en cada embarque cargue más del riesgo de capital, o que renuncie al margen intermedio. Según los espejos del registro mercantil indio (sin estados auditados), Bueno cerró el año fiscal 2025 con pérdida neta y gravámenes registrados del orden de sus ventas, así que su capacidad de pagar registros y dar 180 días de crédito debe probarse con sus estados auditados antes de contar con ella.
 
-| Estructura | Quién pone el efectivo | Capital por socio, caso base | Parte del valor para Patel | Lectura |
+| Estructura | Quién pone el efectivo | Capital por socio, caso base (un sexto del capital más un tercio de la fase 0) | Parte del valor para Patel | Lectura |
 | --- | --- | --- | --- | --- |
 | Propuesta: 50/50 en acciones y capital, Zywie con 15% de margen | 50% Patel, 50% lado panameño | B/.43.4 mil | 69% | Patel cobra dos veces |
 | Libro abierto: Zywie con 5%, Bueno paga registros y da 180 días, más productos del sistema nervioso | 50% / 50% | B/.29.3 mil | 54% | Positivo en el caso base, negativo en la simulación; puede exceder el tope prudente de un socio |
@@ -292,7 +292,7 @@ Para Patel, la S.A. es un canal de venta: Zywie gana con cada embarque, se gane 
 | S.A. 100% panameña con contrato de distribución exclusiva | 100% lado panameño | B/.86 mil | Solo su margen de proveedor | Demasiado capital para tres socios |
 | Registros propios y venta por un distribuidor establecido | 100% lado panameño | B/.25 mil | Solo su margen de proveedor | Poco capital, pero 70% de probabilidad de perder |
 
-El capital por socio en esta tabla es el del caso base, con un tercio del lado panameño cada uno. En la simulación, con demoras y fallas y si el trato sigue, el promedio es unos B/.59 mil en la propuesta y B/.43 mil con Bueno financiando (ver la sección Capital por socio).
+El capital por socio en esta tabla es el del caso base: un sexto del capital de la S.A. (la mitad panameña entre tres; con Patel al 70%, el 30% entre tres) más un tercio de la fase 0, que pagan solo los socios panameños (B/.43,435, B/.29,304 y B/.17,939). La parte del valor para Patel usa el método de la hoja Valoración del modelo: margen de Zywie más su parte de lo distribuido menos su parte del capital (casos «reparto por estructura» del análisis). En la simulación, con demoras y fallas y si el trato sigue, el promedio es unos B/.59 mil en la propuesta y B/.43 mil con Bueno financiando (ver la sección Capital por socio).
 
 Condiciones mínimas de la hoja de términos:
 
@@ -320,9 +320,9 @@ El tope de cada socio debería ser 15% de sus ahorros líquidos, en tramos; con 
 El criterio de Kelly, que calcula cuánto invertir para hacer crecer el patrimonio a largo plazo, no da un monto estable. Frente a un depósito de 4% anual da cero en las estructuras sin Bueno financiando. Con Bueno financiando da unos B/.29 mil, el límite de no quebrar en el peor escenario simulado y no un óptimo; baja a unos B/.17 mil con el tope de precio de 1.1 veces y a cero con la tasa de victoria de los entrantes o con colateral de 100%. Frente a una alternativa de 15% anual da cero, salvo si Patel pone 70% del efectivo (unos B/.26 mil). Por eso el tope de 15% de los ahorros es una decisión de prudencia, no un resultado del modelo.
 
 - Liquidez: el capital queda atado unos 5 años; los primeros dividendos llegan al cierre del año 3, pequeños, y el grueso al cierre del año 4; no hay mercado para vender la participación.
-- Riesgo fuera del capital: las aseguradoras piden codeudores solidarios para las fianzas; con una LPU la fianza de cumplimiento es 30% del contrato. El pacto de accionistas debe repartir esa garantía en proporción a las acciones, con contragarantías entre socios.
+- Riesgo fuera del capital: las aseguradoras piden codeudores solidarios para las fianzas (requisitos publicados por Internacional de Seguros y ASSA; ver 03); con una LPU la fianza de cumplimiento es 30% del contrato. El pacto de accionistas debe repartir esa garantía en proporción a las acciones, con contragarantías entre socios.
 - Tramos: fase 0, unos B/.900 por socio panameño; tramo 1 (empresa y registros) solo tras la compuerta 0; tramo 2 (inventario y operación) solo tras la compuerta 1; nada para la segunda ola sin la compuerta 2 (las tres se definen en 00_Resumen_y_plan).
-- Con un tope de 15% queda espacio para otras inversiones sin comprometer más de 40% de los ahorros en negocios propios.
+- Con un tope de 15% queda espacio para otras inversiones sin comprometer más de 40% de los ahorros en negocios propios (regla de prudencia personal, no un resultado del modelo).
 
 ## Debida diligencia del socio
 
@@ -331,7 +331,7 @@ Rutul Patel es real y Zywie es una comercializadora; todo indica que fabricaría
 | Hallazgo | Señal | Fuente |
 | --- | --- | --- |
 | Bueno Salud Care (Sanand): directores Shivkumar Dudhwewala (familia fundadora, director a tiempo completo desde 2019), Abhinav Bhargava (desde marzo o abril de 2024, según el espejo) y Deepti Rutul Patel (nombrada en julio o septiembre de 2024 según Falconebiz y AllIndiaITR; Zauba y Tracxn, cuyos datos parecen anteriores a esa fecha, no la muestran: estado por confirmar con el formulario DIR-12); capital pagado ₹22.27 crore; bloques de penicilinas, cefalosporínicos estériles y generales; trabaja con marca privada. Bhargava es codirector de Patel en Shape Wellness (2025) y socio suyo en Nosher (2018); Patel no figura como director de Bueno | Amarilla: fabricante real, no revelado | [Falconebiz (MCA)](https://www.falconebiz.com/company/BUENO-SALUD-CARE-INDIA-PRIVATE-LIMITED-U24304GJ2016PTC094652) · [Bueno](https://buenosalud.in/) · [Patel](https://www.falconebiz.com/director/05194106/RUTUL-DIVYAKANT-PATEL) · [Bhargava](https://www.falconebiz.com/director/03060621/ABHINAV-BHARGAVA) |
-| Certificado OMS-BPM (COPP) de la planta de Sanand vigente hasta el 26 de enero de 2029 para tabletas, cápsulas, líquidos orales, preparaciones externas, betalactámicos y cefalosporinas, incluidos inyectables en polvo; sin alertas nuevas de la CDSCO entre julio de 2025 y agosto de 2026 | Verde | [CDSCO, lista OMS-BPM al 31 de diciembre de 2025](https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadIndustryCommon/Testing%20Laboratories%20approved%20by%20Statas%20%26%20UT%20in%20Form%2037.pdf) · [Portal de alertas de la CDSCO](https://cdscoonline.gov.in/CDSCO/viewPublicNSQDrug) |
+| Certificado OMS-BPM (COPP) de la planta de Sanand vigente hasta el 26 de enero de 2029 para tabletas, cápsulas, líquidos orales, preparaciones externas, betalactámicos y cefalosporinas, incluidos inyectables en polvo; sin alertas nuevas de la CDSCO entre julio de 2025 y agosto de 2026 | Verde | [CDSCO, lista OMS-BPM al 31 de diciembre de 2025; el nombre del archivo en su servidor habla de laboratorios, pero el contenido es la lista OMS-BPM](https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadIndustryCommon/Testing%20Laboratories%20approved%20by%20Statas%20%26%20UT%20in%20Form%2037.pdf) · [Portal de alertas de la CDSCO](https://cdscoonline.gov.in/CDSCO/viewPublicNSQDrug) |
 | Año fiscal 2025: ventas de ₹101.8 crore (+30%), pérdida neta de ₹4.8 crore, 252 empleados en planilla (249 según Tracxn) y deuda garantizada por ₹104 crore, según los espejos comerciales del registro (The Company Check, Zauba), que venden el informe completo; sin contrastar con estados auditados. La junta cambió en 2024 y el enlace «Annual Return» del sitio es una página en blanco | Amarilla: su capacidad de financiar registros y 180 días de crédito está por probar | [The Company Check](https://www.thecompanycheck.com/company/bueno-salud-care-india-private-limited/U24304GJ2016PTC094652) · [Zauba Corp](https://www.zaubacorp.com/company/BUENO-SALUD-CARE-INDIA-PRIVATE-LIMITED/U24304GJ2016PTC094652) |
 | Otras empresas (Seraga, Ahaan, Niya, Swiss Parenterals) tienen certificados OMS-BPM por producción en la misma planta; la planta del grupo en Roorkee (Salud Care India Ltd) tuvo alertas en agosto de 2025 y mayo de 2026 y su certificado venció en agosto de 2026 | Amarilla: hay que fijar en qué planta se fabrica cada producto | CDSCO, misma lista |
 | La «Product List PICS 2026» de Zywie coincide en 97% con la lista de Bueno, con los mismos errores de escritura | Amarilla | [Lista de Bueno](https://buenosalud.in/wp-content/uploads/2025/01/PRODUCT-LIST-2025.pdf) |
@@ -368,20 +368,18 @@ El orden es verificar antes de constituir, registrar antes de comprar inventario
 
 | Fase | Qué se hace | Capital acumulado (caso base / con SignatureLex) | Termina en |
 | --- | --- | --- | --- |
-| 0. Verificar (ahora) | Hoja de datos y paquete del fabricante, lista de precios, cotizaciones (3PL, fianzas, regente, contador, IEA), segunda opinión legal, acuerdo de confidencialidad | Unos B/.2,700 entre los tres socios panameños | Compuerta 0: precio hasta 1.1 veces la referencia FOB, 150 días de crédito, registros pagados por Bueno, planta y fabricante del sistema nervioso verificados |
-| 1. Constituir y registrar (meses 0–6) | Pacto de accionistas, S.A., cuenta bancaria, licencia de la DNFD, contrato con el 3PL, 11 registros sanitarios | B/.70 mil / B/.100 mil | Compuerta 1: 8 o más registros aprobados, contrato con el 3PL, regente y Registro de Oferentes |
+| 0. Verificar (ahora) | Hoja de datos y paquete del fabricante, lista de precios, cotizaciones (3PL, fianzas, regente, contador, IEA), segunda opinión legal, acuerdo de confidencialidad | Unos B/.2,700 entre los tres socios panameños | Compuerta 0: precio hasta 1.1 veces la referencia FOB, 150 días de crédito o más (objetivo 180), registros pagados por Bueno, planta y fabricante del sistema nervioso verificados |
+| 1. Constituir y registrar (meses 0–6) | Pacto de accionistas, S.A., cuenta bancaria, licencia de la DNFD, contrato con el 3PL, 11 registros sanitarios | B/.71 mil / B/.102 mil (incluida la fase 0) | Compuerta 1: 8 o más registros aprobados, contrato con el 3PL, regente y Registro de Oferentes |
 | 2. Operar (meses 6–15) | Primer inventario, ofertas en compras menores, primer cobro, primer contrato centralizado | Hasta la primera venta, B/.90 mil / B/.121 mil; hasta el pico del mes 27, B/.258 mil / B/.297 mil | Compuerta 2: ventas anualizadas de B/.90 mil o más nueve meses después de la primera venta y menos de 30% de ofertas descalificadas |
-| 3. Escalar (año 2 en adelante) | Segunda ola (seis productos del sistema nervioso) y segunda licitación de precio único | Se define con la compuerta 2 | — |
+| 3. Escalar (año 2 en adelante) | Ampliación con los seis productos del sistema nervioso (si su fabricante se verifica; la segunda ola genérica del mes 18 ya está en el caso base) y segunda licitación de precio único | Se define con la compuerta 2 | Sin compuerta posterior: revisión anual con los indicadores de la tabla siguiente |
 
 La fase 1 usa el plazo de 5–6 meses que plantearon los socios panameños para empresa, licencia y registros; la primera venta llega cuando entra el primer inventario, después del registro.
 
-Compuerta 0: precio de Bueno de 1.1 veces la referencia FOB del modelo (hoja SKUs) o menos, 150 días de crédito, registros pagados por Bueno, y planta y fabricante del sistema nervioso verificados. Compuerta 1: 8 o más registros aprobados, contrato con el 3PL, regente y Registro de Oferentes. Compuerta 2: ventas anualizadas de B/.90 mil o más nueve meses después de la primera venta, contando contratos ganados, y menos de 30% de ofertas descalificadas.
-
 | Indicador | Meta | Dónde se mide |
 | --- | --- | --- |
-| Victorias sobre cotizaciones presentadas | 20% o más | PanamaCompra |
+| Victorias sobre cotizaciones presentadas | 20% o más (meta; el modelo usa 22% en compras menores y 30% en licitaciones) | PanamaCompra |
 | Ofertas descalificadas | Menos de 30% | Cuadros de propuestas |
-| Margen bruto realizado en compras menores | 50% o más | Contabilidad |
+| Margen bruto realizado en compras menores | 50% o más (meta; el modelo estima 62% en promedio) | Contabilidad |
 | Días de cobro | 150 o menos | Cuentas por cobrar |
 | Vencimientos y mermas | 3% del costo o menos | 3PL |
 | Entregas a tiempo | Todas (la multa diaria es 10–15% del valor atrasado, dividido entre 30) | Órdenes de compra |
@@ -394,7 +392,7 @@ Próximos pasos de la fase 0:
 - [ ] Contratar una auditoría documental o virtual de la planta de Sanand.
 - [ ] Pedir a un bufete independiente una cotización del mismo alcance y una opinión escrita sobre el parentesco con el ministro.
 - [ ] Decidir quién opera a diario y cómo se reparte el capital entre los tres socios panameños.
-- [ ] Negociar la hoja de términos con las siete condiciones de la sección del trato.
+- [ ] Negociar la hoja de términos con las siete condiciones de 05, sección «Estructura del trato con Patel».
 - [ ] Cotizar regente, contador y coordinador, y pedir una cotización indicativa del 3PL: los costos fijos son el supuesto que más mueve el resultado.
 
 La cotización firme del 3PL puede esperar a la fase 1.
@@ -416,7 +414,7 @@ Los supuestos que más pesan y menos se conocen son los costos fijos, la tasa de
 | Demanda centralizada del MINSA | Compra conjunta 2023 como referencia | Datos incompletos | Pliego de la compra conjunta 2026 |
 | Vida útil y lote mínimo | Sin datos | — | Bueno |
 
-Verificación del 8 de octubre contra datos de aduana india (ver 07_Auditoria_y_confianza): las referencias de paracetamol, albendazol, mebendazol y nistatina coinciden con precios reales de exportación; las de las dos cremas (mometasona e hidrocortisona) parecen bajas. Con las cremas al precio de aduana, el VPN del caso base baja de −B/.56 mil a −B/.77 mil y la TIR de 6.8% a 3.3%; por eso la lista de precios de la fábrica decide qué entra en la primera ola.
+Verificación del 8 de octubre contra datos de aduana india (ver 07_Auditoria_y_confianza): las referencias de paracetamol, albendazol, mebendazol y nistatina coinciden con precios reales de exportación; las de las dos cremas (mometasona e hidrocortisona) parecen bajas. Con las cremas al precio de aduana, el VPN del caso base baja de −B/.56 mil a −B/.77 mil y la TIR de 6.8% a 3.3% (sin las dos cremas, −B/.66 mil y 4.6%; ambos casos están en la tabla de qué pasaría si del análisis del modelo); por eso la lista de precios de la fábrica decide qué entra en la primera ola.
 
 Preguntas abiertas:
 

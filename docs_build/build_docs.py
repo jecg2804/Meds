@@ -218,16 +218,16 @@ MAPA = """## Cómo leer este paquete
 | 05_Trato_socios_y_hoja_de_ruta.md | Estructura del trato con Patel, capital por socio, roles, pasos de constitución, contratos, honorarios legales, herramientas | Decidir cómo nos organizamos |
 | 06_Guion_conversacion_Rutul.md | Mensajes en inglés por etapas, respuestas a objeciones, qué no decir, señales, tabla de seguimiento | Hablar con Rutul |
 | Modelo_financiero_socios.xlsx | El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación | Cambiar un supuesto y ver el efecto |
-| Factory_data_for_3PL_quote.xlsx y 3PL_questionnaire_blank_EN.xlsx | Lo único que va a Rutul: la hoja de datos que debe llenar la fábrica y el cuestionario del 3PL en blanco | Reenviar |
+| Factory_data_for_3PL_quote.xlsx | Lo que va a Rutul hoy: la hoja de datos que debe llenar la fábrica | Reenviar |
 | Anexo_Plan_de_negocio_completo.md | El plan de negocio en una sola pieza, del que salen los documentos 00 a 05 | Consultar todo junto |
 | Anexo_DD_hallazgos_en.md | Hallazgos de la primera ronda de debida diligencia, en inglés, con cada enlace | Verificar fuente por fuente |
 
-Regla de uso: los documentos 00 a 06 y el modelo son para los tres socios panameños. A Rutul solo van la hoja de datos, el cuestionario del 3PL y, más adelante, el acuerdo de confidencialidad y la propuesta de términos. Nada de la investigación se le reenvía ni se le cita: se le piden los documentos y se contrastan en privado."""
+Regla de uso: los documentos 00 a 06 y el modelo son para los tres socios panameños. A Rutul solo van la hoja de datos y, más adelante, el acuerdo de confidencialidad y la propuesta de términos. Nada de la investigación se le reenvía ni se le cita: se le piden los documentos y se contrastan en privado."""
 
 COMPARTIR = """## Qué se comparte y con quién
 
 - Socios panameños: todo este paquete, incluida la debida diligencia sobre el fabricante.
-- Rutul y la fábrica: la hoja de datos, el cuestionario del 3PL, el acuerdo de confidencialidad, las solicitudes de cotización que él deba reenviar y, después de los precios, la propuesta de términos de una página. Nunca el plan, el modelo, los números internos ni lo investigado.
+- Rutul y la fábrica: la hoja de datos, el acuerdo de confidencialidad, las solicitudes de cotización que él deba reenviar y, después de los precios, la propuesta de términos de una página. Nunca el plan, el modelo, los números internos ni lo investigado.
 - Proveedores (3PL, aseguradoras, IEA, regente, contador): solo la solicitud de cotización correspondiente, con la hoja de datos llena.
 - Antes de compartir un documento con una audiencia nueva se prepara la versión para esa audiencia; lo que un socio dijo en privado no se traslada a los documentos compartidos."""
 
@@ -445,9 +445,11 @@ files = {
     'Anexo_Plan_de_negocio_completo.md': anexo_plan,
 }
 from audit_edits2 import apply_post, LEAME
+from audit_edits3 import apply_post3
 files['LEAME.md'] = LEAME
 for name, md in files.items():
     md = apply_post(name, md)          # tercera pasada de auditoría (8 de octubre, noche)
+    md = apply_post3(name, md)         # cuarta pasada (9 de octubre)
     md = re.sub(r'\n{3,}', '\n\n', md)
     files[name] = md
     open(os.path.join(OUT, name), 'w', encoding='utf-8').write(md)
@@ -465,16 +467,14 @@ print('checks ok: messages clean, no private figures')
 # ---------- annex: English DD findings ----------
 _dd = open(os.path.join(HERE, '..', 'research', 'b6_partner', 'notes', '01_findings_summary.md'), encoding='utf-8').read()
 _dd = _dd.replace('Raw log with every URL: notes/00_log.md. Downloads under downloads/ (untrusted).', 'Raw log with every URL: research/b6_partner/notes/00_log.md in the code repository (Meds); downloads are kept there as untrusted data.')
+_dd = apply_post3('Anexo_DD_hallazgos_en.md', _dd)
 open(os.path.join(OUT, 'Anexo_DD_hallazgos_en.md'), 'w', encoding='utf-8').write(_dd)
 
-# ---------- blank 3PL questionnaire (English tab only) ----------
+# ---------- factory data sheet (the BP Logistics questionnaire is no longer part of the package for Rutul: it carries that operator's brand) ----------
 from openpyxl import load_workbook
-wb = load_workbook(os.path.join(XIN, 'Cuestionario_operativo_5_tarimas_revisado.xlsx') if os.path.exists(os.path.join(XIN, 'Cuestionario_operativo_5_tarimas_revisado.xlsx')) else os.path.join(UD, 'Cuestionario_operativo_5_tarimas_revisado.xlsx'))
-for s in list(wb.sheetnames):
-    if 'Ingl' not in s:
-        del wb[s]
-wb.active = 0
-wb.save(os.path.join(XLSX_OUT, '3PL_questionnaire_blank_EN.xlsx'))
+_q = os.path.join(XLSX_OUT, '3PL_questionnaire_blank_EN.xlsx')
+if os.path.exists(_q):
+    os.remove(_q)
 shutil.copy(os.path.join(XIN, 'Factory_data_for_3PL_quote.xlsx') if os.path.exists(os.path.join(XIN, 'Factory_data_for_3PL_quote.xlsx')) else os.path.join(UD, 'Factory_data_for_3PL_quote.xlsx'), os.path.join(XLSX_OUT, 'Factory_data_for_3PL_quote.xlsx'))
 
 # ---------- partner version of the Excel model ----------

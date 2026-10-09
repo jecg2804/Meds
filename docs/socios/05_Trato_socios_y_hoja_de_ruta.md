@@ -1,12 +1,12 @@
 # Estructura del trato, socios y hoja de ruta
 
-*Preparado el 7 de octubre de 2026 y revisado el 8 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras salen del modelo financiero adjunto (Modelo_financiero_socios.xlsx) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Estructura del trato con Patel
 
 Con 50/50 en acciones y en capital y un margen de 15% para Zywie, Patel se lleva 69% del valor creado en 5 años (B/.81 mil contra B/.36 mil del lado panameño) aunque ponga la mitad del capital; y eso sin contar el margen de fábrica de Bueno, si Patel participa en ella (no verificado).
 
-Para Patel, la S.A. es un canal de venta: Zywie gana con cada embarque, se gane o no dinero en Panamá. Por eso lo justo es que el lado que cobra en cada embarque cargue más del riesgo de capital, o que renuncie al margen intermedio. Bueno cerró el año fiscal 2025 con pérdida neta y deuda garantizada del orden de sus ventas, así que su capacidad de pagar registros y dar 180 días de crédito debe probarse con sus estados auditados antes de contar con ella.
+Para Patel, la S.A. es un canal de venta: Zywie gana con cada embarque, se gane o no dinero en Panamá. Por eso lo justo es que el lado que cobra en cada embarque cargue más del riesgo de capital, o que renuncie al margen intermedio. Según los espejos del registro mercantil indio (sin estados auditados), Bueno cerró el año fiscal 2025 con pérdida neta y gravámenes registrados del orden de sus ventas, así que su capacidad de pagar registros y dar 180 días de crédito debe probarse con sus estados auditados antes de contar con ella.
 
 | Estructura | Quién pone el efectivo | Capital por socio, caso base | Parte del valor para Patel | Lectura |
 | --- | --- | --- | --- | --- |
@@ -16,7 +16,7 @@ Para Patel, la S.A. es un canal de venta: Zywie gana con cada embarque, se gane 
 | S.A. 100% panameña con contrato de distribución exclusiva | 100% lado panameño | B/.86 mil | Solo su margen de proveedor | Demasiado capital para tres socios |
 | Registros propios y venta por un distribuidor establecido | 100% lado panameño | B/.25 mil | Solo su margen de proveedor | Poco capital, pero 70% de probabilidad de perder |
 
-El capital por socio en esta tabla es el del caso base, con un tercio del lado panameño cada uno. En la simulación, con demoras y fallas y si el trato sigue, el promedio es unos B/.59 mil en la propuesta y B/.43 mil con Bueno financiando (ver la sección Capital por socio).
+El capital por socio en esta tabla es el del caso base: un sexto del capital de la S.A. (la mitad panameña entre tres; con Patel al 70%, el 30% entre tres) más un tercio de la fase 0, que pagan solo los socios panameños (B/.43,435, B/.29,304 y B/.17,939). La parte del valor para Patel usa el método de la hoja Valoración del modelo: margen de Zywie más su parte de lo distribuido menos su parte del capital (casos «reparto por estructura» del análisis). En la simulación, con demoras y fallas y si el trato sigue, el promedio es unos B/.59 mil en la propuesta y B/.43 mil con Bueno financiando (ver la sección Capital por socio).
 
 Condiciones mínimas de la hoja de términos:
 
@@ -44,16 +44,16 @@ El tope de cada socio debería ser 15% de sus ahorros líquidos, en tramos; con 
 El criterio de Kelly, que calcula cuánto invertir para hacer crecer el patrimonio a largo plazo, no da un monto estable. Frente a un depósito de 4% anual da cero en las estructuras sin Bueno financiando. Con Bueno financiando da unos B/.29 mil, el límite de no quebrar en el peor escenario simulado y no un óptimo; baja a unos B/.17 mil con el tope de precio de 1.1 veces y a cero con la tasa de victoria de los entrantes o con colateral de 100%. Frente a una alternativa de 15% anual da cero, salvo si Patel pone 70% del efectivo (unos B/.26 mil). Por eso el tope de 15% de los ahorros es una decisión de prudencia, no un resultado del modelo.
 
 - Liquidez: el capital queda atado unos 5 años; los primeros dividendos llegan al cierre del año 3, pequeños, y el grueso al cierre del año 4; no hay mercado para vender la participación.
-- Riesgo fuera del capital: las aseguradoras piden codeudores solidarios para las fianzas; con una LPU la fianza de cumplimiento es 30% del contrato. El pacto de accionistas debe repartir esa garantía en proporción a las acciones, con contragarantías entre socios.
+- Riesgo fuera del capital: las aseguradoras piden codeudores solidarios para las fianzas (requisitos publicados por Internacional de Seguros y ASSA; ver 03); con una LPU la fianza de cumplimiento es 30% del contrato. El pacto de accionistas debe repartir esa garantía en proporción a las acciones, con contragarantías entre socios.
 - Tramos: fase 0, unos B/.900 por socio panameño; tramo 1 (empresa y registros) solo tras la compuerta 0; tramo 2 (inventario y operación) solo tras la compuerta 1; nada para la segunda ola sin la compuerta 2 (las tres se definen en 00_Resumen_y_plan).
-- Con un tope de 15% queda espacio para otras inversiones sin comprometer más de 40% de los ahorros en negocios propios.
+- Con un tope de 15% queda espacio para otras inversiones sin comprometer más de 40% de los ahorros en negocios propios (regla de prudencia personal, no un resultado del modelo).
 
 ## Roles de los socios
 
 | Socio | Aporta | Rol | Firma |
 | --- | --- | --- | --- |
 | Jaime | Capital dentro de su tope y la dirección financiera | Modelo, cotizaciones, relación comercial con Rutul, cuentas | Firmante de la cuenta bancaria; pacto de accionistas |
-| Juan Luis | Capital dentro de su tope | Por definir: quién vigila PanamaCompra a diario y arma las ofertas; el coordinador sin sueldo es la única palanca que vuelve positivo el VPN | Firmante alterno |
+| Juan Luis | Capital dentro de su tope | Abierto (lo deciden los tres): quién vigila PanamaCompra a diario y arma las ofertas; el coordinador sin sueldo es la única palanca que vuelve positivo el VPN | Firmante alterno |
 | Francisco | Gestión legal a través de su firma (los documentos los firma un abogado idóneo de la firma), valorada como aporte en especie; capital menor | Coordina con la firma la constitución, las licencias, los contratos, el KYC y los precios de transferencia | Pacto de accionistas; representante legal si los otros dos lo aprueban |
 | Patel (Zywie) | Capital, suministro, documentos del fabricante | Suministro y calidad; sin funciones en Panamá | Pacto, contrato de distribución |
 
@@ -67,13 +67,13 @@ Dos reglas que protegen a los tres: los honorarios de SignatureLex a la S.A. los
 - [ ] Segunda opinión legal de un bufete independiente sobre alcance y precio de SignatureLex, y opinión escrita sobre el parentesco con el ministro.
 - [ ] Auditoría documental o virtual de la planta de Sanand por un auditor independiente.
 - [ ] Decidir quién opera a diario.
-- [ ] Propuesta de términos de una página a Rutul (las siete condiciones del plan de negocio), después de los precios y la posición sobre registros.
+- [ ] Propuesta de términos de una página a Rutul (las siete condiciones de la sección «Estructura del trato con Patel» de este documento), después de los precios y la posición sobre registros.
 
 ## Constituir y licenciar (fase 1, solo tras la compuerta 0)
 
 1. Pacto de accionistas, antes de la S.A.: aportes por tramos atados a compuertas, dilución de quien no aporte, vesting de quien opere, firma conjunta para gastos mayores de B/.5,000, aprobación de honorarios de partes relacionadas, salida si se rompe el suministro.
 2. S.A. panameña: pacto social, tres directores, agente residente, RUC, aviso de operación, registro municipal.
-3. Cuenta bancaria con firmas conjuntas (dos de tres). El banco pedirá pacto social, beneficiarios finales con pasaporte y origen de fondos (Patel incluido), aviso de operación y referencias; con accionista extranjero e importación de medicamentos la revisión es más larga, así que se empieza apenas exista la S.A.
+3. Cuenta bancaria con firmas conjuntas (dos de tres). El banco pedirá pacto social, beneficiarios finales con pasaporte y origen de fondos (Patel incluido), aviso de operación y referencias; con accionista extranjero e importación de medicamentos la revisión suele ser más larga (práctica bancaria, sin plazo publicado), así que se empieza apenas exista la S.A.
 4. Contrato de distribución exclusiva con Bueno (no con Zywie), acuerdo técnico de calidad y poder apostillado para registrar a nombre de la S.A.
 5. Licencia de operación de la DNFD: contrato del regente (4 horas diarias declaradas), contrato con el 3PL como depósito, certificado de buenas prácticas de almacenamiento, procedimientos escritos.
 6. Registros sanitarios de los 11 productos: expediente por producto al IEA y a la DNFD.

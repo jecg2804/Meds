@@ -1,10 +1,10 @@
 # LÉAME: cómo usar este paquete
 
-*Versión del 8 de octubre de 2026. Paquete de trabajo de los socios panameños del proyecto de distribuidora de medicamentos para compras públicas en Panamá. Uso interno: no se comparte con Rutul Patel ni con terceros.*
+*Versión del 9 de octubre de 2026. Paquete de trabajo de los socios panameños del proyecto de distribuidora de medicamentos para compras públicas en Panamá. Uso interno: no se comparte con Rutul Patel ni con terceros.*
 
 ## En una frase
 
-Un negocio real, con márgenes altos por producto y un mercado de más de B/.230 millones al año solo en la CSS, cuya estructura tal como la propone Rutul Patel pierde dinero en 77 de cada 100 escenarios; por eso hoy se arriesgan solo unos B/.2,700 de verificación (fase 0) y el capital grande espera a que la fábrica mande precios y documentos.
+Un negocio real, con márgenes altos por producto y un presupuesto de medicamentos de unos B/.230 millones en la CSS para 2027, cuya estructura tal como la propone Rutul Patel pierde dinero en 77 de cada 100 escenarios; por eso hoy se arriesgan solo unos B/.2,700 de verificación (fase 0) y el capital grande espera a que la fábrica mande precios y documentos.
 
 ## Qué leer según lo que usted tiene que decidir
 
@@ -32,22 +32,22 @@ Un negocio real, con márgenes altos por producto y un mercado de más de B/.230
 | Cotizaciones_3PL_seguimiento.md | Operadores logísticos: canal de contacto, evidencia de licencia, qué se pidió, cuándo, y qué respondieron | Seguir las cotizaciones |
 | Resumen_ejecutivo_socios_inversionistas.md | Cuatro páginas para un socio o inversionista: qué es el negocio, veredicto, números, el 77% y cómo baja, tramos de capital, riesgos | Presentar el negocio |
 | Modelo_financiero_socios.xlsx | El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación | Cambiar un supuesto y ver el efecto |
-| Factory_data_for_3PL_quote.xlsx y 3PL_questionnaire_blank_EN.xlsx | Lo único que va a Rutul: la hoja de datos que debe llenar la fábrica y el cuestionario del 3PL en blanco | Reenviar |
+| Factory_data_for_3PL_quote.xlsx | Lo que va a Rutul hoy: la hoja de datos que debe llenar la fábrica | Reenviar |
 | Anexo_Plan_de_negocio_completo.md | El plan de negocio en una sola pieza, del que salen los documentos 00 a 05; repite su contenido, por eso vive solo en el repositorio y en el proyecto de Claude, no en Drive | Consultar todo junto |
-| Anexo_DD_hallazgos_en.md | Hallazgos de la primera ronda de debida diligencia, en inglés, con cada enlace | Verificar fuente por fuente |
+| Anexo_DD_hallazgos_en.md | Hallazgos de la debida diligencia, en inglés, con cada enlace: primera ronda (6 de octubre) y addendum (7 y 8 de octubre) | Verificar fuente por fuente |
 
 ## Reglas del paquete
 
 - Formato: la fuente de todo es Markdown (archivos `.md`), que se lee en GitHub, en el proyecto de Claude y en cualquier editor; para imprimir o enviar fuera se genera el PDF del paquete (`Farma_paquete_socios.pdf`). No se editan cifras a mano: se corrige la fuente y se regenera.
 - Toda cifra lleva su naturaleza (norma, pliego, tarifa publicada, referencia indirecta, supuesto). Lo que no tiene cotización firme está marcado como estimación o supuesto; 07 dice cuánta confianza merece cada número.
 - Nombres: Rutul Patel o Patel; Zywie Worldwide; Bueno Salud Care (el fabricante inferido, que Rutul no ha nombrado).
-- Con Rutul solo se comparten la hoja de datos de fábrica, el cuestionario del 3PL en blanco y, más adelante, el acuerdo de confidencialidad y la propuesta de términos.
+- Con Rutul solo se comparten la hoja de datos de fábrica y, más adelante, el acuerdo de confidencialidad y la propuesta de términos.
 
 ## Dónde vive cada cosa
 
 | Lugar | Qué hay | Quién lo ve |
 | --- | --- | --- |
-| Google Drive `Farma/02 Socios Panamá/00 Plan y análisis (socios)` | Este paquete en Markdown; las carpetas 01–07 de la misma raíz van recibiendo empresa, proveedor, registros, licencia y 3PL, licitaciones, fianzas y finanzas | Los tres socios panameños |
+| Google Drive `Farma/02 Socios Panamá/00 Plan y análisis` | Este paquete en Markdown; las carpetas 01–07 de la misma raíz van recibiendo empresa, proveedor, registros, licencia y 3PL, licitaciones, fianzas y finanzas | Los tres socios panameños |
 | Google Drive `Farma/03 Zywie (compartido con Rutul)` | Lo que se le envía a Zywie y lo que Zywie manda | Los socios y Rutul |
 | Repositorio privado `Meds` (GitHub) | Código del modelo, generador de los documentos, notas de investigación con fuentes, este paquete y el PDF | Jaime y Claude |
 | Proyecto de Claude «Med Tenders Panama» | Copia de trabajo del paquete y bitácora | Jaime y Claude |
@@ -60,3 +60,4 @@ Un negocio real, con márgenes altos por producto y un mercado de más de B/.230
 | 8 de octubre de 2026, mañana | Auditoría independiente de 31 afirmaciones (07); cronología de la LPU 01-2026; naturaleza de cada cifra logística; junta de Bueno con discrepancia entre espejos |
 | 8 de octubre de 2026, tarde | Verificación de referencias FOB contra aduana india (03, 07); sección de canales de venta (02); resumen ejecutivo; investigación de operadores logísticos |
 | 8 de octubre de 2026, noche | Solicitudes de cotización enviadas a cuatro 3PL; tabla de operadores con licencias (04); quién decide y cuánto tarda la DNFD (02); sensibilidad en tabla (03); plan por fases en tabla (00); este LÉAME; Markdown como formato de lectura; retirados los marcadores de gráficos y los párrafos duplicados |
+| 9 de octubre de 2026 | Cuarta pasada de auditoría: coherencia entre documentos, cifras redondeadas, referencias cruzadas y afirmaciones sin fuente; lista de cifras no obtenidas (07); reparto por estructura y sensibilidad de las cremas reproducibles en el análisis del modelo; el cuestionario de BP Logistics sale del paquete para Rutul; respuesta de J. Cain registrada; regla: ninguna comunicación externa sin aprobación de Jaime |

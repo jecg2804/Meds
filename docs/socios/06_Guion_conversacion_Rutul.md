@@ -1,6 +1,6 @@
 # Conversación con Rutul: guion por etapas
 
-*Preparado el 7 de octubre de 2026 y revisado el 8 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras salen del modelo financiero adjunto (Modelo_financiero_socios.xlsx) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 Objetivo: conseguir de Rutul, en el grupo de WhatsApp y sin que lo sienta como un ataque, los documentos y las condiciones que deciden si el negocio vale la pena, y de paso medirlo como socio. Se pide como socios que necesitan saber antes de poner dinero, no como investigadores: nada de lo que ya sabemos por registros públicos se menciona; se pide el documento y se contrasta en privado. Un pedido por mensaje, en inglés y corto, esperando su respuesta antes del siguiente.
 
@@ -8,27 +8,27 @@ Objetivo: conseguir de Rutul, en el grupo de WhatsApp y sin que lo sienta como u
 
 Diez cosas, en este orden. Las cuatro primeras deciden si el negocio existe; las demás, en qué condiciones.
 
-| # | Pedido | Quién lo exige | Qué decide |
-| --- | --- | --- | --- |
-| 1 | Packing list y ficha técnica por producto: dimensiones y peso de la caja máster, unidades por caja, cajas por tarima, condiciones de almacenamiento, código arancelario, fotos | Los 3PL (BP Logistics y los demás), el transportista y la aseguradora de carga | Desbloquea las cotizaciones de bodega, flete y seguro |
-| 2 | Confirmación de que Bueno fabrica en Sanand los 11 productos sin equivalencia terapéutica y emite CPP de cada uno | La DNFD (registro sanitario) y el pliego de la CSS (carta del fabricante) | Cuáles productos se registran; sin CPP no hay expediente |
-| 3 | Lista de precios FOB por producto, lote mínimo y vida útil aprobada | El cálculo de oferta: 20% de margen mínimo en licitación de precio único y 35% en compras menores | Si el precio pasa la compuerta 0 (1.1 veces la referencia del modelo) |
-| 4 | Quién paga los registros (unos B/.2,100 por producto, ruta ordinaria) | Nadie externo: es la negociación | B/.37 mil de capital; es la palanca más barata para Bueno y la más cara para nosotros |
-| 5 | Certificado OMS-BPM (COPP) vigente y licencias de fabricación por bloque; CPP por producto y cuestionario de calificación de proveedor (alertas y retiros de tres años, con causa y corrección); sabemos de dos lotes de marzo de 2024 y no se cita hasta ver su respuesta | La DNFD revisa las listas de la CDSCO; el expediente lo pide | Riesgo de rechazo del registro y de falla de calidad |
-| 6 | Crédito de 150–180 días desde el embarque, sin anticipo | El ciclo de cobro del Estado (90 días desde la cuenta, unos 150 reales) y la fianza de 30% | Baja el capital de B/.255 mil a unos B/.215 mil |
-| 7 | Quién factura (Bueno o Zywie) y el margen de Zywie como porcentaje fijo a libro abierto | La DGI (precios de transferencia, Informe 930) y la transparencia de las ofertas | Quién gana cuánto; con 15% de margen oculto, Patel se lleva 69% del valor |
-| 8 | Accionistas de Bueno y de Zywie, últimos estados financieros auditados y la declaración anual que falta en su sitio | Francisco, para el pacto de accionistas (KYC) | Si Bueno puede financiar registros y crédito: cerró 2025 con pérdida y deuda del tamaño de sus ventas |
-| 9 | Prueba de El Salvador (números de registro o distribuidor) y dos referencias de distribuidores en Latinoamérica | Nuestra debida diligencia; ayuda ante la DNFD | La experiencia declarada no aparece en ningún registro público |
-| 10 | Empaque secundario impreso con el número de cada licitación en corridas pequeñas | El pliego de la CSS: no acepta reetiquetado | Si se puede ofertar en la LPU con lotes chicos |
+| # | Pedido | Paso del guion | Quién lo exige | Qué decide |
+| --- | --- | --- | --- | --- |
+| 1 | Packing list y ficha técnica por producto: dimensiones y peso de la caja máster, unidades por caja, cajas por tarima, condiciones de almacenamiento, código arancelario, fotos | 1 (apertura) | Los 3PL (BP Logistics y los demás), el transportista y la aseguradora de carga | Desbloquea las cotizaciones de bodega, flete y seguro |
+| 2 | Confirmación de que Bueno fabrica en Sanand los 11 productos sin equivalencia terapéutica y emite CPP de cada uno | 2 | La DNFD (registro sanitario) y el pliego de la CSS (carta del fabricante) | Cuáles productos se registran; sin CPP no hay expediente |
+| 3 | Lista de precios FOB por producto, lote mínimo y vida útil aprobada | 3 | El cálculo de oferta: 20% de margen mínimo en licitación de precio único y 35% en compras menores | Si el precio pasa la compuerta 0 (1.1 veces la referencia del modelo) |
+| 4 | Quién paga los registros (unos B/.2,100 por producto, ruta ordinaria) | 4 | Nadie externo: es la negociación | B/.37 mil de capital; es la palanca más barata para Bueno y la más cara para nosotros |
+| 5 | Certificado OMS-BPM (COPP) vigente y licencias de fabricación por bloque; CPP por producto y cuestionario de calificación de proveedor (alertas y retiros de tres años, con causa y corrección); sabemos de dos lotes de marzo de 2024 y no se cita hasta ver su respuesta | 5 | Las listas de la CDSCO son públicas y la DNFD puede verlas; el cuestionario va al expediente | Riesgo de rechazo del registro y de falla de calidad |
+| 6 | Crédito de 150–180 días desde el embarque, sin anticipo | 7 | El ciclo de cobro del Estado (90 días desde la cuenta, unos 150 reales) y la fianza de 30% | Baja el capital de B/.255 mil a unos B/.215 mil |
+| 7 | Quién factura (Bueno o Zywie) y el margen de Zywie como porcentaje fijo a libro abierto | 8 | La DGI (precios de transferencia, Informe 930) y la transparencia de las ofertas | Quién gana cuánto; con 15% de margen oculto, Patel se lleva 69% del valor |
+| 8 | Accionistas de Bueno y de Zywie, últimos estados financieros auditados y la declaración anual que falta en su sitio | 6 | Francisco, para el pacto de accionistas (KYC) | Si Bueno puede financiar registros y crédito: cerró el año fiscal 2025 con pérdida y gravámenes registrados del tamaño de sus ventas |
+| 9 | Prueba de El Salvador (números de registro o distribuidor) y dos referencias de distribuidores en Latinoamérica | 6 | Nuestra debida diligencia; un registro en Colombia (INVIMA es autoridad de referencia reconocida por Panamá) abriría la ruta abreviada; El Salvador solo vale como referencia comercial | La experiencia declarada no aparece en ningún registro público |
+| 10 | Empaque secundario impreso con el número de cada licitación en corridas pequeñas | Hoja de datos (Per shipment, fila 13) | El pliego de la CSS: no acepta reetiquetado | Si se puede ofertar en la LPU con lotes chicos |
 
 ## Lo que un fabricante exportador manda sin que se lo pidan dos veces
 
-Rutul dice que Bueno vende en El Salvador y Colombia. Un exportador de medicamentos con esa experiencia tiene un paquete estándar listo para cualquier distribuidor nuevo, porque todas las agencias sanitarias piden lo mismo (el expediente en formato CTD de la OMS). Pedirlo no es desconfiar; es lo normal del negocio. Si no lo tiene a mano, eso también es información.
+Rutul dice que la fábrica vende en El Salvador y Colombia. Un exportador de medicamentos con esa experiencia tiene un paquete estándar listo para cualquier distribuidor nuevo, porque todas las agencias sanitarias piden lo mismo (el expediente en formato CTD de la ICH, el que usan la OMS y la mayoría de las agencias). Pedirlo no es desconfiar; es lo normal del negocio. Si no lo tiene a mano, eso también es información.
 
 | Documento | Para qué sirve | Quién lo emite |
 | --- | --- | --- |
 | CPP (Certificate of Pharmaceutical Product, formato OMS) por producto, apostillado | Registro sanitario en Panamá | Autoridad india (CDSCO o FDCA de Gujarat) |
-| Certificado OMS-BPM (COPP) de la planta y licencia de fabricación por bloque | Registro; carta del fabricante en la LPU | FDCA de Gujarat / CDSCO |
+| Certificado OMS-BPM de la planta (la CDSCO publica la lista «WHO GMP/COPP»; el CPP es por producto) y licencia de fabricación por bloque | Registro; carta del fabricante en la LPU | FDCA de Gujarat / CDSCO |
 | Expediente técnico por producto (módulo 3 del CTD): fórmula, especificaciones, método analítico validado, estabilidad en zona IVb, certificados de análisis de tres lotes | El IEA analiza con esto; sin él no hay registro | Bueno (QA y asuntos regulatorios) |
 | Artes de empaque, inserto en español y muestras | Registro y pliegos | Bueno |
 | Certificado de libre venta en India y registros vigentes en otros países, si existen | Registro; referencia | Autoridades de cada país |
@@ -54,9 +54,9 @@ La idea es simple: usted no pide, usted traslada lo que piden otros. Cada mensaj
 - Si la conversación se enreda, proponga una llamada de 30 minutos con agenda escrita (los pendientes de la tabla final), y después se confirma por escrito en el grupo lo acordado.
 - Todo lo que él mande se guarda en la carpeta compartida y se anota en la tabla de seguimiento; esa tabla es la memoria del grupo.
 
-## Mensaje de apertura
+## Mensaje de apertura (paso 1)
 
-Seis burbujas, en inglés, seguidas, en el grupo. Adjuntos: en la segunda, el cuestionario en blanco del 3PL (3PL_questionnaire_blank_EN.xlsx) para que vea qué piden; en la tercera, la hoja de datos de fábrica (Factory_data_for_3PL_quote.xlsx). Tono casual pero profesional; sin nombres de operadores ni cifras internas; nada que suene a redacción automática. Solo tres pedidos esta noche: la hoja de datos, el paquete del proveedor y su correo electrónico (Jaime no lo tiene).
+Cinco burbujas seguidas, en inglés, en el grupo (1, 2, 3, 5 y 6); la cuarta solo si pregunta por costos, y un bloque de respaldo si pregunta de dónde salen los números. Adjunto: en la tercera, la hoja de datos de fábrica (Factory_data_for_3PL_quote.xlsx). Tono casual pero profesional; sin nombres de operadores ni cifras internas; nada que suene a redacción automática. Solo tres pedidos en la apertura: la hoja de datos, el paquete del proveedor y su correo electrónico (Jaime no lo tiene).
 
 Burbuja 1:
 
@@ -64,10 +64,10 @@ Burbuja 1:
 Hi Rutul, sorry for going quiet on our side. We wanted to come back with the cost side mapped like we said, and it took longer than planned.
 ```
 
-Burbuja 2 (con el cuestionario del 3PL en blanco):
+Burbuja 2:
 
 ```text
-Quick update: legal, registration and tax costs are mapped. The warehouse quote is the piece we couldn't close. The logistics companies here won't price anything without factory data: carton sizes and weights, units per carton, pallet configuration, storage conditions, HS codes, product sheets, shipment value. We gave them estimates and that didn't fly. Attaching the form one of them sent us so you can see what they ask for.
+Quick update: legal, registration and tax costs are mapped. The warehouse quote is the piece we couldn't close. The logistics companies here won't price anything without factory data: carton sizes and weights, units per carton, pallet configuration, storage conditions, HS codes, product sheets, shipment value. We gave them estimates and that didn't fly; it's the standard list any 3PL asks for, and the sheet in the next message covers it.
 ```
 
 Burbuja 3 (con la hoja de datos):
@@ -82,7 +82,7 @@ Burbuja 4 (opcional; úsela si pregunta cuánto cuesta o si quiere adelantarle e
 We don't have a real quote yet. What we do have: published freight benchmarks (CMA CGM's FAK rate India-Manzanillo was US$3,750 per 20' in June 2026, before local charges, and Maersk's terminal handling in Manzanillo is US$275 per box from mid-October), and our own working budget for licensed pharma storage of 5-10 pallets, roughly B/.300-1,200 a month with handling, until the 3PLs quote. Freight is public data, storage is our budget; both get replaced by real quotes once the factory data is in.
 ```
 
-Si ya mandó la versión anterior de esta burbuja y él pregunta de dónde salen los números:
+Respaldo, si pregunta de dónde salen los números:
 
 ```text
 Fair question. The freight and terminal figures are the carriers' published notices (CMA CGM FAK June 2026, Maersk THC October 2026). The storage range is our budget assumption, built from Panama warehouse rent benchmarks and the way 3PLs price here (receiving, pallet position per month, picking). It's not a quote, and that's exactly why we need the factory data: with it the 3PLs give us real numbers in days.
@@ -124,12 +124,12 @@ Busca: fijar la lista de 11 y que él nombre al fabricante por iniciativa propia
 To know where we can bid we need, per product: FOB price (ex-works also works), minimum order quantity and the approved shelf life. Tenders here award by unit price to the lowest bid that complies, so we run every product against the last awarded prices before spending on its registration. Indicative is fine for now.
 ```
 
-Busca: el precio de fábrica real. La regla del modelo: 20% de margen bruto mínimo para ofertar en licitación de precio único y 35% en compras menores, y la compuerta 0 cierra si el precio pasa de 1.1 veces la referencia de la hoja SKUs. Si dice que depende del volumen: «give us the price at MOQ and at three times MOQ, we'll work with that». Si manda precios CIF o con margen de Zywie incluido, se pide el desglose (paso 7).
+Busca: el precio de fábrica real. La regla del modelo: 20% de margen bruto mínimo para ofertar en licitación de precio único y 35% en compras menores, y la compuerta 0 cierra si el precio pasa de 1.1 veces la referencia de la hoja SKUs. Si dice que depende del volumen: «give us the price at MOQ and at three times MOQ, we'll work with that». Si manda precios CIF o con margen de Zywie incluido, se pide el desglose (paso 8).
 
 ### Paso 4. Quién paga los registros (Jaime)
 
 ```text
-On registration: India isn't on the WHO reference-authority list that Panama uses for fast-track, so each product goes the full route with a lab analysis here. All-in it's about B/.2,000 per product, 11 products, and the legal deadlines alone add up to 4-5 months. How does the factory usually handle registration costs with its distributors in Latin America: factory carries them, split, or credited against the first orders?
+On registration: India isn't on the WHO reference-authority list that Panama uses for fast-track, so each product goes the full route with a lab analysis here. Our estimate is about B/.2,100 per product all-in (the official fee is B/.500; the lab analysis and the filing are quotes), 11 products, and the legal deadlines alone add up to 4-5 months. How does the factory usually handle registration costs with its distributors in Latin America: factory carries them, split, or credited against the first orders?
 ```
 
 Busca: que la fábrica pague o acredite los registros (B/.37 mil de capital menos). Se pregunta abierto, sin exigir; la respuesta dice mucho. Si contesta «that's the distributor's job»: «usually yes, and then the price and the credit terms have to carry it, so let's look at those together».
@@ -141,7 +141,7 @@ For the registration file and our distributor licence we have to qualify the man
 ```
 
 ```text
-And the standard supplier-qualification questions, in writing: any regulatory alerts, not-of-standard-quality findings or recalls on these products in the last three years, and if so the root cause and the corrective action. The DNFD cross-checks the Indian regulator's lists, so it's better to have it in the file than to be asked later.
+And the standard supplier-qualification questions, in writing: any regulatory alerts, failed official quality tests or recalls on these products in the last three years, and if so the root cause and the corrective action. Regulators here can see the Indian regulator's public lists, so it's better to have it in the file than to be asked later.
 ```
 
 Busca: esta es la prueba de transparencia. Por la lista pública de la CDSCO sabemos que en marzo de 2024 dos lotes de Bueno (ceftriaxona 1 g y amoxicilina dispersable) fallaron pruebas de calidad, y que su certificado OMS-BPM aparece vigente hasta 2029. No se cita nada de eso. Si manda el informe de causa y corrección sin que lo nombremos, señal verde; si responde «no alerts» o no manda nada, señal roja, y entonces sí se le manda el enlace público con calma: «we found this on CDSCO's site, can you help us understand it?». Sin ese informe no se registra la ceftriaxona.
@@ -149,10 +149,10 @@ Busca: esta es la prueba de transparencia. Por la lista pública de la CDSCO sab
 ### Paso 6. Referencias y KYC (Francisco)
 
 ```text
-For the shareholders' agreement I need a short KYC file on the manufacturer and on Zywie: shareholder list of each, latest audited accounts, and two distributor references in Latin America. On El Salvador, can you share the registration numbers or the distributor there? Pointing at an existing Central American registration helps a lot with the Panamanian registry.
+For the shareholders' agreement I need a short KYC file on the manufacturer and on Zywie: shareholder list of each, latest audited accounts, and two distributor references in Latin America. On El Salvador and Colombia, can you share the registration numbers or the distributor there? A Colombian (INVIMA) registration would matter most: Panama treats INVIMA as a reference authority, which opens a shorter registration route.
 ```
 
-Busca: saber quién es dueño de qué y si Bueno puede financiar (cerró 2025 con pérdida neta y deuda del tamaño de sus ventas, según los espejos del registro mercantil indio). No se dice eso en el grupo; se pide el documento. Si no hay registros en El Salvador, que lo diga: vale más una respuesta honesta que una referencia que no se puede verificar.
+Busca: saber quién es dueño de qué y si Bueno puede financiar (cerró el año fiscal 2025 con pérdida neta y gravámenes registrados del tamaño de sus ventas, según los espejos del registro mercantil indio). No se dice eso en el grupo; se pide el documento. Si no hay registros en El Salvador, que lo diga: vale más una respuesta honesta que una referencia que no se puede verificar.
 
 ### Paso 7. Crédito y flujo de dinero (Jaime)
 
@@ -172,12 +172,12 @@ Busca: la palanca que más cambia el capital. Si ofrece 60–90 días con antici
 Last structural question: who invoices us, the factory or Zywie? If Zywie, we'd want the factory price open-book and Zywie's margin as a fixed percentage in the agreement. It keeps transfer pricing clean (Panama requires a transfer-pricing report for related-party imports) and makes the bids transparent. Once we have the price list and the registration-cost position we'll send you a one-page term proposal.
 ```
 
-Busca: cerrar el margen oculto. Con Zywie al 15% y capital 50/50, Patel se lleva 69% del valor; con 5% a libro abierto, 54%. La propuesta de términos (las siete condiciones del plan de negocio) se escribe después de los pasos 3, 4 y 7, no antes.
+Busca: cerrar el margen oculto. Con Zywie al 15% y capital 50/50, Patel se lleva 69% del valor; con 5% a libro abierto, 54%. La propuesta de términos (las siete condiciones de la sección «Estructura del trato con Patel» de este documento) se escribe después de los pasos 3, 4 y 7, no antes.
 
 ### Paso 9. Quién pone el capital, por escrito (Jaime, después de la lista de precios)
 
 ```text
-One thing I'd like written down so we don't carry different memories. When you first spoke with my father and Juan Luis, the understanding was that Zywie would fund the start-up and the Panama side would run operations; later we talked about 50/50 in capital. Both can work, but they're different companies. Could you put in two lines what you have in mind: who funds the registrations, the first stock and the bonds, and what equity that buys? We'll put ours next to it and build the term proposal from there.
+One thing I'd like written down so we don't carry different memories. When this started, the understanding was that Zywie would fund the start-up and the Panama side would run operations; later we talked about 50/50 in capital. Both can work, but they're different companies. Could you put in two lines what you have in mind: who funds the registrations, the first stock and the bonds, and what equity that buys? We'll put ours next to it and build the term proposal from there.
 ```
 
 Busca: aclarar el cambio de versión (primero «yo pongo el capital», después «cuánto ponen ustedes») sin acusar. Lo que él escriba es la base de la negociación; si evita responder por escrito dos veces, es señal. Nuestra posición, que se escribe aquí antes de mandarla: el lado panameño no tiene B/.130 mil; puede poner una cifra acotada y el trabajo de operar, así que el efectivo grande (registros, primer inventario y fianzas) lo pone quien cobra en cada embarque, a cambio de la misma mitad de las acciones.
@@ -185,7 +185,7 @@ Busca: aclarar el cambio de versión (primero «yo pongo el capital», después 
 ### Paso 10. Siguientes pasos para los dos lados (Jaime)
 
 ```text
-To keep both sides moving, here's the split as I see it. Ours: re-quote the 3PLs with your data, get two surety quotes, regente and accountant quotes, a second legal opinion, and draft the term proposal. Yours: the data sheet, the regulatory package, the price list with MOQ and shelf life, and your capital position in writing. Does that split work for you?
+To keep both sides moving, here's the split as I see it. Ours: re-quote the 3PLs with your data, get two surety quotes, pharmacist-in-charge (regente) and accountant quotes, a second legal opinion, and draft the term proposal. Yours: the data sheet, the regulatory package, the price list with MOQ and shelf life, and your capital position in writing. Does that split work for you?
 ```
 
 Busca: cambiar el tono de «estamos esperando» a «cada uno tiene tareas». Se manda después de que haya respondido la apertura, no antes.
@@ -202,7 +202,7 @@ Todas las respuestas devuelven la conversación al documento pendiente sin levan
 | «Why so many documents? We agreed on 50/50» | 50/50 is still the frame. The documents aren't for us, they're what the CSS pliego, the DNFD, the insurer and our lawyer will ask for; we're front-loading it so the first bid doesn't fail on paperwork. |
 | «Don't you trust me?» | We do. We're trying to get a bank, an insurer and the DNFD to trust a company that doesn't exist yet, and documents are the only way that happens. |
 | «No factory gives 180 days» | Fair. Then the working capital sits with the side that gets paid at every shipment, and we need to reflect that in the structure. We'll put it in the term proposal. |
-| «The 2024 batches were a state-lab issue» | Understood; we only need it in writing for the file, the DNFD will see the same list we saw. |
+| «The 2024 batches were a state-lab issue» | Understood; we only need it in writing for the file, the DNFD can see the same public list. |
 | «I'll send everything when we meet in person» | A call works too. Can we do 30 minutes this week with this list on screen? We'll confirm here afterwards what was agreed. |
 | Silencio tras un recordatorio | No se insiste más en el grupo. Francisco o Juan Luis preguntan por otro punto de la lista; si dos pedidos distintos quedan sin respuesta, se pasa a Señales. |
 
@@ -210,7 +210,7 @@ Todas las respuestas devuelven la conversación al documento pendiente sin levan
 
 - Nada de lo que sabemos por registros públicos sobre Bueno o Zywie: directores, cifras, deudas, otras plantas, otras empresas en su planta, lotes de la CDSCO, registros que no aparecen en otros países. Lo que él no mande se vuelve a pedir; no se cita. Solo se saca un enlace público cuando lo que él dice contradice lo público, y con calma.
 - Nada de los números internos: VPN, probabilidad de pérdida, topes de capital de cada socio, cuánto cree cada uno que vale el negocio. Eso se usa para decidir, no para negociar por chat.
-- Nada del parentesco con el ministro ni de contactos en el Gobierno. El plan se sostiene por precio y cumplimiento; la declaración ante la ANTAI (Ley 316) lo hará público a su debido tiempo y con abogado.
+- Nada del parentesco con el ministro ni de contactos en el Gobierno como argumento comercial: el plan se sostiene por precio y cumplimiento. El dato se informa por escrito en la propuesta de términos (la S.A. estará sujeta a la declaración de la Ley 316 ante la ANTAI), no en el chat.
 - No calificar a Zywie («you sell rice»). Se pregunta quién factura y quién firma como fabricante; la conclusión la saca él.
 - No prometer volúmenes, fechas de adjudicación ni «we can win X». La CSS adjudicó su licitación grande en mayo de 2026 por 15 meses; lo que hay ahora son subastas del MINSA de un producto y compras menores.
 - No aceptar por chat ningún porcentaje, aporte ni honorario de SignatureLex. Toda cifra va a la propuesta de términos escrita.
@@ -245,13 +245,14 @@ Anote aquí cada pedido al mandarlo y cada respuesta al recibirla; con esta tabl
 
 | # | Pedido | Mandado por | Fecha de envío | Respuesta de Rutul | Documento recibido | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Packing list y ficha técnica por producto | Jaime | — | — | — | Por pedir |
+| 1 | Packing list y ficha técnica por producto (paso 1, apertura) | Jaime | — | — | — | Por pedir |
 | 2 | Confirmación de los 11 productos y CPP de cada uno | Jaime | — | — | — | Por pedir |
 | 3 | Lista de precios FOB, lote mínimo y vida útil | Jaime | — | — | — | Por pedir |
 | 4 | Posición sobre quién paga los registros | Jaime | — | — | — | Por pedir |
 | 5 | COPP vigente, licencias por bloque e informe de los lotes de 2024 | Jaime o Francisco | — | — | — | Por pedir |
-| 6 | Accionistas, estados auditados, El Salvador y dos referencias | Francisco | — | — | — | Por pedir |
-| 7 | Crédito de 150–180 días sin anticipo | Jaime | — | — | — | Por pedir |
-| 8 | Quién factura y margen de Zywie a libro abierto | Francisco | — | — | — | Por pedir |
-| 9 | Empaque impreso con el número de licitación en corridas pequeñas | Jaime | — | — | — | Por pedir |
-| 10 | Propuesta de términos de una página (la mandamos nosotros) | Francisco y Jaime | — | — | — | Por pedir |
+| 6 | Crédito de 150–180 días sin anticipo (paso 7) | Jaime | — | — | — | Por pedir |
+| 7 | Quién factura y margen de Zywie a libro abierto (paso 8) | Francisco | — | — | — | Por pedir |
+| 8 | Accionistas y estados auditados (paso 6) | Francisco | — | — | — | Por pedir |
+| 9 | Prueba de El Salvador y Colombia y dos referencias (paso 6) | Francisco | — | — | — | Por pedir |
+| 10 | Empaque impreso con el número de licitación en corridas pequeñas (hoja de datos) | Jaime | — | — | — | Por pedir |
+| 11 | Propuesta de términos de una página (la mandamos nosotros) | Francisco y Jaime | — | — | — | Por pedir |

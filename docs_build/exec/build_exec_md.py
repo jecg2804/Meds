@@ -125,5 +125,8 @@ Modelo mensual de 60 meses con las cláusulas reales de los pliegos de la CSS y 
 
 os.makedirs(OUT, exist_ok=True)
 path = os.path.join(OUT, 'Resumen_ejecutivo_socios_inversionistas.md')
+import sys as _sys; _sys.path.insert(0, os.path.join(HERE, '..'))
+from audit_edits3 import apply_post3
+MD = apply_post3('Resumen_ejecutivo_socios_inversionistas.md', MD)
 open(path, 'w', encoding='utf-8').write(MD)
 print('written', path, len(MD.encode()), 'bytes')
