@@ -3,6 +3,11 @@
  - 'committed': constitute, register and operate regardless of what is learned (no gates).
  - 'staged'   : Phase 0 due diligence gate before constituting (price list + GMP/documents),
                 and a month-15 gate (annualized sales must cover break-even) before wave 2 / continuing.
+
+Audit corrections (9 Oct 2026), switchable through `mc_fixes`:
+ - 'fixed_corr'       the fixed-cost lines (and the setup lines) share a common cost factor (Gaussian copula, rho_fixed)
+                      instead of being drawn independently, which understated the spread of the total
+ - 'wave2_after_gate' in the staged strategies the second wave is filed only after the operating gate (m2 >= gate month)
 """
 import numpy as np
 from scipy.stats import norm
@@ -10,8 +15,11 @@ from engine import run, scenario_params, irr_rows, T
 from inputs import P, FIXED, SETUP, SKUS
 
 FIXED_KEYS = {'gm_dec', 'gm_cen', 'bond_css', 'bond_minsa', 'mincash_m', 'rs_off', 'isr', 'divtax', 'payout', 'disc',
-              'patel_eq', 'patel_cash', 'jaime_frac', 'ship_m', 'stop_det', 'inv_liq', 'fact_share', 'fact_cost'}
+              'patel_eq', 'patel_cash', 'jaime_frac', 'ship_m', 'stop_det', 'inv_liq', 'fact_share', 'fact_cost',
+              'bond_tail_css', 'bond_tail_minsa', 'forfeit_frac'}
 INT_KEYS = {'reg_m', 'cen_start', 'm2', 'n2', 'bid_m'}
+ALL_MC_FIXES = frozenset({'fixed_corr', 'wave2_after_gate'})
+RHO_FIXED = 0.5
 
 
 def tri_ppf(u, a, c, b):
@@ -23,7 +31,15 @@ def tri_ppf(u, a, c, b):
     return np.where(u < fc, a + np.sqrt(u * (b - a) * (c - a)), b - np.sqrt((1 - u) * (b - a) * (b - c)))
 
 
-def draw(n, rng, rho_comp=0.6, rho_mkt=0.4):
+def _corr_u(u, z0, rho):
+    """keeps each line's own uniform draw and mixes it with a common factor z0 (Gaussian copula)"""
+    if rho <= 0:
+        return u
+    z = norm.ppf(np.clip(u, 1e-12, 1 - 1e-12))
+    return norm.cdf(np.sqrt(rho) * z0 + np.sqrt(1 - rho) * z)
+
+
+def draw(n, rng, rho_comp=0.6, rho_mkt=0.4, rho_fixed=0.0, rng_common=None):
     p = scenario_params('base')
     z = rng.standard_normal((n, 4))
     # correlated latent factors: competitiveness (share_dec, pwin_cen) and market (mkt, erosion)
@@ -42,15 +58,20 @@ def draw(n, rng, rho_comp=0.6, rho_mkt=0.4):
         if k in INT_KEYS:
             x = np.rint(x)
         p[k] = x
-    p['fixed'] = [tri_ppf(rng.random(n), min(f[1], f[3]), f[2], max(f[1], f[3])) for f in FIXED]
-    p['setup'] = [tri_ppf(rng.random(n), min(s[1], s[3]), s[2], max(s[1], s[3])) for s in SETUP]
+    zf = rng_common.standard_normal(n) if (rng_common is not None and rho_fixed > 0) else np.zeros(n)
+    zs = rng_common.standard_normal(n) if (rng_common is not None and rho_fixed > 0) else np.zeros(n)
+    p['fixed'] = [tri_ppf(_corr_u(rng.random(n), zf, rho_fixed), min(f[1], f[3]), f[2], max(f[1], f[3])) for f in FIXED]
+    p['setup'] = [tri_ppf(_corr_u(rng.random(n), zs, rho_fixed), min(s[1], s[3]), s[2], max(s[1], s[3])) for s in SETUP]
     return p
 
 
 def simulate(n=20000, seed=20261006, strategy='staged', p_gmp_bad=0.15, hazard_annual=0.04,
-             dd_price_cap=1.60, dd_detect=0.8, gate_runrate=90_000, gate_after=9, inc_override=None, p_override=None):
+             dd_price_cap=1.60, dd_detect=0.8, gate_runrate=90_000, gate_after=9, inc_override=None, p_override=None,
+             fixes=None, mc_fixes=None):
+    MF = ALL_MC_FIXES if mc_fixes is None else frozenset(mc_fixes)
     rng = np.random.default_rng(seed)
-    p = draw(n, rng)
+    rho_f = RHO_FIXED if 'fixed_corr' in MF else 0.0
+    p = draw(n, rng, rho_fixed=rho_f, rng_common=np.random.default_rng(seed + 424242))
     if p_override:
         for k, v in p_override.items():
             p[k] = v
@@ -88,7 +109,7 @@ def simulate(n=20000, seed=20261006, strategy='staged', p_gmp_bad=0.15, hazard_a
         # operating gate: after `gate_after` months of selling, annualized sales (decentralized + awarded
         # centralized contracts) must reach the break-even run-rate; otherwise wind down. Wave 2 only if passed.
         mc0 = dict(mc); mc0['wave2'] = np.zeros(n)
-        o0 = run(p, n=n, mc=mc0, inc_override=inc_override)
+        o0 = run(p, n=n, mc=mc0, inc_override=inc_override, fixes=fixes)
         gm_ = np.clip(o0['first_dec'] + gate_after, 1, T)
         idx = gm_ - 1
         dec_rr = o0['rev_dec'][np.arange(n), idx] * 12
@@ -99,10 +120,12 @@ def simulate(n=20000, seed=20261006, strategy='staged', p_gmp_bad=0.15, hazard_a
         mc['stop_m'] = np.where(fail_gate, gm_, mc['stop_m'])
         mc['forfeit'] = np.where(fail_gate, 0.0, mc['forfeit'])
         mc['wave2'] = np.where(fail_gate, 0.0, 1.0)
+        if 'wave2_after_gate' in MF:
+            p = dict(p); p['m2'] = np.maximum(np.asarray(p['m2'], dtype=float), gm_)
         res_gate = dict(gate_m=gm_, runrate=runrate, fail_gate=fail_gate)
     else:
         res_gate = dict(gate_m=np.zeros(n), runrate=np.zeros(n), fail_gate=np.zeros(n, dtype=bool))
-    o = run(p, n=n, mc=mc, inc_override=inc_override)
+    o = run(p, n=n, mc=mc, inc_override=inc_override, fixes=fixes)
 
     # investor cash flows (all shareholders); no-go cases only lose Phase 0
     cf = o['cf_liq'].copy()

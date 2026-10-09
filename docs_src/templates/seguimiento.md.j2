@@ -1,0 +1,197 @@
+# Seguimiento operativo: pendientes, cotizaciones y mensajes por aprobar
+
+*Para los socios panameños. Documento vivo: se actualiza con cada respuesta. Regla: **ningún correo, formulario o mensaje a terceros sale sin que Jaime vea el texto, entienda los números y lo apruebe.** Actualizado el 9 de octubre de 2026.*
+
+## 1. Pendientes
+
+| # | Pendiente | Quién | Estado | Siguiente paso |
+| --- | --- | --- | --- | --- |
+| 1 | Opinión legal escrita sobre la Ley 316 (compuerta 0a) | Jaime, con un abogado independiente | Sin pedir | Aprobar el correo de la sección 3.5 y elegir abogado |
+| 2 | Apertura a Rutul Patel (datos de fábrica, paquete estándar, correo) | Jaime | Texto listo (documento 4) | Aprobar y enviar; reportar textual lo que conteste |
+| 3 | Videollamada con J. Cain (miércoles 14 de octubre) | Jaime | J. Cain propuso 10:00, 11:00 o 14:00 | Elegir la hora y aprobar la respuesta de la sección 3.1 |
+| 4 | Recordatorio a Osala, DSV e Interworld | Jaime | Sin respuesta desde el 8 de octubre | Aprobar el recordatorio de la sección 3.2 para el 15 de octubre |
+| 5 | Formulario de BP Logistics y WhatsApp a Farmazona | Jaime (lo hace una persona: el formulario tiene verificación «no soy un robot») | Respuestas listas (secciones 3.6 y 3.7) | Llenar y enviar |
+| 6 | Cotización de fianzas a dos aseguradoras | Jaime | Texto listo (sección 3.3) | Aprobar y enviar |
+| 7 | Tarifa del análisis previo al IEA | Jaime | Texto listo (sección 3.4) | Aprobar y enviar |
+| 8 | Consulta escrita a la DNFD (depósito en el 3PL, regente compartido, excepción de registro) | Francisco | Texto listo (sección 3.8) | Revisar y presentar |
+| 9 | Compartir la carpeta `02 Socios Panamá` de Drive con Juan Luis y Francisco | Jaime | Pendiente | Cuando Jaime lo decida |
+| 10 | Tiempo semanal que cada socio puede dedicar (decide si hace falta coordinador pagado) | Los tres socios | Pendiente | Responder |
+| 11 | Vigilar PanamaCompra: nueva LPU de la CSS, prórroga de la vigente, compra conjunta | Claude (revisión semanal) | En curso | Cada lunes |
+
+## 2. Operadores logísticos (3PL)
+
+**Qué se pide:** cotización indicativa para un depósito con licencia de la DNFD que pueda declararse como depósito de la agencia; tarifa por posición de tarima a 15-25 °C y mínimo mensual; recepción y despacho; alta de cuenta; corredor y acarreo desde el puerto; entrega a los almacenes de la CSS y del MINSA; número de licencia y si cubren a una agencia nueva con su regente.
+
+**Volumen:** primer ingreso de 5 tarimas en consolidado; luego unas {{ N.ie.pallets_month|n0 }} a 5 tarimas al mes, con picos de 10 si llega un contenedor; 11 productos; FEFO; sin cadena de frío; sin reetiquetado. Sale del caso base del modelo: unos {{ N.ie.m3_year|n0 }} m³ al año en el año maduro (tarima de 1.2 × 1.0 m y 1.6 m de alto, unos 1.9 m³). La ficha logística por producto se manda cuando la envíe la fábrica.
+
+| Operador | Contacto público | Evidencia farmacéutica (fuente pública) | Estado |
+| --- | --- | --- | --- |
+| J. Cain & Cía (Colón y Panamá Pacífico) | sales@jcain.com; Estefanía López, gerente comercial: eslopez@jcain.com, +507 6948-7787 | Licencias de agencia 13-005 A y 3-001; certificado BPM de acondicionamiento 012-25 hasta el 11-07-2027; áreas a 2-8 y 15-25 °C [1][2] | Correo del 8 de octubre; respondió el 9 con propuesta de videollamada el 14 de octubre |
+| Osala Logistics (Tocumen) | info@osalalogistics.com | Certificación DNFD de importación, almacenamiento y distribución de medicamentos; 15-25 y 2-8 °C [3] | Correo del 8 de octubre; sin respuesta |
+| DSV Panamá (Zona Libre de Colón) | pa.info@pa.dsv.com | Almacenamiento de productos farmacéuticos; sin licencia DNFD publicada [4] | Correo del 8 de octubre; sin respuesta |
+| Interworld Freight Panamá | info@interwf.com.pa | Almacén farmacéutico a 2-8 y 15-25 °C; sin licencia DNFD visible [5] | Correo del 8 de octubre; sin respuesta; pedir número de licencia |
+| BP Logistics (Panamá Pacífico) | Formulario web y WhatsApp +507 6977-8167 | Licencia de agencia 13-031 A (vence el 16-12-2026); licencia 13-006 LA [1] | Recibió un cuestionario operativo antes del 8 de octubre, sin cotizar |
+| DHL Global Forwarding (Tocumen) | Formulario de ciencias de la vida | Licencia 8-236 L [1] | Formulario pendiente |
+| Farmazona / FZ Logistics (Colón) | WhatsApp +507 6831-2213 | Licencia 3-011 L; certificado BPM 021-24 hasta el 08-11-2026 [1] | WhatsApp pendiente |
+| Alliance (Grupo ALG), Master Logistic, Kuehne+Nagel, FedEx | Formularios web | Licencias 13-002 LA y 13-003 LA (Alliance y Master) [1] | Segunda ronda, si los primeros no responden |
+
+Cuando llegue una cotización: anotarla en la sección 4, guardar el correo en Drive (`02 Socios Panamá`) y pasar la tarifa al modelo (supuesto «Operador logístico (3PL): cuota mínima», hoy {{ N.fixed[1].base|b0 }} al mes en la base).
+
+## 3. Mensajes listos para aprobar
+
+### 3.1 Respuesta a J. Cain
+
+```text
+Asunto: RE: Solicitud de cotización indicativa – almacenamiento y distribución de medicamentos (agencia en constitución)
+
+Estimada Estefanía:
+
+Gracias por la pronta respuesta. Me viene bien el miércoles 14 de octubre a las [10:00 / 11:00 / 14:00].
+
+Para aprovechar la llamada, le adelanto lo que buscamos: una cotización indicativa, o su tarifario estándar, para almacenamiento a 15-25 °C (posición de tarima y mínimo mensual, recepción y despacho por tarima y por caja) y entrega a los almacenes de la CSS y del MINSA; y entender cómo trabajan con una agencia nueva, es decir, si su depósito puede declararse como depósito de nuestra agencia ante Farmacia y Drogas y qué requieren de nuestra parte. La ficha logística por producto se la enviamos en cuanto la fábrica la complete.
+
+Quedo atento a la invitación.
+
+Saludos cordiales,
+
+Jaime Cucalon
+```
+
+Preparación de la llamada:
+
+| Punto | Qué decir o preguntar |
+| --- | --- |
+| Quiénes somos | Agencia distribuidora en constitución, socios panameños; importaremos genéricos de un fabricante indio con certificado OMS de buenas prácticas para vender a la CSS y al MINSA. Sin nombres de la fábrica ni de Rutul Patel; sin cifras del plan |
+| Productos | 11 genéricos de temperatura ambiente: tabletas, suspensiones y jarabes, cremas e inyectables en polvo; ninguno controlado ni refrigerado |
+| Volumen | El de la sección 2 |
+| Preguntas obligatorias | Tarifa por tarima al mes y mínimo mensual; recepción y despacho por tarima y por caja; alta de cuenta; corredor y acarreo desde Manzanillo; entrega a almacenes de la CSS y del MINSA; número de licencia y si cubren a una agencia nueva con su licencia y su regente; tiempo de implementación |
+| Preguntas útiles | Qué sede conviene (Colón junto al puerto o Panamá Pacífico cerca de los almacenes del Estado); cuarentena y liberación por el regente; control por lote y vencimiento con reportes; si tienen clientes que venden a la CSS por licitación (sin pedir nombres); documentos para abrir cuenta |
+| Al cerrar | Pedir la cotización por escrito, aunque sea un rango, y la lista de datos que necesitan de la fábrica |
+
+### 3.2 Recordatorio a Osala, DSV e Interworld (15 de octubre)
+
+```text
+Asunto: RE: Solicitud de cotización indicativa – almacenamiento y distribución de medicamentos (agencia en constitución)
+
+Estimados:
+
+Les escribo para dar seguimiento a nuestra solicitud del 8 de octubre. ¿Podrían indicarnos si pueden cotizar, aunque sea de forma indicativa o con su tarifario estándar, y el número de licencia de Farmacia y Drogas de su depósito?
+
+Saludos cordiales,
+
+Jaime Cucalon
+```
+
+### 3.3 Aseguradoras de fianzas (dos de: Mapfre, Internacional de Seguros, ASSA, Interamericana de Fianzas)
+
+Fianzas exigidas por el pliego de la LPU [7]; el monto de referencia sale del precio adjudicado y de la cantidad máxima del renglón.
+
+```text
+Asunto: Consulta de requisitos y tarifas – fianzas de propuesta y de cumplimiento para licitaciones de medicamentos
+
+Estimados:
+
+Somos una sociedad en constitución que participará en licitaciones de medicamentos de la CSS (fianza de propuesta de 10% por 180 días hábiles y de cumplimiento de 30% por 18 meses) y en subastas del MINSA (cumplimiento de 20%). Como referencia de tamaño, el renglón de paracetamol 500 mg de la licitación vigente de la CSS vale unos B/.297 mil por 15 meses a precio adjudicado; su fianza de cumplimiento sería de unos B/.89 mil.
+
+Agradecemos indicarnos: requisitos para una empresa nueva (estados financieros, codeudores, contragarantías), porcentaje de colateral en efectivo o garantía bancaria que exigirían, tasa anual de prima por tipo de fianza, costo mínimo por fianza y tiempo de emisión una vez aprobada la línea.
+
+Saludos cordiales,
+
+Jaime Cucalon
+```
+
+### 3.4 Instituto Especializado de Análisis (tarifa del análisis previo)
+
+La Ley 419 obliga al laboratorio a hacer públicas sus tarifas [6]; no están en su sitio.
+
+```text
+Asunto: Solicitud de tarifas vigentes – análisis de control previo para registro sanitario
+
+Estimados:
+
+De conformidad con el artículo 79 de la Ley 419 de 2024, que dispone que el laboratorio comunique sus tarifas a la Dirección Nacional de Farmacia y Drogas y las haga públicas, les solicitamos su tarifa vigente de análisis de control previo para registro sanitario por la ruta ordinaria de medicamentos de síntesis química, por forma farmacéutica: tabletas, polvo para suspensión oral, jarabe, suspensión oral, crema y polvo para solución inyectable.
+
+Agradecemos indicar también qué patrones de referencia y cantidad de muestra debe aportar el solicitante y el tiempo estimado de análisis.
+
+Saludos cordiales,
+
+Jaime Cucalon
+```
+
+### 3.5 Abogado independiente (opinión sobre la Ley 316)
+
+```text
+Asunto: Solicitud de cotización – opinión legal escrita sobre conflicto de intereses (Ley 316 de 2022)
+
+Estimado licenciado:
+
+Somos tres socios panameños que evaluamos constituir una sociedad que vendería medicamentos a la CSS y al MINSA. Dos de los socios son sobrinos del ministro de Salud. Antes de constituir, necesitamos una opinión legal escrita sobre si la sociedad puede contratar con esas entidades, a la luz de la Ley 316 de 2022 (arts. 2, 4, 5, 8, 13 y 16), del Decreto Ejecutivo 246 de 2004 y de la composición de la Junta Directiva de la CSS (Ley 51 de 2005, art. 23, reformado por la Ley 462 de 2025).
+
+Las preguntas concretas son seis: si el tercer grado de consanguinidad configura conflicto de intereses; si basta con que el ministro se excuse o los actos quedan inadjudicables; qué pasa en las compras por desabastecimiento y en los procedimientos excepcionales; si la declaración ante la ANTAI alcanza a las contrataciones menores; la exposición de la sociedad y sus socios a la nulidad y a la responsabilidad solidaria; y si cambia algo que los socios con parentesco no sean directores ni apoderados o tengan una participación minoritaria.
+
+¿Podría indicarnos sus honorarios y el plazo para entregar la opinión?
+
+Saludos cordiales,
+
+Jaime Cucalon
+```
+
+### 3.6 Formulario de BP Logistics (13 preguntas)
+
+1. País: Panamá.
+2. Productos: medicamentos genéricos de uso humano (tabletas, suspensiones orales, jarabe, cremas, inyectables en polvo), 15-25 °C.
+3. Modo de ingreso: marítimo (Manzanillo), consolidado al inicio.
+4. Volumen: 5 tarimas (unos 10 m³) en el primer embarque; después unas {{ N.ie.pallets_month|n0 }} a 5 tarimas al mes, picos de 10.
+5. Recepciones: 1-2 al mes; 40-80 cajas máster por recepción (estimación: 8-16 cajas por tarima).
+6. Transporte internacional: a cotizar (opción de que lo manejen ellos).
+7. Almacenamiento: 5-15 posiciones de tarima; 11 productos.
+8. Órdenes: 2-4 al mes; 1-5 productos por orden.
+9. Unidad de despacho: cajas completas.
+10. Valor agregado: ninguno por ahora (sin reetiquetado); control por lote y vencimiento.
+11. Países: solo Panamá (CSS y MINSA).
+12. Transporte de salida: entrega local a almacenes de la CSS y del MINSA.
+13. Partida arancelaria: 3004 (medicamentos dosificados).
+
+### 3.7 WhatsApp a Farmazona
+
+```text
+Buenas tardes. Somos una agencia distribuidora de medicamentos en constitución y estamos cotizando almacenamiento y distribución (15-25 °C, 5 tarimas iniciales y unas 3 a 5 al mes, 11 productos, entregas a la CSS y al MINSA). ¿A qué correo envío la solicitud de cotización con los detalles?
+```
+
+### 3.8 Consulta escrita a la Dirección Nacional de Farmacia y Drogas
+
+```text
+Asunto: Consulta sobre licencia de agencia distribuidora con depósito en centro logístico y sobre excepción de registro
+
+Señor Director Nacional de Farmacia y Drogas:
+
+Una sociedad en constitución que solicitará licencia de agencia distribuidora de medicamentos consulta respetuosamente:
+
+1. Si la agencia puede licenciarse teniendo como único depósito la bodega de un centro logístico con licencia de la DNFD, bajo contrato, y si el regente farmacéutico del centro logístico puede ejercer también la regencia de la agencia, considerando el artículo 268 de la Ley 419 de 2024 (hasta seis regencias en centros logísticos) y los artículos 377.3, 385.2 y 385.3.5 del Decreto Ejecutivo 27 de 2024.
+2. Si, para las compras de productos declarados en desabastecimiento crítico (Decreto Ejecutivo 16 de 2026), la DNFD aplica la excepción de registro sanitario de los artículos 46 y 47 de la Ley 419, reformados por la Ley 462 de 2025 (certificado de buenas prácticas de manufactura vigente), o los requisitos de los artículos 209 y 210 del Decreto Ejecutivo 27.
+3. Si el Decreto Ejecutivo 29 de 2023 (ruta abreviada para productos registrados en países de referencia de la OPS) sigue vigente y qué documentos exige.
+4. El tiempo promedio actual de un registro sanitario por la ruta ordinaria con análisis de control previo.
+
+Atentamente,
+
+[Representante de la sociedad en constitución]
+```
+
+## 4. Registro de respuestas
+
+| Fecha | Con quién | Qué pasó | Siguiente paso |
+| --- | --- | --- | --- |
+| Antes del 8-oct-2026 | BP Logistics | Recibió un cuestionario operativo con estimaciones (5 tarimas, unos 10 m³), sin fichas de producto | Formulario web o WhatsApp (sección 3.6) |
+| 8-oct-2026 | J. Cain, Osala, DSV, Interworld | Correos de solicitud enviados desde el correo de Jaime (salieron sin su revisión previa; la regla de aprobación rige desde el 9 de octubre) | Ver filas siguientes |
+| 9-oct-2026 | J. Cain | Estefanía López propone videollamada el 14 de octubre a las 10:00, 11:00 o 14:00 | Jaime elige la hora y aprueba la respuesta (sección 3.1) |
+| 9-oct-2026 | Osala, DSV, Interworld | Sin respuesta | Recordatorio el 15 de octubre (sección 3.2) |
+
+## Fuentes
+
+1. DNFD, establecimientos con licencia al 28 de septiembre de 2026: <https://dnfd.minsa.gob.pa/sites/default/files/2026-09/Licencias%20e%20Inscripciones%20al%2028%20Septiembre%202026.pdf>
+2. J. Cain & Cía: <https://www.jcain.com/>
+3. Osala Logistics: <https://osalalogistics.com/>
+4. DSV Panamá: <https://www.dsv.com/es-pa/>
+5. Interworld Freight: <https://interwf.com/>
+6. Ley 419 de 2024, art. 79 (tarifas de los laboratorios de referencia) y art. 268 (regencias en centros logísticos): <https://dnfd.minsa.gob.pa/sites/default/files/2025-08/Ley%20419%20de%201%20de%20febrero%20de%202024.pdf>
+7. Pliego de la LPU 01-2026 (fianzas de propuesta y de cumplimiento): <https://apisv3.panamacompra.gob.pa/procesos-contratacion-archivos/v2/download-file-2325E044-04B2-F011-80EA-0017A477FC74-ZA-101-1AZ-8120731-ZA-101-1AZ-8120731>

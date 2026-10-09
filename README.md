@@ -1,46 +1,37 @@
-# Meds — distribuidora de medicamentos para compras públicas en Panamá
+# Meds: distribuidora de genéricos para compras públicas en Panamá
 
-Repositorio privado del negocio. Contiene el modelo financiero (motor de 60 meses + simulación Monte Carlo), el generador del paquete de documentos para socios, las notas de investigación con sus fuentes y los entregables.
+Repositorio del negocio: modelo financiero (motor mensual de 60 meses y simulación de Monte Carlo), generador de documentos, investigación con fuentes y entregables. **Debe ser privado**: contiene debida diligencia sobre empresas reales y el guion de negociación.
 
-**Debe permanecer privado**: las notas de investigación y los documentos contienen debida diligencia sobre personas reales y el guion de negociación. El historial fue limpiado de nombres privados y cifras personales antes del primer push (9 de octubre de 2026).
+## Documentos (Markdown; PDF solo para imprimir o mandar)
 
-## Formato (regla fijada el 8 de octubre de 2026)
-
-- **Markdown es la fuente y el formato de lectura** (`docs/socios/*.md`): se lee en GitHub, en el proyecto de Claude, en Google Drive y en cualquier editor. Punto de entrada: `docs/socios/LEAME.md`.
-- **PDF para imprimir o enviar a socios**: `docs/socios/Farma_paquete_socios.pdf` (todo el paquete) y `docs/socios/Resumen_ejecutivo_socios_inversionistas.pdf` (cuatro páginas con gráficos). Se generan desde el Markdown pasando por un HTML intermedio en `build/` (no versionado).
-- No se usan Google Docs ni Word; nada se edita a mano en el PDF.
+| Audiencia | Carpeta | Documentos |
+| --- | --- | --- |
+| Todos, incluido Rutul Patel (inglés) | `docs/compartido_todos/` | `Panama_project_overview_and_requirements.md` (+ PDF) |
+| Socios panameños e inversionistas (español) | `docs/socios_panama/` | 1 Resumen (+ PDF), 2 Plan de negocio, 3 Debida diligencia del proveedor, 4 Negociación con Rutul Patel, 5 Seguimiento operativo |
+| Privado de Jaime | `private/` (no se sube) | Bitácora del negocio |
 
 ## Mapa
 
-| Carpeta | Qué hay | Quién la toca |
-| --- | --- | --- |
-| `model/` | `inputs.py` (SKUs, precios de referencia, supuestos con rango pes/base/opt y fuente), `engine.py` (flujo de caja mensual vectorizado), `mc.py`/`run_mc.py`/`stats_v3.py` (Monte Carlo, 20,000 escenarios), `build_xlsx.py` (Excel con fórmulas vivas), `analysis.py` (sensibilidad, palancas, descomposición), `ie_kelly.py`, `option_c.py`; resultados `*.json` | Claude (orquestador) |
-| `docs_build/` | `build_docs.py` + `audit_edits.py` (pasadas 1 y 2) + `audit_edits2.py` (pasada 3: índice único, tablas nuevas, correcciones) + `audit_edits3.py` (pasada 4, 9 de octubre: coherencia entre documentos, cifras no obtenidas, addendum de debida diligencia) generan el paquete `docs/socios/` a partir de `exports/` y del motor; `audit_md.py` audita los Markdown; `build_html.py` arma el HTML intermedio; `exec/` genera el resumen ejecutivo (Markdown y HTML con gráficos); `build_all.sh` corre todo | Claude |
-| `docs/socios/` | El paquete para socios: `LEAME.md`, 00–07, anexos, `Cotizaciones_3PL_seguimiento.md`, `Resumen_ejecutivo_socios_inversionistas.md` y los dos PDF. **Fuente de verdad** de lo que se publica en Google Drive y en el proyecto de Claude | Se lee; no se edita a mano (se regenera) salvo `Cotizaciones_3PL_seguimiento.md` |
-| `research/` | Notas y datos de cada ronda de investigación con URL y fecha: precios adjudicados (PanamaCompra), costo puesto en Panamá, finanzas y pagos, competencia, regulación, debida diligencia del socio, 3PL, procurement 2026 | Claude |
-| `outputs/` | Excel entregables: modelo para socios (sin cifras personales) y hoja de datos de fábrica (lo único que va a Rutul) | Se suben a Drive (los pequeños) o viajan por chat |
+| Carpeta | Qué hay |
+| --- | --- |
+| `model/` | `inputs.py` (supuestos con rango pesimista, base y optimista y su fuente), `engine.py` (flujo de caja mensual vectorizado), `mc.py` (sorteos y compuertas), `structures.py` (simulación por estructura del trato), `analysis.py` (escenarios, sensibilidad, qué pasaría si, techos de precio), `build_numbers.py` (escribe `outputs/numbers.json`), `build_xlsx.py` (Excel con fórmulas vivas) |
+| `docs_src/` | Plantillas Jinja2 de cada documento (`templates/`), `render.py`, `audit.py` (falla si hay celdas vacías, citas sin fuente, nombres privados o datos internos en el documento para Rutul) y `build_pdf.py` |
+| `docs/` | Documentos generados (no se editan a mano) |
+| `outputs/` | `numbers.json` (única fuente de cifras de los documentos) y `Modelo_financiero.xlsx` |
+| `research/` | Notas y datos de cada ronda de investigación; `verificacion_2026-10-09/` tiene el registro de 475 afirmaciones verificadas con fuente y fecha, y los datos que alimentan el modelo |
 
 ## Cómo regenerar todo
 
 ```bash
-pip install numpy openpyxl matplotlib   # pandoc y chromium para el PDF
-bash docs_build/build_all.sh            # Markdown → auditoría → HTML intermedio → PDF
-python3 model/run_mc.py && python3 model/stats_v3.py   # recalcula la simulación (minutos)
-python3 model/build_xlsx.py             # reconstruye el Excel completo (requiere los parámetros personales)
+pip install numpy scipy openpyxl jinja2   # pandoc y chromium para el PDF
+bash build.sh
 ```
 
-Las cifras de los documentos salen del motor en tiempo de build; no se editan números a mano. Cambios de supuestos → `model/inputs.py`; cambios de texto → `docs_build/audit_edits3.py` (o `audit_edits2.py`; reemplazos con anclaje, fallan si el texto cambió) o `exports/`. La auditoría (`audit_md.py`) revisa celdas vacías, columnas desparejas, frases prohibidas, encabezados, referencias rotas y cifras clave contra el modelo; el build falla si hay errores.
-
-## Flujo de actualización (una ronda)
-
-1. Lo que mande Rutul o una cotización → se anota en la tabla de seguimiento (06 o `Cotizaciones_3PL_seguimiento.md`) y, si cambia un supuesto, en `inputs.py`.
-2. `bash docs_build/build_all.sh` → `docs/socios/` (Markdown y PDF).
-3. Commit con mensaje que diga qué cambió y por qué (fuente).
-4. Publicar: proyecto de Claude (`socios/`), Google Drive `Farma/02 Socios Panamá/00 Plan y análisis (socios)` (los mismos `.md`), bitácora.
+Cambios de supuestos → `model/inputs.py`. Cambios de texto → `docs_src/templates/`. Nada de cifras a mano: todas salen de `outputs/numbers.json`.
 
 ## Convenciones
 
-- Español neutro de Panamá; B/. para balboas; fechas completas; «Rutul Patel» o «Patel», nunca otra forma.
-- Toda cifra lleva su naturaleza: tarifa publicada, norma, referencia indirecta, supuesto presupuestario, estimación compuesta.
-- Celdas sin dato llevan «—»; nada de marcadores («ver abajo», «TBD») ni gráficos sin gráfico.
-- Nada que vaya a Rutul sale de este repositorio salvo lo que está en `outputs/` (hoja de datos y cuestionario) y, cuando exista, la propuesta de términos.
+- Español neutro de Panamá; B/. para balboas; «Rutul Patel» o «Patel».
+- Toda cifra lleva su naturaleza: F (dato verificado), R (referencia indirecta), E (estimación).
+- En el documento para Rutul nunca aparece el nombre de la fábrica ni la investigación sobre ella; `audit.py` lo bloquea.
+- Ningún mensaje a terceros sale sin la aprobación de Jaime.

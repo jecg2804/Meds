@@ -1,158 +1,258 @@
-import numpy as np, json, copy
+# -*- coding: utf-8 -*-
+"""Análisis determinístico: escenarios, descomposición del capital, economía por producto y canal, precio techo de la fábrica,
+sensibilidad (tornado), casos «qué pasaría si» y punto de equilibrio. Escribe analysis.json."""
+import copy
+import json
+import numpy as np
 from engine import run, scenario_params, irr, T
-from inputs import SKUS, P, FIXED, SETUP, FIXED_KIND, ANNUAL_CHARGES, ANNUAL_KIND
-out={}
-def summ(o):
-    cf=o['cf_liq'][0]
-    cum=np.cumsum(cf)
-    pay=next((i for i in range(1,len(cum)) if cum[i]>=0), None)
-    return dict(revY=o['revY'][0].round().tolist(), NI=o['NI'][0].round().tolist(), eq_in=round(float(o['eq_in'][0])),
-                phase0=round(float(o['phase0'][0])), npv15=round(float(o['npv15_liq'][0])), npv30=round(float(o['npv_liq'][0])),
-                npv15_gc=round(float(o['npv15_best'][0])), irr=float(irr(cf)), irr_gc=float(irr(o['cf_best'][0])),
-                moic=float(o['moic_liq'][0]), moic_gc=float(o['moic_best'][0]), payback_m=pay, tv_liq=round(float(o['tv_liq'][0])),
-                tv_gc=round(float(o['tv_gc'][0])), divs=round(float(o['div'][0].sum())), cash60=round(float(o['cash'][0,-1])),
-                peak_cum_neg=round(float(-cum.min())), zywie=round(float(o['zywie_profit'][0])))
-for sc in ('pes','base','opt'):
-    out['det_'+sc]=summ(run(scenario_params(sc)))
-b=scenario_params('base'); o=run(b)
-out['monthly_base']={k: o[k][0].round(1).tolist() for k in ('rev','rev_dec','rev_cen','cogs','pay','coll','fixed','inj','cash','inv','collat','div','income')}
-out['monthly_base']['cum_inj']=np.cumsum(o['inj'][0]).round(1).tolist()
-# capital need decomposition at the month where cumulative injections reach 95% of total
-cuminj=np.cumsum(o['inj'][0]); m95=int(np.argmax(cuminj>=0.95*cuminj[-1]))
-idx=m95
-dec=dict(
- setup=float(o['setup'][0,:idx+1].sum()), registros=float(o['rs'][0,:idx+1].sum()),
- fijos_y_anuales=float((o['fixed'][0,:idx+1]+o['annual'][0,:idx+1]+o['postreg'][0,:idx+1]+o['aviso'][0,:idx+1]+o['taxpay'][0,:idx+1]).sum()),
- compras_pagadas=float(o['pay'][0,:idx+1].sum()), cobros=-float(o['coll'][0,:idx+1].sum()),
- colateral=float(o['collat'][0,idx]), var=float(o['var'][0,:idx+1].sum()+o['prem'][0,:idx+1].sum()),
- caja_minima=float(o['cash'][0,idx]), mes=idx+1, total_inj=float(cuminj[idx]))
-dec['check']=dec['setup']+dec['registros']+dec['fijos_y_anuales']+dec['compras_pagadas']-dec['cobros']*-1*-1+dec['colateral']+dec['var']+dec['caja_minima']
-dec['check']=dec['setup']+dec['registros']+dec['fijos_y_anuales']+dec['compras_pagadas']+dec['cobros']+dec['colateral']+dec['var']+dec['caja_minima']+float(o['fact_exp'][0,:idx+1].sum())
-out['cap_decomp_base']=dec
-# unit economics table
-ue=[]
-for j,s in enumerate(SKUS):
-    row=dict(id=s['id'], name=s['name'], group=s['group'], inc=s['inc'], unit_cost=float(o['unit_cost'][0,j]), src=s['src_cost'])
-    for c in range(4):
-        row[f'p{c+1}']=s[f'p{c+1}']; row[f'q{c+1}']=s[f'q{c+1}']
-        row[f'our{c+1}']=float(o['ourp'][c,0,j]); row[f'gm{c+1}']=float(o['gm'][c,0,j]); row[f'go{c+1}']=bool(o['go'][c,0,j])
-    row['Rd']=float(o['Rd'][:,0,j].sum()); row['Rc_exp']=float(o['Rc'][0,0,j]*b['pwin_cen']+o['Rc'][1,0,j]*b['pwin_cen']*b['minsa_occ'])
-    row['GP_mature']=float((o['Rd'][:,0,j]*(1-o['ratio'][2:,0,j])).sum()+ (o['Rc'][0,0,j]*(1-o['ratio'][0,0,j]))*b['pwin_cen']+(o['Rc'][1,0,j]*(1-o['ratio'][1,0,j]))*b['pwin_cen']*b['minsa_occ'])
-    ue.append(row)
-out['unit_econ']=ue
-# break-even
-kfac={'staff':1+b['oncost'],'service':1+b['itbms_srv'],'other':1.0}
-f_total=sum(f[2]*kfac[k] for f,k in zip(FIXED,FIXED_KIND))
-c_annual=sum(a[1]*kfac[k] for a,k in zip(ANNUAL_CHARGES,ANNUAL_KIND))
-fixed_annual=f_total*12 + c_annual + sum(1 for s in SKUS if s['inc'])*b['rs_succ']*b['postreg']
-rev_m=sum(r['Rd']+r['Rc_exp'] for r in ue if r['inc']); gp_m=sum(r['GP_mature'] for r in ue if r['inc'])
-gm_avg=gp_m/rev_m; varpct=b['dist']+b['penal']+b['baddebt']+b['expiry']*(1-gm_avg)
-out['breakeven']=dict(fixed_annual=fixed_annual, f_total=f_total, c_annual=c_annual, gm_avg=gm_avg, var_pct=varpct, be_revenue=fixed_annual/(gm_avg-varpct), mature_rev_wave1=rev_m)
-# tornado on NPV15 (liq) and equity
-base_o=run(b); base_npv=float(base_o['npv15_liq'][0]); base_eq=float(base_o['eq_in'][0])
-tor=[]
-keys=['sup_idx','share_dec','pwin_cen','dso_days','cen_start','reg_m','mkt','erosion','pf_dec','n2','realiz','minsa_occ','collat','expiry','lead_days','ramp_m','rs_succ','adv','credit_days']
-for k in keys:
-    lab=P[k][0]
-    r=[]
-    for sc,i in (('pes',2),('opt',4)):
-        p=copy.deepcopy(b); p[k]=P[k][i]; oo=run(p); r.append((float(oo['npv15_liq'][0]), float(oo['eq_in'][0]), P[k][i]))
-    tor.append(dict(key=k,label=lab,pes_val=r[0][2],opt_val=r[1][2],base_val=b[k],npv_pes=r[0][0],npv_opt=r[1][0],eq_pes=r[0][1],eq_opt=r[1][1]))
-# fixed costs as a block
-for sc,i in (('pes',1),('opt',3)):
-    pass
-# every line of the monthly fixed-cost table moves together: amounts, plus the ITBMS on the monthly services
-# at its own pessimistic/optimistic rate (0% optimistic = recovered). The ITBMS on setup and registrations stays at base,
-# so the block isolates the monthly fixed costs. The engine multiplies service lines by (1 + base ITBMS), so the
-# amounts are pre-scaled to land on amount x (1 + scenario ITBMS).
-def fixed_block(col, itb):
-    adj=[f[col]*(1+itb)/(1+b['itbms_srv']) if k=='service' else f[col] for f,k in zip(FIXED,FIXED_KIND)]
-    allin=sum(f[col]*(1+b['oncost'] if k=='staff' else (1+itb if k=='service' else 1.0)) for f,k in zip(FIXED,FIXED_KIND))
-    return adj, allin
-fx_p, allin_p=fixed_block(1, P['itbms_srv'][2]); fx_o, allin_o=fixed_block(3, P['itbms_srv'][4])
-p=copy.deepcopy(b); p['fixed']=fx_p; o1=run(p)
-p=copy.deepcopy(b); p['fixed']=fx_o; o2=run(p)
-tor.append(dict(key='fixed',label='Costos fijos mensuales con cargas laborales e ITBMS (bloque, B/. al mes)',pes_val=round(allin_p),opt_val=round(allin_o),base_val=round(f_total),
-                npv_pes=float(o1['npv15_liq'][0]),npv_opt=float(o2['npv15_liq'][0]),eq_pes=float(o1['eq_in'][0]),eq_opt=float(o2['eq_in'][0])))
-p=copy.deepcopy(b); o1=run(p, signaturelex=True)
-tor.append(dict(key='signaturelex',label='Tarifas legales SignatureLex vs mercado',pes_val='SignatureLex',opt_val='mercado',base_val='mercado',
-                npv_pes=float(o1['npv15_liq'][0]),npv_opt=base_npv,eq_pes=float(o1['eq_in'][0]),eq_opt=base_eq))
-tor.sort(key=lambda d: -abs(d['npv_opt']-d['npv_pes']))
-out['tornado']=dict(base_npv15=base_npv, base_eq=base_eq, rows=tor)
-# what-ifs
-wi=[]
-def wif(tag, p, **kw):
-    oo=run(p,**kw); wi.append(dict(tag=tag, eq=float(oo['eq_in'][0]), npv15=float(oo['npv15_liq'][0]), irr=float(irr(oo['cf_liq'][0])), moic=float(oo['moic_liq'][0]), rev3=float(oo['revY'][0,2]), ni3=float(oo['NI'][0,2])))
-wif('Base', b)
-p=copy.deepcopy(b); p['credit_days']=120; p['adv']=0; wif('Crédito del proveedor 120 días, sin anticipo', p)
-p=copy.deepcopy(b); p['sup_idx']=1.05; wif('Precio del proveedor a libro abierto (índice 1.05)', p)
-p=copy.deepcopy(b); p['fixed'][5]=0; wif('Sin coordinador pagado (los socios operan)', p)
-p=copy.deepcopy(b); p['dso_days']=105; wif('Cobro en 105 días', p)
-inc2=[1 if s['group'] in ('Bueno','CNS') else 0 for s in SKUS]
-wif('+ 6 productos SNC con fabricante verificado', b, inc_override=inc2)
-p=copy.deepcopy(b); p['n2']=20; p['rel2']=0.6; wif('Escala: 20 productos en la segunda ola', p)
-p=copy.deepcopy(b); p['credit_days']=120; p['adv']=0; p['sup_idx']=1.05; p['fixed'][5]=1000; wif('Reestructurado: crédito 120 d + índice 1.05 + coordinador 1,000', p)
-wif('Reestructurado + SNC', p, inc_override=inc2)
-p2=copy.deepcopy(p); p2['n2']=20; p2['rel2']=0.6; wif('Reestructurado + SNC + escala 20', p2, inc_override=inc2)
-wif('Base con tarifas SignatureLex', b, signaturelex=True)
-pb=copy.deepcopy(b); pb['credit_days']=180; pb['adv']=0; pb['sup_idx']=1.05; pb['fixed'][5]=1000
-for k in ('rs_off','rs_iea','rs_law','rs_smp'): pb[k]=0
-wif('Reestructurado + SNC + Bueno paga registros y 180 días', pb, inc_override=inc2)
-ob=run(pb, inc_override=inc2)
-out['bueno_det']=dict(cum=np.cumsum(ob['cf_liq'][0][:T]).round(0).tolist(), eq=float(ob['eq_in'][0]))
-out['base_cum']=np.cumsum(o['cf_liq'][0][:T]).round(0).tolist()
-# working-capital levers on the base case
-lev=[]
-def lv(tag,p,**kw):
-    oo=run(p,**kw); lev.append(dict(tag=tag, eq=float(oo['eq_in'][0]), d_eq=float(oo['eq_in'][0])-base_eq, npv15=float(oo['npv15_liq'][0]), irr=float(irr(oo['cf_liq'][0]))))
-p=copy.deepcopy(b); p['credit_days']=120; p['adv']=0; lv('credito120',p)
-p=copy.deepcopy(b); p['fact_share']=0.7; lv('factoring70',p)
-p=copy.deepcopy(b); p['fixed'][5]=0; lv('sin_coordinador',p)
-p=copy.deepcopy(b); p['dso_days']=105; lv('cobro105',p)
-p=copy.deepcopy(b); p['collat']=0.25; lv('colateral25',p)
-p=copy.deepcopy(b); p['collat']=1.0; lv('colateral100',p)
-lv('signaturelex',b,signaturelex=True)
-out['levers']=lev
-# modelling choices that favour the base case
-ch=[]
-for tag,k,v in (('pwin20','pwin_cen',0.20),('share17','share_dec',0.17),('realiz50','realiz',0.50),('sin_ola2','n2',0)):
-    p=copy.deepcopy(b); p[k]=v; oo=run(p); ch.append(dict(tag=tag, npv15=float(oo['npv15_liq'][0]), irr=float(irr(oo['cf_liq'][0])), eq=float(oo['eq_in'][0])))
-p=copy.deepcopy(b); p['pwin_cen']=0.17; p['share_dec']=0.17; oo=run(p); ch.append(dict(tag='ambas17', npv15=float(oo['npv15_liq'][0]), irr=float(irr(oo['cf_liq'][0])), eq=float(oo['eq_in'][0])))
-ia=[s['id'] for s in SKUS].index('ALBSUS'); old=SKUS[ia]['q2']; SKUS[ia]['q2']=0
-oo=run(b); ch.append(dict(tag='sin_albendazol_minsa', npv15=float(oo['npv15_liq'][0]), irr=float(irr(oo['cf_liq'][0])), eq=float(oo['eq_in'][0]))); SKUS[ia]['q2']=old
-out['choices']=ch
-# pessimistic case with the operating gate (first decentralized sale + 9 months)
-pp=scenario_params('pes'); op=run(pp); gm_=int(op['first_dec'][0])+9; pp['stop_det']=gm_; op2=run(pp)
-out['pes_gate']=dict(gate_m=gm_, net=float(op2['cf_liq'][0].sum()), eq=float(op2['eq_in'][0]))
-# Zywie margin and value split (Valoracion method)
-spl=[]
-for mk in (0.0,0.05,0.10,0.15,0.25,0.40):
-    p=copy.deepcopy(b); p['zy_markup']=mk; oo=run(p); cf=oo['cf_liq'][0]
-    pos=float(np.where(cf[1:]>0,cf[1:],0).sum()); eq=float(oo['eq_in'][0]); zy=float(oo['zywie_profit'][0]); ph0=float(oo['phase0'][0])
-    pat=zy+0.5*pos-0.5*eq; pan=0.5*pos-0.5*eq-ph0
-    spl.append(dict(mk=mk, zywie=zy, patel=pat, panama=pan, share=pat/(pat+pan) if (pat+pan)!=0 else float('nan')))
-out['value_split']=spl
-# value split by deal structure (same method), reproducing the table in 05 / Anexo: capital per Panamanian partner = one sixth of eq_in (50/50) or 30%/3 (70/30) plus one third of phase 0
-def split_struct(tag, p, pc, **kw):
-    oo=run(p,**kw); cf=oo['cf_liq'][0]
-    pos=float(np.where(cf[1:]>0,cf[1:],0).sum()); eq=float(oo['eq_in'][0]); zy=float(oo['zywie_profit'][0]); ph0=float(oo['phase0'][0])
-    pat=zy+0.5*pos-pc*eq; pan=0.5*pos-(1-pc)*eq-ph0
-    return dict(tag=tag, patel_cash=pc, eq=eq, zywie=zy, patel=pat, panama=pan, share=pat/(pat+pan) if (pat+pan)!=0 else float('nan'), cap_socio=eq*(1-pc)/3+ph0/3)
-pb5=copy.deepcopy(pb); pb5['zy_markup']=0.05
-out['value_split_struct']=[split_struct('Propuesta 50/50, Zywie 15%', b, 0.5),
-                           split_struct('Libro abierto 5%, Bueno paga registros y 180 días, + SNC', pb5, 0.5, inc_override=inc2),
-                           split_struct('Lo anterior con Patel aportando 70% del efectivo', pb5, 0.7, inc_override=inc2)]
-# creams at Indian customs prices (verification of 8 Oct) and first wave without the two creams
-im=[s['id'] for s in SKUS].index('MOMCRM'); ih=[s['id'] for s in SKUS].index('HCTCRM')
-old_m, old_h = SKUS[im]['fob'], SKUS[ih]['fob']
-SKUS[im]['fob']=0.60; SKUS[ih]['fob']=0.28
-wif('Cremas a precio de aduana india (mometasona 0.60, hidrocortisona 0.28 por tubo)', b)
-SKUS[im]['fob'], SKUS[ih]['fob'] = old_m, old_h
-inc_nc=[ (0 if s['id'] in ('MOMCRM','HCTCRM') else s['inc']) for s in SKUS]
-wif('Primera ola sin las dos cremas', b, inc_override=inc_nc)
-out['whatif']=wi
-json.dump(out, open('analysis.json','w'), ensure_ascii=False, indent=1, default=float)
-print(json.dumps({k:out[k] for k in ('det_pes','det_base','det_opt','cap_decomp_base','breakeven')}, ensure_ascii=False, indent=1, default=float))
-for w in wi: print(f"{w['tag'][:60]:60s} eq={w['eq']:9,.0f} NPV15={w['npv15']:9,.0f} IRR={w['irr']:6.1%} MOIC={w['moic']:4.2f} Rev3={w['rev3']:9,.0f} NI3={w['ni3']:8,.0f}")
-print('\nTORNADO (NPV15 base', round(base_npv),')')
-for t in tor: print(f"{t['label'][:70]:70s} pes={t['npv_pes']:10,.0f} opt={t['npv_opt']:10,.0f}  [{t['pes_val']} / {t['opt_val']}]")
+from inputs import SKUS, P, FIXED, FIXED_KIND, ANNUAL_CHARGES, ANNUAL_KIND, MONTH1
+
+MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+CHANNELS = ['LPU de la CSS', 'MINSA centralizado', 'CSS compras menores', 'MINSA y otros, compras menores']
+
+
+def cal(m):
+    """mes del modelo -> 'mes de año' calendario"""
+    y0, m0 = MONTH1
+    k = (m0 - 1) + (int(m) - 1)
+    return f"{MESES[k % 12]} de {y0 + k // 12}"
+
+
+def summ(o, i=0):
+    cf = o['cf_liq'][i]
+    inj = o['inj'][i]; ph0 = float(o['phase0'][i])
+    cum = np.cumsum(inj) + ph0
+    peak_m = int(np.argmax(cum >= cum.max() - 0.5)) + 1
+    first_dec = int(o['first_dec'][i]); cen = int(o['cen_start'][i])
+    return dict(
+        eq_in=float(o['eq_in'][i]), phase0=ph0, capital=float(o['eq_in'][i] + ph0), peak_m=peak_m, peak_cal=cal(peak_m),
+        cum_at={m: float(cum[m - 1]) for m in (3, 6, 9, 12, 18, 24, 36, 48, 60)},
+        npv15=float(o['npv15_liq'][i]), npv30=float(o['npv_liq'][i]), irr=float(irr(cf)), moic=float(o['moic_liq'][i]),
+        first_sale_m=first_dec, first_sale_cal=cal(first_dec), cen_m=cen, cen_cal=cal(cen),
+        revY=[float(x) for x in o['revY'][i]], NIY=[float(x) for x in o['NI'][i]],
+        divs=float(o['div'][i].sum()), cash60=float(o['cash'][i, -1]), net=float(cf.sum()),
+        fixed_month_steady=float(o['fixed'][i, -1]), zywie=float(o['zywie_profit'][i]))
+
+
+def cap_decomp(o, i=0):
+    """capital en el mes pico = pérdidas acumuladas hasta ese mes + capital de trabajo + caja mínima"""
+    inj = o['inj'][i]; ph0 = float(o['phase0'][i])
+    cum = np.cumsum(inj) + ph0
+    m = int(np.argmax(cum >= cum.max() - 0.5)); mm = m + 1
+    rev = o['rev'][i]; coll = o['coll'][i]; pay = o['pay'][i]; arr = o['arrivals'][i]
+    recv = float(rev[:mm].sum() - coll[:mm].sum())
+    prepaid = float(pay[:mm].sum() - arr[:mm].sum())
+    d = dict(mes=mm, mes_cal=cal(mm), capital=float(cum[m]),
+             arranque=float(o['setup'][i, :mm].sum() + ph0), registros=float(o['rs'][i, :mm].sum()),
+             fijos=float((o['fixed'][i, :mm] + o['annual'][i, :mm] + o['postreg'][i, :mm]).sum()),
+             impuestos=float((o['aviso'][i, :mm] + o['taxpay'][i, :mm]).sum()),
+             cobrar=recv, inventario=float(o['inv'][i, m]), colateral=float(o['collat'][i, m]), anticipos=prepaid,
+             caja=float(o['cash'][i, m]))
+    gp = float((rev[:mm] - o['cogs'][i, :mm] * (1 + P['expiry'][3]) - o['var'][i, :mm] - o['prem'][i, :mm]).sum())
+    d['margen_acumulado'] = gp
+    d['check'] = d['arranque'] + d['registros'] + d['fijos'] + d['impuestos'] - gp + d['cobrar'] + d['inventario'] + d['colateral'] + d['anticipos'] + d['caja'] - d['capital']
+    return d
+
+
+def main():
+    out = {'month1': f"{MESES[MONTH1[1] - 1]} de {MONTH1[0]}"}
+    b = scenario_params('base')
+    det = {}
+    for sc in ('pes', 'base', 'opt'):
+        det[sc] = summ(run(scenario_params(sc)))
+    det['base_sl'] = summ(run(b, signaturelex=True))
+    out['det'] = det
+    o = run(b)
+    out['cap_decomp_base'] = cap_decomp(o)
+    out['monthly_base_cum'] = [float(x) for x in (np.cumsum(o['inj'][0]) + o['phase0'][0])]
+
+    # economía por producto y canal (caso base)
+    ue = []
+    pack, lm = b['pack'], b['log_mult']
+    gmin = [b['gm_cen'], b['gm_cen'], b['gm_dec'], b['gm_dec']]
+    for j, s in enumerate(SKUS):
+        row = dict(id=s['id'], short=s['short'], name=s['name'], group=s['group'], inc=s['inc'], fob_ref=s['fob'], adder=s['adder'],
+                   unit_cost=float(o['unit_cost'][0, j]), src=s['src_cost'], ch=[])
+        for c in range(4):
+            q_eff = s[f'q{c + 1}'] * (b['cc_w'] if (c == 1 and s.get('c2') == 'cc') else 1.0)
+            ourp = float(o['ourp'][c, 0, j])
+            ceil = (ourp * (1 - gmin[c]) - s['adder'] * lm) / (1 + pack) if ourp > 0 else None
+            row['ch'].append(dict(q=float(q_eff), p=float(s[f'p{c + 1}']), our=ourp, gm=float(o['gm'][c, 0, j]) if ourp > 0 else None,
+                                  go=bool(o['go'][c, 0, j]), value=float(q_eff * s[f'p{c + 1}']),
+                                  ceiling_quoted_fob=(float(ceil) if ceil is not None else None)))
+        row['Rd'] = float(o['Rd'][:, 0, j].sum())
+        row['Rc_exp'] = float(o['Rc'][0, 0, j] * b['pwin_cen'] + o['Rc'][1, 0, j] * b['pwin_cen'] * b['minsa_occ'])
+        ue.append(row)
+    out['unit_econ'] = ue
+    # volumen físico en el año maduro del caso base (primera ola): unidades esperadas y m3 (volumen = adder / US$300 por m3)
+    ie = []
+    for j, s in enumerate(SKUS):
+        if not s['inc']:
+            continue
+        units = 0.0
+        for c in range(4):
+            ourp = float(o['ourp'][c, 0, j])
+            if ourp <= 0:
+                continue
+            rev_c = float(o['Rd'][c - 2, 0, j]) if c >= 2 else float(o['Rc'][c, 0, j]) * b['pwin_cen'] * (b['minsa_occ'] if c == 1 else 1.0)
+            units += rev_c / ourp
+        vol_cm3 = s['adder'] / 300.0 * 1e6
+        ie.append(dict(id=s['id'], units=units, vol_cm3=vol_cm3, m3=units * vol_cm3 / 1e6))
+    m3 = sum(r['m3'] for r in ie)
+    out['ie'] = dict(rows=ie, m3_year=m3, pallets_year=m3 / 1.92, pallets_month=m3 / 1.92 / 12, m3_per_pallet=1.92)
+    first = [r for r in ue if r['inc']]
+    out['market_first_wave'] = dict(
+        by_channel=[sum(r['ch'][c]['value'] for r in first) for c in range(4)],
+        go_by_channel=[sum(r['ch'][c]['value'] for r in first if r['ch'][c]['go']) for c in range(4)],
+        total=sum(r['ch'][c]['value'] for r in first for c in range(4)),
+        total_go=sum(r['ch'][c]['value'] for r in first for c in range(4) if r['ch'][c]['go']),
+        expected_rev_mature=sum(r['Rd'] + r['Rc_exp'] for r in first))
+
+    # punto de equilibrio en ventas anuales (régimen, primera ola)
+    kfac = {'staff': 1 + b['oncost'], 'service': 1 + b['itbms_srv'], 'other': 1.0}
+    f_total = sum(f[2] * kfac[k] for f, k in zip(FIXED, FIXED_KIND))
+    c_annual = sum(a[1] * kfac[k] for a, k in zip(ANNUAL_CHARGES, ANNUAL_KIND))
+    n1 = sum(s['inc'] for s in SKUS)
+    fixed_annual = f_total * 12 + c_annual + n1 * b['rs_succ'] * b['postreg']
+    rev_m = out['market_first_wave']['expected_rev_mature']
+    gp_m = sum((o['Rd'][:, 0, j] * (1 - o['ratio'][2:, 0, j])).sum() + o['Rc'][0, 0, j] * (1 - o['ratio'][0, 0, j]) * b['pwin_cen']
+               + o['Rc'][1, 0, j] * (1 - o['ratio'][1, 0, j]) * b['pwin_cen'] * b['minsa_occ'] for j, s in enumerate(SKUS) if s['inc'])
+    gm_avg = float(gp_m / rev_m) if rev_m else 0.0
+    var_pct = b['dist'] + b['penal'] + b['baddebt'] + b['expiry'] * (1 - gm_avg)
+    out['breakeven'] = dict(fixed_month=float(f_total), fixed_annual=float(fixed_annual), gm_avg=gm_avg, var_pct=float(var_pct),
+                            be_revenue=float(fixed_annual / (gm_avg - var_pct)) if gm_avg > var_pct else None,
+                            expected_rev_mature=float(rev_m))
+
+    # tornado
+    base_npv = float(o['npv15_liq'][0]); base_cap = float(o['eq_in'][0] + o['phase0'][0])
+    keys = ['sup_idx', 'share_dec', 'pwin_cen', 'cen_start', 'dso_days', 'reg_m', 'mkt', 'collat', 'log_mult', 'erosion', 'pf_dec',
+            'n2', 'realiz', 'cc_w', 'minsa_occ', 'expiry', 'adv', 'credit_days', 'ramp_m', 'rs_succ', 'bond_prem', 'rs_iea']
+    tor = []
+    for k in keys:
+        r = []
+        for idx in (2, 4):
+            v = P[k][idx]
+            if k == 'cen_start' and idx == 4:
+                v = max(v, b['reg_m'] + b['bid_m'])     # con registros del caso base no se puede ofertar antes del mes 14
+            p = copy.deepcopy(b); p[k] = v; oo = run(p)
+            r.append((float(oo['npv15_liq'][0]), float(oo['eq_in'][0] + oo['phase0'][0]), v))
+        tor.append(dict(key=k, label=P[k][0], unit=P[k][1], base_val=b[k], pes_val=r[0][2], opt_val=r[1][2],
+                        npv_pes=r[0][0], npv_opt=r[1][0], cap_pes=r[0][1], cap_opt=r[1][1]))
+
+    def fixed_block(col, itb):
+        return [f[col] * (1 + itb) / (1 + b['itbms_srv']) if k == 'service' else f[col] for f, k in zip(FIXED, FIXED_KIND)], \
+               sum(f[col] * (1 + b['oncost'] if k == 'staff' else (1 + itb if k == 'service' else 1.0)) for f, k in zip(FIXED, FIXED_KIND))
+    fx_p, allin_p = fixed_block(1, P['itbms_srv'][2]); fx_o, allin_o = fixed_block(3, P['itbms_srv'][4])
+    p = copy.deepcopy(b); p['fixed'] = fx_p; o1 = run(p)
+    p = copy.deepcopy(b); p['fixed'] = fx_o; o2 = run(p)
+    tor.append(dict(key='fixed', label='Costos fijos mensuales con cargas e ITBMS (bloque)', unit='B/. al mes', base_val=float(f_total),
+                    pes_val=float(allin_p), opt_val=float(allin_o), npv_pes=float(o1['npv15_liq'][0]), npv_opt=float(o2['npv15_liq'][0]),
+                    cap_pes=float(o1['eq_in'][0] + o1['phase0'][0]), cap_opt=float(o2['eq_in'][0] + o2['phase0'][0])))
+    tor.sort(key=lambda d: -abs(d['npv_opt'] - d['npv_pes']))
+    out['tornado'] = dict(base_npv15=base_npv, base_cap=base_cap, rows=tor)
+
+    # qué pasaría si (cada fila parte del caso base)
+    inc_snc = [1 if s['group'] in ('Primera ola', 'SNC') else 0 for s in SKUS]
+    coord = [i for i, f in enumerate(FIXED) if f[0].startswith('Coordinador')]
+    wi = []
+
+    def wif(key, tag, p, **kw):
+        oo = run(p, **kw)
+        wi.append(dict(key=key, tag=tag, cap=float(oo['eq_in'][0] + oo['phase0'][0]), npv15=float(oo['npv15_liq'][0]),
+                       irr=float(irr(oo['cf_liq'][0])), moic=float(oo['moic_liq'][0]), rev3=float(oo['revY'][0, 2]),
+                       ni3=float(oo['NI'][0, 2]), net=float(oo['cf_liq'][0].sum())))
+    wif('base', 'Caso base', b)
+    p = copy.deepcopy(b); p['credit_days'] = 120; p['adv'] = 0; wif('credit120', 'Crédito de la fábrica de 120 días, sin anticipo', p)
+    p = copy.deepcopy(b); p['sup_idx'] = 1.05; wif('price105', 'Precio de fábrica a 1.05 veces la referencia', p)
+    p = copy.deepcopy(b)
+    for i in coord: p['fixed'][i] = 0
+    wif('coord0', 'Un socio coordina sin sueldo', p)
+    p = copy.deepcopy(b); p['collat'] = 0.5; wif('collat50', 'Colateral de 50% de la fianza', p)
+    p = copy.deepcopy(b); p['collat'] = 1.0; wif('collat100', 'Colateral de 100% de la fianza', p)
+    p = copy.deepcopy(b); p['cen_start'] = 14; wif('lpu14', 'La CSS prorroga la LPU vigente y la siguiente arranca en el mes 14', p)
+    p = copy.deepcopy(b); p['cc_w'] = 0.5; wif('cc50', 'El MINSA compra 50% de lo que pidió en la compra conjunta de 2023', p)
+    wif('snc', 'Más 6 productos de sistema nervioso (fabricante verificado)', b, inc_override=inc_snc)
+    pf = copy.deepcopy(b); pf['credit_days'] = 180; pf['adv'] = 0; pf['sup_idx'] = 1.05
+    for k in ('rs_off', 'rs_iea', 'rs_law', 'rs_smp', 'rs_trad'): pf[k] = 0
+    wif('factory', 'La fábrica paga los registros, da 180 días de crédito y precio 1.05', pf)
+    pf2 = copy.deepcopy(pf)
+    for i in coord: pf2['fixed'][i] = 0
+    wif('factory_coord0', 'Lo anterior y un socio coordina sin sueldo', pf2)
+    wif('factory_coord0_snc', 'Lo anterior más sistema nervioso', pf2, inc_override=inc_snc)
+    wif('sl', 'Caso base con las tarifas legales de SignatureLex', b, signaturelex=True)
+    # aporte de cada producto: cambio en VPN y capital si se quita de la primera ola
+    inc0 = np.array([s['inc'] for s in SKUS], dtype=float)
+    base_o = run(b); bnpv = float(base_o['npv15_liq'][0]); bcap = float(base_o['eq_in'][0] + base_o['phase0'][0])
+    contrib = []
+    for j, s in enumerate(SKUS):
+        if not s['inc']:
+            continue
+        inc = inc0.copy(); inc[j] = 0
+        oo = run(b, inc_override=inc)
+        contrib.append(dict(id=s['id'], short=s['short'], name=s['name'], d_npv_if_dropped=float(oo['npv15_liq'][0]) - bnpv,
+                            d_cap_if_dropped=float(oo['eq_in'][0] + oo['phase0'][0]) - bcap))
+    out['product_contrib'] = contrib
+    keep = [c['id'] for c in contrib if c['d_npv_if_dropped'] < 0]
+    inc_keep = [1 if s['id'] in keep else 0 for s in SKUS]
+    wif('keep', f"Solo los {len(keep)} productos que pagan su registro", b, inc_override=inc_keep)
+    out['keep_ids'] = keep
+    out['whatif'] = wi
+
+    # precio de fábrica que haría falta, según la estructura
+    def struct_params(kind):
+        p = copy.deepcopy(b)
+        if kind in ('factory', 'factory_coord0'):
+            p['credit_days'] = 180; p['adv'] = 0
+            for k in ('rs_off', 'rs_iea', 'rs_law', 'rs_smp', 'rs_trad'): p[k] = 0
+        if kind == 'factory_coord0':
+            for i in coord: p['fixed'][i] = 0
+        return p
+    grid = []
+    for kind, lab in (('base', 'Términos de la propuesta'), ('factory', 'La fábrica paga registros y da 180 días'),
+                      ('factory_coord0', 'La fábrica financia y un socio coordina sin sueldo')):
+        for snc in (False, True):
+            row = dict(kind=kind, label=lab + (' + sistema nervioso' if snc else ''), cells=[])
+            for si in (0.7, 0.8, 1.0, 1.25):
+                p = struct_params(kind); p['sup_idx'] = si
+                oo = run(p, inc_override=(inc_snc if snc else None))
+                row['cells'].append(dict(sup_idx=si, npv15=float(oo['npv15_liq'][0]), cap=float(oo['eq_in'][0] + oo['phase0'][0])))
+            grid.append(row)
+    out['price_grid'] = grid
+
+    # caso pesimista con la compuerta operativa (cierre a los 9 meses de la primera venta)
+    pp = scenario_params('pes'); op = run(pp); gm_ = int(op['first_dec'][0]) + 9; pp['stop_det'] = gm_; op2 = run(pp)
+    out['pes_gate'] = dict(gate_m=gm_, gate_cal=cal(gm_), net=float(op2['cf_liq'][0].sum()), cap=float(op2['eq_in'][0] + op2['phase0'][0]))
+
+    # reparto del valor entre Zywie, Rutul Patel y los socios panameños (caso base y lo que se negocia)
+    def split(tag, p, patel_cash, **kw):
+        oo = run(p, **kw); cf = oo['cf_liq'][0]
+        pos = float(np.where(cf[1:] > 0, cf[1:], 0).sum()); eq = float(oo['eq_in'][0]); zy = float(oo['zywie_profit'][0]); ph0 = float(oo['phase0'][0])
+        pat = zy + 0.5 * pos - patel_cash * eq; pan = 0.5 * pos - (1 - patel_cash) * eq - ph0
+        return dict(tag=tag, patel_cash=patel_cash, zywie=zy, patel=pat, panama=pan, cap_partner=eq * (1 - patel_cash) / 3 + ph0 / 3)
+    pf5 = copy.deepcopy(pf); pf5['zy_markup'] = 0.05
+    out['value_split'] = [split('Propuesta 50/50 (Zywie con 15% de margen)', b, 0.5),
+                          split('Fábrica paga registros, 180 días, precio 1.05, Zywie 5%', pf5, 0.5),
+                          split('Lo anterior con Rutul Patel aportando 70% del efectivo', pf5, 0.7)]
+    return out
+
+
+if __name__ == '__main__':
+    res = main()
+    json.dump(res, open('analysis.json', 'w'), ensure_ascii=False, indent=1, default=float)
+    d = res['det']
+    for k in ('pes', 'base', 'opt', 'base_sl'):
+        x = d[k]
+        print(f"{k:8s} cap {x['capital']:>9,.0f} pico {x['peak_m']:>2d} ({x['peak_cal']}) VPN15 {x['npv15']:>10,.0f} VPN30 {x['npv30']:>10,.0f} "
+              f"TIR {x['irr'] * 100 if x['irr'] == x['irr'] else float('nan'):6.1f}% MOIC {x['moic']:.2f} 1a venta {x['first_sale_m']} cen {x['cen_m']} "
+              f"ventas a3 {x['revY'][2]:,.0f} util a3 {x['NIY'][2]:,.0f}")
+    print('descomp', {k: round(v) if isinstance(v, float) else v for k, v in res['cap_decomp_base'].items()})
+    print('mercado', {k: (round(v) if isinstance(v, float) else [round(x) for x in v]) for k, v in res['market_first_wave'].items()})
+    print('equilibrio', {k: (round(v, 3) if isinstance(v, float) else v) for k, v in res['breakeven'].items()})
+    for w in res['whatif']:
+        print(f"{w['tag'][:70]:70s} cap {w['cap']:>9,.0f} VPN15 {w['npv15']:>9,.0f} TIR {w['irr'] * 100:6.1f}% MOIC {w['moic']:.2f}")
+    print('TORNADO')
+    for t in res['tornado']['rows'][:14]:
+        print(f"{t['label'][:60]:60s} {t['npv_pes']:>10,.0f} {t['npv_opt']:>10,.0f} cap {t['cap_pes']:>9,.0f} {t['cap_opt']:>9,.0f}")
+    print('split', [(s['tag'][:30], round(s['zywie']), round(s['patel']), round(s['panama'])) for s in res['value_split']])
+    print('pes_gate', res['pes_gate'])
+    print('ie', round(res['ie']['m3_year'], 1), 'm3/año', round(res['ie']['pallets_month'], 2), 'tarimas/mes', [(r['id'], round(r['units']), round(r['m3'], 1)) for r in res['ie']['rows']])

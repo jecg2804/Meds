@@ -11,3 +11,5 @@ Modelo_financiero_distribuidora_medicamentos_Panama.xlsx
 private/
 build/
 docs_build/audit_report.json
+model/analysis.json
+model/structures.json

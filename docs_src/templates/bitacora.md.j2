@@ -1,0 +1,91 @@
+# Bitácora del negocio: distribuidora de medicamentos (Panamá)
+
+*Privada: solo Jaime y Claude. No va a Drive compartido, ni al repositorio, ni a los socios. Última actualización: 9 de octubre de 2026, después de la reauditoría completa.*
+
+## 1. Estado
+
+- **Fase 0.** No hay S.A., ni registros, ni cotizaciones firmes. No se le ha escrito a Rutul Patel desde que se le pidió tiempo para mapear costos.
+- **Veredicto de la reauditoría (9 de octubre):** con los datos verificados, el negocio pierde dinero. La propuesta de Rutul Patel pierde en {{ S.A.p_loss|pct }} de los escenarios, con un capital mediano de {{ S.A.cap_go_p50|bk }}. La mejor estructura negociable (la fábrica paga registros y da crédito) pierde en {{ S.D.p_loss|pct }}. Solo sumando sistema nervioso y un socio que coordine sin sueldo queda cerca de cero ({{ S.D_snc_coord0.p_loss|pct }} de probabilidad de perder).
+- **Compuerta legal:** Jaime y Juan Luis son sobrinos del ministro de Salud, que además integra la Junta Directiva de la CSS (Ley 462, art. 19). La Ley 316, art. 8, prohíbe adjudicar con conflicto de intereses. Sin opinión legal favorable no se sigue.
+- **Recomendación:** no constituir; fase 0 casi sin costo (opinión legal, datos de la fábrica, cotizaciones); decidir con datos reales.
+
+## 2. Exposición personal de Jaime
+
+Jaime pone un sexto del capital (50/50 con Rutul Patel, tres socios panameños por partes iguales) más un tercio de la fase 0.
+
+| Estructura | Capital mediano si sigue | Capital p90 | Resultado neto promedio | Probabilidad de perder |
+| --- | --- | --- | --- | --- |
+{% for k in ['A', 'D', 'D_snc_coord0', 'D_cash70', 'D_cash80'] %}
+| {{ S[k].label }} | {{ S[k].j_cap_go_p50|bk }} | {{ S[k].j_cap_go_p90|bk }} | {{ S[k].j_net_mean|bk }} | {{ S[k].j_p_loss|pct }} |
+{% endfor %}
+
+Lo prudente es no comprometer más que la fase 0 ({{ (N.unit_costs.phase0 / 3)|b0 }} por socio en la base) hasta que los datos reales cambien el resultado.
+
+## 3. Decisiones vigentes
+
+1. No constituir ni pagar más que la fase 0 hasta tener opinión legal favorable, precios de fábrica, posición sobre registros y crédito, y cotizaciones reales.
+2. Solo precio y cumplimiento; ningún contacto con funcionarios; el parentesco se declara (Ley 316) y se consulta a un abogado independiente, que no sea de la firma de un socio.
+3. Primera ola de 11 productos sin equivalencia terapéutica; con los precios de referencia solo 5 pagan su registro: la lista de precios real decide.
+4. Ninguna comunicación externa sin aprobación previa de Jaime (regla del 9 de octubre).
+5. Rutul nunca ha nombrado al fabricante: en mensajes es «the factory». Lo investigado (fábrica, planta, directores, finanzas, alertas) no se le revela.
+
+## 4. Reglas de trabajo
+
+- **Formato:** Markdown es la fuente y el formato de lectura; PDF solo para imprimir o mandar (resumen para socios; resumen en inglés para Rutul). Nada de Google Docs, Word ni artifacts. El modelo en Excel vive en el repositorio.
+- **Audiencias:** compartido con todos, incluido Rutul (inglés); socios panameños e inversionistas (español); privado de Jaime (esta bitácora).
+- **Cifras:** salen de `outputs/numbers.json`, que genera el modelo; los documentos se generan con `bash build.sh`; nadie edita números a mano.
+- **Lenguaje:** español neutro de Panamá, de usted; «Rutul Patel» o «Patel», nunca otra forma; celdas sin dato con «—».
+- **Privacidad:** los nombres de terceros que Jaime mencionó en privado no van a ningún documento compartido ni al repositorio.
+
+## 5. Dónde vive cada cosa
+
+| Lugar | Qué hay |
+| --- | --- |
+| Repositorio GitHub `jecg2804/Meds` (público a la fecha: Jaime debe pasarlo a privado en Settings) | Modelo (`model/`), generador (`docs_src/`), documentos (`docs/`), números (`outputs/numbers.json`), Excel (`outputs/Modelo_financiero.xlsx`), investigación y registro de 475 verificaciones (`research/`). `private/` no se sube |
+| Google Drive, carpeta `Farma` | `01 Privado` (esta bitácora; no se comparte), `02 Socios Panamá` (documentos 1 a 5 y el PDF del resumen), `03 Compartido con Rutul Patel` (resumen del proyecto en inglés, en Markdown y PDF) |
+| Proyecto de Claude «Med Tenders Panama» | Copia de trabajo de los documentos en Markdown y esta bitácora |
+| Gmail de Jaime | Correos a los 3PL (8 de octubre) y respuesta de J. Cain (9 de octubre) |
+| Tarea programada «Farma: revisión semanal del negocio» | Lunes 7:54 (Panamá): PanamaCompra, normas, prensa, respuestas en Gmail, pendientes; deja tres tareas a Jaime |
+{% if DRIVE %}
+
+Identificadores de Drive (para mantenimiento):
+
+| Elemento | Id |
+| --- | --- |
+{% for k, v in DRIVE.items() %}
+| {{ k }} | `{{ v }}` |
+{% endfor %}
+{% endif %}
+
+## 6. Pendientes de Jaime (en este orden)
+
+1. Pasar el repositorio `jecg2804/Meds` a privado (GitHub → Settings → Change repository visibility).
+2. Aprobar el correo al abogado independiente (documento 5, sección 3.5) y elegirlo.
+3. Elegir la hora de la llamada con J. Cain del 14 de octubre y aprobar la respuesta (documento 5, sección 3.1).
+4. Aprobar y mandar la apertura a Rutul Patel (documento 4, sección 4) con el resumen en inglés en PDF.
+5. Aprobar los correos a aseguradoras e IEA y el recordatorio a los 3PL (documento 5).
+6. Llenar el formulario de BP Logistics y mandar el WhatsApp a Farmazona.
+7. Decir cuánto tiempo a la semana puede dedicar (define si hace falta coordinador pagado).
+8. Compartir `02 Socios Panamá` con Juan Luis y Francisco cuando lo decida; `03 Compartido con Rutul Patel` cuando se mande la apertura.
+9. Borrar en el proyecto de Claude el PDF duplicado del Decreto Ejecutivo 16 de 2026 (solo se puede desde claude.ai) y pegar las instrucciones del proyecto.
+
+## 7. Pendientes de Claude
+
+- Revisión semanal (tarea programada): PanamaCompra (nueva LPU, prórroga, compra conjunta, subastas), normas, prensa, Gmail.
+- Cuando lleguen datos (precios, cotizaciones, opinión legal): actualizar `model/inputs.py`, correr `bash build.sh`, revisar las compuertas y avisar a Jaime con la nueva decisión.
+- Sesión de enseñanza pedida por Jaime: por qué esos productos, esos volúmenes y esos pasos.
+- Si Jaime vincula su computadora (app de escritorio de Claude) con Google Drive para escritorio: subir el Excel y los PDF a Drive.
+
+## 8. Registro de decisiones
+
+- 2026-10-08: Markdown como formato; Drive con raíz única `Farma`; cuatro correos a 3PL enviados (sin revisión previa de Jaime; error reconocido).
+- 2026-10-09: regla de aprobación previa de toda comunicación externa; push al repositorio por instrucción de Jaime aunque sea público.
+- 2026-10-09: reauditoría externa completa (siete frentes, 475 afirmaciones verificadas); modelo corregido; documentos reescritos y reducidos a siete (uno compartido, cinco para socios, esta bitácora); veredicto: no constituir con los términos actuales.
+
+## 9. Cómo retomar en una sesión nueva
+
+1. Leer esta bitácora y el resumen para socios.
+2. **Antes de cualquier correo, formulario o mensaje a terceros, mostrar el texto a Jaime y esperar su aprobación.**
+3. Clonar `jecg2804/Meds` si hay que tocar el modelo o los documentos; `bash build.sh` regenera números, Excel, documentos y PDF, y audita.
+4. Revisar el seguimiento (documento 5) y la tabla de la negociación (documento 4); buscar respuestas en Gmail.
+5. Al cerrar: commit y push, actualizar Drive y el proyecto, y anotar aquí.

@@ -1,0 +1,3645 @@
+{
+ "version": "2026-10-09",
+ "month1": "enero de 2027",
+ "calendar": {
+  "lic": {
+   "m": 3,
+   "cal": "marzo de 2027"
+  },
+  "filing": {
+   "m": 3,
+   "cal": "marzo de 2027"
+  },
+  "reg": {
+   "m": 9,
+   "cal": "septiembre de 2027"
+  },
+  "first_sale": {
+   "m": 12,
+   "cal": "diciembre de 2027"
+  },
+  "cen": {
+   "m": 20,
+   "cal": "agosto de 2028"
+  }
+ },
+ "inputs": {
+  "reg_m": {
+   "label": "Mes en que salen los registros sanitarios (presentados en el mes 3)",
+   "unit": "mes",
+   "pes": 12,
+   "base": 9,
+   "opt": 7,
+   "src": "F: Ley 419 arts. 41 y 74 (20 días hábiles de la DNFD y 60 del laboratorio, unos 4 meses); E: base con 2 meses de observaciones, pesimista con subsanación y rezago"
+  },
+  "lead_days": {
+   "label": "Tiempo de reposición: orden al proveedor hasta stock en Panamá",
+   "unit": "días",
+   "pes": 120,
+   "base": 90,
+   "opt": 75,
+   "src": "E: producción, flete marítimo con transbordo y aduana; se confirma con la fábrica y el agente de carga"
+  },
+  "ship_m": {
+   "label": "Meses entre embarque y stock disponible",
+   "unit": "meses",
+   "pes": 2,
+   "base": 2,
+   "opt": 2,
+   "src": "E: tránsito con transbordo y desaduanaje"
+  },
+  "ramp_m": {
+   "label": "Meses para llegar a la participación madura en compras descentralizadas",
+   "unit": "meses",
+   "pes": 18,
+   "base": 12,
+   "opt": 9,
+   "src": "E: curva de aprendizaje; los nuevos son descalificados 57% de las veces frente a 36% de los establecidos (OCDS MINSA 2021-2024)"
+  },
+  "cen_start": {
+   "label": "Mes en que podría arrancar el primer contrato centralizado (calendario de la LPU)",
+   "unit": "mes",
+   "pes": 27,
+   "base": 20,
+   "opt": 13,
+   "src": "F: la LPU 01-2026 vence el 11-may-2027 y la siguiente se licitaría entre dic-2026 y feb-2027, antes de tener registros; la que sigue arrancaría hacia ago-2028 (mes 20). Optimista: la CSS prorroga y licita a inicios de 2028; pesimista: el calendario se corre 7 meses"
+  },
+  "mkt": {
+   "label": "Factor de mercado (demanda futura frente a 2025-2026)",
+   "unit": "x",
+   "pes": 0.75,
+   "base": 0.9,
+   "opt": 1.0,
+   "src": "F: presupuesto de medicamentos de la CSS 2027 de B/.230.3 millones (-28.6%), en trámite; la CSS gastó en 2026 el 64% de lo presupuestado"
+  },
+  "share_dec": {
+   "label": "Participación madura en compras descentralizadas (valor)",
+   "unit": "%",
+   "pes": 0.1,
+   "base": 0.22,
+   "opt": 0.32,
+   "src": "E: los nuevos ganan 36.6% de sus ofertas con precio (OCDS MINSA 2021-2024), ofertando en parte de los actos"
+  },
+  "pwin_cen": {
+   "label": "Probabilidad de ganar un renglón centralizado en el que se oferta",
+   "unit": "%",
+   "pes": 0.15,
+   "base": 0.3,
+   "opt": 0.45,
+   "src": "F: los nuevos ganan 36.6% por oferta en el MINSA y la LPU 01-2026 da 39.9% por oferta; E: descuento por descalificación"
+  },
+  "realiz": {
+   "label": "Cantidad comprada frente a la máxima del contrato de la LPU",
+   "unit": "%",
+   "pes": 0.55,
+   "base": 0.75,
+   "opt": 0.9,
+   "src": "F: compra mínima garantizada de 50% (Adenda 1 de la LPU 01-2026); E: el resto"
+  },
+  "realiz_minsa": {
+   "label": "Cantidad comprada frente a la del contrato del MINSA (subasta por cantidad fija)",
+   "unit": "%",
+   "pes": 1.0,
+   "base": 1.0,
+   "opt": 1.0,
+   "src": "F: las subastas del MINSA de 2026 son por cantidad fija (informe de la SSR-000018)"
+  },
+  "minsa_occ": {
+   "label": "Probabilidad de que el MINSA haga su compra centralizada en el año",
+   "unit": "%",
+   "pes": 0.3,
+   "base": 0.5,
+   "opt": 0.7,
+   "src": "F: 33 subastas del MINSA entre el 24-mar y el 29-may-2026 y ninguna después; la compra conjunta del DE 16 no tiene acto a octubre de 2026"
+  },
+  "cc_w": {
+   "label": "Parte de la cantidad de la compra conjunta de 2023 que se toma como demanda del MINSA",
+   "unit": "%",
+   "pes": 0.0,
+   "base": 0.15,
+   "opt": 0.5,
+   "src": "F: de los renglones de la primera ola solo 3 de 9 aparecen como contratos y por 7-20% de lo pedido; las cifras de 2023 son ofertas, no adjudicaciones"
+  },
+  "pf_dec": {
+   "label": "Precio de oferta descentralizado frente al precio ponderado actual",
+   "unit": "x",
+   "pes": 0.8,
+   "base": 0.9,
+   "opt": 0.95,
+   "src": "F: precio ganador / mediana de ofertas = 0.91; E: ajuste"
+  },
+  "pf_cen": {
+   "label": "Precio de oferta centralizado frente al adjudicado actual",
+   "unit": "x",
+   "pes": 0.9,
+   "base": 0.95,
+   "opt": 1.0,
+   "src": "F: adjudicado / referencia 0.963 en la LPU 01-2026; E: descuento para desplazar al actual"
+  },
+  "erosion": {
+   "label": "Caída anual de precios a partir del año 2",
+   "unit": "%",
+   "pes": 0.06,
+   "base": 0.03,
+   "opt": 0.0,
+   "src": "E: presión fiscal sobre la CSS"
+  },
+  "gm_dec": {
+   "label": "Margen bruto mínimo para ofertar (descentralizado)",
+   "unit": "%",
+   "pes": 0.35,
+   "base": 0.35,
+   "opt": 0.35,
+   "src": "Regla de decisión"
+  },
+  "gm_cen": {
+   "label": "Margen bruto mínimo para ofertar (centralizado)",
+   "unit": "%",
+   "pes": 0.2,
+   "base": 0.2,
+   "opt": 0.2,
+   "src": "Regla de decisión"
+  },
+  "sup_idx": {
+   "label": "Índice del precio de la fábrica frente a la referencia FOB",
+   "unit": "x",
+   "pes": 1.8,
+   "base": 1.25,
+   "opt": 1.0,
+   "src": "E: la fábrica no ha dado precios; 1.25 sobre la referencia = 1.75 veces el precio doméstico indio; UNICEF y OPS pagan 2 a 9 veces"
+  },
+  "pack": {
+   "label": "Sobrecosto por empaque y rotulado exclusivo para Panamá",
+   "unit": "%",
+   "pes": 0.1,
+   "base": 0.05,
+   "opt": 0.03,
+   "src": "F: el pliego exige rotulado del acto en el empaque; E: costo"
+  },
+  "log_mult": {
+   "label": "Multiplicador del costo logístico (flete LCL, destino, corredor, seguro)",
+   "unit": "x",
+   "pes": 2.2,
+   "base": 1.2,
+   "opt": 0.8,
+   "src": "R: LCL puesto en bodega unos US$650 / 356 / 240 por m3 (FAK CMA CGM jun-2026 + recargo PSS; tarifario de destino Crowley; corredor)"
+  },
+  "dist": {
+   "label": "Distribución local a almacenes y hospitales (% de ventas)",
+   "unit": "%",
+   "pes": 0.06,
+   "base": 0.04,
+   "opt": 0.03,
+   "src": "E: sin tarifa pública"
+  },
+  "penal": {
+   "label": "Multas por atraso y reposiciones (% de ventas)",
+   "unit": "%",
+   "pes": 0.02,
+   "base": 0.005,
+   "opt": 0.0,
+   "src": "F: multas de 5-15% y mora de al menos 10% (Ley 419 art. 231); E: frecuencia"
+  },
+  "expiry": {
+   "label": "Mermas y vencimientos (% del costo comprado)",
+   "unit": "%",
+   "pes": 0.08,
+   "base": 0.04,
+   "opt": 0.015,
+   "src": "F: el pliego exige 18 meses de vida útil al entregar; con 24 meses de vida útil quedan unos 3 meses de ventana en bodega; E: frecuencia"
+  },
+  "baddebt": {
+   "label": "Incobrables y vigencias vencidas (% de ventas)",
+   "unit": "%",
+   "pes": 0.02,
+   "base": 0.005,
+   "opt": 0.0,
+   "src": "F: la CSS debía US$48 millones a proveedores en 2023"
+  },
+  "dso_days": {
+   "label": "Días de cobro: entrega hasta cobro",
+   "unit": "días",
+   "pes": 240,
+   "base": 150,
+   "opt": 105,
+   "src": "F: el contrato paga a 90 días después de presentada, verificada y aceptada la cuenta y del refrendo de la Contraloría; E: el resto"
+  },
+  "cover_m": {
+   "label": "Cobertura de inventario para compras descentralizadas",
+   "unit": "meses",
+   "pes": 3,
+   "base": 2.5,
+   "opt": 2,
+   "src": "E: limitada por la vida útil (18 meses exigidos al entregar)"
+  },
+  "cen_stock_m": {
+   "label": "Inventario para contratos centralizados",
+   "unit": "meses",
+   "pes": 2,
+   "base": 2,
+   "opt": 1,
+   "src": "F: la LPU exige reserva de al menos 1 mes"
+  },
+  "adv": {
+   "label": "Anticipo a la fábrica al colocar la orden",
+   "unit": "%",
+   "pes": 1.0,
+   "base": 0.3,
+   "opt": 0.0,
+   "src": "E: se negocia"
+  },
+  "credit_days": {
+   "label": "Crédito de la fábrica desde el embarque",
+   "unit": "días",
+   "pes": 0,
+   "base": 0,
+   "opt": 120,
+   "src": "E: objetivo de negociación; hoy no ofrecido"
+  },
+  "bond_css": {
+   "label": "Fianza de cumplimiento de la LPU (% del contrato)",
+   "unit": "%",
+   "pes": 0.3,
+   "base": 0.3,
+   "opt": 0.3,
+   "src": "F: pliego de la LPU 01-2026, cláusula 11"
+  },
+  "bond_minsa": {
+   "label": "Fianza de cumplimiento del MINSA (% del contrato)",
+   "unit": "%",
+   "pes": 0.2,
+   "base": 0.2,
+   "opt": 0.2,
+   "src": "F: Ley 419 art. 246 (no menos de 20%)"
+  },
+  "collat": {
+   "label": "Colateral en efectivo que pide la aseguradora o el banco (% de la fianza)",
+   "unit": "%",
+   "pes": 1.0,
+   "base": 0.75,
+   "opt": 0.25,
+   "src": "E: ninguna aseguradora publica el porcentaje; una empresa nueva sin estados auditados; se cierra con dos cotizaciones"
+  },
+  "bond_prem": {
+   "label": "Prima anual de la fianza",
+   "unit": "%",
+   "pes": 0.04,
+   "base": 0.025,
+   "opt": 0.013,
+   "src": "F: Banco General, garantía de cumplimiento 1.07-1.605% anual con mínimo de US$1,337.50 (2026); los mínimos elevan la tasa efectiva"
+  },
+  "bid_bond": {
+   "label": "Fianza de propuesta en la LPU (% de la oferta, renglones con referencia mayor de B/.70,000)",
+   "unit": "%",
+   "pes": 0.1,
+   "base": 0.1,
+   "opt": 0.1,
+   "src": "F: Ley 419 art. 245; pliego de la LPU 01-2026"
+  },
+  "bid_m": {
+   "label": "Meses de colateral de la fianza de propuesta antes de cada contrato de la LPU",
+   "unit": "meses",
+   "pes": 6,
+   "base": 5,
+   "opt": 4,
+   "src": "F: vigencia exigida de 180 días hábiles; 3.5 meses de publicación a ejecutoria en la LPU 01-2026"
+  },
+  "mincash_m": {
+   "label": "Caja mínima operativa (meses de costos fijos)",
+   "unit": "meses",
+   "pes": 3,
+   "base": 3,
+   "opt": 3,
+   "src": "Política financiera"
+  },
+  "rs_off": {
+   "label": "Tasas oficiales por registro (DNFD 500 + MEF + refrendo)",
+   "unit": "B/.",
+   "pes": 575,
+   "base": 570,
+   "opt": 545,
+   "src": "F: DE 27 art. 15; guía del MINSA de 2012 para MEF y refrendo"
+  },
+  "rs_iea": {
+   "label": "Análisis de control previo (IEA o INDICASAT) por producto",
+   "unit": "B/.",
+   "pes": 2000,
+   "base": 1500,
+   "opt": 1000,
+   "src": "R: guía del MINSA de 2012 US$1,000; SignatureLex B/.1,500; la tarifa vigente no está publicada pese a la Ley 419 art. 79"
+  },
+  "rs_law": {
+   "label": "Honorario y gastos del abogado por registro",
+   "unit": "B/.",
+   "pes": 1350,
+   "base": 800,
+   "opt": 500,
+   "src": "R: SignatureLex 600 + 750; arancel de 2001 B/.350"
+  },
+  "rs_smp": {
+   "label": "Muestras y courier por registro",
+   "unit": "B/.",
+   "pes": 300,
+   "base": 150,
+   "opt": 100,
+   "src": "E"
+  },
+  "rs_trad": {
+   "label": "Traducciones oficiales por registro (CPP, BPM, poderes, etiquetas)",
+   "unit": "B/.",
+   "pes": 1500,
+   "base": 600,
+   "opt": 300,
+   "src": "F: DE 27 art. 220 exige traductor público autorizado; E: monto"
+  },
+  "rs_succ": {
+   "label": "Registros aprobados / presentados",
+   "unit": "%",
+   "pes": 0.7,
+   "base": 0.85,
+   "opt": 0.95,
+   "src": "E"
+  },
+  "postreg": {
+   "label": "Análisis posregistro por producto (2 en 5 años), por año",
+   "unit": "B/.",
+   "pes": 800,
+   "base": 600,
+   "opt": 400,
+   "src": "F: Ley 419 art. 67; R: 2 x 1,500 / 5"
+  },
+  "n2": {
+   "label": "Productos de la segunda ola (sin equivalencia terapéutica, fabricación verificada)",
+   "unit": "productos",
+   "pes": 0,
+   "base": 6,
+   "opt": 12,
+   "src": "E: candidatos del catálogo con compras públicas; exigen prueba de licencia de fabricación de cada uno"
+  },
+  "m2": {
+   "label": "Mes en que se presentan los registros de la segunda ola",
+   "unit": "mes",
+   "pes": 24,
+   "base": 18,
+   "opt": 15,
+   "src": "Decisión: solo si la primera ola pasa la compuerta operativa"
+  },
+  "rel2": {
+   "label": "Ingreso por producto de la segunda ola frente al promedio de la primera",
+   "unit": "x",
+   "pes": 0.5,
+   "base": 0.7,
+   "opt": 1.0,
+   "src": "E"
+  },
+  "fact_share": {
+   "label": "Porcentaje de las ventas que se factoriza",
+   "unit": "%",
+   "pes": 0.0,
+   "base": 0.0,
+   "opt": 0.0,
+   "src": "Opción; Ley 22 art. 97 permite ceder créditos"
+  },
+  "fact_cost": {
+   "label": "Costo mensual del factoring sobre lo cedido",
+   "unit": "%",
+   "pes": 0.015,
+   "base": 0.0125,
+   "opt": 0.01,
+   "src": "R: Balboa Factoring 2025, 14.6-18.3% anual"
+  },
+  "stop_det": {
+   "label": "Mes de cierre del negocio (61 = no se cierra)",
+   "unit": "mes",
+   "pes": 61,
+   "base": 61,
+   "opt": 61,
+   "src": "Interruptor"
+  },
+  "inv_liq": {
+   "label": "Recuperación del inventario si se cierra",
+   "unit": "%",
+   "pes": 0.5,
+   "base": 0.5,
+   "opt": 0.5,
+   "src": "E"
+  },
+  "isr": {
+   "label": "Impuesto sobre la renta",
+   "unit": "%",
+   "pes": 0.25,
+   "base": 0.25,
+   "opt": 0.25,
+   "src": "F: Código Fiscal art. 699"
+  },
+  "divtax": {
+   "label": "Impuesto de dividendos",
+   "unit": "%",
+   "pes": 0.1,
+   "base": 0.1,
+   "opt": 0.1,
+   "src": "F: Código Fiscal art. 733"
+  },
+  "aviso": {
+   "label": "Impuesto de aviso de operación (% del patrimonio; mínimo B/.100, máximo B/.60,000)",
+   "unit": "%",
+   "pes": 0.02,
+   "base": 0.02,
+   "opt": 0.02,
+   "src": "F: Código Fiscal art. 1004"
+  },
+  "oncost": {
+   "label": "Cargas laborales sobre sueldos",
+   "unit": "%",
+   "pes": 0.29,
+   "base": 0.28,
+   "opt": 0.27,
+   "src": "F: cuota patronal 13.25% hasta feb-2027, 14.25% hasta feb-2029 y 15.25% después (Ley 462 art. 84), seguro educativo 1.5%, riesgos profesionales, XIII mes y prima de antigüedad"
+  },
+  "itbms_srv": {
+   "label": "ITBMS no recuperable sobre servicios contratados",
+   "unit": "%",
+   "pes": 0.07,
+   "base": 0.07,
+   "opt": 0.0,
+   "src": "F: ITBMS 7%; los medicamentos están exentos; recuperable como «asimilado a exportador» solo en el optimista (Ley 8 de 2010 art. 80)"
+  },
+  "payout": {
+   "label": "Porcentaje distribuible que se reparte cada año",
+   "unit": "%",
+   "pes": 0.8,
+   "base": 0.8,
+   "opt": 0.8,
+   "src": "Política"
+  },
+  "disc": {
+   "label": "Tasa de descuento anual para el VPN del caso sin fallas",
+   "unit": "%",
+   "pes": 0.3,
+   "base": 0.3,
+   "opt": 0.3,
+   "src": "E: pyme nueva con un solo cliente estatal"
+  },
+  "recov": {
+   "label": "Recuperación del capital de trabajo al cierre (cobro, inventario, colateral)",
+   "unit": "%",
+   "pes": 0.8,
+   "base": 0.9,
+   "opt": 0.95,
+   "src": "E"
+  },
+  "gc_mult": {
+   "label": "Múltiplo de la utilidad del año 5 (negocio en marcha; no se usa en los documentos)",
+   "unit": "x",
+   "pes": 0.0,
+   "base": 3.0,
+   "opt": 4.0,
+   "src": "E"
+  },
+  "patel_eq": {
+   "label": "Participación de Rutul Patel en la S.A.",
+   "unit": "%",
+   "pes": 0.5,
+   "base": 0.5,
+   "opt": 0.5,
+   "src": "F: propuesta de Rutul Patel (50/50)"
+  },
+  "patel_cash": {
+   "label": "Porcentaje del capital que aporta Rutul Patel",
+   "unit": "%",
+   "pes": 0.5,
+   "base": 0.5,
+   "opt": 0.5,
+   "src": "F: propuesta de Rutul Patel (costos 50/50)"
+  },
+  "jaime_frac": {
+   "label": "Fracción de cada socio panameño dentro del 50% panameño",
+   "unit": "%",
+   "pes": 0.3333333333333333,
+   "base": 0.3333333333333333,
+   "opt": 0.3333333333333333,
+   "src": "F: tres socios panameños por partes iguales"
+  },
+  "zy_markup": {
+   "label": "Margen de Zywie sobre el precio de fábrica (dentro del índice del proveedor)",
+   "unit": "%",
+   "pes": 0.25,
+   "base": 0.15,
+   "opt": 0.05,
+   "src": "E"
+  },
+  "bond_tail_css": {
+   "label": "Meses que la fianza de cumplimiento de la LPU sigue vigente tras el contrato",
+   "unit": "meses",
+   "pes": 3,
+   "base": 3,
+   "opt": 3,
+   "src": "F: contratos de la LPU 01-2026: ejecución más 3 meses de liquidación (cláusula Octava)"
+  },
+  "bond_tail_minsa": {
+   "label": "Meses que la fianza de cumplimiento del MINSA sigue vigente tras el contrato",
+   "unit": "meses",
+   "pes": 6,
+   "base": 6,
+   "opt": 6,
+   "src": "E: ejecución, liquidación y 6 meses; se confirma en el pliego"
+  },
+  "forfeit_frac": {
+   "label": "Parte de la fianza de cumplimiento que se pierde si el Estado la ejecuta",
+   "unit": "%",
+   "pes": 1.0,
+   "base": 1.0,
+   "opt": 1.0,
+   "src": "F: Ley 22 (ejecución de la fianza) y contragarantías de la aseguradora (pagaré, codeudores)"
+  }
+ },
+ "fixed": [
+  {
+   "label": "Regente farmacéutico (medio tiempo, mínimo 4 h diarias)",
+   "pes": 1200,
+   "base": 700,
+   "opt": 450,
+   "start": "lic",
+   "src": "F: DE 27 art. 382; R: SignatureLex 400-500 al mes; Paylab 1,339-3,228 a tiempo completo"
+  },
+  {
+   "label": "Operador logístico (3PL) licenciado: cuota mínima",
+   "pes": 1200,
+   "base": 600,
+   "opt": 300,
+   "start": "lic",
+   "src": "E: sin tarifa pública; cotizaciones pedidas"
+  },
+  {
+   "label": "Contabilidad e impuestos",
+   "pes": 450,
+   "base": 300,
+   "opt": 200,
+   "start": "m1",
+   "src": "R: Healy Consultants 2026, unos 192 al mes; E"
+  },
+  {
+   "label": "Auditoría anual de estados financieros, prorrateada",
+   "pes": 400,
+   "base": 250,
+   "opt": 150,
+   "start": "m1",
+   "src": "F: el Registro Nacional de Oferentes pide solvencia certificada por CPA o banco (DE 27 arts. 724-725); E: costo"
+  },
+  {
+   "label": "Asesoría legal por hora (sin iguala)",
+   "pes": 800,
+   "base": 300,
+   "opt": 150,
+   "start": "m1",
+   "src": "R: SignatureLex B/.300 por hora; E: horas"
+  },
+  {
+   "label": "Coordinador de licitaciones y operaciones (medio tiempo, desde la licencia)",
+   "pes": 1000,
+   "base": 700,
+   "opt": 550,
+   "start": "lic",
+   "src": "R: Konzerta mayo de 2026, semi-senior a jefatura US$1,033-1,291 a tiempo completo; a medio tiempo"
+  },
+  {
+   "label": "Coordinador: paso a tiempo completo desde el primer contrato centralizado",
+   "pes": 800,
+   "base": 600,
+   "opt": 450,
+   "start": "cen",
+   "src": "R: diferencia entre tiempo completo (1,800 / 1,300 / 1,000) y medio tiempo"
+  },
+  {
+   "label": "Farmacovigilancia: responsable designado y diccionarios MedDRA y WHODrug",
+   "pes": 300,
+   "base": 150,
+   "opt": 75,
+   "start": "lic",
+   "src": "F: DE 27 arts. 257, 318 y 319; E: costo (sin tarifa pública)"
+  },
+  {
+   "label": "Seguros (responsabilidad civil y de producto)",
+   "pes": 200,
+   "base": 100,
+   "opt": 75,
+   "start": "lic",
+   "src": "E: sin tarifa pública"
+  },
+  {
+   "label": "Software, banca, telecomunicaciones y administración",
+   "pes": 200,
+   "base": 120,
+   "opt": 80,
+   "start": "m1",
+   "src": "E"
+  },
+  {
+   "label": "Impuesto municipal",
+   "pes": 200,
+   "base": 100,
+   "opt": 100,
+   "start": "m1",
+   "src": "E: tramo por confirmar con el municipio"
+  }
+ ],
+ "setup": [
+  {
+   "label": "Fase 0: debida diligencia de la fábrica y de los documentos (antes de constituir)",
+   "pes": 6000,
+   "base": 2500,
+   "opt": 1000,
+   "month": 0,
+   "sl": 0,
+   "src": "E: auditoría virtual de planta y verificación documental"
+  },
+  {
+   "label": "Fase 0: opinión legal escrita sobre la Ley 316 (parentesco), de un abogado independiente",
+   "pes": 1500,
+   "base": 800,
+   "opt": 500,
+   "month": 0,
+   "sl": 0,
+   "src": "R: SignatureLex B/.300 por hora; E: 2 a 5 horas"
+  },
+  {
+   "label": "Constitución, libros, poderes, RUC, aviso de operación y municipal",
+   "pes": 3500,
+   "base": 2500,
+   "opt": 1500,
+   "month": 1,
+   "sl": 5700,
+   "src": "R: SignatureLex unos 5,700; Expanship US$1,200-2,200 el primer año"
+  },
+  {
+   "label": "Pacto de accionistas, contrato de suministro exclusivo y acuerdo de calidad",
+   "pes": 6200,
+   "base": 2500,
+   "opt": 1500,
+   "month": 1,
+   "sl": 1750,
+   "src": "R: escala de SignatureLex (B/.1,500 más 1% escalonado)"
+  },
+  {
+   "label": "Diagnóstico regulatorio y matriz de portafolio",
+   "pes": 650,
+   "base": 650,
+   "opt": 500,
+   "month": 1,
+   "sl": 650,
+   "src": "R: SignatureLex 500 + 150"
+  },
+  {
+   "label": "Apoyo para abrir la cuenta bancaria",
+   "pes": 3150,
+   "base": 300,
+   "opt": 0,
+   "month": 1,
+   "sl": 3150,
+   "src": "R: SignatureLex 3,000 + 150; E: base"
+  },
+  {
+   "label": "Licencia de operación: tasa oficial 250 + planos, procedimientos e inspección",
+   "pes": 4000,
+   "base": 1750,
+   "opt": 1000,
+   "month": 2,
+   "sl": 4000,
+   "src": "F: DE 27 art. 15 (200 + 50); R: SignatureLex 3,500 + 500"
+  },
+  {
+   "label": "Revisión del 3PL y acuerdo de calidad",
+   "pes": 2650,
+   "base": 750,
+   "opt": 400,
+   "month": 2,
+   "sl": 2650,
+   "src": "R: SignatureLex 2,500 + 150; E: base"
+  },
+  {
+   "label": "Programa de cumplimiento y anticorrupción",
+   "pes": 3150,
+   "base": 1500,
+   "opt": 800,
+   "month": 2,
+   "sl": 3150,
+   "src": "R: SignatureLex 3,000 + 150"
+  },
+  {
+   "label": "Certificado de buenas prácticas de almacenamiento",
+   "pes": 100,
+   "base": 100,
+   "opt": 100,
+   "month": 3,
+   "sl": 100,
+   "src": "F: DE 27 art. 15"
+  },
+  {
+   "label": "Registro patronal en la CSS y contratos laborales",
+   "pes": 900,
+   "base": 300,
+   "opt": 100,
+   "month": 3,
+   "sl": 900,
+   "src": "R: SignatureLex 750 + 150"
+  },
+  {
+   "label": "PanamaCompra, Registro Nacional de Oferentes y proveedor de la CSS",
+   "pes": 2700,
+   "base": 500,
+   "opt": 0,
+   "month": 4,
+   "sl": 2700,
+   "src": "F: trámites sin tasa oficial; R: SignatureLex 3 x (750 + 150)"
+  }
+ ],
+ "annual": [
+  {
+   "label": "Tasa única de la S.A.",
+   "amount": 300,
+   "src": "F: DGI"
+  },
+  {
+   "label": "Agente residente",
+   "amount": 350,
+   "src": "R: SignatureLex B/.350 al año; mercado US$150-800"
+  },
+  {
+   "label": "Renovación de la licencia de operación (B/.200 cada 2 años)",
+   "amount": 100,
+   "src": "F: DE 27 arts. 15 y 398"
+  }
+ ],
+ "skus": [
+  {
+   "id": "PCT500",
+   "short": "Paracetamol 500 mg",
+   "name": "Paracetamol 500 mg tableta",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.0038,
+   "adder": 0.00165,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2024-27 INR 2.74 por 10 x1.4; blíster 5.5 cm3",
+   "q": [
+    23770516,
+    0,
+    1141333,
+    11112486
+   ],
+   "p": [
+    0.01,
+    0,
+    0.02,
+    0.0201
+   ],
+   "b1": 3
+  },
+  {
+   "id": "PCTSYR",
+   "short": "Paracetamol jarabe",
+   "name": "Paracetamol 120-160 mg/5 ml jarabe, frasco 120 ml",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.1478,
+   "adder": 0.135,
+   "c2": "ssr",
+   "src_cost": "R: TNMSC 2024 L1 INR 5.72 por 60 ml escalado a 120 ml, x1.4; 450 cm3",
+   "q": [
+    315718,
+    524358,
+    0,
+    63302
+   ],
+   "p": [
+    0.59,
+    0.4,
+    0,
+    0.6938
+   ],
+   "b1": 4
+  },
+  {
+   "id": "AMCTAB",
+   "short": "Amoxicilina + clavulánico tableta",
+   "name": "Amoxicilina + clavulánico 500/125 mg tableta",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.0754,
+   "adder": 0.0036,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2024-26 INR 31.60 por 6 x1.4; alu-alu 12 cm3",
+   "q": [
+    46534,
+    191135,
+    0,
+    30555
+   ],
+   "p": [
+    0.179,
+    0.19,
+    0,
+    0.3211
+   ],
+   "b1": 1
+  },
+  {
+   "id": "AMCSUS",
+   "short": "Amoxicilina + clavulánico suspensión",
+   "name": "Amoxicilina + clavulánico 400/57 mg/5 ml suspensión, frasco 100 ml",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 1.159,
+   "adder": 0.15,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2023-26 INR 28.06 por 30 ml escalado a 100 ml, x1.4; 500 cm3",
+   "q": [
+    10217,
+    0,
+    0,
+    7463
+   ],
+   "p": [
+    1.98,
+    0,
+    0,
+    4.5197
+   ],
+   "b1": 2
+  },
+  {
+   "id": "CRO1G",
+   "short": "Ceftriaxona 1 g",
+   "name": "Ceftriaxona 1 g vial (I.V.)",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.1956,
+   "adder": 0.0162,
+   "c2": "cc",
+   "src_cost": "R: Assam 2025 INR 12.6 por vial x1.4; 54 cm3",
+   "q": [
+    194242,
+    201135,
+    3899,
+    43743
+   ],
+   "p": [
+    0.239,
+    0.25,
+    0.78,
+    0.452
+   ],
+   "b1": 6
+  },
+  {
+   "id": "CTX1G",
+   "short": "Cefotaxima 1 g",
+   "name": "Cefotaxima 1 g vial",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.2029,
+   "adder": 0.0162,
+   "c2": "cc",
+   "src_cost": "R: Assam 2025 INR 13.3 por vial x1.4; 54 cm3",
+   "q": [
+    168687,
+    177344,
+    0,
+    79691
+   ],
+   "p": [
+    0.259,
+    0.27,
+    0,
+    0.3987
+   ],
+   "b1": 3
+  },
+  {
+   "id": "ALBSUS",
+   "short": "Albendazol suspensión",
+   "name": "Albendazol 400 mg/10 ml suspensión",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.07,
+   "adder": 0.024,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2022-25 INR 4.22 por 10 ml x1.4; 80 cm3 (el ganador de la LPU entregó 20 ml)",
+   "q": [
+    18762,
+    194990,
+    0,
+    10114
+   ],
+   "p": [
+    1.81,
+    1.86,
+    0,
+    1.5163
+   ],
+   "b1": 3
+  },
+  {
+   "id": "MBZ100",
+   "short": "Mebendazol 100 mg",
+   "name": "Mebendazol 100 mg tableta",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.0085,
+   "adder": 0.0009,
+   "c2": "cc",
+   "src_cost": "R: sin licitación india pública; MRP de Jan Aushadhi x0.42 x1.4; 3 cm3",
+   "q": [
+    188514,
+    179270,
+    8000,
+    1714
+   ],
+   "p": [
+    0.13,
+    0.13,
+    0.2188,
+    0.1753
+   ],
+   "b1": 1
+  },
+  {
+   "id": "NYSSUS",
+   "short": "Nistatina suspensión",
+   "name": "Nistatina 100,000 UI/ml suspensión, frasco 30 ml",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.42,
+   "adder": 0.0555,
+   "c2": "cc",
+   "src_cost": "R: sin precio indio público; UNICEF US$0.60 por 30 ml como techo; 185 cm3",
+   "q": [
+    14898,
+    18118,
+    0,
+    2142
+   ],
+   "p": [
+    3.18,
+    3.39,
+    0,
+    3.3201
+   ],
+   "b1": 3
+  },
+  {
+   "id": "HCTCRM",
+   "short": "Hidrocortisona crema",
+   "name": "Hidrocortisona 1% crema, tubo 15 g",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.1988,
+   "adder": 0.033,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2024-26 INR 13.72 por tubo x1.4; 110 cm3",
+   "q": [
+    89267,
+    44276,
+    0,
+    1564
+   ],
+   "p": [
+    0.555,
+    0.58,
+    0,
+    1.4679
+   ],
+   "b1": 5
+  },
+  {
+   "id": "MOMCRM",
+   "short": "Mometasona crema",
+   "name": "Mometasona 0.1% crema, tubo 15 g (renglón de corticoide de alta potencia)",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob": 0.1,
+   "adder": 0.033,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2023-25 INR 6.00 por tubo x1.4 (redondeado); 110 cm3",
+   "q": [
+    65534,
+    34482,
+    0,
+    343
+   ],
+   "p": [
+    1.02,
+    0.65,
+    0,
+    3.66
+   ],
+   "b1": 1
+  },
+  {
+   "id": "AMI10",
+   "short": "Amitriptilina 10 mg",
+   "name": "Amitriptilina 10 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob": 0.0028,
+   "adder": 0.00054,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2023-25 INR 1.99 por 10 x1.4",
+   "q": [
+    325776,
+    152808,
+    0,
+    0
+   ],
+   "p": [
+    0.12,
+    0.12,
+    0,
+    0
+   ],
+   "b1": 0
+  },
+  {
+   "id": "AMI25",
+   "short": "Amitriptilina 25 mg",
+   "name": "Amitriptilina 25 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob": 0.0033,
+   "adder": 0.00054,
+   "c2": "cc",
+   "src_cost": "R: TNMSC 2024 L1 INR 19.63 por 100 x1.4",
+   "q": [
+    1953204,
+    0,
+    0,
+    3086
+   ],
+   "p": [
+    0.027,
+    0,
+    0,
+    0.4
+   ],
+   "b1": 1
+  },
+  {
+   "id": "QTP25",
+   "short": "Quetiapina 25 mg",
+   "name": "Quetiapina 25 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob": 0.0053,
+   "adder": 0.00054,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2023-26 INR 3.69 por 10 x1.4",
+   "q": [
+    0,
+    0,
+    0,
+    558798
+   ],
+   "p": [
+    0,
+    0,
+    0,
+    0.18
+   ],
+   "b1": 0
+  },
+  {
+   "id": "QTP100",
+   "short": "Quetiapina 100 mg",
+   "name": "Quetiapina 100 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob": 0.0138,
+   "adder": 0.00066,
+   "c2": "cc",
+   "src_cost": "R: interpolado de PMBI 25 y 200 mg x1.4",
+   "q": [
+    0,
+    0,
+    0,
+    509795
+   ],
+   "p": [
+    0,
+    0,
+    0,
+    0.13
+   ],
+   "b1": 0
+  },
+  {
+   "id": "QTP200",
+   "short": "Quetiapina 200 mg",
+   "name": "Quetiapina 200 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob": 0.0216,
+   "adder": 0.00075,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2023-25 INR 14.90 por 10 x1.4",
+   "q": [
+    1376100,
+    0,
+    243829,
+    28886
+   ],
+   "p": [
+    0.079,
+    0,
+    0.21,
+    0.2
+   ],
+   "b1": 3
+  },
+  {
+   "id": "TPM100",
+   "short": "Topiramato 100 mg",
+   "name": "Topiramato 100 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob": 0.0116,
+   "adder": 0.0006,
+   "c2": "cc",
+   "src_cost": "R: PMBI 2023-25 INR 7.98 por 10 x1.4",
+   "q": [
+    443907,
+    0,
+    26343,
+    4640
+   ],
+   "p": [
+    0.065,
+    0,
+    1.02,
+    1.18
+   ],
+   "b1": 2
+  }
+ ],
+ "det": {
+  "pes": {
+   "eq_in": 583311.1711870213,
+   "phase0": 8025.0,
+   "capital": 591336.1711870213,
+   "peak_m": 60,
+   "peak_cal": "diciembre de 2031",
+   "cum_at": {
+    "3": 131612.0,
+    "6": 154968.5,
+    "9": 175436.0,
+    "12": 196433.67507433402,
+    "18": 241748.36668232718,
+    "24": 290570.26673133596,
+    "36": 399404.3284943267,
+    "48": 493657.35402765253,
+    "60": 591336.1711870214
+   },
+   "npv15": -434114.901517554,
+   "npv30": -357953.4512924972,
+   "irr": -0.9586475652022435,
+   "moic": 0.04582895818304438,
+   "first_sale_m": 16,
+   "first_sale_cal": "abril de 2028",
+   "cen_m": 27,
+   "cen_cal": "marzo de 2029",
+   "revY": [
+    0.0,
+    311.4047732075,
+    6127.53199632245,
+    6911.856091851723,
+    6497.144726340619
+   ],
+   "NIY": [
+    -167924.33333333334,
+    -88692.48445071974,
+    -95787.96219041818,
+    -97646.03956340726,
+    -98032.43983874223
+   ],
+   "divs": 0.0,
+   "cash60": 23563.5,
+   "net": -561081.2019540755,
+   "fixed_month_steady": 7854.5,
+   "zywie": 1164.930569771712
+  },
+  "base": {
+   "eq_in": 385180.4774327216,
+   "phase0": 3531.0,
+   "capital": 388711.4774327216,
+   "peak_m": 37,
+   "peak_cal": "enero de 2030",
+   "cum_at": {
+    "3": 73876.4,
+    "6": 85908.59999999999,
+    "9": 98144.44542176582,
+    "12": 113519.37628604214,
+    "18": 220880.20152383865,
+    "24": 294969.6182614675,
+    "36": 386279.44378902786,
+    "48": 388711.4774327216,
+    "60": 388711.4774327216
+   },
+   "npv15": -196169.21844591742,
+   "npv30": -204909.44139862398,
+   "irr": -0.12246116373170102,
+   "moic": 0.6349583774023235,
+   "first_sale_m": 12,
+   "first_sale_cal": "diciembre de 2027",
+   "cen_m": 20,
+   "cen_cal": "agosto de 2028",
+   "revY": [
+    383.65989873749993,
+    79893.70920719915,
+    176158.7977303777,
+    215487.86436684622,
+    209152.9134966879
+   ],
+   "NIY": [
+    -95535.94740008263,
+    -43291.965227667766,
+    8283.487125985275,
+    19165.707166174467,
+    13802.816636125039
+   ],
+   "divs": 0.0,
+   "cash60": 61222.10035490858,
+   "net": -141895.86844438082,
+   "fixed_month_steady": 4600.4,
+   "zywie": 34440.87341980987
+  },
+  "opt": {
+   "eq_in": 198334.65704021772,
+   "phase0": 1500.0,
+   "capital": 199834.65704021772,
+   "peak_m": 28,
+   "peak_cal": "abril de 2029",
+   "cum_at": {
+    "3": 46005.0,
+    "6": 53205.0,
+    "9": 76084.46386178126,
+    "12": 86458.69363181348,
+    "18": 196170.3421651486,
+    "24": 196170.3421651486,
+    "36": 199834.65704021777,
+    "48": 199834.65704021777,
+    "60": 199834.65704021777
+   },
+   "npv15": 601365.733560046,
+   "npv30": 298397.78130439506,
+   "irr": 0.7896283145803891,
+   "moic": 7.23834776252308,
+   "first_sale_m": 10,
+   "first_sale_cal": "octubre de 2027",
+   "cen_m": 13,
+   "cen_cal": "enero de 2028",
+   "revY": [
+    6679.040660875555,
+    512766.73363007174,
+    1002806.8018911332,
+    1091826.955405044,
+    1091826.955405044
+   ],
+   "NIY": [
+    -56881.19066947518,
+    179177.2676717685,
+    420570.583153204,
+    459424.9247733059,
+    459424.9247733059
+   ],
+   "divs": 541000.4440748327,
+   "cash60": 625133.936616855,
+   "net": 1246638.0856214091,
+   "fixed_month_steady": 2971.5,
+   "zywie": 46381.89373015777
+  },
+  "base_sl": {
+   "eq_in": 410057.9774327216,
+   "phase0": 3531.0,
+   "capital": 413588.9774327216,
+   "peak_m": 37,
+   "peak_cal": "enero de 2030",
+   "cum_at": {
+    "3": 92868.9,
+    "6": 107255.09999999999,
+    "9": 119490.94542176582,
+    "12": 134865.87628604216,
+    "18": 245757.7015238387,
+    "24": 319847.11826146755,
+    "36": 411156.943789028,
+    "48": 413588.9774327217,
+    "60": 413588.9774327217
+   },
+   "npv15": -219818.8809063803,
+   "npv30": -227601.1385397715,
+   "irr": -0.135906607260189,
+   "moic": 0.5967654421556489,
+   "first_sale_m": 12,
+   "first_sale_cal": "diciembre de 2027",
+   "cen_m": 20,
+   "cen_cal": "agosto de 2028",
+   "revY": [
+    383.65989873749993,
+    79893.70920719915,
+    176158.7977303777,
+    215487.86436684622,
+    209152.9134966879
+   ],
+   "NIY": [
+    -116882.44740008263,
+    -46822.96522766776,
+    8283.487125985275,
+    19165.707166174467,
+    13802.816636125039
+   ],
+   "divs": 0.0,
+   "cash60": 61222.10035490858,
+   "net": -166773.36844438082,
+   "fixed_month_steady": 4600.4,
+   "zywie": 34440.87341980987
+  }
+ },
+ "cap_decomp": {
+  "mes": 37,
+  "mes_cal": "enero de 2030",
+  "capital": 388711.4774327216,
+  "arranque": 15133.5,
+  "registros": 63206.0,
+  "fijos": 170459.29999999996,
+  "impuestos": 3341.2626903935325,
+  "cobrar": 84546.85550047905,
+  "inventario": 19768.46466964193,
+  "colateral": 114526.15517819353,
+  "anticipos": 22159.276745684765,
+  "caja": 13801.199999999999,
+  "margen_acumulado": 118230.53735167117,
+  "check": 0.0
+ },
+ "unit_econ": [
+  {
+   "id": "PCT500",
+   "short": "Paracetamol 500 mg",
+   "name": "Paracetamol 500 mg tableta",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.0038,
+   "adder": 0.00165,
+   "unit_cost": 0.0069675,
+   "src": "R: PMBI 2024-27 INR 2.74 por 10 x1.4; blíster 5.5 cm3",
+   "ch": [
+    {
+     "q": 23770516.0,
+     "p": 0.01,
+     "our": 0.0095,
+     "gm": 0.266578947368421,
+     "go": true,
+     "value": 237705.16,
+     "ceiling_quoted_fob": 0.005352380952380952
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 1141333.0,
+     "p": 0.02,
+     "our": 0.018000000000000002,
+     "gm": 0.6129166666666668,
+     "go": true,
+     "value": 22826.66,
+     "ceiling_quoted_fob": 0.00925714285714286
+    },
+    {
+     "q": 11112486.0,
+     "p": 0.0201,
+     "our": 0.018090000000000002,
+     "gm": 0.6148424543946933,
+     "go": true,
+     "value": 223360.9686,
+     "ceiling_quoted_fob": 0.009312857142857145
+    }
+   ],
+   "Rd": 37290.04010404201,
+   "Rc_exp": 38869.25063175
+  },
+  {
+   "id": "PCTSYR",
+   "short": "Paracetamol jarabe",
+   "name": "Paracetamol 120-160 mg/5 ml jarabe, frasco 120 ml",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.1478,
+   "adder": 0.135,
+   "unit_cost": 0.3559875,
+   "src": "R: TNMSC 2024 L1 INR 5.72 por 60 ml escalado a 120 ml, x1.4; 450 cm3",
+   "ch": [
+    {
+     "q": 315718.0,
+     "p": 0.59,
+     "our": 0.5605,
+     "gm": 0.36487511150758245,
+     "go": true,
+     "value": 186273.62,
+     "ceiling_quoted_fob": 0.27276190476190476
+    },
+    {
+     "q": 524358.0,
+     "p": 0.4,
+     "our": 0.38,
+     "gm": 0.06319078947368417,
+     "go": false,
+     "value": 209743.2,
+     "ceiling_quoted_fob": 0.13523809523809527
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 63302.0,
+     "p": 0.6938,
+     "our": 0.62442,
+     "gm": 0.4298909387911982,
+     "go": true,
+     "value": 43918.927599999995,
+     "ceiling_quoted_fob": 0.23225999999999997
+    }
+   ],
+   "Rd": 6652.399963572,
+   "Rc_exp": 30459.229500374997
+  },
+  {
+   "id": "AMCTAB",
+   "short": "Amoxicilina + clavulánico tableta",
+   "name": "Amoxicilina + clavulánico 500/125 mg tableta",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.0754,
+   "adder": 0.0036,
+   "unit_cost": 0.10328250000000001,
+   "src": "R: PMBI 2024-26 INR 31.60 por 6 x1.4; alu-alu 12 cm3",
+   "ch": [
+    {
+     "q": 46534.0,
+     "p": 0.179,
+     "our": 0.17004999999999998,
+     "gm": 0.39263451925904136,
+     "go": true,
+     "value": 8329.586,
+     "ceiling_quoted_fob": 0.12544761904761906
+    },
+    {
+     "q": 28670.25,
+     "p": 0.19,
+     "our": 0.1805,
+     "gm": 0.42779778393351786,
+     "go": true,
+     "value": 5447.3475,
+     "ceiling_quoted_fob": 0.1334095238095238
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 30555.0,
+     "p": 0.3211,
+     "our": 0.28899,
+     "gm": 0.6426087407868784,
+     "go": true,
+     "value": 9811.2105,
+     "ceiling_quoted_fob": 0.17478428571428573
+    }
+   ],
+   "Rd": 1486.104054435,
+   "Rc_exp": 1955.8724600812498
+  },
+  {
+   "id": "AMCSUS",
+   "short": "Amoxicilina + clavulánico suspensión",
+   "name": "Amoxicilina + clavulánico 400/57 mg/5 ml suspensión, frasco 100 ml",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 1.159,
+   "adder": 0.15,
+   "unit_cost": 1.7011875,
+   "src": "R: PMBI 2023-26 INR 28.06 por 30 ml escalado a 100 ml, x1.4; 500 cm3",
+   "ch": [
+    {
+     "q": 10217.0,
+     "p": 1.98,
+     "our": 1.881,
+     "gm": 0.09559409888357251,
+     "go": false,
+     "value": 20229.66,
+     "ceiling_quoted_fob": 1.2617142857142858
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 7463.0,
+     "p": 4.5197,
+     "our": 4.06773,
+     "gm": 0.5817845579721368,
+     "go": true,
+     "value": 33730.521100000005,
+     "ceiling_quoted_fob": 2.3466899999999997
+    }
+   ],
+   "Rd": 5109.162031017,
+   "Rc_exp": 0.0
+  },
+  {
+   "id": "CRO1G",
+   "short": "Ceftriaxona 1 g",
+   "name": "Ceftriaxona 1 g vial (I.V.)",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.1956,
+   "adder": 0.0162,
+   "unit_cost": 0.276165,
+   "src": "R: Assam 2025 INR 12.6 por vial x1.4; 54 cm3",
+   "ch": [
+    {
+     "q": 194242.0,
+     "p": 0.239,
+     "our": 0.22704999999999997,
+     "gm": -0.2163179916317992,
+     "go": false,
+     "value": 46423.837999999996,
+     "ceiling_quoted_fob": 0.1544761904761905
+    },
+    {
+     "q": 30170.25,
+     "p": 0.25,
+     "our": 0.2375,
+     "gm": -0.16280000000000006,
+     "go": false,
+     "value": 7542.5625,
+     "ceiling_quoted_fob": 0.16243809523809521
+    },
+    {
+     "q": 3899.0,
+     "p": 0.78,
+     "our": 0.7020000000000001,
+     "gm": 0.6066025641025641,
+     "go": true,
+     "value": 3041.2200000000003,
+     "ceiling_quoted_fob": 0.41605714285714285
+    },
+    {
+     "q": 43743.0,
+     "p": 0.452,
+     "our": 0.4068,
+     "gm": 0.32112831858407076,
+     "go": false,
+     "value": 19771.836,
+     "ceiling_quoted_fob": 0.23331428571428567
+    }
+   ],
+   "Rd": 460.6535934000001,
+   "Rc_exp": 0.0
+  },
+  {
+   "id": "CTX1G",
+   "short": "Cefotaxima 1 g",
+   "name": "Cefotaxima 1 g vial",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.2029,
+   "adder": 0.0162,
+   "unit_cost": 0.28574625000000003,
+   "src": "R: Assam 2025 INR 13.3 por vial x1.4; 54 cm3",
+   "ch": [
+    {
+     "q": 168687.0,
+     "p": 0.259,
+     "our": 0.24605,
+     "gm": -0.16133407843934178,
+     "go": false,
+     "value": 43689.933000000005,
+     "ceiling_quoted_fob": 0.16895238095238094
+    },
+    {
+     "q": 26601.6,
+     "p": 0.27,
+     "our": 0.2565,
+     "gm": -0.11402046783625752,
+     "go": false,
+     "value": 7182.432,
+     "ceiling_quoted_fob": 0.17691428571428575
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 79691.0,
+     "p": 0.3987,
+     "our": 0.35883,
+     "gm": 0.20367235181004917,
+     "go": false,
+     "value": 31772.8017,
+     "ceiling_quoted_fob": 0.2036185714285714
+    }
+   ],
+   "Rd": 0.0,
+   "Rc_exp": 0.0
+  },
+  {
+   "id": "ALBSUS",
+   "short": "Albendazol suspensión",
+   "name": "Albendazol 400 mg/10 ml suspensión",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.07,
+   "adder": 0.024,
+   "unit_cost": 0.120675,
+   "src": "R: PMBI 2022-25 INR 4.22 por 10 ml x1.4; 80 cm3 (el ganador de la LPU entregó 20 ml)",
+   "ch": [
+    {
+     "q": 18762.0,
+     "p": 1.81,
+     "our": 1.7195,
+     "gm": 0.92981971503344,
+     "go": true,
+     "value": 33959.22,
+     "ceiling_quoted_fob": 1.2826666666666668
+    },
+    {
+     "q": 29248.5,
+     "p": 1.86,
+     "our": 1.767,
+     "gm": 0.9317062818336163,
+     "go": true,
+     "value": 54402.21000000001,
+     "ceiling_quoted_fob": 1.3188571428571427
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 10114.0,
+     "p": 1.5163,
+     "our": 1.36467,
+     "gm": 0.9115720284024709,
+     "go": true,
+     "value": 15335.8582,
+     "ceiling_quoted_fob": 0.8173671428571428
+    }
+   ],
+   "Rd": 2322.922441554,
+   "Rc_exp": 11483.490123
+  },
+  {
+   "id": "MBZ100",
+   "short": "Mebendazol 100 mg",
+   "name": "Mebendazol 100 mg tableta",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.0085,
+   "adder": 0.0009,
+   "unit_cost": 0.01223625,
+   "src": "R: sin licitación india pública; MRP de Jan Aushadhi x0.42 x1.4; 3 cm3",
+   "ch": [
+    {
+     "q": 188514.0,
+     "p": 0.13,
+     "our": 0.1235,
+     "gm": 0.900921052631579,
+     "go": true,
+     "value": 24506.82,
+     "ceiling_quoted_fob": 0.09306666666666666
+    },
+    {
+     "q": 26890.5,
+     "p": 0.13,
+     "our": 0.1235,
+     "gm": 0.900921052631579,
+     "go": true,
+     "value": 3495.7650000000003,
+     "ceiling_quoted_fob": 0.09306666666666666
+    },
+    {
+     "q": 8000.0,
+     "p": 0.2188,
+     "our": 0.19692,
+     "gm": 0.9378618220597197,
+     "go": true,
+     "value": 1750.3999999999999,
+     "ceiling_quoted_fob": 0.12087428571428571
+    },
+    {
+     "q": 1714.0,
+     "p": 0.1753,
+     "our": 0.15777000000000002,
+     "gm": 0.9224424795588515,
+     "go": true,
+     "value": 300.4642,
+     "ceiling_quoted_fob": 0.09663857142857145
+    }
+   ],
+   "Rd": 310.644400374,
+   "Rc_exp": 4388.4066549375
+  },
+  {
+   "id": "NYSSUS",
+   "short": "Nistatina suspensión",
+   "name": "Nistatina 100,000 UI/ml suspensión, frasco 30 ml",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.42,
+   "adder": 0.0555,
+   "unit_cost": 0.61785,
+   "src": "R: sin precio indio público; UNICEF US$0.60 por 30 ml como techo; 185 cm3",
+   "ch": [
+    {
+     "q": 14898.0,
+     "p": 3.18,
+     "our": 3.021,
+     "gm": 0.7954816285998014,
+     "go": true,
+     "value": 47375.64,
+     "ceiling_quoted_fob": 2.2382857142857144
+    },
+    {
+     "q": 2717.7,
+     "p": 3.39,
+     "our": 3.2205,
+     "gm": 0.8081509082440614,
+     "go": true,
+     "value": 9213.003,
+     "ceiling_quoted_fob": 2.3902857142857146
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 2142.0,
+     "p": 3.3201,
+     "our": 2.98809,
+     "gm": 0.7932291196048312,
+     "go": true,
+     "value": 7111.6542,
+     "ceiling_quoted_fob": 1.7863414285714285
+    }
+   ],
+   "Rd": 1077.202261674,
+   "Rc_exp": 8751.1379227875
+  },
+  {
+   "id": "HCTCRM",
+   "short": "Hidrocortisona crema",
+   "name": "Hidrocortisona 1% crema, tubo 15 g",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.1988,
+   "adder": 0.033,
+   "unit_cost": 0.30052500000000004,
+   "src": "R: PMBI 2024-26 INR 13.72 por tubo x1.4; 110 cm3",
+   "ch": [
+    {
+     "q": 89267.0,
+     "p": 0.555,
+     "our": 0.52725,
+     "gm": 0.43001422475106676,
+     "go": true,
+     "value": 49543.185000000005,
+     "ceiling_quoted_fob": 0.364
+    },
+    {
+     "q": 6641.4,
+     "p": 0.58,
+     "our": 0.5509999999999999,
+     "gm": 0.4545825771324863,
+     "go": true,
+     "value": 3852.0119999999997,
+     "ceiling_quoted_fob": 0.38209523809523804
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 1564.0,
+     "p": 1.4679,
+     "our": 1.32111,
+     "gm": 0.7725208347525944,
+     "go": true,
+     "value": 2295.7956,
+     "ceiling_quoted_fob": 0.7801157142857144
+    }
+   ],
+   "Rd": 347.744159532,
+   "Rc_exp": 8521.157140368749
+  },
+  {
+   "id": "MOMCRM",
+   "short": "Mometasona crema",
+   "name": "Mometasona 0.1% crema, tubo 15 g (renglón de corticoide de alta potencia)",
+   "group": "Primera ola",
+   "inc": 1,
+   "fob_ref": 0.1,
+   "adder": 0.033,
+   "unit_cost": 0.17085,
+   "src": "R: PMBI 2023-25 INR 6.00 por tubo x1.4 (redondeado); 110 cm3",
+   "ch": [
+    {
+     "q": 65534.0,
+     "p": 1.02,
+     "our": 0.969,
+     "gm": 0.8236842105263158,
+     "go": true,
+     "value": 66844.68000000001,
+     "ceiling_quoted_fob": 0.7005714285714286
+    },
+    {
+     "q": 5172.3,
+     "p": 0.65,
+     "our": 0.6174999999999999,
+     "gm": 0.7233198380566801,
+     "go": true,
+     "value": 3361.9950000000003,
+     "ceiling_quoted_fob": 0.43276190476190474
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 343.0,
+     "p": 3.66,
+     "our": 3.294,
+     "gm": 0.9481329690346084,
+     "go": true,
+     "value": 1255.38,
+     "ceiling_quoted_fob": 2.0014285714285713
+    }
+   ],
+   "Rd": 190.1524086,
+   "Rc_exp": 11296.857997687499
+  },
+  {
+   "id": "AMI10",
+   "short": "Amitriptilina 10 mg",
+   "name": "Amitriptilina 10 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob_ref": 0.0028,
+   "adder": 0.00054,
+   "unit_cost": 0.0043230000000000005,
+   "src": "R: PMBI 2023-25 INR 1.99 por 10 x1.4",
+   "ch": [
+    {
+     "q": 325776.0,
+     "p": 0.12,
+     "our": 0.11399999999999999,
+     "gm": 0.962078947368421,
+     "go": false,
+     "value": 39093.119999999995,
+     "ceiling_quoted_fob": 0.08624
+    },
+    {
+     "q": 22921.2,
+     "p": 0.12,
+     "our": 0.11399999999999999,
+     "gm": 0.962078947368421,
+     "go": false,
+     "value": 2750.544,
+     "ceiling_quoted_fob": 0.08624
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    }
+   ],
+   "Rd": 0.0,
+   "Rc_exp": 0.0
+  },
+  {
+   "id": "AMI25",
+   "short": "Amitriptilina 25 mg",
+   "name": "Amitriptilina 25 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob_ref": 0.0033,
+   "adder": 0.00054,
+   "unit_cost": 0.00497925,
+   "src": "R: TNMSC 2024 L1 INR 19.63 por 100 x1.4",
+   "ch": [
+    {
+     "q": 1953204.0,
+     "p": 0.027,
+     "our": 0.02565,
+     "gm": 0.8058771929824562,
+     "go": false,
+     "value": 52736.508,
+     "ceiling_quoted_fob": 0.018925714285714285
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 3086.0,
+     "p": 0.4,
+     "our": 0.36000000000000004,
+     "gm": 0.98616875,
+     "go": false,
+     "value": 1234.4,
+     "ceiling_quoted_fob": 0.22224000000000002
+    }
+   ],
+   "Rd": 0.0,
+   "Rc_exp": 0.0
+  },
+  {
+   "id": "QTP25",
+   "short": "Quetiapina 25 mg",
+   "name": "Quetiapina 25 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob_ref": 0.0053,
+   "adder": 0.00054,
+   "unit_cost": 0.00760425,
+   "src": "R: PMBI 2023-26 INR 3.69 por 10 x1.4",
+   "ch": [
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 558798.0,
+     "p": 0.18,
+     "our": 0.162,
+     "gm": 0.9530601851851852,
+     "go": false,
+     "value": 100583.64,
+     "ceiling_quoted_fob": 0.09966857142857144
+    }
+   ],
+   "Rd": 0.0,
+   "Rc_exp": 0.0
+  },
+  {
+   "id": "QTP100",
+   "short": "Quetiapina 100 mg",
+   "name": "Quetiapina 100 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob_ref": 0.0138,
+   "adder": 0.00066,
+   "unit_cost": 0.018904500000000005,
+   "src": "R: interpolado de PMBI 25 y 200 mg x1.4",
+   "ch": [
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 509795.0,
+     "p": 0.13,
+     "our": 0.117,
+     "gm": 0.8384230769230769,
+     "go": false,
+     "value": 66273.35,
+     "ceiling_quoted_fob": 0.07167428571428572
+    }
+   ],
+   "Rd": 0.0,
+   "Rc_exp": 0.0
+  },
+  {
+   "id": "QTP200",
+   "short": "Quetiapina 200 mg",
+   "name": "Quetiapina 200 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob_ref": 0.0216,
+   "adder": 0.00075,
+   "unit_cost": 0.029250000000000005,
+   "src": "R: PMBI 2023-25 INR 14.90 por 10 x1.4",
+   "ch": [
+    {
+     "q": 1376100.0,
+     "p": 0.079,
+     "our": 0.07504999999999999,
+     "gm": 0.6102598267821451,
+     "go": false,
+     "value": 108711.9,
+     "ceiling_quoted_fob": 0.05632380952380952
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 243829.0,
+     "p": 0.21,
+     "our": 0.189,
+     "gm": 0.8452380952380952,
+     "go": false,
+     "value": 51204.09,
+     "ceiling_quoted_fob": 0.11614285714285714
+    },
+    {
+     "q": 28886.0,
+     "p": 0.2,
+     "our": 0.18000000000000002,
+     "gm": 0.8375,
+     "go": false,
+     "value": 5777.200000000001,
+     "ceiling_quoted_fob": 0.11057142857142858
+    }
+   ],
+   "Rd": 0.0,
+   "Rc_exp": 0.0
+  },
+  {
+   "id": "TPM100",
+   "short": "Topiramato 100 mg",
+   "name": "Topiramato 100 mg tableta",
+   "group": "SNC",
+   "inc": 0,
+   "fob_ref": 0.0116,
+   "adder": 0.0006,
+   "unit_cost": 0.015944999999999997,
+   "src": "R: PMBI 2023-25 INR 7.98 por 10 x1.4",
+   "ch": [
+    {
+     "q": 443907.0,
+     "p": 0.065,
+     "our": 0.06175,
+     "gm": 0.7417813765182186,
+     "go": false,
+     "value": 28853.955,
+     "ceiling_quoted_fob": 0.046361904761904764
+    },
+    {
+     "q": 0.0,
+     "p": 0.0,
+     "our": 0.0,
+     "gm": null,
+     "go": false,
+     "value": 0.0,
+     "ceiling_quoted_fob": null
+    },
+    {
+     "q": 26343.0,
+     "p": 1.02,
+     "our": 0.918,
+     "gm": 0.9826307189542484,
+     "go": false,
+     "value": 26869.86,
+     "ceiling_quoted_fob": 0.5675999999999999
+    },
+    {
+     "q": 4640.0,
+     "p": 1.18,
+     "our": 1.062,
+     "gm": 0.9849858757062147,
+     "go": false,
+     "value": 5475.2,
+     "ceiling_quoted_fob": 0.6567428571428571
+    }
+   ],
+   "Rd": 0.0,
+   "Rc_exp": 0.0
+  }
+ ],
+ "market": {
+  "by_channel": [
+   764881.3420000001,
+   304240.527,
+   27618.28,
+   388665.4177
+  ],
+  "go_by_channel": [
+   654537.911,
+   79772.3325,
+   27618.28,
+   337120.77999999997
+  ],
+  "total": 1485405.5667,
+  "total_go": 1099049.3035,
+  "expected_rev_mature": 170972.42784918752
+ },
+ "breakeven": {
+  "fixed_month": 4600.4,
+  "fixed_annual": 61589.299999999996,
+  "gm_avg": 0.5294577004945722,
+  "var_pct": 0.0688216919802171,
+  "be_revenue": 133704.9185508489,
+  "expected_rev_mature": 170972.42784918752
+ },
+ "tornado": {
+  "base_npv15": -196169.21844591742,
+  "base_cap": 388711.4774327216,
+  "rows": [
+   {
+    "key": "fixed",
+    "label": "Costos fijos mensuales con cargas e ITBMS (bloque)",
+    "unit": "B/. al mes",
+    "base_val": 4600.4,
+    "pes_val": 7824.5,
+    "opt_val": 2986.0,
+    "npv_pes": -325595.76605781144,
+    "npv_opt": -136194.09862322986,
+    "cap_pes": 545267.3461994913,
+    "cap_opt": 329528.5625527216
+   },
+   {
+    "key": "sup_idx",
+    "label": "Índice del precio de la fábrica frente a la referencia FOB",
+    "unit": "x",
+    "base_val": 1.25,
+    "pes_val": 1.8,
+    "opt_val": 1.0,
+    "npv_pes": -221179.27425783552,
+    "npv_opt": -167102.33892372606,
+    "cap_pes": 367904.07953213644,
+    "cap_opt": 371842.6776486586
+   },
+   {
+    "key": "erosion",
+    "label": "Caída anual de precios a partir del año 2",
+    "unit": "%",
+    "base_val": 0.03,
+    "pes_val": 0.06,
+    "opt_val": 0.0,
+    "npv_pes": -221540.25636410684,
+    "npv_opt": -170281.54586522933,
+    "cap_pes": 405375.75370448455,
+    "cap_opt": 380080.1523504786
+   },
+   {
+    "key": "share_dec",
+    "label": "Participación madura en compras descentralizadas (valor)",
+    "unit": "%",
+    "base_val": 0.22,
+    "pes_val": 0.1,
+    "opt_val": 0.32,
+    "npv_pes": -223921.8810053787,
+    "npv_opt": -174119.54967434204,
+    "cap_pes": 405034.9108497411,
+    "cap_opt": 383587.9304066129
+   },
+   {
+    "key": "cc_w",
+    "label": "Parte de la cantidad de la compra conjunta de 2023 que se toma como demanda del MINSA",
+    "unit": "%",
+    "base_val": 0.15,
+    "pes_val": 0.0,
+    "opt_val": 0.5,
+    "npv_pes": -207342.96560464927,
+    "npv_opt": -170504.18934286133,
+    "cap_pes": 393035.5944346618,
+    "cap_opt": 384541.5579698699
+   },
+   {
+    "key": "collat",
+    "label": "Colateral en efectivo que pide la aseguradora o el banco (% de la fianza)",
+    "unit": "%",
+    "base_val": 0.75,
+    "pes_val": 1.0,
+    "opt_val": 0.25,
+    "npv_pes": -208424.13668350314,
+    "npv_opt": -171659.38197074598,
+    "cap_pes": 427163.131726102,
+    "cap_opt": 311808.1688459609
+   },
+   {
+    "key": "pwin_cen",
+    "label": "Probabilidad de ganar un renglón centralizado en el que se oferta",
+    "unit": "%",
+    "base_val": 0.3,
+    "pes_val": 0.15,
+    "opt_val": 0.45,
+    "npv_pes": -212667.33103903028,
+    "npv_opt": -184510.65134066562,
+    "cap_pes": 350090.1738452589,
+    "cap_opt": 456683.3735659856
+   },
+   {
+    "key": "n2",
+    "label": "Productos de la segunda ola (sin equivalencia terapéutica, fabricación verificada)",
+    "unit": "productos",
+    "base_val": 6,
+    "pes_val": 0,
+    "opt_val": 12,
+    "npv_pes": -182831.2476934687,
+    "npv_opt": -210065.704971832,
+    "cap_pes": 316130.3130422327,
+    "cap_opt": 465761.4101030089
+   },
+   {
+    "key": "realiz",
+    "label": "Cantidad comprada frente a la máxima del contrato de la LPU",
+    "unit": "%",
+    "base_val": 0.75,
+    "pes_val": 0.55,
+    "opt_val": 0.9,
+    "npv_pes": -208686.14146645193,
+    "npv_opt": -186938.2427279398,
+    "cap_pes": 384784.3430653527,
+    "cap_opt": 393393.5402108126
+   },
+   {
+    "key": "dso_days",
+    "label": "Días de cobro: entrega hasta cobro",
+    "unit": "días",
+    "base_val": 150,
+    "pes_val": 240,
+    "opt_val": 105,
+    "npv_pes": -210962.0431875669,
+    "npv_opt": -190894.71169021376,
+    "cap_pes": 437389.3340354656,
+    "cap_opt": 373901.00243593456
+   },
+   {
+    "key": "mkt",
+    "label": "Factor de mercado (demanda futura frente a 2025-2026)",
+    "unit": "x",
+    "base_val": 0.9,
+    "pes_val": 0.75,
+    "opt_val": 1.0,
+    "npv_pes": -207589.7430260061,
+    "npv_opt": -188876.27336575332,
+    "cap_pes": 372283.9111989561,
+    "cap_opt": 402667.13416080177
+   },
+   {
+    "key": "pf_dec",
+    "label": "Precio de oferta descentralizado frente al precio ponderado actual",
+    "unit": "x",
+    "base_val": 0.9,
+    "pes_val": 0.8,
+    "opt_val": 0.95,
+    "npv_pes": -208077.18648682014,
+    "npv_opt": -189618.11417346948,
+    "cap_pes": 396027.9003746543,
+    "cap_opt": 386434.87021868885
+   },
+   {
+    "key": "rs_iea",
+    "label": "Análisis de control previo (IEA o INDICASAT) por producto",
+    "unit": "B/.",
+    "base_val": 1500,
+    "pes_val": 2000,
+    "opt_val": 1000,
+    "npv_pes": -203912.98555450875,
+    "npv_opt": -188425.45133732609,
+    "cap_pes": 397211.4774327216,
+    "cap_opt": 380211.4774327216
+   },
+   {
+    "key": "rs_succ",
+    "label": "Registros aprobados / presentados",
+    "unit": "%",
+    "base_val": 0.85,
+    "pes_val": 0.7,
+    "opt_val": 0.95,
+    "npv_pes": -204711.45811165695,
+    "npv_opt": -190725.986894023,
+    "cap_pes": 367193.10560020606,
+    "cap_opt": 405503.0551448065
+   },
+   {
+    "key": "expiry",
+    "label": "Mermas y vencimientos (% del costo comprado)",
+    "unit": "%",
+    "base_val": 0.04,
+    "pes_val": 0.08,
+    "opt_val": 0.015,
+    "npv_pes": -203682.21772559587,
+    "npv_opt": -191473.93855322665,
+    "cap_pes": 394964.1346502588,
+    "cap_opt": 384803.56667176087
+   },
+   {
+    "key": "credit_days",
+    "label": "Crédito de la fábrica desde el embarque",
+    "unit": "días",
+    "base_val": 0,
+    "pes_val": 0,
+    "opt_val": 120,
+    "npv_pes": -196169.21844591742,
+    "npv_opt": -186555.83602689032,
+    "cap_pes": 388711.4774327216,
+    "cap_opt": 361232.62569819024
+   },
+   {
+    "key": "minsa_occ",
+    "label": "Probabilidad de que el MINSA haga su compra centralizada en el año",
+    "unit": "%",
+    "base_val": 0.5,
+    "pes_val": 0.3,
+    "opt_val": 0.7,
+    "npv_pes": -200570.4120640938,
+    "npv_opt": -191768.0248277409,
+    "cap_pes": 389426.32076921046,
+    "cap_opt": 387996.6340962327
+   },
+   {
+    "key": "ramp_m",
+    "label": "Meses para llegar a la participación madura en compras descentralizadas",
+    "unit": "meses",
+    "base_val": 12,
+    "pes_val": 18,
+    "opt_val": 9,
+    "npv_pes": -201369.07120339118,
+    "npv_opt": -193343.13290457104,
+    "cap_pes": 394287.12295880367,
+    "cap_opt": 385432.2187848369
+   },
+   {
+    "key": "reg_m",
+    "label": "Mes en que salen los registros sanitarios (presentados en el mes 3)",
+    "unit": "mes",
+    "base_val": 9,
+    "pes_val": 12,
+    "opt_val": 7,
+    "npv_pes": -199984.18131263845,
+    "npv_opt": -193406.31102680886,
+    "cap_pes": 393177.83856214193,
+    "cap_opt": 384985.2222519561
+   },
+   {
+    "key": "log_mult",
+    "label": "Multiplicador del costo logístico (flete LCL, destino, corredor, seguro)",
+    "unit": "x",
+    "base_val": 1.2,
+    "pes_val": 2.2,
+    "opt_val": 0.8,
+    "npv_pes": -190130.60421998394,
+    "npv_opt": -183622.02687827847,
+    "cap_pes": 292499.44936948805,
+    "cap_opt": 398902.7616094422
+   },
+   {
+    "key": "bond_prem",
+    "label": "Prima anual de la fianza",
+    "unit": "%",
+    "base_val": 0.025,
+    "pes_val": 0.04,
+    "opt_val": 0.013,
+    "npv_pes": -198892.1535687828,
+    "npv_opt": -193990.8703476251,
+    "cap_pes": 390888.9735585285,
+    "cap_opt": 386969.4805320761
+   },
+   {
+    "key": "cen_start",
+    "label": "Mes en que podría arrancar el primer contrato centralizado (calendario de la LPU)",
+    "unit": "mes",
+    "base_val": 20,
+    "pes_val": 27,
+    "opt_val": 14,
+    "npv_pes": -197061.47892062122,
+    "npv_opt": -192199.2100492774,
+    "cap_pes": 403601.9837677054,
+    "cap_opt": 371220.06099740375
+   },
+   {
+    "key": "adv",
+    "label": "Anticipo a la fábrica al colocar la orden",
+    "unit": "%",
+    "base_val": 0.3,
+    "pes_val": 1.0,
+    "opt_val": 0.0,
+    "npv_pes": -198563.99738314043,
+    "npv_opt": -195142.88461567895,
+    "cap_pes": 395570.28047689016,
+    "cap_opt": 385771.9904137922
+   }
+  ]
+ },
+ "whatif": {
+  "base": {
+   "key": "base",
+   "tag": "Caso base",
+   "cap": 388711.4774327216,
+   "npv15": -196169.21844591742,
+   "irr": -0.12246116373170102,
+   "moic": 0.6349583774023235,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -141895.86844438082
+  },
+  "credit120": {
+   "key": "credit120",
+   "tag": "Crédito de la fábrica de 120 días, sin anticipo",
+   "cap": 346516.4879358903,
+   "npv15": -181409.74065917055,
+   "irr": -0.13358865116188756,
+   "moic": 0.6052752880582062,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -136778.6208835764
+  },
+  "price105": {
+   "key": "price105",
+   "tag": "Precio de fábrica a 1.05 veces la referencia",
+   "cap": 375181.13092355244,
+   "npv15": -174057.70970730885,
+   "irr": -0.08754008931799429,
+   "moic": 0.7240641681232675,
+   "rev3": 182698.0722724473,
+   "ni3": 18229.144124584214,
+   "net": -103525.91746584373
+  },
+  "coord0": {
+   "key": "coord0",
+   "tag": "Un socio coordina sin sueldo",
+   "cap": 338380.8022327216,
+   "npv15": -144183.16989596534,
+   "irr": -0.059521516193401625,
+   "moic": 0.8040775590844975,
+   "rev3": 176158.7977303777,
+   "ni3": 25755.487125985266,
+   "net": -66296.39273238071
+  },
+  "collat50": {
+   "key": "collat50",
+   "tag": "Colateral de 50% de la fianza",
+   "cap": 350259.8231393413,
+   "npv15": -183914.3002083317,
+   "irr": -0.12879807237852559,
+   "moic": 0.6122783206221087,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -135803.3268461886
+  },
+  "collat100": {
+   "key": "collat100",
+   "tag": "Colateral de 100% de la fianza",
+   "cap": 427163.131726102,
+   "npv15": -208424.13668350314,
+   "irr": -0.11722545105690518,
+   "moic": 0.6535552835644449,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -147988.41004257306
+  },
+  "lpu14": {
+   "key": "lpu14",
+   "tag": "La CSS prorroga la LPU vigente y la siguiente arranca en el mes 14",
+   "cap": 371220.06099740375,
+   "npv15": -192199.2100492774,
+   "irr": -0.1015673556446719,
+   "moic": 0.6679374020851465,
+   "rev3": 194082.34797277092,
+   "ni3": 13097.382752089425,
+   "net": -123268.29785290823
+  },
+  "cc50": {
+   "key": "cc50",
+   "tag": "El MINSA compra 50% de lo que pidió en la compra conjunta de 2023",
+   "cap": 384541.5579698699,
+   "npv15": -170504.18934286133,
+   "irr": -0.07359914483366714,
+   "moic": 0.7637572901235501,
+   "rev3": 198288.02982259475,
+   "ni3": 23310.949870168475,
+   "net": -90845.13971491402
+  },
+  "snc": {
+   "key": "snc",
+   "tag": "Más 6 productos de sistema nervioso (fabricante verificado)",
+   "cap": 390487.43820073735,
+   "npv15": -144345.0111663217,
+   "irr": -0.01281081580394039,
+   "moic": 0.9530188785726266,
+   "rev3": 247968.6056689775,
+   "ni3": 52802.54587900449,
+   "net": -18345.537749972835
+  },
+  "factory": {
+   "key": "factory",
+   "tag": "La fábrica paga los registros, da 180 días de crédito y precio 1.05",
+   "cap": 253773.8294139227,
+   "npv15": -96773.22011052544,
+   "irr": -0.04018654649937692,
+   "moic": 0.8681551033803493,
+   "rev3": 182698.0722724473,
+   "ni3": 18229.144124584214,
+   "net": -33458.78430385151
+  },
+  "factory_coord0": {
+   "key": "factory_coord0",
+   "tag": "Lo anterior y un socio coordina sin sueldo",
+   "cap": 206771.15421392274,
+   "npv15": -50874.91712709206,
+   "irr": 0.03890061949807633,
+   "moic": 1.1414902375584821,
+   "rev3": 182698.0722724473,
+   "ni3": 32947.2047478766,
+   "net": 29256.099729969486
+  },
+  "factory_coord0_snc": {
+   "key": "factory_coord0_snc",
+   "tag": "Lo anterior más sistema nervioso",
+   "cap": 190512.81513608445,
+   "npv15": 11243.971156984277,
+   "irr": 0.17129749110749248,
+   "moic": 1.7842666316904348,
+   "rev3": 254292.93922584108,
+   "ni3": 73335.29123887612,
+   "net": 149412.84382063942
+  },
+  "sl": {
+   "key": "sl",
+   "tag": "Caso base con las tarifas legales de SignatureLex",
+   "cap": 413588.9774327216,
+   "npv15": -219818.8809063803,
+   "irr": -0.135906607260189,
+   "moic": 0.5967654421556489,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -166773.36844438082
+  },
+  "keep": {
+   "key": "keep",
+   "tag": "Solo los 5 productos que pagan su registro",
+   "cap": 337046.6509166752,
+   "npv15": -158968.7625067845,
+   "irr": -0.11337787973752356,
+   "moic": 0.6697550803343414,
+   "rev3": 132929.72147910367,
+   "ni3": 2462.3642554651005,
+   "net": -111307.9441555567
+  }
+ },
+ "whatif_list": [
+  {
+   "key": "base",
+   "tag": "Caso base",
+   "cap": 388711.4774327216,
+   "npv15": -196169.21844591742,
+   "irr": -0.12246116373170102,
+   "moic": 0.6349583774023235,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -141895.86844438082
+  },
+  {
+   "key": "credit120",
+   "tag": "Crédito de la fábrica de 120 días, sin anticipo",
+   "cap": 346516.4879358903,
+   "npv15": -181409.74065917055,
+   "irr": -0.13358865116188756,
+   "moic": 0.6052752880582062,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -136778.6208835764
+  },
+  {
+   "key": "price105",
+   "tag": "Precio de fábrica a 1.05 veces la referencia",
+   "cap": 375181.13092355244,
+   "npv15": -174057.70970730885,
+   "irr": -0.08754008931799429,
+   "moic": 0.7240641681232675,
+   "rev3": 182698.0722724473,
+   "ni3": 18229.144124584214,
+   "net": -103525.91746584373
+  },
+  {
+   "key": "coord0",
+   "tag": "Un socio coordina sin sueldo",
+   "cap": 338380.8022327216,
+   "npv15": -144183.16989596534,
+   "irr": -0.059521516193401625,
+   "moic": 0.8040775590844975,
+   "rev3": 176158.7977303777,
+   "ni3": 25755.487125985266,
+   "net": -66296.39273238071
+  },
+  {
+   "key": "collat50",
+   "tag": "Colateral de 50% de la fianza",
+   "cap": 350259.8231393413,
+   "npv15": -183914.3002083317,
+   "irr": -0.12879807237852559,
+   "moic": 0.6122783206221087,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -135803.3268461886
+  },
+  {
+   "key": "collat100",
+   "tag": "Colateral de 100% de la fianza",
+   "cap": 427163.131726102,
+   "npv15": -208424.13668350314,
+   "irr": -0.11722545105690518,
+   "moic": 0.6535552835644449,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -147988.41004257306
+  },
+  {
+   "key": "lpu14",
+   "tag": "La CSS prorroga la LPU vigente y la siguiente arranca en el mes 14",
+   "cap": 371220.06099740375,
+   "npv15": -192199.2100492774,
+   "irr": -0.1015673556446719,
+   "moic": 0.6679374020851465,
+   "rev3": 194082.34797277092,
+   "ni3": 13097.382752089425,
+   "net": -123268.29785290823
+  },
+  {
+   "key": "cc50",
+   "tag": "El MINSA compra 50% de lo que pidió en la compra conjunta de 2023",
+   "cap": 384541.5579698699,
+   "npv15": -170504.18934286133,
+   "irr": -0.07359914483366714,
+   "moic": 0.7637572901235501,
+   "rev3": 198288.02982259475,
+   "ni3": 23310.949870168475,
+   "net": -90845.13971491402
+  },
+  {
+   "key": "snc",
+   "tag": "Más 6 productos de sistema nervioso (fabricante verificado)",
+   "cap": 390487.43820073735,
+   "npv15": -144345.0111663217,
+   "irr": -0.01281081580394039,
+   "moic": 0.9530188785726266,
+   "rev3": 247968.6056689775,
+   "ni3": 52802.54587900449,
+   "net": -18345.537749972835
+  },
+  {
+   "key": "factory",
+   "tag": "La fábrica paga los registros, da 180 días de crédito y precio 1.05",
+   "cap": 253773.8294139227,
+   "npv15": -96773.22011052544,
+   "irr": -0.04018654649937692,
+   "moic": 0.8681551033803493,
+   "rev3": 182698.0722724473,
+   "ni3": 18229.144124584214,
+   "net": -33458.78430385151
+  },
+  {
+   "key": "factory_coord0",
+   "tag": "Lo anterior y un socio coordina sin sueldo",
+   "cap": 206771.15421392274,
+   "npv15": -50874.91712709206,
+   "irr": 0.03890061949807633,
+   "moic": 1.1414902375584821,
+   "rev3": 182698.0722724473,
+   "ni3": 32947.2047478766,
+   "net": 29256.099729969486
+  },
+  {
+   "key": "factory_coord0_snc",
+   "tag": "Lo anterior más sistema nervioso",
+   "cap": 190512.81513608445,
+   "npv15": 11243.971156984277,
+   "irr": 0.17129749110749248,
+   "moic": 1.7842666316904348,
+   "rev3": 254292.93922584108,
+   "ni3": 73335.29123887612,
+   "net": 149412.84382063942
+  },
+  {
+   "key": "sl",
+   "tag": "Caso base con las tarifas legales de SignatureLex",
+   "cap": 413588.9774327216,
+   "npv15": -219818.8809063803,
+   "irr": -0.135906607260189,
+   "moic": 0.5967654421556489,
+   "rev3": 176158.7977303777,
+   "ni3": 8283.487125985275,
+   "net": -166773.36844438082
+  },
+  {
+   "key": "keep",
+   "tag": "Solo los 5 productos que pagan su registro",
+   "cap": 337046.6509166752,
+   "npv15": -158968.7625067845,
+   "irr": -0.11337787973752356,
+   "moic": 0.6697550803343414,
+   "rev3": 132929.72147910367,
+   "ni3": 2462.3642554651005,
+   "net": -111307.9441555567
+  }
+ ],
+ "pes_gate": {
+  "gate_m": 25,
+  "gate_cal": "enero de 2029",
+  "net": -297757.45023575873,
+  "cap": 321588.1493713829
+ },
+ "value_split": [
+  {
+   "tag": "Propuesta 50/50 (Zywie con 15% de margen)",
+   "patel_cash": 0.5,
+   "zywie": 34440.87341980987,
+   "patel": -34741.560802380525,
+   "panama": -72713.43422219038,
+   "cap_partner": 65373.74623878693
+  },
+  {
+   "tag": "Fábrica paga registros, 180 días, precio 1.05, Zywie 5%",
+   "patel_cash": 0.5,
+   "zywie": 11392.6785154664,
+   "patel": -3571.2136364593753,
+   "panama": -18494.89215192577,
+   "cap_partner": 42884.13823565379
+  },
+  {
+   "tag": "Lo anterior con Rutul Patel aportando 70% del efectivo",
+   "patel_cash": 0.7,
+   "zywie": 11392.6785154664,
+   "patel": -53619.77951924391,
+   "panama": 31553.67373085876,
+   "cap_partner": 26201.282941392274
+  }
+ ],
+ "ie": {
+  "rows": [
+   {
+    "id": "PCT500",
+    "units": 6153817.804200001,
+    "vol_cm3": 5.5,
+    "m3": 33.84599792310001
+   },
+   {
+    "id": "PCTSYR",
+    "units": 64996.68734999999,
+    "vol_cm3": 450.00000000000006,
+    "m3": 29.2485093075
+   },
+   {
+    "id": "AMCTAB",
+    "units": 16441.9824375,
+    "vol_cm3": 12.0,
+    "m3": 0.19730378924999997
+   },
+   {
+    "id": "AMCSUS",
+    "units": 1256.0229,
+    "vol_cm3": 500.0,
+    "m3": 0.6280114499999999
+   },
+   {
+    "id": "CRO1G",
+    "units": 656.2017000000001,
+    "vol_cm3": 54.0,
+    "m3": 0.03543489180000001
+   },
+   {
+    "id": "CTX1G",
+    "units": 0.0,
+    "vol_cm3": 54.0,
+    "m3": 0.0
+   },
+   {
+    "id": "ALBSUS",
+    "units": 8287.860825,
+    "vol_cm3": 80.0,
+    "m3": 0.6630288659999999
+   },
+   {
+    "id": "MBZ100",
+    "units": 37168.523325,
+    "vol_cm3": 3.0,
+    "m3": 0.11150556997500001
+   },
+   {
+    "id": "NYSSUS",
+    "units": 3236.672925,
+    "vol_cm3": 185.0,
+    "m3": 0.598784491125
+   },
+   {
+    "id": "HCTCRM",
+    "units": 16390.404225,
+    "vol_cm3": 110.0,
+    "m3": 1.80294446475
+   },
+   {
+    "id": "MOMCRM",
+    "units": 11931.288075,
+    "vol_cm3": 110.0,
+    "m3": 1.31244168825
+   }
+  ],
+  "m3_year": 68.44396244175,
+  "pallets_year": 35.64789710507813,
+  "pallets_month": 2.970658092089844,
+  "m3_per_pallet": 1.92
+ },
+ "product_contrib": [
+  {
+   "id": "PCT500",
+   "short": "Paracetamol 500 mg",
+   "name": "Paracetamol 500 mg tableta",
+   "d_npv_if_dropped": -13142.287988257362,
+   "d_cap_if_dropped": -46904.8648728056
+  },
+  {
+   "id": "PCTSYR",
+   "short": "Paracetamol jarabe",
+   "name": "Paracetamol 120-160 mg/5 ml jarabe, frasco 120 ml",
+   "d_npv_if_dropped": 9417.982818493096,
+   "d_cap_if_dropped": -48929.385919111606
+  },
+  {
+   "id": "AMCTAB",
+   "short": "Amoxicilina + clavulánico tableta",
+   "name": "Amoxicilina + clavulánico 500/125 mg tableta",
+   "d_npv_if_dropped": 4310.340601645177,
+   "d_cap_if_dropped": -1900.2046920990106
+  },
+  {
+   "id": "AMCSUS",
+   "short": "Amoxicilina + clavulánico suspensión",
+   "name": "Amoxicilina + clavulánico 400/57 mg/5 ml suspensión, frasco 100 ml",
+   "d_npv_if_dropped": 1653.7577487831586,
+   "d_cap_if_dropped": 795.0391273350688
+  },
+  {
+   "id": "CRO1G",
+   "short": "Ceftriaxona 1 g",
+   "name": "Ceftriaxona 1 g vial (I.V.)",
+   "d_npv_if_dropped": 5408.604744462238,
+   "d_cap_if_dropped": 252.6884515180136
+  },
+  {
+   "id": "CTX1G",
+   "short": "Cefotaxima 1 g",
+   "name": "Cefotaxima 1 g vial",
+   "d_npv_if_dropped": 5815.472893471044,
+   "d_cap_if_dropped": 166.6932670287788
+  },
+  {
+   "id": "ALBSUS",
+   "short": "Albendazol suspensión",
+   "name": "Albendazol 400 mg/10 ml suspensión",
+   "d_npv_if_dropped": -14724.216150744178,
+   "d_cap_if_dropped": 9127.980170777359
+  },
+  {
+   "id": "MBZ100",
+   "short": "Mebendazol 100 mg",
+   "name": "Mebendazol 100 mg tableta",
+   "d_npv_if_dropped": -129.38442856946494,
+   "d_cap_if_dropped": -856.9256737569813
+  },
+  {
+   "id": "NYSSUS",
+   "short": "Nistatina suspensión",
+   "name": "Nistatina 100,000 UI/ml suspensión, frasco 30 ml",
+   "d_npv_if_dropped": -4218.063567987585,
+   "d_cap_if_dropped": -3640.3742492515594
+  },
+  {
+   "id": "HCTCRM",
+   "short": "Hidrocortisona crema",
+   "name": "Hidrocortisona 1% crema, tubo 15 g",
+   "d_npv_if_dropped": 4942.3247534423135,
+   "d_cap_if_dropped": -11255.965573380527
+  },
+  {
+   "id": "MOMCRM",
+   "short": "Mometasona crema",
+   "name": "Mometasona 0.1% crema, tubo 15 g (renglón de corticoide de alta potencia)",
+   "d_npv_if_dropped": -5164.714903395623,
+   "d_cap_if_dropped": -5455.263597585901
+  }
+ ],
+ "keep_ids": [
+  "PCT500",
+  "ALBSUS",
+  "MBZ100",
+  "NYSSUS",
+  "MOMCRM"
+ ],
+ "price_grid": [
+  {
+   "kind": "base",
+   "label": "Términos de la propuesta",
+   "cells": [
+    {
+     "sup_idx": 0.7,
+     "npv15": -138346.01842929053,
+     "cap": 388592.3553550405
+    },
+    {
+     "sup_idx": 0.8,
+     "npv15": -151236.46460113343,
+     "cap": 390029.2716803845
+    },
+    {
+     "sup_idx": 1.0,
+     "npv15": -167102.33892372606,
+     "cap": 371842.6776486586
+    },
+    {
+     "sup_idx": 1.25,
+     "npv15": -196169.21844591742,
+     "cap": 388711.4774327216
+    }
+   ]
+  },
+  {
+   "kind": "base",
+   "label": "Términos de la propuesta + sistema nervioso",
+   "cells": [
+    {
+     "sup_idx": 0.7,
+     "npv15": -86421.74928681561,
+     "cap": 380494.4747185065
+    },
+    {
+     "sup_idx": 0.8,
+     "npv15": -99466.34540424467,
+     "cap": 383726.99544472795
+    },
+    {
+     "sup_idx": 1.0,
+     "npv15": -116247.95006485801,
+     "cap": 371137.4325265987
+    },
+    {
+     "sup_idx": 1.25,
+     "npv15": -144345.0111663217,
+     "cap": 390487.43820073735
+    }
+   ]
+  },
+  {
+   "kind": "factory",
+   "label": "La fábrica paga registros y da 180 días",
+   "cells": [
+    {
+     "sup_idx": 0.7,
+     "npv15": -62324.11244966276,
+     "cap": 259499.54789232093
+    },
+    {
+     "sup_idx": 0.8,
+     "npv15": -73708.05710520336,
+     "cap": 259799.17795995448
+    },
+    {
+     "sup_idx": 1.0,
+     "npv15": -90364.1904064343,
+     "cap": 250543.37471505534
+    },
+    {
+     "sup_idx": 1.25,
+     "npv15": -116770.99405364289,
+     "cap": 262128.00099171454
+    }
+   ]
+  },
+  {
+   "kind": "factory",
+   "label": "La fábrica paga registros y da 180 días + sistema nervioso",
+   "cells": [
+    {
+     "sup_idx": 0.7,
+     "npv15": 4660.552018125978,
+     "cap": 234844.92221874825
+    },
+    {
+     "sup_idx": 0.8,
+     "npv15": -7161.909069642512,
+     "cap": 235493.0656340741
+    },
+    {
+     "sup_idx": 1.0,
+     "npv15": -24799.33077859183,
+     "cap": 229421.27953856683
+    },
+    {
+     "sup_idx": 1.25,
+     "npv15": -49917.39554666067,
+     "cap": 242676.5887307106
+    }
+   ]
+  },
+  {
+   "kind": "factory_coord0",
+   "label": "La fábrica financia y un socio coordina sin sueldo",
+   "cells": [
+    {
+     "sup_idx": 0.7,
+     "npv15": -19273.01592219461,
+     "cap": 214816.7671047846
+    },
+    {
+     "sup_idx": 0.8,
+     "npv15": -30363.066029955487,
+     "cap": 214332.4788511314
+    },
+    {
+     "sup_idx": 1.0,
+     "npv15": -45236.92977190776,
+     "cap": 203675.81497586577
+    },
+    {
+     "sup_idx": 1.25,
+     "npv15": -67918.16167401773,
+     "cap": 214800.7181427476
+    }
+   ]
+  },
+  {
+   "kind": "factory_coord0",
+   "label": "La fábrica financia y un socio coordina sin sueldo + sistema nervioso",
+   "cells": [
+    {
+     "sup_idx": 0.7,
+     "npv15": 45834.59067716854,
+     "cap": 194586.99368541496
+    },
+    {
+     "sup_idx": 0.8,
+     "npv15": 34117.107938522735,
+     "cap": 195158.72191230196
+    },
+    {
+     "sup_idx": 1.0,
+     "npv15": 17206.174291245145,
+     "cap": 187471.4388181684
+    },
+    {
+     "sup_idx": 1.25,
+     "npv15": -7138.477899738384,
+     "cap": 199006.90461177658
+    }
+   ]
+  }
+ ],
+ "sim": {
+  "A": {
+   "n": 20000,
+   "p_nogo": 0.0,
+   "p_gate": 0.0,
+   "p_fail": 0.28735,
+   "p_loss": 0.9896,
+   "p_loss_beyond_ph0": 0.98885,
+   "npv15_mean": -237706.41048148135,
+   "npv15_p10": -309063.7269680466,
+   "npv15_p50": -236793.2091999843,
+   "npv15_p90": -163949.80811480596,
+   "p_npv_neg": 0.9999,
+   "moic_p10": 0.08593972193311888,
+   "moic_p50": 0.3367461992769273,
+   "moic_p90": 0.7263451668095983,
+   "p_moic_ge2": 0.0,
+   "cap_go_p50": 395743.80292602046,
+   "cap_go_p80": 505808.977519416,
+   "cap_go_p90": 572967.5568419021,
+   "cap_go_mean": 404140.77473041764,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 66658.12212496769,
+   "j_cap_go_p90": 96169.72232115472,
+   "j_in_mean": 68040.16446787254,
+   "j_net_mean": -39826.77066478981,
+   "j_p_loss": 0.9903,
+   "j_net_p10": -58660.635132618896,
+   "j_net_p50": -39825.24315321317,
+   "j_net_p90": -21141.340921202627,
+   "sales_y3_go_p50": 99395.30037395707,
+   "cen_first_p50": 20.0,
+   "label": "A. Propuesta de Rutul Patel tal cual"
+  },
+  "B": {
+   "n": 20000,
+   "p_nogo": 0.20285,
+   "p_gate": 0.3379,
+   "p_fail": 0.10465,
+   "p_loss": 0.9916,
+   "p_loss_beyond_ph0": 0.78815,
+   "npv15_mean": -160193.3489744359,
+   "npv15_p10": -275606.3884336231,
+   "npv15_p50": -165535.7122928672,
+   "npv15_p90": -4169.213869002791,
+   "p_npv_neg": 0.99995,
+   "moic_p10": 0.0,
+   "moic_p50": 0.16104416222316725,
+   "moic_p90": 0.6815582041829129,
+   "p_moic_ge2": 0.0,
+   "cap_go_p50": 271273.09968758695,
+   "cap_go_p80": 465305.19894937356,
+   "cap_go_p90": 543697.3520691571,
+   "cap_go_mean": 326377.32410954917,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 45996.405395718946,
+   "j_cap_go_p90": 91367.15086064125,
+   "j_in_mean": 44261.023026844945,
+   "j_net_mean": -26146.438511897606,
+   "j_p_loss": 0.9923,
+   "j_net_p10": -46402.150794888155,
+   "j_net_p50": -28224.40509593054,
+   "j_net_p90": -1332.8762235388895,
+   "sales_y3_go_p50": 35208.84108228932,
+   "cap_at_gate_p50": 222288.2259069639,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "B. Por etapas, mismos términos"
+  },
+  "C": {
+   "n": 20000,
+   "p_nogo": 0.11925,
+   "p_gate": 0.30765,
+   "p_fail": 0.12405,
+   "p_loss": 0.9763,
+   "p_loss_beyond_ph0": 0.8547,
+   "npv15_mean": -171666.63002640477,
+   "npv15_p10": -266730.9282163726,
+   "npv15_p50": -170622.68218243183,
+   "npv15_p90": -5600.496113388648,
+   "p_npv_neg": 0.99975,
+   "moic_p10": 0.0,
+   "moic_p50": 0.20961736685145463,
+   "moic_p90": 0.7845627006186785,
+   "p_moic_ge2": 0.0001,
+   "cap_go_p50": 325874.55114362115,
+   "cap_go_p80": 460480.92544717493,
+   "cap_go_p90": 523288.20625191124,
+   "cap_go_mean": 333145.48831325554,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 55020.04141683297,
+   "j_cap_go_p90": 87986.11219062147,
+   "j_in_mean": 49696.26414689655,
+   "j_net_mean": -26744.112335972215,
+   "j_p_loss": 0.9781,
+   "j_net_p10": -45871.62664850322,
+   "j_net_p50": -28073.784672481557,
+   "j_net_p90": -1536.0340996845453,
+   "sales_y3_go_p50": 117494.29248016384,
+   "cap_at_gate_p50": 224324.26363190636,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "C. Por etapas con términos negociados"
+  },
+  "D": {
+   "n": 20000,
+   "p_nogo": 0.11925,
+   "p_gate": 0.30695,
+   "p_fail": 0.12425,
+   "p_loss": 0.9297,
+   "p_loss_beyond_ph0": 0.80535,
+   "npv15_mean": -120020.45610480601,
+   "npv15_p10": -198854.68441301573,
+   "npv15_p50": -119184.87483058295,
+   "npv15_p90": -5506.462634438221,
+   "p_npv_neg": 0.99845,
+   "moic_p10": 0.0,
+   "moic_p50": 0.24869117843847371,
+   "moic_p90": 0.9278467442579362,
+   "p_moic_ge2": 0.00025,
+   "cap_go_p50": 245953.05226697825,
+   "cap_go_p80": 365369.8500770252,
+   "cap_go_p90": 421174.74702998105,
+   "cap_go_mean": 259542.4898080977,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 41693.716892422526,
+   "j_cap_go_p90": 70909.94331673883,
+   "j_in_mean": 38816.86222697023,
+   "j_net_mean": -17884.345236901794,
+   "j_p_loss": 0.93425,
+   "j_net_p10": -34134.536176260044,
+   "j_net_p50": -19545.13199679496,
+   "j_net_p90": -1106.1114088721547,
+   "sales_y3_go_p50": 117627.11628134616,
+   "cap_at_gate_p50": 162349.7772687317,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "D. Por etapas; la fábrica paga registros y da crédito"
+  },
+  "D_snc": {
+   "n": 20000,
+   "p_nogo": 0.11925,
+   "p_gate": 0.10785,
+   "p_fail": 0.15245,
+   "p_loss": 0.6434,
+   "p_loss_beyond_ph0": 0.5129,
+   "npv15_mean": -86430.2435674015,
+   "npv15_p10": -163030.61962920032,
+   "npv15_p50": -89468.54847082947,
+   "npv15_p90": -3992.1622445569174,
+   "p_npv_neg": 0.95845,
+   "moic_p10": 0.0,
+   "moic_p50": 0.7865383864366985,
+   "moic_p90": 1.4017245055640046,
+   "p_moic_ge2": 0.00745,
+   "cap_go_p50": 265330.3034204586,
+   "cap_go_p80": 347563.0030544444,
+   "cap_go_p90": 394436.62222438393,
+   "cap_go_mean": 269798.2689566584,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 44937.33064547902,
+   "j_cap_go_p90": 66463.97047156046,
+   "j_in_mean": 40524.62666943036,
+   "j_net_mean": -5191.1197874389145,
+   "j_p_loss": 0.65615,
+   "j_net_p10": -26918.230662311405,
+   "j_net_p50": -2366.890056201024,
+   "j_net_p90": 18417.709967372837,
+   "sales_y3_go_p50": 196828.40751213278,
+   "cap_at_gate_p50": 175037.4906015253,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "D más productos de sistema nervioso (si se verifica su fabricante)"
+  },
+  "D_coord0": {
+   "n": 20000,
+   "p_nogo": 0.11925,
+   "p_gate": 0.30695,
+   "p_fail": 0.12425,
+   "p_loss": 0.8174,
+   "p_loss_beyond_ph0": 0.68835,
+   "npv15_mean": -85900.26435107071,
+   "npv15_p10": -145041.3494282849,
+   "npv15_p50": -88509.19437515046,
+   "npv15_p90": -5019.653722293519,
+   "p_npv_neg": 0.9887,
+   "moic_p10": 0.0,
+   "moic_p50": 0.31640580386198447,
+   "moic_p90": 1.153759959936992,
+   "p_moic_ge2": 0.00155,
+   "cap_go_p50": 193512.1033986795,
+   "cap_go_p80": 302524.50824251986,
+   "cap_go_p90": 355386.3974776263,
+   "cap_go_mean": 214669.07988614714,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 32958.70223899107,
+   "j_cap_go_p90": 59892.64718410921,
+   "j_in_mean": 32355.76370448208,
+   "j_net_mean": -10184.008749412144,
+   "j_p_loss": 0.82655,
+   "j_net_p10": -22844.02933216597,
+   "j_net_p50": -12936.608278684897,
+   "j_net_p90": 6196.392609327573,
+   "sales_y3_go_p50": 117627.11628134616,
+   "cap_at_gate_p50": 138461.36032051855,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "D con un socio como coordinador sin sueldo"
+  },
+  "D_collat100": {
+   "n": 20000,
+   "p_nogo": 0.11925,
+   "p_gate": 0.30695,
+   "p_fail": 0.12425,
+   "p_loss": 0.9405,
+   "p_loss_beyond_ph0": 0.8167,
+   "npv15_mean": -131027.1227140213,
+   "npv15_p10": -216983.09639352933,
+   "npv15_p50": -126382.74218001035,
+   "npv15_p90": -5582.711451830168,
+   "p_npv_neg": 0.99965,
+   "moic_p10": 0.0,
+   "moic_p50": 0.3007484006981544,
+   "moic_p90": 0.9181075587657626,
+   "p_moic_ge2": 0.00015,
+   "cap_go_p50": 292028.0232186471,
+   "cap_go_p80": 439506.57981155714,
+   "cap_go_p90": 505801.00694300124,
+   "cap_go_mean": 300948.1588166076,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 49445.78535571039,
+   "j_cap_go_p90": 84959.0791325299,
+   "j_in_mean": 44879.80089494331,
+   "j_net_mean": -18937.611646014604,
+   "j_p_loss": 0.9449,
+   "j_net_p10": -35545.46025985792,
+   "j_net_p50": -19913.89162817366,
+   "j_net_p90": -1191.366429928346,
+   "sales_y3_go_p50": 117627.11628134616,
+   "cap_at_gate_p50": 176262.19123947772,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "D con colateral de 100% de la fianza"
+  },
+  "D_cap11": {
+   "n": 20000,
+   "p_nogo": 0.52175,
+   "p_gate": 0.15865,
+   "p_fail": 0.06645,
+   "p_loss": 0.95475,
+   "p_loss_beyond_ph0": 0.4298,
+   "npv15_mean": -66220.83287140375,
+   "npv15_p10": -167174.53255304217,
+   "npv15_p50": -6516.351534350304,
+   "npv15_p90": -3146.772105182521,
+   "p_npv_neg": 0.99875,
+   "moic_p10": 0.0,
+   "moic_p50": 0.0,
+   "moic_p90": 0.8141498317798348,
+   "p_moic_ge2": 0.0002,
+   "cap_go_p50": 253267.55021237285,
+   "cap_go_p80": 365632.30747524195,
+   "cap_go_p90": 421025.41481234995,
+   "cap_go_mean": 262045.68730885367,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 42878.5076437429,
+   "j_cap_go_p90": 70971.4028957281,
+   "j_in_mean": 21939.240561110328,
+   "j_net_mean": -9931.157596173745,
+   "j_p_loss": 0.9577,
+   "j_net_p10": -26506.11128395964,
+   "j_net_p50": -1920.2702084167959,
+   "j_net_p90": -935.2402058026985,
+   "sales_y3_go_p50": 125600.91753204919,
+   "cap_at_gate_p50": 163798.9889957275,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "D con prueba de precio estricta en la fase 0 (1.1 veces la referencia)"
+  },
+  "D_snc_coord0": {
+   "n": 20000,
+   "p_nogo": 0.11925,
+   "p_gate": 0.10785,
+   "p_fail": 0.15245,
+   "p_loss": 0.47725,
+   "p_loss_beyond_ph0": 0.3489,
+   "npv15_mean": -49841.526665891004,
+   "npv15_p10": -119064.87461536286,
+   "npv15_p50": -47248.6706390178,
+   "npv15_p90": 14669.236551962036,
+   "p_npv_neg": 0.85135,
+   "moic_p10": 0.0,
+   "moic_p50": 1.0433235733824475,
+   "moic_p90": 1.7439845215682548,
+   "p_moic_ge2": 0.0423,
+   "cap_go_p50": 217353.92292903428,
+   "cap_go_p80": 294686.85592032806,
+   "cap_go_p90": 340540.9281549089,
+   "cap_go_mean": 225793.137009273,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 36954.536187032485,
+   "j_cap_go_p90": 57535.57121905119,
+   "j_in_mean": 34240.823834945506,
+   "j_net_mean": 3065.21136622687,
+   "j_p_loss": 0.4871,
+   "j_net_p10": -20265.792140793077,
+   "j_net_p50": 1056.0277483957652,
+   "j_net_p90": 28445.558242992418,
+   "sales_y3_go_p50": 196828.40751213278,
+   "cap_at_gate_p50": 150787.00833208667,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "D más sistema nervioso y coordinador sin sueldo"
+  },
+  "E": {
+   "n": 20000,
+   "p_nogo": 0.2022,
+   "p_gate": 0.0,
+   "p_fail": 0.0,
+   "p_loss": 0.98385,
+   "p_loss_beyond_ph0": 0.77865,
+   "npv15_mean": -70133.13411410383,
+   "npv15_p10": -110277.59424123687,
+   "npv15_p50": -82294.81067339616,
+   "npv15_p90": -3921.502773504606,
+   "p_npv_neg": 0.9983,
+   "moic_p10": 0.0,
+   "moic_p50": 0.16689851248281576,
+   "moic_p90": 0.6135190329478782,
+   "p_moic_ge2": 0.0,
+   "cap_go_p50": 117232.53252560316,
+   "cap_go_p80": 131448.50493056478,
+   "cap_go_p90": 139300.69472823828,
+   "cap_go_mean": 118180.1926644704,
+   "ph0_mean": 4101.388459802882,
+   "j_cap_go_p50": 39077.51084186771,
+   "j_cap_go_p90": 46433.56490941276,
+   "j_in_mean": 33248.68521485163,
+   "j_net_mean": -23242.404245635214,
+   "j_p_loss": 0.98385,
+   "j_net_p10": -40785.05763355779,
+   "j_net_p50": -26817.387924077928,
+   "j_net_p90": -1223.6027501967114,
+   "sales_y3_go_p50": 0.0,
+   "label": "E. Registros más distribuidor establecido"
+  },
+  "D_cash70": {
+   "n": 20000,
+   "p_nogo": 0.11925,
+   "p_gate": 0.30695,
+   "p_fail": 0.12425,
+   "p_loss": 0.9297,
+   "p_loss_beyond_ph0": 0.80535,
+   "npv15_mean": -120020.45610480601,
+   "npv15_p10": -198854.68441301573,
+   "npv15_p50": -119184.87483058295,
+   "npv15_p90": -5506.462634438221,
+   "p_npv_neg": 0.99845,
+   "moic_p10": 0.0,
+   "moic_p50": 0.24869117843847371,
+   "moic_p90": 0.9278467442579362,
+   "p_moic_ge2": 0.00025,
+   "cap_go_p50": 245953.05226697825,
+   "cap_go_p80": 365369.8500770252,
+   "cap_go_p90": 421174.74702998105,
+   "cap_go_mean": 259542.4898080977,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 25534.244865826575,
+   "j_cap_go_p90": 43184.726734672025,
+   "j_in_mean": 23861.584994183417,
+   "j_net_mean": -2929.068004114983,
+   "j_p_loss": 0.71405,
+   "j_net_p10": -15248.791900362157,
+   "j_net_p50": -7236.975748827078,
+   "j_net_p90": 17568.163473315213,
+   "sales_y3_go_p50": 117627.11628134616,
+   "cap_at_gate_p50": 162349.7772687317,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "D con Rutul Patel aportando 70% del efectivo"
+  },
+  "D_cash80": {
+   "n": 20000,
+   "p_nogo": 0.11925,
+   "p_gate": 0.30695,
+   "p_fail": 0.12425,
+   "p_loss": 0.9297,
+   "p_loss_beyond_ph0": 0.80535,
+   "npv15_mean": -120020.45610480601,
+   "npv15_p10": -198854.68441301573,
+   "npv15_p50": -119184.87483058295,
+   "npv15_p90": -5506.462634438221,
+   "p_npv_neg": 0.99845,
+   "moic_p10": 0.0,
+   "moic_p50": 0.24869117843847371,
+   "moic_p90": 0.9278467442579362,
+   "p_moic_ge2": 0.00025,
+   "cap_go_p50": 245953.05226697825,
+   "cap_go_p80": 365369.8500770252,
+   "cap_go_p90": 421174.74702998105,
+   "cap_go_mean": 259542.4898080977,
+   "ph0_mean": 4286.007435009617,
+   "j_cap_go_p50": 17465.40912407408,
+   "j_cap_go_p90": 29259.234501648516,
+   "j_in_mean": 16383.946377790016,
+   "j_net_mean": 4548.5706122784195,
+   "j_p_loss": 0.60815,
+   "j_net_p10": -8718.195313260234,
+   "j_net_p50": -1764.9104651293856,
+   "j_net_p90": 29166.518399357345,
+   "sales_y3_go_p50": 117627.11628134616,
+   "cap_at_gate_p50": 162349.7772687317,
+   "gate_month_p50": 21.0,
+   "cen_first_p50": 20.0,
+   "label": "D con Rutul Patel aportando 80% del efectivo"
+  }
+ },
+ "sim_n": 20000,
+ "runtime_s": 19,
+ "unit_costs": {
+  "rs_unit": 3718.0,
+  "n_first": 11,
+  "rs_first": 40898.0,
+  "setup_after_ph0": 11602.5,
+  "phase0": 3531.0
+ }
+}

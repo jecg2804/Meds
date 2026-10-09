@@ -1,0 +1,112 @@
+sku,campo,valor_modelo,valor_recalculado,diferencia_%,fuente_dato,nota
+PCT500,q1,23770516,23770516,0.0,"LPU 01-2026 renglón 277 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 29,713,145 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+PCT500,p1,0.01,0.01,0.0,"LPU 01-2026 renglón 277 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","precio adjudicado (LANCO MEDICAL GROUP, S.A.); presentación del ganador: CAJA CON 100 TABLETAS"
+PCT500,b1,3,3,0.0,"LPU 01-2026 renglón 277 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+PCT500,q2,0,0,,Compra conjunta 2024 CL-000005 (solo CSS),sin compra centralizada del MINSA identificada
+PCT500,p2,0,0,,,
+PCT500,q3,5810286,5869714,1.0,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,28 observaciones
+PCT500,q3 (ritmo 2026: ene-sep x12/9),5810286,1141333,-80.4,idem,"2025: 9,416,000; cae en 2026: la LPU 01-2026 (adjudicada 29-ene-2026) sustituye compras menores de la CSS; el promedio de 21 meses refleja el desabastecimiento de 2025"
+PCT500,p3,0.02,0.02,0.0,idem,precio ponderado por cantidad; mediana simple 0.0200
+PCT500,q4,11102514,11112486,0.1,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"54 observaciones; 73% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 3,014,714/año"
+PCT500,p4,0.02,0.0201,0.5,idem,precio ponderado por cantidad; mediana simple 0.0350; sin sede: 0.0203
+PCT500,"q4 compras de la sede del MINSA (centralizadas, hoy dentro de q4)",,8097771,,idem (actos 20YY-0-12-01-08-*),"precio ponderado 0.0200; compras del Departamento de Compras de Medicamentos del MINSA (en paracetamol 500 incluye la licitación pública SLP-000475 de 7,663,300 tabletas): canal centralizado, no descentralizado; el modelo tiene q2=0 para este SKU"
+PCTSYR,q1,315718,315718,0.0,"LPU 01-2026 renglón 275 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 394,647 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+PCTSYR,p1,0.59,0.59,0.0,"LPU 01-2026 renglón 275 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","precio adjudicado (LABORATORIOS RIGAR, S.A.); presentación del ganador: FRASCOS 120ML"
+PCTSYR,b1,4,4,0.0,"LPU 01-2026 renglón 275 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+PCTSYR,q2,524358,524358,0.0,"Informe de subasta 2026-0-12-01-08-SSR-000018 (PDF PanamaCompra, descargado 2026-10-09)",cantidad fija del contrato (entregas 2026 y febrero 2027); anualizar a 12 meses es supuesto
+PCTSYR,p2,0.4,0.4,0.0,Informe de subasta SSR-000018,"Palm ganó a 0.40 (4 postores, referencia 0.60): 32% bajo el precio LPU de 0.59 del mismo frasco de 120 ml (FT 10743) seis meses antes"
+PCTSYR,q3,0,0,,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,0 observaciones
+PCTSYR,p3,0,0,,idem,precio ponderado por cantidad; mediana simple 0.0000
+PCTSYR,q4,61873,63302,2.3,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"10 observaciones; 75% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 15,683/año"
+PCTSYR,p4,0.95,0.6938,-27.0,idem,precio ponderado por cantidad; mediana simple 0.9650; sin sede: 0.9784
+PCTSYR,"q4 compras de la sede del MINSA (centralizadas, hoy dentro de q4)",,47619,,idem (actos 20YY-0-12-01-08-*),"precio ponderado 0.6000; compras del Departamento de Compras de Medicamentos del MINSA (en paracetamol 500 incluye la licitación pública SLP-000475 de 7,663,300 tabletas): canal centralizado, no descentralizado; el modelo ya tiene un proxy MINSA centralizado (q2) para este SKU: riesgo de doble conteo"
+AMCTAB,q1,46534,46534,0.0,"LPU 01-2026 renglón 26 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 58,168 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+AMCTAB,p1,0.179,0.179,0.0,"LPU 01-2026 renglón 26 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","precio adjudicado (IMEXSATEC,S.A.); presentación del ganador: CAJA POR 16 COMPRIMIDOS"
+AMCTAB,b1,1,1,0.0,"LPU 01-2026 renglón 26 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+AMCTAB,q2,191135,191135,0.0,"Compra conjunta 2023-7-0-01-08-CL-000002 renglón 288 (cuadro V2, research/b1_prices)","proxy del modelo = min(50% de 382,270/año, CC - q1); el reparto 50% MINSA es supuesto; adjudicación de ese renglón no verificada (el cuadro V2 no marca ganador)"
+AMCTAB,p2,0.19,0.19,0.0,Compra conjunta 2023-7-0-01-08-CL-000002 renglón 288,"oferta más baja de U.S. PHARMACY SYSTEMS, INC. (glosa: 'CLAVOXILIN PLUS (500 MG / 125 MG) COMPRIMIDOS REVESTIDOS'); 1 ofertas; no es precio adjudicado confirmado"
+AMCTAB,q3,0,0,,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,0 observaciones
+AMCTAB,p3,0,0,,idem,precio ponderado por cantidad; mediana simple 0.0000
+AMCTAB,q4,30555,30555,0.0,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"4 observaciones; 0% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 30,555/año"
+AMCTAB,p4,0.29,0.3211,10.7,idem,precio ponderado por cantidad; mediana simple 0.2900; sin sede: 0.3211
+AMCSUS,q1,10217,10217,0.0,"LPU 01-2026 renglón 25 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 12,771 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+AMCSUS,p1,1.98,1.98,0.0,"LPU 01-2026 renglón 25 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","precio adjudicado (IMEXSATEC,S.A.); presentación del ganador: FRASCO DE VIDRIO CON 100 ML"
+AMCSUS,b1,2,2,0.0,"LPU 01-2026 renglón 25 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+AMCSUS,q2,0,0,,Compra conjunta 2024 CL-000005 (solo CSS),sin compra centralizada del MINSA identificada
+AMCSUS,p2,0,0,,,
+AMCSUS,q3,0,0,,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,0 observaciones
+AMCSUS,p3,0,0,,idem,precio ponderado por cantidad; mediana simple 0.0000
+AMCSUS,q4,6891,7463,8.3,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"13 observaciones; 0% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 7,463/año"
+AMCSUS,p4,4.18,4.5197,8.1,idem,precio ponderado por cantidad; mediana simple 4.1800; sin sede: 4.5197
+CRO1G,q1,194242,194242,0.0,"LPU 01-2026 renglón 75 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 242,803 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+CRO1G,p1,0.239,0.239,0.0,"LPU 01-2026 renglón 75 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",precio adjudicado (PHARMA SUPPLIES CORP); presentación del ganador: CAJA X 10 VIALES
+CRO1G,b1,6,6,0.0,"LPU 01-2026 renglón 75 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+CRO1G,q2,201135,201135,0.0,"Compra conjunta 2023-7-0-01-08-CL-000002 renglón 274 (cuadro V2, research/b1_prices)","proxy del modelo = min(50% de 402,270/año, CC - q1); el reparto 50% MINSA es supuesto; adjudicación de ese renglón no verificada (el cuadro V2 no marca ganador)"
+CRO1G,p2,0.25,0.25,0.0,Compra conjunta 2023-7-0-01-08-CL-000002 renglón 274,"oferta más baja de Representacines Celmar, S.A. (glosa: 'CEFTRIAXONA SODICA 1G, POLVO LIOFILIZADO, I.V.'); 3 ofertas; no es precio adjudicado confirmado"
+CRO1G,q3,1671,1671,0.0,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,1 observaciones
+CRO1G,q3 (ritmo 2026: ene-sep x12/9),1671,3899,133.3,idem,2025: 0; una sola compra en 2026; base muy pequeña
+CRO1G,p3,0.78,0.78,0.0,idem,precio ponderado por cantidad; mediana simple 0.7800
+CRO1G,q4,119983,124506,3.8,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"24 observaciones; 62% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 47,086/año"
+CRO1G,p4,0.613,0.3523,-42.5,idem,precio ponderado por cantidad; mediana simple 0.6165; sin sede: 0.4875
+CRO1G,"q4 (solo I.V., FT 11636)",119983,43743,-63.5,idem,"65% del volumen de q4 es ceftriaxona I.M. con diluyente (FT 11634), otro producto; incluye 135,486 viales I.M. de la sede del MINSA a 0.27 (SCM-014847, 28-sep-2026)"
+CRO1G,p4 (solo I.V.),0.613,0.452,-26.3,idem,"precio ponderado por cantidad, solo I.V."
+CTX1G,q1,168687,168687,0.0,"LPU 01-2026 renglón 71 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 210,859 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+CTX1G,p1,0.259,0.259,0.0,"LPU 01-2026 renglón 71 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",precio adjudicado (PHARMA SUPPLIES CORP); presentación del ganador: CAJA X 10 VIALES
+CTX1G,b1,3,3,0.0,"LPU 01-2026 renglón 71 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+CTX1G,q2,177344,177344,0.0,"Compra conjunta 2023-7-0-01-08-CL-000002 renglón 246 (cuadro V2, research/b1_prices)","proxy del modelo = min(50% de 354,688/año, CC - q1); el reparto 50% MINSA es supuesto; adjudicación de ese renglón no verificada (el cuadro V2 no marca ganador)"
+CTX1G,p2,0.27,0.27,0.0,Compra conjunta 2023-7-0-01-08-CL-000002 renglón 246,oferta más baja de NUTRIMED PANAMA S A (glosa: 'DROGAS Y PRODUCTOS FARMACEUTICOS'); 3 ofertas; no es precio adjudicado confirmado
+CTX1G,q3,7200,7200,0.0,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,1 observaciones
+CTX1G,q3 (ritmo 2026: ene-sep x12/9),7200,0,-100.0,idem,"2025: 12,600; cae en 2026: la LPU 01-2026 (adjudicada 29-ene-2026) sustituye compras menores de la CSS; el promedio de 21 meses refleja el desabastecimiento de 2025"
+CTX1G,p3,1.0,1.0,0.0,idem,precio ponderado por cantidad; mediana simple 1.0000
+CTX1G,q4,79691,79691,0.0,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"12 observaciones; 0% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 79,691/año"
+CTX1G,p4,0.53,0.3987,-24.8,idem,precio ponderado por cantidad; mediana simple 0.5300; sin sede: 0.3987
+ALBSUS,q1,18762,18762,0.0,"LPU 01-2026 renglón 11 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 23,452 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+ALBSUS,p1,1.81,1.81,0.0,"LPU 01-2026 renglón 11 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","precio adjudicado (QUIMIFAR, S.A.); presentación del ganador: FRASCOS DE 20ML"
+ALBSUS,b1,3,3,0.0,"LPU 01-2026 renglón 11 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+ALBSUS,q2,194990,194990,0.0,"Compra conjunta 2023-7-0-01-08-CL-000002 renglón 210 (cuadro V2, research/b1_prices)","proxy del modelo = min(50% de 389,979/año, CC - q1); el reparto 50% MINSA es supuesto; adjudicación de ese renglón no verificada (el cuadro V2 no marca ganador)"
+ALBSUS,p2,1.86,1.86,0.0,Compra conjunta 2023-7-0-01-08-CL-000002 renglón 210,oferta más baja de MEDIPAN (glosa: 'DROGAS Y PRODUCTOS FARMACEUTICOS'); 3 ofertas; no es precio adjudicado confirmado
+ALBSUS,q3,0,0,,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,0 observaciones
+ALBSUS,p3,0,0,,idem,precio ponderado por cantidad; mediana simple 0.0000
+ALBSUS,q4,10114,10114,0.0,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"2 observaciones; 93% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 686/año"
+ALBSUS,p4,1.62,1.5163,-6.4,idem,precio ponderado por cantidad; mediana simple 1.6200; sin sede: 1.7400
+ALBSUS,"q4 compras de la sede del MINSA (centralizadas, hoy dentro de q4)",,9429,,idem (actos 20YY-0-12-01-08-*),"precio ponderado 1.5000; compras del Departamento de Compras de Medicamentos del MINSA (en paracetamol 500 incluye la licitación pública SLP-000475 de 7,663,300 tabletas): canal centralizado, no descentralizado; el modelo ya tiene un proxy MINSA centralizado (q2) para este SKU: riesgo de doble conteo"
+MBZ100,q1,188514,188514,0.0,"LPU 01-2026 renglón 232 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 235,642 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+MBZ100,p1,0.13,0.13,0.0,"LPU 01-2026 renglón 232 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","precio adjudicado (LABORATORIOS FARMACEUTICOS, S.A. (LAFSA)); presentación del ganador: CAJA X 1000"
+MBZ100,b1,1,1,0.0,"LPU 01-2026 renglón 232 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+MBZ100,q2,179270,179270,0.0,"Compra conjunta 2023-7-0-01-08-CL-000002 renglón 137 (cuadro V2, research/b1_prices)","proxy del modelo = min(50% de 367,784/año, CC - q1); el reparto 50% MINSA es supuesto; adjudicación de ese renglón no verificada (el cuadro V2 no marca ganador)"
+MBZ100,p2,0.13,0.13,0.0,Compra conjunta 2023-7-0-01-08-CL-000002 renglón 137,"oferta más baja de QUIMIFAR,  S.  A. (glosa: 'NOMBRE COMERCIAL: MEBENDAMIN 100MG TABLETAS. FABRICANTE: UNI'); 2 ofertas; no es precio adjudicado confirmado"
+MBZ100,q3,13714,13714,0.0,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,3 observaciones
+MBZ100,q3 (ritmo 2026: ene-sep x12/9),13714,8000,-41.7,idem,"2025: 18,000; cae en 2026: la LPU 01-2026 (adjudicada 29-ene-2026) sustituye compras menores de la CSS; el promedio de 21 meses refleja el desabastecimiento de 2025"
+MBZ100,p3,0.22,0.2188,-0.5,idem,precio ponderado por cantidad; mediana simple 0.2200
+MBZ100,q4,1714,1714,0.0,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"2 observaciones; 0% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 1,714/año"
+MBZ100,p4,0.164,0.1753,6.9,idem,precio ponderado por cantidad; mediana simple 0.1640; sin sede: 0.1753
+NYSSUS,q1,14898,14898,0.0,"LPU 01-2026 renglón 261 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 18,623 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+NYSSUS,p1,3.18,3.18,0.0,"LPU 01-2026 renglón 261 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","precio adjudicado (REPRICO, S.A.); presentación del ganador: FRASCO DE 30ML"
+NYSSUS,b1,3,3,0.0,"LPU 01-2026 renglón 261 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+NYSSUS,q2,18119,18118,-0.0,"Compra conjunta 2023-7-0-01-08-CL-000002 renglón 216 (cuadro V2, research/b1_prices)","proxy del modelo = min(50% de 36,237/año, CC - q1); el reparto 50% MINSA es supuesto; adjudicación de ese renglón no verificada (el cuadro V2 no marca ganador)"
+NYSSUS,p2,3.39,3.39,0.0,Compra conjunta 2023-7-0-01-08-CL-000002 renglón 216,"oferta más baja de REPRICO, S.A (glosa: 'NOMBRE COMERCIAL: NISTATINA INFANTIL ARSAL 100,000 UI/ML SUS'); 2 ofertas; no es precio adjudicado confirmado"
+NYSSUS,q3,0,0,,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,0 observaciones
+NYSSUS,p3,0,0,,idem,precio ponderado por cantidad; mediana simple 0.0000
+NYSSUS,q4,1856,2142,15.4,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"2 observaciones; 87% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 286/año"
+NYSSUS,p4,3.18,3.3201,4.4,idem,precio ponderado por cantidad; mediana simple 3.7050; sin sede: 4.2300
+NYSSUS,"q4 compras de la sede del MINSA (centralizadas, hoy dentro de q4)",,1856,,idem (actos 20YY-0-12-01-08-*),"precio ponderado 3.1800; compras del Departamento de Compras de Medicamentos del MINSA (en paracetamol 500 incluye la licitación pública SLP-000475 de 7,663,300 tabletas): canal centralizado, no descentralizado; el modelo ya tiene un proxy MINSA centralizado (q2) para este SKU: riesgo de doble conteo"
+HCTCRM,q1,89267,89267,0.0,"LPU 01-2026 renglón 101 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 111,584 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+HCTCRM,p1,0.555,0.555,0.0,"LPU 01-2026 renglón 101 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",precio adjudicado (PHARMA SUPPLIES CORP); presentación del ganador: TUBO DE 15G
+HCTCRM,b1,5,5,0.0,"LPU 01-2026 renglón 101 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+HCTCRM,q2,44276,44276,0.0,"Compra conjunta 2023-7-0-01-08-CL-000002 renglón 3 (cuadro V2, research/b1_prices)","proxy del modelo = min(50% de 133,543/año, CC - q1); el reparto 50% MINSA es supuesto; adjudicación de ese renglón no verificada (el cuadro V2 no marca ganador)"
+HCTCRM,p2,0.58,0.58,0.0,Compra conjunta 2023-7-0-01-08-CL-000002 renglón 3,"oferta más baja de Genimve Pharma, S.A. (glosa: 'HYDROPEX, CREMA (HIDROCOTISONA ACETATO AL 1%) VIA TOPICA. FA'); 4 ofertas; no es precio adjudicado confirmado"
+HCTCRM,q3,634,634,0.0,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,1 observaciones
+HCTCRM,q3 (ritmo 2026: ene-sep x12/9),634,0,-100.0,idem,"2025: 1,110; cae en 2026: la LPU 01-2026 (adjudicada 29-ene-2026) sustituye compras menores de la CSS; el promedio de 21 meses refleja el desabastecimiento de 2025"
+HCTCRM,p3,2.5,2.5,0.0,idem,precio ponderado por cantidad; mediana simple 2.5000
+HCTCRM,q4,1564,1564,0.0,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"6 observaciones; 0% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 1,564/año"
+HCTCRM,p4,1.875,1.4679,-21.7,idem,precio ponderado por cantidad; mediana simple 1.8750; sin sede: 1.4679
+MOMCRM,q1,65534,65534,0.0,"LPU 01-2026 renglón 102 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","cantidad máxima 15 meses 81,917 x 12/15; es tope, la CSS garantiza 50% (Adenda 1)"
+MOMCRM,p1,1.02,1.02,0.0,"LPU 01-2026 renglón 102 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)","precio adjudicado (MEDIEQUIPOS, S.A. (HOGAR Y SALUD)); presentación del ganador: TUBO X 15G"
+MOMCRM,b1,1,1,0.0,"LPU 01-2026 renglón 102 (cuadro de propuestas JSON, PanamaCompra, descargado 2026-10-09)",número de ofertas en el renglón
+MOMCRM,q2,34482,34482,0.0,"Compra conjunta 2023-7-0-01-08-CL-000003 renglón 82 (cuadro V2, research/b1_prices)","proxy del modelo = min(50% de 100,016/año, CC - q1); el reparto 50% MINSA es supuesto; adjudicación de ese renglón no verificada (el cuadro V2 no marca ganador)"
+MOMCRM,p2,0.65,0.65,0.0,Compra conjunta 2023-7-0-01-08-CL-000003 renglón 82,oferta más baja de DIMEDICFARM INC. (glosa: 'DROGAS Y PRODUCTOS FARMACEUTICOS'); 5 ofertas; no es precio adjudicado confirmado
+MOMCRM,q3,1840,1840,0.0,prices.csv + r2a_prices_2026_update.csv (PanamaCompra) + ANTAI CSS propia; ene-2025..sep-2026 x12/21; duplicados por número de acto eliminados,3 observaciones
+MOMCRM,q3 (ritmo 2026: ene-sep x12/9),1840,0,-100.0,idem,"2025: 3,220; cae en 2026: la LPU 01-2026 (adjudicada 29-ene-2026) sustituye compras menores de la CSS; el promedio de 21 meses refleja el desabastecimiento de 2025"
+MOMCRM,p3,4.79,4.7928,0.1,idem,precio ponderado por cantidad; mediana simple 4.7900
+MOMCRM,q4,343,343,0.0,prices.csv + r2a_prices_2026_update.csv + filas PCv3/ANTAI-ION/HdN de decentralized_obs.csv; ene-2025..sep-2026 x12/21,"1 observaciones; 0% del volumen es de la sede del MINSA (compras centrales, actos 0-12-01-08); sin sede: 343/año"
+MOMCRM,p4,3.66,3.66,0.0,idem,precio ponderado por cantidad; mediana simple 3.6600; sin sede: 3.6600
