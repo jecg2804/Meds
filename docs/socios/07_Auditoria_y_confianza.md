@@ -1,6 +1,6 @@
 # Auditoría de los entregables y nivel de confianza
 
-*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (este documento) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (este documento) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx; dónde está, en LEAME.md) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 Qué es este documento: el resultado de revisar el paquete del 7 de octubre como lo haría un auditor externo. Dice, cifra por cifra, de dónde sale cada número, si se pudo comprobar en una fuente primaria, qué grado de confianza merece y cómo explicarlo en una frase si alguien lo pregunta. También dice qué cambió en los demás documentos a raíz de la revisión y qué sigue abierto.
 
@@ -70,13 +70,13 @@ Escala: **Alta** = documento primario leído (ley, pliego, acto, tarifa oficial,
 | Precios unitarios de la LPU 01-2026 por producto | 02 | Cuadro de propuestas de la LPU (PanamaCompra, JSON) | No verificable | Alta | «Están en el cuadro de propuestas; tenemos el archivo» |
 | Referencias FOB indias (TNMSC, Delhi, Jan Aushadhi) ×1.35–1.4 y ×1.25 | 02, 03 | PDF de TNMSC y Delhi; espejo de Jan Aushadhi | No verificable | Baja como costo real: son precios internos de la India, no FOB de exportación | «Son referencias públicas indias ajustadas; el costo real lo da la lista de precios de la fábrica, y el modelo se recalcula con ella» |
 | Bueno: CIN, capital ₹22.27 crore, Dudhwewala y Bhargava directores, seis cargas | 01 | Zauba, Tofler, Falconebiz | Confirmado | Alta | «Registro mercantil indio, varios espejos coinciden» |
-| Deepti Rutul Patel directora de Bueno desde 2024 | 01 | Falconebiz, AllIndiaITR | Dos espejos no la muestran | Media-Baja | «Dos espejos la listan desde 2024, dos no; por eso pedimos la lista de directores» |
-| Bueno FY2025: ₹101.8 crore, pérdida ₹4.8 crore, deuda ₹104 crore | 01, 05 | The Company Check, Zauba (espejos comerciales) | No verificable | Media-Baja | «Cifras de espejos del registro; se piden los estados auditados» |
+| Deepti Rutul Patel directora de Bueno desde 2024 | 01 | Falconebiz, The Company Check | Dos espejos no la muestran | Media-Baja | «Dos espejos la listan desde 2024, dos no; por eso pedimos la lista de directores» |
+| Bueno FY2025: ₹101.8 crore, pérdida ₹4.8 crore, gravámenes registrados ₹104 crore | 01, 05 | The Company Check (espejo comercial) | No verificable | Media-Baja | «Cifras de espejos del registro; se piden los estados auditados» |
 | OMS-BPM (COPP) de Sanand vigente al 26 de enero de 2029; sin alertas nuevas | 01 | Lista de la CDSCO al 31 de diciembre de 2025; portal de alertas | No verificable | Alta | «Lista oficial de la CDSCO» |
 | Alertas de marzo de 2024 (ceftriaxona, amoxicilina dispersable) | 01 | PDF de alertas de la CDSCO, marzo de 2024, p. 5 | No verificable | Alta | «Alerta oficial de la CDSCO; por eso se pide el informe de causa y corrección» |
 | Filipinas: 39 registros | 01 | Verificador de la FDA de Filipinas | No verificable | Media-Alta | «Verificador público de la FDA de Filipinas» |
 | El Salvador: cero registros y cero adjudicaciones | 01 | DNM (2,149 registros revisados) y COMPRASAL (5,819 líneas) | No verificable | Media-Alta (búsqueda por nombre; un registro a nombre de un distribuidor local no aparecería) | «Buscamos por nombre en los dos registros públicos; por eso se le pide a Rutul el número de registro o el distribuidor» |
-| Zywie: sociedad de 2018, arroz y vegetales, tabletas desde 2026 | 01 | GST público, IndiaMART | No verificable | Media | «Perfil comercial público y registro GST» |
+| Zywie: sociedad de 2018, arroz y vegetales, tabletas farmacéuticas (sin fecha de alta visible) | 01 | GST público, IndiaMART | No verificable | Media | «Perfil comercial público y registro GST» |
 
 ## Cómo leer el 77% y cómo presentarlo
 

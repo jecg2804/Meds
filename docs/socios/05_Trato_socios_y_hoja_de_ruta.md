@@ -1,6 +1,6 @@
 # Estructura del trato, socios y hoja de ruta
 
-*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx; dónde está, en LEAME.md) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Estructura del trato con Patel
 
@@ -102,7 +102,7 @@ La propuesta de SignatureLex cubre todo el arranque (constitución, cuenta banca
 
 | Opción | Cómo funciona | A favor | En contra |
 | --- | --- | --- | --- |
-| A. SignatureLex con las tarifas propuestas, pagadas en efectivo | B/.24,750 de arranque más B/.3,425 por registro | Un solo responsable; Francisco coordina desde adentro | Es la opción más cara en capital; el conflicto de interés exige que los otros dos socios aprueben cada factura |
+| A. SignatureLex con las tarifas propuestas, pagadas en efectivo | B/.24,750 de arranque más B/.3,420 por registro | Un solo responsable; Francisco coordina desde adentro | Es la opción más cara en capital; el conflicto de interés exige que los otros dos socios aprueben cada factura |
 | B. SignatureLex a tarifas de mercado, y la diferencia como aporte en especie de Francisco | La S.A. paga unos B/.10,850 más B/.2,120 por registro; lo que la firma cobre por encima se reconoce como capital aportado por Francisco, con un tope pactado | Mantiene a Francisco dentro, alinea incentivos (cobra en acciones lo que la empresa no puede pagar en efectivo) y baja el capital que ponen los tres | Hay que valorar el aporte en especie con una segunda cotización y la firma tiene que aceptar cobrar menos ahora |
 | C. Bufete independiente para la S.A. y el pacto; Francisco coordina y revisa | Se contrata al que gane la segunda cotización; Francisco aporta tiempo y seguimiento | Elimina el conflicto de interés en el pacto de accionistas, que es donde más importa | Pierde el conocimiento que ya tiene la firma del caso; Francisco aporta menos en especie |
 
@@ -110,9 +110,9 @@ Recomendación: pedir la segunda cotización con el mismo alcance (está en la f
 
 ## Herramientas y orden
 
-- Carpeta compartida en Google Drive, raíz `Farma`, con tres carpetas por audiencia: `01 Privado (solo Jaime)`; `02 Socios Panamá`, para los tres socios (`00 Plan y análisis` con este paquete, `01 Empresa`, `02 Proveedor y fábrica`, `03 Registros DNFD`, `04 Licencia y 3PL`, `05 Licitaciones`, `06 Fianzas y seguros`, `07 Finanzas`); y `03 Zywie (compartido con Rutul)` (`01 Documentos enviados a Zywie`, `02 Lo que Zywie manda`). Rutul solo ve la tercera.
+- Carpeta compartida en Google Drive, raíz `Farma`, con tres carpetas por audiencia: `01 Privado (solo Jaime)`; `02 Socios Panamá`, para los tres socios (`00 Plan y análisis (socios)` con este paquete, `01 Empresa (S.A., RUC, aviso, banco)`, `02 Proveedor y fábrica (NDA, paquete regulatorio, precios)`, `03 Registros DNFD (por producto)`, `04 Licencia y 3PL`, `05 Licitaciones (pliegos, ofertas, cuadros)`, `06 Fianzas y seguros`, `07 Finanzas (modelo, estados)`; los nombres son los reales de Drive); y `03 Zywie (compartido con Rutul)` (`01 Documentos enviados a Zywie`, `02 Lo que Zywie manda`). Rutul solo ve la tercera.
 - Formato: los documentos de trabajo son archivos Markdown (fuente única) y Excel; para imprimir o enviar fuera se genera el PDF del paquete. Se actualizan y se vuelven a entregar cuando cambian, con fecha en el encabezado.
-- Repositorio privado en GitHub (Meds) con el código del modelo y la fuente de estos documentos; los socios no lo necesitan.
+- Repositorio en GitHub (Meds; debe mantenerse privado) con el código del modelo y la fuente de estos documentos; los socios no lo necesitan.
 - La tabla de seguimiento del guion es el registro de todo lo pedido a Rutul y lo recibido.
 - Reunión corta de los tres socios con tres puntos fijos: qué mandó Rutul, qué se cotizó, qué se decide.
 

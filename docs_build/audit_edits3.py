@@ -25,11 +25,13 @@ REV = ('revisado el 8 de octubre de 2026', 'revisado el 9 de octubre de 2026')
 GLOBAL = [
     REV + ('00_Resumen_y_plan.md',),
     ('Las cifras salen del modelo financiero adjunto (Modelo_financiero_socios.xlsx)',
-     'Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive)', '00_Resumen_y_plan.md'),
+     'Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx; dónde está, en LEAME.md)', '00_Resumen_y_plan.md'),
     ('B/.70 mil / B/.100 mil', 'B/.71 mil / B/.102 mil', '00_Resumen_y_plan.md'),
     ('150 días de crédito, registros pagados por Bueno', '150 días de crédito o más (objetivo 180), registros pagados por Bueno', '00_Resumen_y_plan.md'),
     ('B/.3,425 por registro (unos B/.3,570 con muestras)', 'B/.3,420 por registro (unos B/.3,570 con muestras)', '03_Costos_capital_y_proyeccion.md'),
     ('| 3,425 sin muestras |', '| 3,420 sin muestras |', '03_Costos_capital_y_proyeccion.md'),
+    ('B/.24,750 de arranque más B/.3,425 por registro', 'B/.24,750 de arranque más B/.3,420 por registro', '05_Trato_socios_y_hoja_de_ruta.md'),
+    ('- Repositorio privado en GitHub (Meds) con el código del modelo', '- Repositorio en GitHub (Meds; debe mantenerse privado) con el código del modelo', '05_Trato_socios_y_hoja_de_ruta.md'),
     ('| Base de 800–1,200: +B/.2–7 mil de capital |', '| Base de 800–1,200: +B/.2–7 mil de capital en la primera ola (+3–10 mil con la segunda) |', '03_Costos_capital_y_proyeccion.md'),
     ('unos B/.222 mil hasta el mes 18', 'unos B/.225 mil (222 sin la fase 0) hasta el mes 18', '03_Costos_capital_y_proyeccion.md'),
     ('Juntos suben el capital del caso base de B/.209 mil a B/.255 mil y bajan el VPN de −B/.13 mil a −B/.56 mil.',
@@ -76,7 +78,8 @@ GLOBAL = [
      '| 3–6 (5–9) | Expedientes de los 11 productos: análisis del IEA (hasta 60 días hábiles) y evaluación de la DNFD (hasta 20 días hábiles); registros aprobados | Ley 419, arts. 41 y 74; calidad de los expedientes que mande la fábrica | Marzo–junio de 2027', '00_Resumen_y_plan.md'),
     ('| Anexo_DD_hallazgos_en.md | Hallazgos de la primera ronda de debida diligencia, en inglés, con cada enlace | Verificar fuente por fuente |',
      '| Anexo_DD_hallazgos_en.md | Hallazgos de la debida diligencia, en inglés, con cada enlace: primera ronda (6 de octubre) y addendum (7 y 8 de octubre) | Verificar fuente por fuente |', 'LEAME.md'),
-    ('`Farma/02 Socios Panamá/00 Plan y análisis (socios)`', '`Farma/02 Socios Panamá/00 Plan y análisis`', 'LEAME.md'),
+    ('`00 Plan y análisis` con este paquete, `01 Empresa`, `02 Proveedor y fábrica`, `03 Registros DNFD`, `04 Licencia y 3PL`, `05 Licitaciones`, `06 Fianzas y seguros`, `07 Finanzas`)',
+     '`00 Plan y análisis (socios)` con este paquete, `01 Empresa (S.A., RUC, aviso, banco)`, `02 Proveedor y fábrica (NDA, paquete regulatorio, precios)`, `03 Registros DNFD (por producto)`, `04 Licencia y 3PL`, `05 Licitaciones (pliegos, ofertas, cuadros)`, `06 Fianzas y seguros`, `07 Finanzas (modelo, estados)`; los nombres son los reales de Drive)', '05_Trato_socios_y_hoja_de_ruta.md'),
     ('un mercado de más de B/.230 millones al año solo en la CSS', 'un presupuesto de medicamentos de unos B/.230 millones en la CSS para 2027', 'LEAME.md'),
     ('las siete condiciones del plan de negocio', 'las siete condiciones de la sección «Estructura del trato con Patel» de este documento', '05_Trato_socios_y_hoja_de_ruta.md'),
     ('| Juan Luis | Capital dentro de su tope | Por definir: quién vigila', '| Juan Luis | Capital dentro de su tope | Abierto (lo deciden los tres): quién vigila', '05_Trato_socios_y_hoja_de_ruta.md'),
@@ -96,7 +99,10 @@ GLOBAL = [
     ('más B/.2 por línea | B/.200–400 por embarque |', 'más B/.2 por línea | B/.200–350 por embarque |', '03_Costos_capital_y_proyeccion.md'),
     ('unos B/.200–400 por embarque de 11 productos', 'unos B/.200–350 por embarque de 11 productos', '04_Logistica_y_operacion.md'),
     ('[CDSCO, lista OMS-BPM al 31 de diciembre de 2025](', '[CDSCO, lista OMS-BPM al 31 de diciembre de 2025; el nombre del archivo en su servidor habla de laboratorios, pero el contenido es la lista OMS-BPM](', '01_Investigacion_Rutul_y_fabricante.md'),
+    ('(−B/.13 mil si el coordinador cuesta B/.1,000 al mes)', '(−B/.12.6 mil si el coordinador cuesta B/.1,000 al mes)', '00_Resumen_y_plan.md'),
     ('compuerta operativa', 'compuerta 2 (operativa)', '03_Costos_capital_y_proyeccion.md'),
+    ('con la compuerta 2 (operativa) (nueve meses después de la primera venta, el mes 22 en ese escenario)', 'con la compuerta 2 (operativa; nueve meses después de la primera venta, el mes 22 en ese escenario)', '03_Costos_capital_y_proyeccion.md'),
+    ('| Seguro de carga | B/.100 al mes | 0.3–0.5% del CIF para carga farmacéutica | Equivalente |', '| Seguro de carga | Dentro de los US$300 por m³ puestos en bodega (0.3% del CIF); los B/.100 al mes de los fijos son el seguro de responsabilidad civil y de producto | 0.3–0.5% del CIF para carga farmacéutica | Sin cambio |', '03_Costos_capital_y_proyeccion.md'),
     ('Compuerta operativa', 'Compuerta 2 (operativa)', 'Resumen_ejecutivo_socios_inversionistas.md'),
 ]
 
@@ -199,9 +205,20 @@ Regla de uso: los documentos 00 a 07, el seguimiento de cotizaciones y el modelo
         pass
 
     elif name == 'LEAME.md':
+        md = _rep(md, '| Cuatro páginas para un socio o inversionista:', '| Cinco páginas para un socio o inversionista:', name)
+        md = _rep(md, '| Repositorio privado `Meds` (GitHub) |', '| Repositorio `Meds` en GitHub (debe mantenerse privado) |', name)
         md = _rep(md, '*Versión del 8 de octubre de 2026.', '*Versión del 9 de octubre de 2026.', name)
         md = re.sub(r'^(\| 8 de octubre de 2026, noche \|.*)$', r'\1\n| 9 de octubre de 2026 | Cuarta pasada de auditoría: coherencia entre documentos, cifras redondeadas, referencias cruzadas y afirmaciones sin fuente; lista de cifras no obtenidas (07); reparto por estructura y sensibilidad de las cremas reproducibles en el análisis del modelo; el cuestionario de BP Logistics sale del paquete para Rutul; respuesta de J. Cain registrada; regla: ninguna comunicación externa sin aprobación de Jaime |', md, count=1, flags=re.M)
         assert '| 9 de octubre de 2026 | Cuarta pasada' in md, name
+        # el modelo (90 KB) no pasa por la sincronización automática a Drive: decir dónde está
+        md = _rep(md, '| Modelo_financiero_socios.xlsx | El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación | Cambiar un supuesto y ver el efecto |',
+                  '| Modelo_financiero_socios.xlsx | El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación. No está en la carpeta de Drive ni en el proyecto de Claude (ninguno de los dos acepta este archivo por la vía automática: tamaño en uno, formato binario en el otro): la copia maestra vive en el repositorio (`outputs/`) y Jaime la envía como adjunto a quien la pida | Cambiar un supuesto y ver el efecto |', name)
+        md = _rep(md, '| Google Drive `Farma/02 Socios Panamá/00 Plan y análisis (socios)` | Este paquete en Markdown;',
+                  '| Google Drive `Farma/02 Socios Panamá/00 Plan y análisis (socios)` | Este paquete en Markdown (sin el modelo .xlsx ni el Anexo del plan completo, ver la tabla anterior);', name)
+        md = _rep(md, '| Repositorio `Meds` en GitHub (debe mantenerse privado) | Código del modelo, generador de los documentos, notas de investigación con fuentes, este paquete y el PDF |',
+                  '| Repositorio `Meds` en GitHub (debe mantenerse privado) | Código del modelo y el modelo .xlsx (`outputs/`), generador de los documentos, notas de investigación con fuentes, este paquete y el PDF |', name)
+        md = _rep(md, '| Proyecto de Claude «Med Tenders Panama» | Copia de trabajo del paquete y bitácora |',
+                  '| Proyecto de Claude «Med Tenders Panama» | Copia de trabajo del paquete (Markdown) y la bitácora; sin binarios |', name)
 
     elif name == 'Resumen_ejecutivo_socios_inversionistas.md':
         md = _rep(md, '*8 de octubre de 2026. Las cifras salen del modelo financiero de 60 meses y de la auditoría del 8 de octubre (07_Auditoria_y_confianza.md).', '*9 de octubre de 2026. Las cifras salen del modelo financiero de 60 meses y de las auditorías del 8 y del 9 de octubre (07_Auditoria_y_confianza.md).', name)
@@ -232,6 +249,8 @@ Regla de uso: los documentos 00 a 07, el seguimiento de cotizaciones y el modelo
                   '| Ampliación con seis productos del sistema nervioso si su fabricante se verifica (la segunda ola genérica del mes 18 ya está en el caso base) | Compuerta 2 (definida en 00): ventas anualizadas de al menos B/.90 mil nueve meses después de la primera venta y menos de 30% de ofertas descalificadas |', name)
 
     elif name == '01_Investigacion_Rutul_y_fabricante.md':
+        md = _rep(md, 'Bueno cerró el año fiscal 2025 con pérdida neta y deuda garantizada del orden de sus ventas |', 'Bueno cerró el año fiscal 2025 con pérdida neta y gravámenes registrados del orden de sus ventas (espejos del registro, sin estados auditados) |', name)
+        md = _rep(md, 'y amoxicilina dispersable); ninguna alerta nueva desde entonces |', 'y amoxicilina dispersable); ninguna alerta nueva en el portal de la CDSCO hasta agosto de 2026 (cobertura estatal incompleta) |', name)
         md = _rep(md, 'consultados entre el 5 y el 7 de octubre de 2026:', 'consultados entre el 5 y el 8 de octubre de 2026:', name)
         md = _rep(md, 'Lo que no se pudo verificar se dice así.', 'Lo que no se pudo verificar se dice así. Modi Life Care Industries (Ahmedabad) se revisó porque su catálogo llegó con los materiales de Rutul como posible segunda fuente.', name)
         md = _rep(md, ' Sobre la junta de Bueno los espejos del registro mercantil no coinciden: Falconebiz y AllIndiaITR listan a Deepti Rutul Patel como directora desde julio o septiembre de 2024 y a Abhinav Bhargava desde marzo o abril de 2024; Zauba y Tracxn, cuyos datos parecen anteriores a esa fecha (última junta anual registrada: septiembre de 2023), muestran solo a Shivkumar Dudhwewala y a Bhargava. Por eso',
@@ -305,7 +324,7 @@ Regla de uso: los documentos 00 a 07, el seguimiento de cotizaciones y el modelo
     elif name == '02_Mercado_requisitos_y_competencia.md':
         md = _rep(md, '| 15% sobre el precio de fábrica en la propuesta; el plan pide 5% o menos a libro abierto |', '| 15% sobre el precio de fábrica (estimación: Zywie no ha abierto su margen); el plan pide 5% o menos a libro abierto |', name)
         md = _rep(md, '33 subastas de un solo producto entre junio y el 6 de octubre de 2026, 28 adjudicadas; las primeras 19 sumaron B/.5.8 millones',
-                  '33 procesos de subasta de un solo producto (19 de medicamentos, el resto insumos) publicados desde abril de 2026, con pujas entre mayo y junio; 26 adjudicados al 7 de octubre por unos B/.6.3 millones frente a B/.8.2 millones de referencia (conteo propio de los informes de cada subasta)', name)
+                  '33 subastas de un solo producto entre junio y el 6 de octubre de 2026 (búsqueda pública de PanamaCompra del 7 de octubre): 28 adjudicadas, 4 desiertas y 1 cancelada; en los 30 informes revisados, B/.6.3 millones adjudicados frente a B/.8.2 millones de referencia (conteo propio)', name)
         md = _rep(md, '| Adjudicada el 31 de agosto de 2026 | Fuera de nuestro catálogo |', '| Adjudicada el 31 de agosto de 2026 | Fuera de la primera ola: exige equivalencia terapéutica o licencia de controlados (26 coincidencias con el catálogo de Zywie y Modi) |', name)
         md = _rep(md, 'se comparan en la sección siguiente; ninguno cambia el veredicto de la fase 0.', 'se comparan en la sección siguiente.', name)
         md = _rep(md, '| Cientos de actos al año (conteo propio 2025–2026) |', '| Miles de actos al año (conteo propio 2025–2026: unas 3,300 contrataciones menores y 270 compras ágiles de medicamentos en 2026) |', name)
@@ -316,6 +335,8 @@ Regla de uso: los documentos 00 a 07, el seguimiento de cotizaciones y el modelo
         pass
 
     elif name == '04_Logistica_y_operacion.md':
+        md = _rep(md, '| Agencias con licencia que aloja (lista DNFD, 28-sep-2026) | Estado al 8 de octubre |', '| Agencias con licencia que aloja (lista DNFD, 28-sep-2026) | Estado al 9 de octubre |', name)
+        md = _rep(md, '(el correo enviado está más abajo)', '(el correo enviado está en la sección «Correos de cotización»)', name)
         md = _rep(md, 'Estado de las cotizaciones: las dos solicitudes anteriores no prosperaron porque fueron con estimaciones y sin fichas. El 8 de octubre de 2026 se enviaron solicitudes de cotización indicativa, o de tarifario estándar, a los cuatro operadores con correo público (J. Cain, Osala, DSV e Interworld); BP Logistics y DHL solo reciben por formulario web y Farmazona por WhatsApp.',
                   'Estado de las cotizaciones: antes del 8 de octubre solo se había intercambiado el cuestionario operativo de BP Logistics, lleno con estimaciones y sin fichas de producto, sin llegar a una cotización. El 8 de octubre de 2026 se enviaron solicitudes de cotización indicativa, o de tarifario estándar, a los cuatro operadores con correo público (J. Cain, Osala, DSV e Interworld); J. Cain respondió el 9 de octubre proponiendo una videollamada para el 14. BP Logistics recibe por formulario web o WhatsApp, DHL solo por formulario web y Farmazona por WhatsApp.', name)
         md = _rep(md, '| J. Cain & Cía | Zona Libre de Colón y Panamá Pacífico | Licencias MINSA 3-009 L y 13-001 LA;', '| J. Cain & Cía | Zona Libre de Colón y Panamá Pacífico | Licencias de agencia 13-005 A (Panamá Pacífico) y 3-001 (Colón); licencias MINSA 3-009 L y 13-001 LA;', name)
@@ -352,6 +373,9 @@ Regla de uso: los documentos 00 a 07, el seguimiento de cotizaciones y el modelo
         md = _rep(md, 'hidrocortisona 1% crema; mometasona 0.1% crema.', 'hidrocortisona crema (concentración por confirmar con la fábrica); mometasona 0.1% crema.', name)
 
     elif name == '07_Auditoria_y_confianza.md':
+        md = _rep(md, '| Deepti Rutul Patel directora de Bueno desde 2024 | 01 | Falconebiz, AllIndiaITR |', '| Deepti Rutul Patel directora de Bueno desde 2024 | 01 | Falconebiz, The Company Check |', name)
+        md = _rep(md, '| Bueno FY2025: ₹101.8 crore, pérdida ₹4.8 crore, deuda ₹104 crore | 01, 05 | The Company Check, Zauba (espejos comerciales) |', '| Bueno FY2025: ₹101.8 crore, pérdida ₹4.8 crore, gravámenes registrados ₹104 crore | 01, 05 | The Company Check (espejo comercial) |', name)
+        md = _rep(md, '| Zywie: sociedad de 2018, arroz y vegetales, tabletas desde 2026 | 01 |', '| Zywie: sociedad de 2018, arroz y vegetales, tabletas farmacéuticas (sin fecha de alta visible) | 01 |', name)
         md = _rep(md, '| Ninguna cifra cambia; se marca con más claridad qué es supuesto |', '| Ninguna cifra del modelo cambia; se añade la verificación FOB contra aduana india (cremas: −B/.77 mil y 3.3%) y se marca con más claridad qué es supuesto |', name)
         md = _rep(md, '- Lo que no cambió: ningún número del modelo', '- 03 y Anexo: sección de verificación de las referencias FOB contra aduana india, con la sensibilidad de las cremas; el modelo no cambia.\n- Lo que no cambió: ningún número del modelo', name)
         md = _rep(md, '| THC Manzanillo US$275 desde el 15 de octubre de 2026 | 04, 06 |', '| THC Manzanillo US$275 desde el 15 de octubre de 2026 | 03, 04, 06 |', name)
@@ -369,7 +393,6 @@ Regla de uso: los documentos 00 a 07, el seguimiento de cotizaciones y el modelo
     elif name == 'Anexo_Plan_de_negocio_completo.md':
         md = _rep(md, 'exige B/.255 mil de capital en el caso base (B/.343 mil en la mediana simulada).', 'exige B/.255 mil de capital en el caso base, B/.258 mil con la fase 0 (B/.343 mil en la mediana simulada); el caso de planificación, con las tarifas legales de SignatureLex, pide B/.297 mil.', name)
         md = _rep(md, 'los costos fijos, el único que por sí solo vuelve positivo el VPN del caso base, y la tasa de victoria.', 'los costos fijos, el único que por sí solo vuelve positivo el VPN del caso base, y la tasa de victoria (tabla de sensibilidad en 03, sección «Riesgo cuantificado»).', name)
-        md = _rep(md, '(−B/.13 mil si el coordinador cuesta B/.1,000 al mes)', '(−B/.12.6 mil si el coordinador cuesta B/.1,000 al mes)', name)
         md = _opt(md, '| Capital por socio, caso base |', '| Capital por socio, caso base (un sexto del capital más un tercio de la fase 0) |')
 
     elif name == 'Anexo_DD_hallazgos_en.md':

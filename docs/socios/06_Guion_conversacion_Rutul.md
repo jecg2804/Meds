@@ -1,6 +1,6 @@
 # Conversación con Rutul: guion por etapas
 
-*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx; dónde está, en LEAME.md) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 Objetivo: conseguir de Rutul, en el grupo de WhatsApp y sin que lo sienta como un ataque, los documentos y las condiciones que deciden si el negocio vale la pena, y de paso medirlo como socio. Se pide como socios que necesitan saber antes de poner dinero, no como investigadores: nada de lo que ya sabemos por registros públicos se menciona; se pide el documento y se contrasta en privado. Un pedido por mensaje, en inglés y corto, esperando su respuesta antes del siguiente.
 

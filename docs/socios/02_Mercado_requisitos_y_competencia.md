@@ -1,6 +1,6 @@
 # Mercado, requisitos y competencia
 
-*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx; dónde está, en LEAME.md) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Modelo de negocio
 
@@ -28,7 +28,7 @@ El Estado compra un estimado de B/.300 millones al año en medicamentos, pero el
 | Modalidad | Tamaño reciente | Cómo se gana | Fianzas | Pago |
 | --- | --- | --- | --- | --- |
 | Licitación de precio único CSS (LPU 01-2026) | B/.92 millones, 348 renglones, 15 meses | Menor precio que cumple | 10% propuesta por 180 días hábiles + 30% cumplimiento por 18 meses; compra mínima garantizada de 50–60% | 90 días desde la cuenta |
-| Subasta en reversa MINSA 2026 | 33 procesos de subasta de un solo producto (19 de medicamentos, el resto insumos) publicados desde abril de 2026, con pujas entre mayo y junio; 26 adjudicados al 7 de octubre por unos B/.6.3 millones frente a B/.8.2 millones de referencia (conteo propio de los informes de cada subasta) | Puja más baja | 20% cumplimiento, sin fianza de propuesta; cantidades fijas | 90 días desde la cuenta |
+| Subasta en reversa MINSA 2026 | 33 subastas de un solo producto entre junio y el 6 de octubre de 2026 (búsqueda pública de PanamaCompra del 7 de octubre): 28 adjudicadas, 4 desiertas y 1 cancelada; en los 30 informes revisados, B/.6.3 millones adjudicados frente a B/.8.2 millones de referencia (conteo propio) | Puja más baja | 20% cumplimiento, sin fianza de propuesta; cantidades fijas | 90 días desde la cuenta |
 | Compra conjunta MINSA-CSS (DE 16 de 2026, 376 renglones) | Sin acto publicado al 7 de octubre de 2026 | Menor precio; la entrega inmediata decide | 15% en la de 2024 | 90 días desde la cuenta |
 | Contratación menor y compra menor ágil (hospitales, regiones, unidades CSS) | Hasta B/.70 mil y B/.50 mil por acto (topes de la Ley 419 para medicamentos; la Ley 22 general fija B/.50 mil); CSS 2025: 1,117 contrataciones menores (B/.13.8 millones) y 151 compras menores ágiles (B/.2.7 millones) | Cotización en línea, menor precio | Sin fianza de propuesta | Según orden de compra |
 

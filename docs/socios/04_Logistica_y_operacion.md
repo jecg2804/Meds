@@ -1,6 +1,6 @@
 # Logística y operación
 
-*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx; dónde está, en LEAME.md) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Operación
 
@@ -35,7 +35,7 @@ Qué contrata la S.A. cuando contrata un 3PL farmacéutico:
 
 Estado de las cotizaciones: antes del 8 de octubre solo se había intercambiado el cuestionario operativo de BP Logistics, lleno con estimaciones y sin fichas de producto, sin llegar a una cotización. El 8 de octubre de 2026 se enviaron solicitudes de cotización indicativa, o de tarifario estándar, a los cuatro operadores con correo público (J. Cain, Osala, DSV e Interworld); J. Cain respondió el 9 de octubre proponiendo una videollamada para el 14. BP Logistics recibe por formulario web o WhatsApp, DHL solo por formulario web y Farmazona por WhatsApp. La ficha logística por producto se les manda cuando la fábrica llene la hoja de datos, y con ella se pide la cotización firme. El detalle de cada operador, las respuestas al formulario de BP Logistics y la tabla de seguimiento están en Cotizaciones_3PL_seguimiento.md.
 
-| Operador | Dónde | Evidencia pública (licencia, certificados) | Agencias con licencia que aloja (lista DNFD, 28-sep-2026) | Estado al 8 de octubre |
+| Operador | Dónde | Evidencia pública (licencia, certificados) | Agencias con licencia que aloja (lista DNFD, 28-sep-2026) | Estado al 9 de octubre |
 | --- | --- | --- | --- | --- |
 | J. Cain & Cía | Zona Libre de Colón y Panamá Pacífico | Licencias de agencia 13-005 A (Panamá Pacífico) y 3-001 (Colón); licencias MINSA 3-009 L y 13-001 LA; certificado BPM de acondicionamiento vigente a julio de 2027; INVIMA a diciembre de 2028; áreas de 2–8 y 15–25 °C | 24 | Correo enviado; respondió el 9 de octubre: videollamada propuesta para el 14 |
 | Osala Logistics (Bomi Group / UPS Healthcare) | Terminal de carga de Tocumen, depósito aduanero logístico | Publica certificación DNFD de importación, almacenamiento y distribución de medicamentos con cadena de frío; ISO 9001 y 13485 | 15 | Correo enviado |
@@ -55,7 +55,7 @@ Dos preguntas que ningún operador contesta solo y que van en paralelo a la DNFD
 
 Los operadores logísticos cotizan por posición de tarima, por manejo y por servicios; la naviera y el consolidador por metro cúbico y peso; la aseguradora por valor CIF. Ninguno cotiza sobre estimaciones. El cuestionario operativo de BP Logistics pide pesos, dimensiones, volumen, valor por embarque, sensibilidad, control por lote, fichas técnicas y fotos: casi todo depende de la fábrica (por ser un formulario con la marca de ese operador, no se le manda a Rutul).
 
-Por eso la hoja Factory_data_for_3PL_quote.xlsx pide, por producto: unidades por empaque, empaques por caja máster, dimensiones y peso de la caja, cajas por tarima, condiciones de almacenamiento, vida útil aprobada y mínima garantizada al embarcar, código arancelario, planta, tamaño de lote, lote mínimo, tiempo de entrega, precio FOB, y si hay CPP, hoja de seguridad y fotos; y, por embarque: incoterm, puerto, tipo de tarima, valor, documentos que viajan con la carga y si pueden imprimir el número de licitación en el empaque. Con esa hoja llena se afinan las cotizaciones indicativas ya pedidas y se pide la firme (el correo enviado está más abajo).
+Por eso la hoja Factory_data_for_3PL_quote.xlsx pide, por producto: unidades por empaque, empaques por caja máster, dimensiones y peso de la caja, cajas por tarima, condiciones de almacenamiento, vida útil aprobada y mínima garantizada al embarcar, código arancelario, planta, tamaño de lote, lote mínimo, tiempo de entrega, precio FOB, y si hay CPP, hoja de seguridad y fotos; y, por embarque: incoterm, puerto, tipo de tarima, valor, documentos que viajan con la carga y si pueden imprimir el número de licitación en el empaque. Con esa hoja llena se afinan las cotizaciones indicativas ya pedidas y se pide la firme (el correo enviado está en la sección «Correos de cotización»).
 
 ## Estimación de costos logísticos mientras no haya cotización firme
 

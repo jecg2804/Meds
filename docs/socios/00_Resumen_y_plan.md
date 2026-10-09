@@ -1,6 +1,6 @@
 # Distribuidora de medicamentos en Panamá: resumen, plan y guía de lectura
 
-*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx; dónde está, en LEAME.md) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Cómo leer este paquete
 
@@ -34,7 +34,7 @@ Capital: lo máximo que llegan a poner los socios en los escenarios que pasan la
 Recomendación:
 
 1. No constituir ni pagar más que la fase 0 (unos B/.2,700 entre los tres socios panameños) hasta tener por escrito el precio de fábrica de Bueno, 150–180 días de crédito sin anticipo, registros pagados por Bueno, el fabricante de los productos del sistema nervioso verificado y cotizaciones de regente, contador y coordinador.
-2. Aun con esas condiciones firmadas, el VPN esperado es −B/.32 mil al 15% (−B/.13 mil si el coordinador cuesta B/.1,000 al mes). Solo pasa a positivo (+B/.18 mil) si uno de los socios opera sin sueldo, y aun así es negativo con una tasa de 25% (−B/.21 mil): la fase 0 sirve para decidir con datos reales, no para comprometer capital.
+2. Aun con esas condiciones firmadas, el VPN esperado es −B/.32 mil al 15% (−B/.12.6 mil si el coordinador cuesta B/.1,000 al mes). Solo pasa a positivo (+B/.18 mil) si uno de los socios opera sin sueldo, y aun así es negativo con una tasa de 25% (−B/.21 mil): la fase 0 sirve para decidir con datos reales, no para comprometer capital.
 3. El tope de cada socio panameño debería ser 15% de sus ahorros líquidos, en tramos atados a compuertas. Con capital 50/50 y Bueno financiando, la parte promedio de cada uno de los tres, si el trato sigue, sería B/.43 mil: lo que exceda el tope lo ponen Patel o terceros, o el socio acepta diluirse.
 4. Cambiar el trato: Zywie con comisión fija de 5% o menos sobre precio de fábrica a libro abierto, capital proporcional a las acciones y un abogado independiente para la S.A.
 5. El modelo no da ningún peso a las conexiones: el plan solo se sostiene si gana por precio y cumplimiento.

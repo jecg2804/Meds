@@ -1,6 +1,6 @@
 # Costos, capital y proyección de ganancias
 
-*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx, en la misma carpeta de Drive) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
+*Preparado el 7 de octubre de 2026 y revisado el 9 de octubre de 2026 tras una auditoría independiente (ver 07_Auditoria_y_confianza.md) para los socios panameños del proyecto. Uso interno: no se comparte con Rutul Patel ni con terceros. Las cifras financieras salen del modelo (Modelo_financiero_socios.xlsx; dónde está, en LEAME.md) y de las fuentes citadas al final de cada documento; toda cifra sin cotización firme está marcada como estimación o supuesto.*
 
 ## Estructura de costos
 
@@ -54,7 +54,7 @@ Evidencia pública de costos revisada el 7 de octubre de 2026. Ninguna asegurado
 | Corredor de aduana | Dentro del flete | Mínimo legal: B/.50 + 0.15% del CIF, más B/.2 por línea | B/.200–350 por embarque |
 | ITBMS de importación | Medicamentos exentos | Confirmado: capítulo 30 del arancel, Código Fiscal art. 1057-V | Sin cambio |
 | Cargas laborales | 28% | CSS patronal 13.25% (14.25% desde marzo de 2027), seguro educativo 1.5%, riesgos profesionales unos 1.5%, XIII mes 8.33%, prima de antigüedad 1.92% | Se mantiene; sube un punto en 2027 |
-| Seguro de carga | B/.100 al mes | 0.3–0.5% del CIF para carga farmacéutica | Equivalente |
+| Seguro de carga | Dentro de los US$300 por m³ puestos en bodega (0.3% del CIF); los B/.100 al mes de los fijos son el seguro de responsabilidad civil y de producto | 0.3–0.5% del CIF para carga farmacéutica | Sin cambio |
 
 ## Inversión hasta la primera venta y hasta el pico
 
@@ -125,7 +125,7 @@ En el caso base, el negocio vende unos B/.265 mil al año desde el año 3 y gana
 | TIR anual | −93% | 6.8% | 111% |
 | Múltiplo del capital | 0.05x | 1.29x | 11.0x |
 
-El pesimista supone que nadie cierra el negocio; con la compuerta 2 (operativa) (nueve meses después de la primera venta, el mes 22 en ese escenario) la pérdida se queda en unos B/.265 mil. El optimista junta a la vez todos los supuestos favorables y casi no ocurre (ver Riesgo cuantificado).
+El pesimista supone que nadie cierra el negocio; con la compuerta 2 (operativa; nueve meses después de la primera venta, el mes 22 en ese escenario) la pérdida se queda en unos B/.265 mil. El optimista junta a la vez todos los supuestos favorables y casi no ocurre (ver Riesgo cuantificado).
 
 Punto de equilibrio: unos B/.106 mil de ventas al año cubren los costos fijos con un margen de contribución de 56% (62% de margen bruto menos 6% de costos variables). Los productos de la primera ola llegan a unos B/.213 mil anuales en madurez, así que el negocio se paga cuando funciona; el problema es el capital y el tiempo hasta llegar ahí.
 

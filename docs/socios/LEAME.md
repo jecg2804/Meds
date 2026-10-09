@@ -30,8 +30,8 @@ Un negocio real, con márgenes altos por producto y un presupuesto de medicament
 | 06_Guion_conversacion_Rutul.md | Mensajes en inglés por etapas, respuestas a objeciones, qué no decir, señales, tabla de seguimiento | Hablar con Rutul |
 | 07_Auditoria_y_confianza.md | Cifra por cifra: fuente, verificación, confianza y cómo argumentarla; cómo leer el 77%; brechas y verificaciones posteriores | Defender los números ante socios e inversionistas |
 | Cotizaciones_3PL_seguimiento.md | Operadores logísticos: canal de contacto, evidencia de licencia, qué se pidió, cuándo, y qué respondieron | Seguir las cotizaciones |
-| Resumen_ejecutivo_socios_inversionistas.md | Cuatro páginas para un socio o inversionista: qué es el negocio, veredicto, números, el 77% y cómo baja, tramos de capital, riesgos | Presentar el negocio |
-| Modelo_financiero_socios.xlsx | El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación | Cambiar un supuesto y ver el efecto |
+| Resumen_ejecutivo_socios_inversionistas.md | Cinco páginas para un socio o inversionista: qué es el negocio, veredicto, números, el 77% y cómo baja, tramos de capital, riesgos | Presentar el negocio |
+| Modelo_financiero_socios.xlsx | El modelo de 60 meses con fórmulas vivas: supuestos, escenarios, simulación, sensibilidad, trato, capital por socio, operación. No está en la carpeta de Drive ni en el proyecto de Claude (ninguno de los dos acepta este archivo por la vía automática: tamaño en uno, formato binario en el otro): la copia maestra vive en el repositorio (`outputs/`) y Jaime la envía como adjunto a quien la pida | Cambiar un supuesto y ver el efecto |
 | Factory_data_for_3PL_quote.xlsx | Lo que va a Rutul hoy: la hoja de datos que debe llenar la fábrica | Reenviar |
 | Anexo_Plan_de_negocio_completo.md | El plan de negocio en una sola pieza, del que salen los documentos 00 a 05; repite su contenido, por eso vive solo en el repositorio y en el proyecto de Claude, no en Drive | Consultar todo junto |
 | Anexo_DD_hallazgos_en.md | Hallazgos de la debida diligencia, en inglés, con cada enlace: primera ronda (6 de octubre) y addendum (7 y 8 de octubre) | Verificar fuente por fuente |
@@ -47,10 +47,10 @@ Un negocio real, con márgenes altos por producto y un presupuesto de medicament
 
 | Lugar | Qué hay | Quién lo ve |
 | --- | --- | --- |
-| Google Drive `Farma/02 Socios Panamá/00 Plan y análisis` | Este paquete en Markdown; las carpetas 01–07 de la misma raíz van recibiendo empresa, proveedor, registros, licencia y 3PL, licitaciones, fianzas y finanzas | Los tres socios panameños |
+| Google Drive `Farma/02 Socios Panamá/00 Plan y análisis (socios)` | Este paquete en Markdown (sin el modelo .xlsx ni el Anexo del plan completo, ver la tabla anterior); las carpetas 01–07 de la misma raíz van recibiendo empresa, proveedor, registros, licencia y 3PL, licitaciones, fianzas y finanzas | Los tres socios panameños |
 | Google Drive `Farma/03 Zywie (compartido con Rutul)` | Lo que se le envía a Zywie y lo que Zywie manda | Los socios y Rutul |
-| Repositorio privado `Meds` (GitHub) | Código del modelo, generador de los documentos, notas de investigación con fuentes, este paquete y el PDF | Jaime y Claude |
-| Proyecto de Claude «Med Tenders Panama» | Copia de trabajo del paquete y bitácora | Jaime y Claude |
+| Repositorio `Meds` en GitHub (debe mantenerse privado) | Código del modelo y el modelo .xlsx (`outputs/`), generador de los documentos, notas de investigación con fuentes, este paquete y el PDF | Jaime y Claude |
+| Proyecto de Claude «Med Tenders Panama» | Copia de trabajo del paquete (Markdown) y la bitácora; sin binarios | Jaime y Claude |
 
 ## Qué cambió en cada versión
 

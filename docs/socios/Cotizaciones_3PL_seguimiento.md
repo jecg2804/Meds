@@ -10,7 +10,7 @@ Volúmenes: primer ingreso de 5 tarimas (9.6 m³; en el correo se redondeó a 9,
 
 ## Por qué esos volúmenes
 
-Salen del caso base del modelo, no de un pedido real (la derivación completa está en 04_Logistica_y_operacion.md, sección «Vida útil, inventario y volumen»):
+Salen del caso base del modelo, no de un pedido real (la derivación completa está en 04_Logistica_y_operacion.md, sección «Operación»):
 
 | Cifra pedida | De dónde sale |
 | --- | --- |
