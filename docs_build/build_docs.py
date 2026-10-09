@@ -35,7 +35,6 @@ def clean(md):
     # personal references → generic partner wording
     md = md.replace('excede el tope prudente de un socio', 'puede exceder el tope prudente de un socio')
     md = md.replace('aun así excede el tope', 'aun así puede exceder ese tope')
-    md = md.replace('de un bufete independiente', 'de un bufete independiente')
     return md
 
 
