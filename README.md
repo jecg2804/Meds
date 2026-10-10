@@ -38,7 +38,6 @@ Comprobación del Excel: `outputs/Modelo_financiero.xlsx` recalculado en LibreOf
 | Proyecto de Claude «Med Tenders Panama» | `socios/` (documentos 1 a 5), `compartido/` (resumen en inglés), `claude/` (bitácora y revisiones semanales) |
 | Google Drive, carpeta `Farma` | `01 Privado (solo Jaime)`, `02 Socios Panamá`, `03 Shared with Rutul Patel` |
 
-
 ## Convenciones
 
 - Español neutro de Panamá; B/. para balboas; «Rutul Patel» o «Patel».
