@@ -87,7 +87,7 @@ lines = [
  ('La demanda del MINSA centralizado usa la subasta de 2026 cuando existe y, si no, la compra conjunta de 2023 multiplicada por p_cc_w.', BLACK),
  ('Solo se oferta un producto en un canal si el margen bruto supera el mínimo (35% descentralizado, 20% centralizado).', BLACK),
  ('Inventario objetivo = meses de cobertura x costo del mes siguiente; compras con anticipo al ordenar y saldo al embarque, menos el crédito de la fábrica.', BLACK),
- ('Cobro = ventas de hace «días de cobro» meses. Fianzas de cumplimiento sobre la cantidad máxima del contrato (30% LPU, 20% MINSA), vigentes 3 meses (LPU) o 6 (MINSA) después de cada contrato; fianza de propuesta de 10% en la LPU para renglones de más de B/.70,000; el colateral queda inmovilizado.', BLACK),
+ ('Cobro = ventas de hace «días de cobro» meses. Fianzas de cumplimiento sobre la cantidad máxima del contrato (30% LPU, 20% MINSA), vigentes 3 meses (LPU) o 6 (MINSA) después de cada contrato; fianza de propuesta de 10% sobre toda la oferta en la LPU (el acto supera B/.70,000: Ley 419, art. 245); el colateral queda inmovilizado.', BLACK),
  ('El primer contrato centralizado exige el registro al ofertar: si no está a tiempo, pasa al ciclo siguiente de 15 meses. La segunda ola entra en el ciclo siguiente para el que tiene registro.', BLACK),
  ('Costos fijos con cargas laborales sobre regente y coordinador e ITBMS no recuperable (7%) sobre servicios; el coordinador pasa a tiempo completo con el primer contrato centralizado.', BLACK),
  ('Aportes de capital = lo necesario para mantener la caja mínima. Dividendos en los meses 24, 36 y 48 si hay utilidades y caja.', BLACK),
@@ -95,7 +95,7 @@ lines = [
  ('Impuestos: ISR 25% con cuotas estimadas en junio, septiembre y diciembre y saldo en marzo; pérdidas arrastrables 5 años al 20% anual con tope de 50% de la renta; CAIR si ventas > B/.1.5 millones; dividendos 10%; aviso de operación 2% del patrimonio, mínimo B/.100 y tope B/.60,000.', BLACK),
  ('', None),
  ('Limitaciones', SUB),
- ('La fábrica no ha dado precios: el costo parte de una referencia por producto = precio de compra pública en India x 1.4, multiplicada por el índice del proveedor (1.25 en la base).', BLACK),
+ ('La fábrica no ha dado precios: el costo parte de una referencia por producto = precio representativo de las compras públicas indias vigentes x 1.4 (ajustado en cinco productos; ver la columna de fuente en Productos), multiplicada por el índice del proveedor (1.25 en la base).', BLACK),
  ('No incluye ventas al sector privado ni productos que exigen equivalencia terapéutica. Los costos fijos y logísticos son supuestos hasta tener cotizaciones.', BLACK),
  ('El capital del caso base es un valor esperado sin fallas; para dimensionar el capital use los percentiles de la hoja Simulación.', BLACK),
 ]
@@ -265,7 +265,7 @@ for i, s in enumerate(SKUS):
     put(ws, r, 37, f'=AC{r}+AD{r}+AE{r}*p_pwin_cen+AF{r}*p_pwin_cen*p_minsa_occ', BLACK, NUM)
     put(ws, r, 38, f'=(AC{r}-AG{r})+(AD{r}-AH{r})+(AE{r}-AI{r})*p_pwin_cen+(AF{r}-AJ{r})*p_pwin_cen*p_minsa_occ', BLACK, NUM)
     put(ws, r, 39, f'=IF(P{r}>0,E{r}*p_sup_idx*(1+p_pack)/P{r},0)', BLACK, PCT)
-    put(ws, r, 40, f'=IF(AND(Y{r}=1,H{r}*I{r}*15/12>70000),H{r}*p_mkt*Q{r}*p_rs_succ,0)', BLACK, NUM)
+    put(ws, r, 40, f'=IF(AND(Y{r}=1,H{r}>0),H{r}*p_mkt*Q{r}*p_rs_succ,0)', BLACK, NUM)
 last = 6 + len(SKUS) - 1
 tr = last + 1
 put(ws, tr, 2, 'Totales (productos incluidos)', BOLD)

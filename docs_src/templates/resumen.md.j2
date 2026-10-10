@@ -19,7 +19,7 @@
 | --- | --- | --- | --- |
 | Capital que hay que tener (mediana / p90) | {{ S.A.cap_go_p50|bk }} / {{ S.A.cap_go_p90|bk }} | {{ S.D.cap_go_p50|bk }} / {{ S.D.cap_go_p90|bk }} | {{ S.D_snc_coord0.cap_go_p50|bk }} / {{ S.D_snc_coord0.cap_go_p90|bk }} |
 | Probabilidad de perder dinero | {{ S.A.p_loss|pct }} | {{ S.D.p_loss|pct }} | {{ S.D_snc_coord0.p_loss|pct }} |
-| Probabilidad de perder más que la fase 0 | {{ S.A.p_loss_beyond_ph0|pct }} | {{ S.D.p_loss_beyond_ph0|pct }} | {{ S.D_snc_coord0.p_loss_beyond_ph0|pct }} |
+| Probabilidad de perder más que la fase 0 | {{ S.A.p_loss_beyond_ph0|pct(1) }} | {{ S.D.p_loss_beyond_ph0|pct(1) }} | {{ S.D_snc_coord0.p_loss_beyond_ph0|pct(1) }} |
 | Valor presente al 15% (promedio) | {{ S.A.npv15_mean|bk }} | {{ S.D.npv15_mean|bk }} | {{ S.D_snc_coord0.npv15_mean|bk }} |
 | Lo que pone cada socio panameño (mediana) | {{ S.A.j_cap_go_p50|bk }} | {{ S.D.j_cap_go_p50|bk }} | {{ S.D_snc_coord0.j_cap_go_p50|bk }} |
 
@@ -37,7 +37,7 @@
 - La fábrica paga los registros ({{ N.unit_costs.rs_unit|b0 }} por producto) y da 120 a 180 días de crédito sin anticipo.
 - Sus precios quedan por debajo del techo por producto del plan (sección 5), sobre todo en los productos de mayor volumen.
 - Un socio coordina sin sueldo al inicio y se suman productos con fabricante verificado (los de sistema nervioso no están en el catálogo de esta fábrica).
-- Con todo eso a la vez, el caso base pasa a un valor presente de {{ W.factory_coord0_snc.npv15|bk }} y la simulación a {{ S.D_snc_coord0.p_loss|pct }} de probabilidad de perder: apenas al borde.
+- Con todo eso a la vez, el caso base pasa a un valor presente de {{ W.factory_coord0_snc.npv15|bk }} y la simulación a {{ S.D_snc_coord0.p_loss|pct }} de probabilidad de perder y {{ S.D_snc_coord0.p_loss_beyond_ph0|pct(1) }} de perder más que la fase 0: {% if S.D_snc_coord0.p_loss_beyond_ph0 >= 0.35 %}todavía por encima del límite de 35% de la compuerta{% else %}apenas por debajo del límite de 35% de la compuerta{% endif %}.
 
 ## Compuerta legal
 
@@ -63,4 +63,4 @@ Dos socios panameños son sobrinos del ministro de Salud, que además integra la
 | 4. Negociación con Rutul Patel | Qué pedir, en qué orden, qué proponer y cuándo parar | Socios panameños |
 | 5. Seguimiento operativo | Pendientes, cotizaciones y mensajes listos para aprobar | Socios panameños |
 | Resumen del proyecto en inglés | Lo que se comparte con Rutul Patel: requisitos, documentos y datos que necesitamos de la fábrica | Todos, incluido Rutul Patel |
-| Modelo en Excel y registro de verificaciones | Cálculo con fórmulas y 475 afirmaciones verificadas con su fuente | Repositorio (`outputs/`, `research/`) |
+| Modelo en Excel y registro de verificaciones | Cálculo con fórmulas y {{ REG_N }} afirmaciones verificadas con su fuente | Repositorio (`outputs/`, `research/`) |

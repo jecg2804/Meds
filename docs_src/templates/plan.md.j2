@@ -10,7 +10,7 @@
 | Indicador | A. Propuesta de Rutul Patel tal cual | D. La fábrica paga registros y da crédito | D más sistema nervioso y un socio que coordina sin sueldo |
 | --- | --- | --- | --- |
 | Capital que hay que tener (mediana / p90) | {{ S.A.cap_go_p50|bk }} / {{ S.A.cap_go_p90|bk }} | {{ S.D.cap_go_p50|bk }} / {{ S.D.cap_go_p90|bk }} | {{ S.D_snc_coord0.cap_go_p50|bk }} / {{ S.D_snc_coord0.cap_go_p90|bk }} |
-| Probabilidad de perder más que la fase 0 | {{ S.A.p_loss_beyond_ph0|pct }} | {{ S.D.p_loss_beyond_ph0|pct }} | {{ S.D_snc_coord0.p_loss_beyond_ph0|pct }} |
+| Probabilidad de perder más que la fase 0 | {{ S.A.p_loss_beyond_ph0|pct(1) }} | {{ S.D.p_loss_beyond_ph0|pct(1) }} | {{ S.D_snc_coord0.p_loss_beyond_ph0|pct(1) }} |
 | Probabilidad de perder dinero | {{ S.A.p_loss|pct }} | {{ S.D.p_loss|pct }} | {{ S.D_snc_coord0.p_loss|pct }} |
 | Valor presente al 15% (promedio) | {{ S.A.npv15_mean|bk }} | {{ S.D.npv15_mean|bk }} | {{ S.D_snc_coord0.npv15_mean|bk }} |
 | Lo que pone un socio panameño (mediana / p90) | {{ S.A.j_cap_go_p50|bk }} / {{ S.A.j_cap_go_p90|bk }} | {{ S.D.j_cap_go_p50|bk }} / {{ S.D.j_cap_go_p90|bk }} | {{ S.D_snc_coord0.j_cap_go_p50|bk }} / {{ S.D_snc_coord0.j_cap_go_p90|bk }} |
@@ -58,7 +58,7 @@ Regla de decisión: si la opinión no es favorable para la CSS y el MINSA, no se
 
 | Canal | Cómo compra | Datos verificados |
 | --- | --- | --- |
-| CSS, licitación de precio único (LPU) | Una licitación grande por familia de productos, contrato de 15 meses, pago a 90 días después de aceptada la cuenta y del refrendo de la Contraloría | LPU 01-2026: adjudicada el 29-ene-2026, en ejecución del 11-feb-2026 al 11-may-2027 más 3 meses de liquidación; 282 renglones por unos B/.72.75 millones; compra mínima garantizada de 50% [7][9][10][11] |
+| CSS, licitación de precio único (LPU) | Una licitación grande por familia de productos, contrato de 15 meses, pago a 90 días después de aceptada la cuenta y del refrendo de la Contraloría | LPU 01-2026: adjudicada el 29-ene-2026, en ejecución del 11-feb-2026 al 11-may-2027 más 3 meses de liquidación; 283 renglones adjudicados por B/.77.95 millones y, tras una resolución de marzo, 282 vigentes por unos B/.72.75 millones; compra mínima garantizada de 50% [7][9][10][11] |
 | MINSA, subastas en reversa | Un producto por acto, cantidad fija, fianza de cumplimiento de 20%, sin fianza de propuesta | 33 subastas publicadas del 24-mar al 29-may-2026 (20 de medicamentos); ninguna nueva desde entonces. El jarabe de paracetamol se adjudicó a B/.0.40 el frasco [12][13] |
 | MINSA y CSS, compra conjunta | Compra de los dos por desabastecimiento crítico (DE 16 de 2026, 376 medicamentos) | Anunciada para abril de 2026; sin acto publicado al 9-oct-2026 [14][22] |
 | Compras menores (CSS, MINSA, hospitales, patronatos) | Contratación menor (hasta B/.70 mil para medicamentos) y compra menor ágil (hasta B/.50 mil) | Tras la LPU, las de la CSS cayeron cerca de 50% (de unos B/.1.3 millones a B/.0.55 millones al mes) y las del MINSA subieron cerca de 50%; la sede del MINSA compra a precios cercanos a la LPU (ceftriaxona a B/.0.27) [17][20][40] |
@@ -89,7 +89,7 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **{{ N.marke
 
 ### 3.4 Competencia
 
-- **Ya hay fabricantes indios registrados ganando**: paracetamol 500 mg (Caplin Point, B/.0.010), hidrocortisona crema (Remus, B/.0.555, y RHR Medicare en el MINSA). En la LPU 01-2026, 61 a 62 de los 283 renglones adjudicados son productos indios, 9% del valor [7].
+- **Ya hay fabricantes indios registrados ganando**: paracetamol 500 mg (Caplin Point, B/.0.010), hidrocortisona crema (Remus, B/.0.555, y RHR Medicare en el MINSA). En la adjudicación de enero de la LPU 01-2026, 61 a 62 de los 283 renglones fueron a productos indios, 9% del valor [7].
 - **Las cefalosporinas las ganan productos chinos** entregados a B/.0.239–0.259 el vial; la amoxicilina con clavulánico, un fabricante portugués (B/.0.179 la tableta) [7].
 - **Probabilidad de ganar según cuántos ofertan** (compras del MINSA 2021-2024, ofertas con precio): 87% con un oferente, 46% con dos, 32% con tres, 24% con cuatro, 20% con cinco y 14% con seis o más; los nuevos ganan 36.6% de sus ofertas frente a 56.6% de los establecidos y son descalificados 57% de las veces frente a 36% [18].
 - **Gana el más barato que califica** en 88.8% de los renglones adjudicados; la oferta más barata, a secas, gana 74%: la descalificación decide [18].
@@ -104,7 +104,7 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **{{ N.marke
 | Ruta abreviada (sin análisis previo) | DE 29 de 2023 [23] | B/.750 | Solo si el producto está registrado y se vende en un país de referencia de la OPS: Argentina, Brasil, Chile, Colombia, Cuba o México. La India no está en la lista de la OMS (WLA) |
 | Compras por desabastecimiento crítico | DE 27, arts. 824-829 [21]; DE 16 de 2026 [22] | Fianza de al menos 10% | Cotizaciones en línea abiertas a oferentes nacionales o internacionales, aun sin registro panameño, con certificado de libre venta, BPM y autorización del fabricante |
 | Oferentes internacionales sin registro | Ley 419, art. 204 [20] | — | Riesgo de que la fábrica venda directo: se cubre con contrato de distribución exclusiva |
-| Certificado de etilenglicol y dietilenglicol por lote (jarabes y suspensiones) | DE 27, art. 365 [21] | Lo emite la fábrica con cada lote | Requisito para pedírselo a la fábrica |
+| Certificado de ausencia de etilenglicol y dietilenglicol, por lote, para líquidos orales con glicerina, sorbitol o propilenglicol (de metanol, para tópicos con alcohol etílico) | DE 27, art. 365 [21] | Laboratorio del país de origen, el IEA o el INDICASAT; autenticado | Se le pide a la fábrica con cada lote de jarabe o suspensión |
 | Farmacovigilancia | DE 27, arts. 257, 318 y 319 [21] | Responsable designado, acceso a MedDRA y WHODrug | En el modelo: {{ N.fixed[7].base|b0 }} al mes (supuesto) |
 | Registro Nacional de Oferentes | DE 27, arts. 724-726 [21] | 30 días hábiles | Pide solvencia certificada por un CPA o un banco, la licencia y los productos inscritos |
 | Declaración ante la ANTAI | Ley 316, art. 5 [1][4] | Gratuita, notariada | Por cada contrato adjudicado |
@@ -114,7 +114,7 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **{{ N.marke
 
 ## 5. Productos y economía por producto
 
-Costo puesto en Panamá = referencia FOB × {{ I.sup_idx.base|val('x') }} (índice del proveedor) × (1 + {{ I.pack.base|pct }} de empaque) + logística. La referencia es el precio de compra pública más reciente en la India × 1.4, a INR 96.61 por dólar [27][28][29][30]; la fábrica todavía no ha dado precios. Con el índice de 1.25, el caso base paga 1.75 veces el precio doméstico indio; UNICEF y la OPS pagan entre 2 y 9 veces por productos con precalificación de la OMS, que Panamá no exige [31][32]. Precio de oferta: {{ I.pf_cen.base|val('x') }} veces el adjudicado en lo centralizado y {{ I.pf_dec.base|val('x') }} veces el precio ponderado en compras menores. Margen mínimo para ofertar: {{ I.gm_cen.base|pct }} centralizado, {{ I.gm_dec.base|pct }} en compras menores.
+Costo puesto en Panamá = referencia FOB × {{ I.sup_idx.base|val('x') }} (índice del proveedor) × (1 + {{ I.pack.base|pct }} de empaque) + logística. La referencia es un precio representativo de las compras públicas indias vigentes (PMBI, TNMSC y Assam) × 1.4, a INR 96.61 por dólar [27][28][29][30]; en paracetamol en tabletas, albendazol, mebendazol, nistatina y mometasona se ajustó con otras referencias (UNICEF, precio al público indio), y el detalle por producto está en el Excel. La fábrica todavía no ha dado precios. Con el índice de 1.25, el caso base paga 1.75 veces el precio doméstico indio; UNICEF y la OPS pagan entre 2 y 9 veces por productos con precalificación de la OMS, que Panamá no exige [31][32]. Precio de oferta: {{ I.pf_cen.base|val('x') }} veces el adjudicado en lo centralizado y {{ I.pf_dec.base|val('x') }} veces el precio ponderado en compras menores. Margen mínimo para ofertar: {{ I.gm_cen.base|pct }} centralizado, {{ I.gm_dec.base|pct }} en compras menores.
 
 | Producto | Costo puesto | LPU: precio / margen | MINSA central | CSS menores | MINSA menores | Techo FOB para la LPU | Cotización esperada |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -137,7 +137,7 @@ Lo que dice la tabla:
 - **Bodega y regente**: un operador logístico (3PL) con licencia de la DNFD (la lista de la DNFD muestra agencias alojadas en varios operadores [38]), cuyo regente cubra también a la agencia (permitido hasta seis regencias en centros logísticos [20]). Hay cuatro solicitudes de cotización enviadas y una videollamada propuesta por J. Cain (documento 5).
 - **Volumen físico** (caso base, año maduro): unos {{ N.ie.m3_year|n0 }} m³ al año, alrededor de {{ N.ie.pallets_month|n1 }} tarimas al mes; el paracetamol en tabletas y en jarabe es casi todo el volumen.
 - **Cadena**: orden a la fábrica, producción, flete marítimo consolidado (LCL) desde la India a Manzanillo con transbordo, desaduanaje con corredor, recepción y cuarentena en el 3PL, entrega en los almacenes de la CSS y del MINSA. Tiempo de reposición supuesto: {{ I.lead_days.base|val('días') }} días.
-- **Vida útil**: el pliego exige 18 meses de vida útil al entregar [8]. Con 24 meses de vida útil, el producto puede pasar unos 3 meses en bodega: reposición frecuente y poco inventario ({{ I.cover_m.base|val('meses') }} meses de cobertura en compras menores).
+- **Vida útil**: el pliego pide entregar con el vencimiento que fije la ficha técnica y, si no lo fija, con 18 meses de vida útil [8]; para importar, al menos 6 meses [21]. Con 24 meses de vida útil quedan unos 6 meses entre fabricación y entrega; descontando producción y tránsito, unos 3 meses en bodega: reposición frecuente y poco inventario ({{ I.cover_m.base|val('meses') }} meses de cobertura en compras menores).
 - **Empaque**: impreso de fábrica con el número del acto; el pliego prohíbe reetiquetar [8].
 - **Logística**: el modelo usa unos US$356 por m³ puesto en bodega (flete FAK de CMA CGM de junio de 2026 más recargo, cargos de destino y corredor) [33][34][35].
 
@@ -161,7 +161,7 @@ Sueldos de referencia de Konzerta [37]; honorarios de referencia de la propuesta
 | {{ s.label }} | {{ s.pes|b0 }} | {{ s.base|b0 }} | {{ s.opt|b0 }} | {{ s.month }} | {{ s.src }} |
 {% endfor %}
 
-Fianzas: prima de {{ I.bond_prem.base|pct(1) }} al año en la base (Banco General cobra 1.07-1.605% anual con un mínimo de US$1,337.50 por garantía [36]) y colateral de {{ I.collat.base|pct }} de la fianza (supuesto: ninguna aseguradora publica el porcentaje).
+Fianzas exigidas: en la LPU, de propuesta por 10% de toda la oferta durante 180 días hábiles (el acto supera B/.70 mil; Ley 419, art. 245) y de cumplimiento por 30% del contrato, vigente durante el contrato más 3 meses; en las subastas del MINSA, solo de cumplimiento, por 20% [8][13][20]. Costo: prima de {{ I.bond_prem.base|pct(1) }} al año en la base (Banco General cobra 1.07-1.605% anual con un mínimo de US$1,337.50 por garantía [36]) y colateral de {{ I.collat.base|pct }} de la fianza (supuesto: ninguna aseguradora publica el porcentaje).
 
 Registro por producto (base): tasas {{ I.rs_off.base|b0 }}, análisis previo {{ I.rs_iea.base|b0 }}, abogado {{ I.rs_law.base|b0 }}, traducciones {{ I.rs_trad.base|b0 }}, muestras {{ I.rs_smp.base|b0 }}, más ITBMS sobre servicios: **{{ N.unit_costs.rs_unit|b0 }} por producto** y {{ N.unit_costs.rs_first|bk }} los {{ N.unit_costs.n_first }} productos de la primera ola. Cargos anuales: {% for a in N.annual %}{{ a.label }}, {{ a.amount|b0 }}{% if not loop.last %}; {% endif %}{% endfor %}.
 
@@ -211,7 +211,7 @@ Punto de equilibrio en régimen: ventas de **{{ N.breakeven.be_revenue|bk }} al 
 | Estructura | Se detiene en fase 0 | Cierra en compuerta | Falla de planta o suministro | Perder dinero | Perder más que la fase 0 | Valor presente al 15% (promedio) | Capital mediano / p80 / p90 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 {% for k in ['A', 'B', 'C', 'D', 'E'] %}
-| {{ S[k].label }} | {{ S[k].p_nogo|pct }} | {{ S[k].p_gate|pct }} | {{ S[k].p_fail|pct }} | {{ S[k].p_loss|pct }} | {{ S[k].p_loss_beyond_ph0|pct }} | {{ S[k].npv15_mean|bk }} | {{ S[k].cap_go_p50|bk }} / {{ S[k].cap_go_p80|bk }} / {{ S[k].cap_go_p90|bk }} |
+| {{ S[k].label }} | {{ S[k].p_nogo|pct }} | {{ S[k].p_gate|pct }} | {{ S[k].p_fail|pct }} | {{ S[k].p_loss|pct }} | {{ S[k].p_loss_beyond_ph0|pct(1) }} | {{ S[k].npv15_mean|bk }} | {{ S[k].cap_go_p50|bk }} / {{ S[k].cap_go_p80|bk }} / {{ S[k].cap_go_p90|bk }} |
 {% endfor %}
 
 Variantes de la estructura D:
@@ -219,7 +219,7 @@ Variantes de la estructura D:
 | Variante | Perder dinero | Perder más que la fase 0 | Valor presente al 15% | Capital mediano / p90 |
 | --- | --- | --- | --- | --- |
 {% for k in ['D_snc', 'D_coord0', 'D_snc_coord0', 'D_collat100', 'D_cap11'] %}
-| {{ S[k].label }} | {{ S[k].p_loss|pct }} | {{ S[k].p_loss_beyond_ph0|pct }} | {{ S[k].npv15_mean|bk }} | {{ S[k].cap_go_p50|bk }} / {{ S[k].cap_go_p90|bk }} |
+| {{ S[k].label }} | {{ S[k].p_loss|pct }} | {{ S[k].p_loss_beyond_ph0|pct(1) }} | {{ S[k].npv15_mean|bk }} | {{ S[k].cap_go_p50|bk }} / {{ S[k].cap_go_p90|bk }} |
 {% endfor %}
 
 Lo que pone y arriesga **un socio panameño** (un sexto del capital y de las utilidades con el 50/50 propuesto, más un tercio de la fase 0; un tercio en la estructura E):
@@ -297,7 +297,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | Quién paga los registros y qué crédito da la fábrica | Mueve el capital más que el precio | Pregunta directa (documento 4) | Los paga la S.A.; sin crédito, {{ I.adv.base|pct }} de anticipo |
 | Colateral que pide la aseguradora o el banco | Es el mayor componente del capital | Cotización de dos aseguradoras | {{ I.collat.base|pct }} de la fianza |
 | Tarifa del 3PL y si su depósito vale como depósito de la agencia | Costo fijo y licencia | Cotizaciones en curso y consulta escrita a la DNFD | {{ N.fixed[1].base|b0 }} al mes |
-| Tarifa del análisis del IEA o INDICASAT | Costo de cada registro | Solicitud escrita citando la Ley 419, art. 79 | {{ I.rs_iea.base|b0 }} por producto |
+| Tasa del análisis del IEA o INDICASAT | Costo de cada registro | Solicitud escrita citando la Ley 419, art. 79 | {{ I.rs_iea.base|b0 }} por producto |
 | Fecha de la próxima LPU de la CSS y si prorroga la vigente | Fecha del primer contrato grande | Vigilar PanamaCompra desde noviembre de 2026 | Primer contrato en {{ N.calendar.cen.cal }} |
 | Si la compra conjunta del DE 16 se hace | Demanda del MINSA | PanamaCompra | {{ I.cc_w.base|pct }} de la cantidad de 2023 |
 | Plazo real de los registros en la DNFD | Fecha de la primera venta | Consulta a la DNFD o a un regente con experiencia | Mes {{ I.reg_m.base|val('mes') }} |
@@ -313,7 +313,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | {{ k }} | {{ v.label }} | {{ v.unit }} | {{ v.pes|val(v.unit) }} | {{ v.base|val(v.unit) }} | {{ v.opt|val(v.unit) }} | {{ v.src }} |
 {% endfor %}
 
-Fuentes en la columna: F = dato verificado en una fuente abierta; R = referencia indirecta; E = estimación propia. El detalle de cada verificación (475 afirmaciones con veredicto, fuente y fecha) está en `research/verificacion_2026-10-09/registro_verificaciones.csv`.
+Fuentes en la columna: F = dato verificado en una fuente abierta; R = referencia indirecta; E = estimación propia. El detalle de cada verificación ({{ REG_N }} afirmaciones con veredicto, fuente y fecha) está en `research/verificacion_2026-10-09/registro_verificaciones.csv`.
 
 ## Fuentes
 

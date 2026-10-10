@@ -18,7 +18,7 @@ Repositorio del negocio: modelo financiero (motor mensual de 60 meses y simulaci
 | `docs_src/` | Plantillas Jinja2 de cada documento (`templates/`), `render.py`, `audit.py` (falla si hay celdas vacías, citas sin fuente, nombres privados o datos internos en el documento para Rutul) y `build_pdf.py` |
 | `docs/` | Documentos generados (no se editan a mano) |
 | `outputs/` | `numbers.json` (única fuente de cifras de los documentos) y `Modelo_financiero.xlsx` |
-| `research/` | Notas y datos de cada ronda de investigación; `verificacion_2026-10-09/` tiene el registro de 475 afirmaciones verificadas con fuente y fecha, y los datos que alimentan el modelo |
+| `research/` | Notas y datos de cada ronda de investigación; `verificacion_2026-10-09/` tiene el registro de 487 afirmaciones verificadas con fuente y fecha, y los datos que alimentan el modelo |
 
 ## Cómo regenerar todo
 

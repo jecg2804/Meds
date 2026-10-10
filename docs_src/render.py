@@ -107,11 +107,19 @@ env = Environment(loader=FileSystemLoader(os.path.join(ROOT, 'docs_src', 'templa
 env.filters.update(n0=n0, n1=n1, b0=b0, bk=bk, pct=pct, p3=p3, p4=p4, mx=mx, irrf=irrf, mes=mes, val=val)
 
 
+def reg_count():
+    import csv
+    fn = os.path.join(ROOT, 'research', 'verificacion_2026-10-09', 'registro_verificaciones.csv')
+    with open(fn, encoding='utf-8') as fh:
+        return sum(1 for _ in csv.DictReader(fh))
+
+
 def main():
+    reg_n = reg_count()
     for tpl, dst in DOCS:
         dpath = os.path.join(ROOT, 'private', 'drive_ids.json')
         drive = json.load(open(dpath, encoding='utf-8')) if os.path.exists(dpath) else {}
-        out = env.get_template(tpl).render(N=N, I=N['inputs'], S=N['sim'], D=N['det'], W=N['whatif'], DRIVE=drive)
+        out = env.get_template(tpl).render(N=N, I=N['inputs'], S=N['sim'], D=N['det'], W=N['whatif'], DRIVE=drive, REG_N=reg_n)
         path = os.path.join(ROOT, dst)
         os.makedirs(os.path.dirname(path), exist_ok=True)
         open(path, 'w', encoding='utf-8').write(out.rstrip() + '\n')

@@ -33,7 +33,7 @@
 ### 3.1 Registro mercantil
 
 - CIN U24304GJ2016PTC094652, constituida el 09-12-2016; capital pagado ₹22.27 crore; domicilio social trasladado a la planta (INC-22 del 23-02-2026) [4][5].
-- Directores: Shivkumar Dudhwewala (desde 2016, a tiempo completo desde 2019), Abhinav Bhargava (2024) y Deepti Rutul Patel (2024) [4].
+- Directores: Shivkumar Dudhwewala (desde 2016, a tiempo completo desde 2019), Abhinav Bhargava (nombrado el 18-03-2024, el día en que cesó Karuna Devi Dudhwewala) y Deepti Rutul Patel (nombrada el 08-07-2024) [5]. Falconebiz muestra el 30-09-2024 para ambos, que sería la junta anual que los confirmó (inferencia) [4].
 - No tiene matriz contable: su registro LEI declara control por personas físicas; «grupo Salud Care» es una marca o una familia, no una filial [19].
 - El sitio de Bueno presenta como director a Sandip Bhargav, que no figura como director en el registro; el enlace «Annual Return» del sitio es un PDF en blanco creado el 21-08-2026 [18][20].
 - Renuncia de auditor en 2023 (ADT-3) y ampliaciones de capital ese año [5].
@@ -127,7 +127,7 @@ Todas consultadas el 9 de octubre de 2026. El detalle (54 afirmaciones con vered
 3. Bueno Salud Care, lista de productos 2025 (comparada con la «Product List PICS 2026» de Zywie del proyecto): <https://buenosalud.in/wp-content/uploads/2025/01/PRODUCT-LIST-2025.pdf>
 4. Falconebiz, ficha de Bueno Salud Care (datos del MCA, actualizada el 02-09-2026): <https://www.falconebiz.com/company/BUENO-SALUD-CARE-INDIA-PRIVATE-LIMITED-U24304GJ2016PTC094652>
 5. Qorpiq, Bueno Salud Care (registro MCA al 26-07-2026; resúmenes de MGT-7 y AOC-4): <https://qorpiq.com/company/bueno-salud-care-india-private-limited/U24304GJ2016PTC094652>
-6. CDSCO, plantas con certificado OMS-BPM para COPP al 31-12-2025: <https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadIndustryCommon/Testing%20Laboratories%20approved%20by%20Statas%20%26%20UT%20in%20Form%2037.pdf>
+6. CDSCO, plantas con certificado OMS-BPM para COPP al 31-12-2025 (el nombre del archivo en el sitio de la CDSCO no corresponde a su contenido): <https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadIndustryCommon/Testing%20Laboratories%20approved%20by%20Statas%20%26%20UT%20in%20Form%2037.pdf>
 7. CDSCO, alertas de medicamentos de marzo de 2024: <https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/List%20of%20Drug%20Alert%20-March-2024.pdf>
 8. CDSCO, portal público de medicamentos que no cumplen la calidad estándar: <https://cdscoonline.gov.in/CDSCO/viewPublicNSQDrug>
 9. FDA de Filipinas, verificador público: <https://verification.fda.gov.ph/api/search?q=Bueno%20Salud>

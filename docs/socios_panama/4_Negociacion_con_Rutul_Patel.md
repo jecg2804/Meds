@@ -80,7 +80,7 @@ Busca: el precio real por producto, para compararlo con el techo del documento 2
 ### Paso 4. Quién paga los registros (Jaime)
 
 ```text
-On registration: India isn't on the WHO reference list Panama uses for the fast route, so each product goes the full route with a local lab analysis. Our estimate is about B/.3,700 per product all-in: the official fee is B/.500; the lab analysis, translations and filing are quotes. If any product is registered and sold in Colombia, Brazil, Mexico, Argentina, Chile or Cuba, Panama allows an abbreviated route without the lab analysis. How does the factory usually handle registration costs with its distributors in Latin America?
+On registration: India isn't on the WHO reference list Panama uses for the fast route, so each product goes the full route with a local lab analysis. Our estimate is about B/.3,700 per product all-in: the official fee is B/.500, and the lab analysis, translations and filing are our estimates until the quotes come in. If any product is registered and sold in Colombia, Brazil, Mexico, Argentina, Chile or Cuba, Panama allows an abbreviated route without the lab analysis. How does the factory usually handle registration costs with its distributors in Latin America?
 ```
 
 Busca: que la fábrica pague o acredite los registros. Si contesta «that's the distributor's job»: «usually, and then price and credit terms have to carry it; let's look at the three together».
@@ -100,7 +100,7 @@ Busca: la prueba de transparencia. Por la lista pública de la CDSCO sabemos de 
 ### Paso 6. Crédito y flujo de dinero (Jaime)
 
 ```text
-On money flow, so we're aligned before anyone incorporates anything: the government pays 90 days after the invoice is accepted and endorsed by the Comptroller, in practice about 150 days from delivery, and the CSS tender takes a 30% performance bond for 18 months. If we pay the factory at shipment, the Panama side carries about six months of working capital plus the bond.
+On money flow, so we're aligned before anyone incorporates anything: the government pays 90 days after the invoice is accepted and endorsed by the Comptroller, so we plan on about 150 days from delivery, and the CSS tender takes a 30% performance bond for 18 months. If we pay the factory at shipment, the Panama side carries about six months of working capital plus the bond.
 ```
 
 ```text

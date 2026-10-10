@@ -19,10 +19,10 @@ Current status: the Panama side has mapped legal, registration and tax costs. Wa
 | Registration | A Panamanian sanitary registration and a distributor licence are required when the offer is submitted; they cannot be fixed afterwards | [3] |
 | Manufacturer's letter | A manufacturer's joint-liability letter, apostilled, for each tender | [3] |
 | Packaging | Printed at the factory with the tender number (and "Property of MINSA" in MINSA auctions); relabelling or over-labelling is not accepted | [3][7] |
-| Shelf life | At least 18 months of shelf life left at delivery | [3] |
-| Bonds | Bid bond of 10% (lines above B/.70,000) and performance bond of 30% of the contract in CSS tenders; 20% in MINSA auctions | [3][7] |
-| Payment | 90 days after the invoice is accepted and endorsed by the Comptroller; in practice about 150 days from delivery | [4] |
-| Liquid medicines | A diethylene and ethylene glycol test certificate for every batch of syrups and suspensions | [8] |
+| Shelf life | Expiry as set in each product's technical sheet; if the sheet is silent, 18 months of shelf life at delivery. Imports need at least 6 months to expiry on arrival | [3][8] |
+| Bonds | CSS tenders: bid bond of 10% of the offer for 180 working days (required whenever the tender's total reference value exceeds B/.70,000, as the LPU does) and performance bond of 30% of the contract. MINSA auctions: performance bond of 20%, no bid bond | [1][3][7] |
+| Payment | 90 days after the invoice is accepted and endorsed by the Comptroller; counting those steps, we plan on about 150 days from delivery | [4] |
+| Liquid medicines | Oral liquids containing glycerin, sorbitol or propylene glycol need a certificate showing no ethylene or diethylene glycol for every imported batch, issued by a laboratory in the country of origin or a Panamanian reference laboratory, and authenticated (topical products with ethyl alcohol need a methanol certificate) | [8] |
 
 Currency: the balboa (B/.) trades one to one with the US dollar.
 
@@ -71,7 +71,7 @@ Indian certificates: since 15 August 2025, COPP and WHO-GMP certificates are iss
 | Packaging artwork and Spanish leaflet; samples and reference standards for the laboratory | Registration and tenders |
 | Free-sale certificate and any registrations in other countries | Registration and the abbreviated route |
 | Authorisation letter to the Panamanian distributor, apostilled | Registration in the distributor's name |
-| Glycol test certificate per batch (syrups and suspensions) | Every import |
+| Ethylene and diethylene glycol certificate per batch, authenticated (oral liquids with glycerin, sorbitol or propylene glycol) | Every import |
 
 ### 5.2 Commercial terms
 
@@ -120,7 +120,7 @@ All consulted on 9 October 2026.
 5. MINSA reverse auction SSR-000018 (paracetamol syrup), award report: <https://apisv3.panamacompra.gob.pa/procesos-contratacion-archivos/v2/download-file-21F2213F-5354-F111-80EB-0017A477FC64-ZA-101-1AZ-10368555-ZA-101-1AZ-10368555>
 6. Executive Decree 16 of 9 March 2026 (critical-shortage list): <https://www.minsa.gob.pa/normatividad/decreto-ejecutivo-ndeg-16-lunes-09-de-marzo-2026-que-declara-el-listado-conjunto-de>
 7. MINSA reverse auction tender document (2026): <https://apisv3.panamacompra.gob.pa/procesos-contratacion-archivos/v2/download-file-41E2472E-8233-F111-80EA-0017A477FC74-ZA-101-1AZ-9715601-ZA-101-1AZ-9715601>
-8. Executive Decree 27 of 2024, article 365 (glycol certificate): see source 2.
+8. Executive Decree 27 of 2024, articles 365 (glycol certificate) and 366 (minimum expiry at import): see source 2.
 9. PanamaCompra, bid table of tender LPU 01-2026: <https://apisv3.panamacompra.gob.pa/documentos-actos-publico/cuadroPropuesta/12/procesoVistaCuadroPropuesta/712894>
 10. CDSCO, COPP through ONDLS (circulars of 2025): <https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadCircularFile/COPP%20Circular%20reminder.pdf>
 11. CSS tender LPU 01-2026, addendum 1 (minimum purchase of 50%): <https://apisv3.panamacompra.gob.pa/procesos-contratacion-archivos/v2/download-file-4CED4947-6DC6-F011-80EA-0017A477FC74-ZA-101-1AZ-8120891-ZA-101-1AZ-8120891>

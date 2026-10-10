@@ -4,7 +4,7 @@
 
 ## La conclusión
 
-**Con los datos verificados, el negocio tal como está planteado no da dinero.** En la simulación, la propuesta de Rutul Patel pierde dinero en 99% de los escenarios y pide un capital mediano de B/.396 mil. La mejor estructura que se puede negociar con la fábrica baja el capital a B/.246 mil, pero todavía pierde en 93% de los escenarios. **Recomendación: no constituir la S.A.; completar una fase 0 casi sin costo y seguir solo si los datos reales cambian el resultado.**
+**Con los datos verificados, el negocio tal como está planteado no da dinero.** En la simulación, la propuesta de Rutul Patel pierde dinero en 99% de los escenarios y pide un capital mediano de B/.404 mil. La mejor estructura que se puede negociar con la fábrica baja el capital a B/.252 mil, pero todavía pierde en 93% de los escenarios. **Recomendación: no constituir la S.A.; completar una fase 0 casi sin costo y seguir solo si los datos reales cambian el resultado.**
 
 ## El negocio en tres líneas
 
@@ -16,19 +16,19 @@
 
 | Indicador | A. Propuesta de Rutul Patel tal cual | D. La fábrica paga registros y da crédito | D más sistema nervioso y un socio que coordina sin sueldo |
 | --- | --- | --- | --- |
-| Capital que hay que tener (mediana / p90) | B/.396 mil / B/.573 mil | B/.246 mil / B/.421 mil | B/.217 mil / B/.341 mil |
+| Capital que hay que tener (mediana / p90) | B/.404 mil / B/.580 mil | B/.252 mil / B/.427 mil | B/.228 mil / B/.349 mil |
 | Probabilidad de perder dinero | 99% | 93% | 48% |
-| Probabilidad de perder más que la fase 0 | 99% | 81% | 35% |
-| Valor presente al 15% (promedio) | −B/.238 mil | −B/.120 mil | −B/.50 mil |
-| Lo que pone cada socio panameño (mediana) | B/.67 mil | B/.42 mil | B/.37 mil |
+| Probabilidad de perder más que la fase 0 | 98.9% | 80.8% | 35.5% |
+| Valor presente al 15% (promedio) | −B/.242 mil | −B/.122 mil | −B/.55 mil |
+| Lo que pone cada socio panameño (mediana) | B/.68 mil | B/.43 mil | B/.39 mil |
 
-20,000 escenarios por estructura, con fallas de planta y de suministro, registros rechazados, licitaciones perdidas y compuertas de salida. Caso base sin fallas: capital de B/.389 mil, ventas de B/.176 mil en el año 3 y valor presente de −B/.196 mil al 15%.
+20,000 escenarios por estructura, con fallas de planta y de suministro, registros rechazados, licitaciones perdidas y compuertas de salida. Caso base sin fallas: capital de B/.393 mil, ventas de B/.176 mil en el año 3 y valor presente de −B/.199 mil al 15%.
 
 ## Por qué no da
 
 1. **El mercado de entrada se movió.** La CSS concentró sus compras en la licitación de precio único 01-2026, vigente hasta el 11 de mayo de 2027; sus compras menores cayeron cerca de 50%. La siguiente licitación llegaría antes que los registros de la S.A., así que el primer contrato grande sería hacia agosto de 2028.
 2. **Los precios ganadores son muy bajos.** Las cefalosporinas las ganan productos chinos a B/.0.24–0.26 el vial y el MINSA compró el jarabe de paracetamol a B/.0.40: con un precio de fábrica razonable, varios productos no dejan el margen mínimo. Ya hay fabricantes indios registrados ganando en paracetamol e hidrocortisona.
-3. **El capital de trabajo es grande para las ventas.** La fianza de cumplimiento es de 30% del contrato, el Estado paga unos 150 días después de entregar y la aseguradora pide colateral. En el caso base, en el mes pico, hay B/.115 mil inmovilizados en colateral y B/.85 mil en cuentas por cobrar, para ventas maduras de B/.171 mil al año.
+3. **El capital de trabajo es grande para las ventas.** La fianza de cumplimiento es de 30% del contrato, el Estado paga unos 150 días después de entregar y la aseguradora pide colateral. En el caso base, en el mes pico, hay B/.121 mil inmovilizados en colateral y B/.91 mil en cuentas por cobrar, para ventas maduras de B/.171 mil al año.
 4. **Los costos fijos pesan demasiado.** Regente, bodega, coordinador, contabilidad y el resto suman B/.4,600 al mes en régimen; el equilibrio está en B/.134 mil de ventas al año y queda poco para devolver el capital.
 
 ## Qué tendría que ser cierto para que valga la pena
@@ -36,7 +36,7 @@
 - La fábrica paga los registros (B/.3,718 por producto) y da 120 a 180 días de crédito sin anticipo.
 - Sus precios quedan por debajo del techo por producto del plan (sección 5), sobre todo en los productos de mayor volumen.
 - Un socio coordina sin sueldo al inicio y se suman productos con fabricante verificado (los de sistema nervioso no están en el catálogo de esta fábrica).
-- Con todo eso a la vez, el caso base pasa a un valor presente de B/.11 mil y la simulación a 48% de probabilidad de perder: apenas al borde.
+- Con todo eso a la vez, el caso base pasa a un valor presente de B/.5 mil y la simulación a 48% de probabilidad de perder y 35.5% de perder más que la fase 0: todavía por encima del límite de 35% de la compuerta.
 
 ## Compuerta legal
 
@@ -62,4 +62,4 @@ Dos socios panameños son sobrinos del ministro de Salud, que además integra la
 | 4. Negociación con Rutul Patel | Qué pedir, en qué orden, qué proponer y cuándo parar | Socios panameños |
 | 5. Seguimiento operativo | Pendientes, cotizaciones y mensajes listos para aprobar | Socios panameños |
 | Resumen del proyecto en inglés | Lo que se comparte con Rutul Patel: requisitos, documentos y datos que necesitamos de la fábrica | Todos, incluido Rutul Patel |
-| Modelo en Excel y registro de verificaciones | Cálculo con fórmulas y 475 afirmaciones verificadas con su fuente | Repositorio (`outputs/`, `research/`) |
+| Modelo en Excel y registro de verificaciones | Cálculo con fórmulas y 487 afirmaciones verificadas con su fuente | Repositorio (`outputs/`, `research/`) |

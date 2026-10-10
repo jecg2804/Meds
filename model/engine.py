@@ -177,8 +177,10 @@ def run(p, n=1, mc=None, inc_override=None, signaturelex=False, fixes=None):
         ov2 = ((dt >= 12) & ((dt % 12) < tail2[:, None])).astype(float)
         bond_base = bond_base + ((Rmax[0][:, :, None] * w1p).sum(axis=1) * g['bond_css'][:, None] * 15 / 12 * mult_cen1 * ov1
                                  + (Rmax[1][:, :, None] * w2p).sum(axis=1) * g['bond_minsa'][:, None] * mult_cen2 * ov2) * cen_on
-    # bid bond on LPU offers for renglones whose reference value exceeds B/.70,000, held bid_m months before each contract
-    thr = (q0[0] * pr[0] * 15 / 12 > 70000).astype(float)
+    # bid bond of 10% on every LPU offer, held bid_m months before each contract: Ley 419 art. 245 and the tender
+    # (cl. 8.14) apply the B/.70,000 threshold to the reference price of the whole act (B/.95.3 million in LPU 01-2026),
+    # so every renglon offered carries it (audit fix of 9-oct-2026: the old rule applied it per renglon)
+    thr = (q0[0] > 0).astype(float)
     bid_val = (base_rev[0] * thr[None, :]).sum(axis=1) * 15 / 12
     start_b = cen_start - bid_m
     cyc = (t[None, :] >= start_b[:, None]) & (((t[None, :] - start_b[:, None]) % 15) < bid_m[:, None])

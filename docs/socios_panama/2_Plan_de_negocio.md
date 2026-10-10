@@ -8,13 +8,13 @@
 
 | Indicador | A. Propuesta de Rutul Patel tal cual | D. La fábrica paga registros y da crédito | D más sistema nervioso y un socio que coordina sin sueldo |
 | --- | --- | --- | --- |
-| Capital que hay que tener (mediana / p90) | B/.396 mil / B/.573 mil | B/.246 mil / B/.421 mil | B/.217 mil / B/.341 mil |
-| Probabilidad de perder más que la fase 0 | 99% | 81% | 35% |
+| Capital que hay que tener (mediana / p90) | B/.404 mil / B/.580 mil | B/.252 mil / B/.427 mil | B/.228 mil / B/.349 mil |
+| Probabilidad de perder más que la fase 0 | 98.9% | 80.8% | 35.5% |
 | Probabilidad de perder dinero | 99% | 93% | 48% |
-| Valor presente al 15% (promedio) | −B/.238 mil | −B/.120 mil | −B/.50 mil |
-| Lo que pone un socio panameño (mediana / p90) | B/.67 mil / B/.96 mil | B/.42 mil / B/.71 mil | B/.37 mil / B/.58 mil |
+| Valor presente al 15% (promedio) | −B/.242 mil | −B/.122 mil | −B/.55 mil |
+| Lo que pone un socio panameño (mediana / p90) | B/.68 mil / B/.97 mil | B/.43 mil / B/.72 mil | B/.39 mil / B/.59 mil |
 
-Simulación de 20,000 escenarios por estructura (sección 9). En el caso base determinístico, sin fallas, la propuesta pide B/.389 mil y vale −B/.196 mil al 15%.
+Simulación de 20,000 escenarios por estructura (sección 9). En el caso base determinístico, sin fallas, la propuesta pide B/.393 mil y vale −B/.199 mil al 15%.
 
 Qué se recomienda hacer:
 
@@ -57,7 +57,7 @@ Regla de decisión: si la opinión no es favorable para la CSS y el MINSA, no se
 
 | Canal | Cómo compra | Datos verificados |
 | --- | --- | --- |
-| CSS, licitación de precio único (LPU) | Una licitación grande por familia de productos, contrato de 15 meses, pago a 90 días después de aceptada la cuenta y del refrendo de la Contraloría | LPU 01-2026: adjudicada el 29-ene-2026, en ejecución del 11-feb-2026 al 11-may-2027 más 3 meses de liquidación; 282 renglones por unos B/.72.75 millones; compra mínima garantizada de 50% [7][9][10][11] |
+| CSS, licitación de precio único (LPU) | Una licitación grande por familia de productos, contrato de 15 meses, pago a 90 días después de aceptada la cuenta y del refrendo de la Contraloría | LPU 01-2026: adjudicada el 29-ene-2026, en ejecución del 11-feb-2026 al 11-may-2027 más 3 meses de liquidación; 283 renglones adjudicados por B/.77.95 millones y, tras una resolución de marzo, 282 vigentes por unos B/.72.75 millones; compra mínima garantizada de 50% [7][9][10][11] |
 | MINSA, subastas en reversa | Un producto por acto, cantidad fija, fianza de cumplimiento de 20%, sin fianza de propuesta | 33 subastas publicadas del 24-mar al 29-may-2026 (20 de medicamentos); ninguna nueva desde entonces. El jarabe de paracetamol se adjudicó a B/.0.40 el frasco [12][13] |
 | MINSA y CSS, compra conjunta | Compra de los dos por desabastecimiento crítico (DE 16 de 2026, 376 medicamentos) | Anunciada para abril de 2026; sin acto publicado al 9-oct-2026 [14][22] |
 | Compras menores (CSS, MINSA, hospitales, patronatos) | Contratación menor (hasta B/.70 mil para medicamentos) y compra menor ágil (hasta B/.50 mil) | Tras la LPU, las de la CSS cayeron cerca de 50% (de unos B/.1.3 millones a B/.0.55 millones al mes) y las del MINSA subieron cerca de 50%; la sede del MINSA compra a precios cercanos a la LPU (ceftriaxona a B/.0.27) [17][20][40] |
@@ -88,7 +88,7 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **B/.171 mil
 
 ### 3.4 Competencia
 
-- **Ya hay fabricantes indios registrados ganando**: paracetamol 500 mg (Caplin Point, B/.0.010), hidrocortisona crema (Remus, B/.0.555, y RHR Medicare en el MINSA). En la LPU 01-2026, 61 a 62 de los 283 renglones adjudicados son productos indios, 9% del valor [7].
+- **Ya hay fabricantes indios registrados ganando**: paracetamol 500 mg (Caplin Point, B/.0.010), hidrocortisona crema (Remus, B/.0.555, y RHR Medicare en el MINSA). En la adjudicación de enero de la LPU 01-2026, 61 a 62 de los 283 renglones fueron a productos indios, 9% del valor [7].
 - **Las cefalosporinas las ganan productos chinos** entregados a B/.0.239–0.259 el vial; la amoxicilina con clavulánico, un fabricante portugués (B/.0.179 la tableta) [7].
 - **Probabilidad de ganar según cuántos ofertan** (compras del MINSA 2021-2024, ofertas con precio): 87% con un oferente, 46% con dos, 32% con tres, 24% con cuatro, 20% con cinco y 14% con seis o más; los nuevos ganan 36.6% de sus ofertas frente a 56.6% de los establecidos y son descalificados 57% de las veces frente a 36% [18].
 - **Gana el más barato que califica** en 88.8% de los renglones adjudicados; la oferta más barata, a secas, gana 74%: la descalificación decide [18].
@@ -103,7 +103,7 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **B/.171 mil
 | Ruta abreviada (sin análisis previo) | DE 29 de 2023 [23] | B/.750 | Solo si el producto está registrado y se vende en un país de referencia de la OPS: Argentina, Brasil, Chile, Colombia, Cuba o México. La India no está en la lista de la OMS (WLA) |
 | Compras por desabastecimiento crítico | DE 27, arts. 824-829 [21]; DE 16 de 2026 [22] | Fianza de al menos 10% | Cotizaciones en línea abiertas a oferentes nacionales o internacionales, aun sin registro panameño, con certificado de libre venta, BPM y autorización del fabricante |
 | Oferentes internacionales sin registro | Ley 419, art. 204 [20] | — | Riesgo de que la fábrica venda directo: se cubre con contrato de distribución exclusiva |
-| Certificado de etilenglicol y dietilenglicol por lote (jarabes y suspensiones) | DE 27, art. 365 [21] | Lo emite la fábrica con cada lote | Requisito para pedírselo a la fábrica |
+| Certificado de ausencia de etilenglicol y dietilenglicol, por lote, para líquidos orales con glicerina, sorbitol o propilenglicol (de metanol, para tópicos con alcohol etílico) | DE 27, art. 365 [21] | Laboratorio del país de origen, el IEA o el INDICASAT; autenticado | Se le pide a la fábrica con cada lote de jarabe o suspensión |
 | Farmacovigilancia | DE 27, arts. 257, 318 y 319 [21] | Responsable designado, acceso a MedDRA y WHODrug | En el modelo: B/.150 al mes (supuesto) |
 | Registro Nacional de Oferentes | DE 27, arts. 724-726 [21] | 30 días hábiles | Pide solvencia certificada por un CPA o un banco, la licencia y los productos inscritos |
 | Declaración ante la ANTAI | Ley 316, art. 5 [1][4] | Gratuita, notariada | Por cada contrato adjudicado |
@@ -113,7 +113,7 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **B/.171 mil
 
 ## 5. Productos y economía por producto
 
-Costo puesto en Panamá = referencia FOB × 1.25 (índice del proveedor) × (1 + 5% de empaque) + logística. La referencia es el precio de compra pública más reciente en la India × 1.4, a INR 96.61 por dólar [27][28][29][30]; la fábrica todavía no ha dado precios. Con el índice de 1.25, el caso base paga 1.75 veces el precio doméstico indio; UNICEF y la OPS pagan entre 2 y 9 veces por productos con precalificación de la OMS, que Panamá no exige [31][32]. Precio de oferta: 0.95 veces el adjudicado en lo centralizado y 0.90 veces el precio ponderado en compras menores. Margen mínimo para ofertar: 20% centralizado, 35% en compras menores.
+Costo puesto en Panamá = referencia FOB × 1.25 (índice del proveedor) × (1 + 5% de empaque) + logística. La referencia es un precio representativo de las compras públicas indias vigentes (PMBI, TNMSC y Assam) × 1.4, a INR 96.61 por dólar [27][28][29][30]; en paracetamol en tabletas, albendazol, mebendazol, nistatina y mometasona se ajustó con otras referencias (UNICEF, precio al público indio), y el detalle por producto está en el Excel. La fábrica todavía no ha dado precios. Con el índice de 1.25, el caso base paga 1.75 veces el precio doméstico indio; UNICEF y la OPS pagan entre 2 y 9 veces por productos con precalificación de la OMS, que Panamá no exige [31][32]. Precio de oferta: 0.95 veces el adjudicado en lo centralizado y 0.90 veces el precio ponderado en compras menores. Margen mínimo para ofertar: 20% centralizado, 35% en compras menores.
 
 | Producto | Costo puesto | LPU: precio / margen | MINSA central | CSS menores | MINSA menores | Techo FOB para la LPU | Cotización esperada |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -135,7 +135,7 @@ Lo que dice la tabla:
 
 - **Ceftriaxona y cefotaxima no caben en lo centralizado**: los ganadores chinos entregan a B/.0.239–0.259 y el techo FOB queda por debajo de la cotización esperada. Solo caben en compras menores pequeñas.
 - **El jarabe de paracetamol no cabe en el MINSA** (subasta a B/.0.40) y deja un margen delgado en la LPU.
-- **Con estos precios, solo 5 de los 11 productos pagan su registro**: Paracetamol 500 mg, albendazol suspensión, mebendazol 100 mg, nistatina suspensión, mometasona crema. Registrar solo esos baja el capital a B/.337 mil, pero el valor presente sigue en −B/.159 mil: el problema no es el portafolio, son los costos fijos y el capital de trabajo frente a ventas pequeñas.
+- **Con estos precios, solo 4 de los 11 productos pagan su registro**: Paracetamol 500 mg, albendazol suspensión, nistatina suspensión, mometasona crema. Registrar solo esos baja el capital a B/.347 mil, pero el valor presente sigue en −B/.158 mil: el problema no es el portafolio, son los costos fijos y el capital de trabajo frente a ventas pequeñas.
 - **La lista de precios real decide** qué productos se registran: cada producto se compara contra su techo, no contra un promedio.
 
 ## 6. Operación
@@ -143,7 +143,7 @@ Lo que dice la tabla:
 - **Bodega y regente**: un operador logístico (3PL) con licencia de la DNFD (la lista de la DNFD muestra agencias alojadas en varios operadores [38]), cuyo regente cubra también a la agencia (permitido hasta seis regencias en centros logísticos [20]). Hay cuatro solicitudes de cotización enviadas y una videollamada propuesta por J. Cain (documento 5).
 - **Volumen físico** (caso base, año maduro): unos 68 m³ al año, alrededor de 3.0 tarimas al mes; el paracetamol en tabletas y en jarabe es casi todo el volumen.
 - **Cadena**: orden a la fábrica, producción, flete marítimo consolidado (LCL) desde la India a Manzanillo con transbordo, desaduanaje con corredor, recepción y cuarentena en el 3PL, entrega en los almacenes de la CSS y del MINSA. Tiempo de reposición supuesto: 90 días.
-- **Vida útil**: el pliego exige 18 meses de vida útil al entregar [8]. Con 24 meses de vida útil, el producto puede pasar unos 3 meses en bodega: reposición frecuente y poco inventario (2.5 meses de cobertura en compras menores).
+- **Vida útil**: el pliego pide entregar con el vencimiento que fije la ficha técnica y, si no lo fija, con 18 meses de vida útil [8]; para importar, al menos 6 meses [21]. Con 24 meses de vida útil quedan unos 6 meses entre fabricación y entrega; descontando producción y tránsito, unos 3 meses en bodega: reposición frecuente y poco inventario (2.5 meses de cobertura en compras menores).
 - **Empaque**: impreso de fábrica con el número del acto; el pliego prohíbe reetiquetar [8].
 - **Logística**: el modelo usa unos US$356 por m³ puesto en bodega (flete FAK de CMA CGM de junio de 2026 más recargo, cargos de destino y corredor) [33][34][35].
 
@@ -184,7 +184,7 @@ Sueldos de referencia de Konzerta [37]; honorarios de referencia de la propuesta
 | Registro patronal en la CSS y contratos laborales | B/.900 | B/.300 | B/.100 | 3 | R: SignatureLex 750 + 150 |
 | PanamaCompra, Registro Nacional de Oferentes y proveedor de la CSS | B/.2,700 | B/.500 | B/.0 | 4 | F: trámites sin tasa oficial; R: SignatureLex 3 x (750 + 150) |
 
-Fianzas: prima de 2.5% al año en la base (Banco General cobra 1.07-1.605% anual con un mínimo de US$1,337.50 por garantía [36]) y colateral de 75% de la fianza (supuesto: ninguna aseguradora publica el porcentaje).
+Fianzas exigidas: en la LPU, de propuesta por 10% de toda la oferta durante 180 días hábiles (el acto supera B/.70 mil; Ley 419, art. 245) y de cumplimiento por 30% del contrato, vigente durante el contrato más 3 meses; en las subastas del MINSA, solo de cumplimiento, por 20% [8][13][20]. Costo: prima de 2.5% al año en la base (Banco General cobra 1.07-1.605% anual con un mínimo de US$1,337.50 por garantía [36]) y colateral de 75% de la fianza (supuesto: ninguna aseguradora publica el porcentaje).
 
 Registro por producto (base): tasas B/.570, análisis previo B/.1,500, abogado B/.800, traducciones B/.600, muestras B/.150, más ITBMS sobre servicios: **B/.3,718 por producto** y B/.41 mil los 11 productos de la primera ola. Cargos anuales: Tasa única de la S.A., B/.300; Agente residente, B/.350; Renovación de la licencia de operación (B/.200 cada 2 años), B/.100.
 
@@ -194,33 +194,33 @@ Los tres casos usan los valores pesimista, base u optimista de todos los supuest
 
 | Indicador | Pesimista | Base | Optimista | Base con honorarios de SignatureLex |
 | --- | --- | --- | --- | --- |
-| Capital aportado, con fase 0 | B/.591 mil | B/.389 mil | B/.200 mil | B/.414 mil |
-| Mes del pico de capital | 60 (diciembre de 2031) | 37 (enero de 2030) | 28 (abril de 2029) | 37 |
+| Capital aportado, con fase 0 | B/.592 mil | B/.393 mil | B/.196 mil | B/.418 mil |
+| Mes del pico de capital | 60 (diciembre de 2031) | 45 (septiembre de 2030) | 16 (abril de 2028) | 45 |
 | Primera venta | abril de 2028 | diciembre de 2027 | octubre de 2027 | diciembre de 2027 |
 | Primer contrato centralizado | marzo de 2029 | agosto de 2028 | enero de 2028 | agosto de 2028 |
 | Ventas del año 3 | B/.6 mil | B/.176 mil | B/.1.00 millones | B/.176 mil |
 | Utilidad neta del año 3 | −B/.96 mil | B/.8 mil | B/.421 mil | B/.8 mil |
 | Utilidad neta del año 5 | −B/.98 mil | B/.14 mil | B/.459 mil | B/.14 mil |
-| Valor presente al 15% | −B/.434 mil | −B/.196 mil | B/.601 mil | −B/.220 mil |
-| Valor presente al 30% | −B/.358 mil | −B/.205 mil | B/.298 mil | −B/.228 mil |
-| Tasa interna de retorno | −95.9% | −12.2% | 79.0% | −13.6% |
-| Lo que vuelve por cada balboa puesto | 0.05x | 0.63x | 7.24x | 0.60x |
+| Valor presente al 15% | −B/.435 mil | −B/.199 mil | B/.601 mil | −B/.222 mil |
+| Valor presente al 30% | −B/.359 mil | −B/.207 mil | B/.298 mil | −B/.230 mil |
+| Tasa interna de retorno | −94.8% | −12.3% | 78.5% | −13.6% |
+| Lo que vuelve por cada balboa puesto | 0.05x | 0.63x | 7.35x | 0.60x |
 
 Valor presente, tasa y múltiplo con valor terminal conservador: caja más 90% del capital de trabajo al mes 60, neto de impuestos. En el pesimista, cerrar en la compuerta operativa (enero de 2029) limita el capital a B/.322 mil y la pérdida a B/.298 mil.
 
 ### 8.1 En qué se va el capital del caso base
 
-En el mes pico (enero de 2030) el capital aportado de B/.389 mil se explica así:
+En el mes pico (septiembre de 2030) el capital aportado de B/.393 mil se explica así:
 
 | Componente | Monto |
 | --- | --- |
 | Arranque y fase 0 | B/.15 mil |
 | Registros sanitarios (primera y segunda ola) | B/.63 mil |
-| Costos fijos, cargos anuales y posregistro acumulados | B/.170 mil |
-| Impuestos pagados | B/.3 mil |
-| Menos: margen bruto acumulado (ventas menos costo, mermas, distribución y fianzas) | −B/.118 mil |
-| Colateral de fianzas inmovilizado | B/.115 mil |
-| Cuentas por cobrar al Estado | B/.85 mil |
+| Costos fijos, cargos anuales y posregistro acumulados | B/.213 mil |
+| Impuestos pagados | B/.10 mil |
+| Menos: margen bruto acumulado (ventas menos costo, mermas, distribución y fianzas) | −B/.177 mil |
+| Colateral de fianzas inmovilizado | B/.121 mil |
+| Cuentas por cobrar al Estado | B/.91 mil |
 | Inventario | B/.20 mil |
 | Pagos adelantados a la fábrica (mercancía en tránsito) | B/.22 mil |
 | Caja mínima | B/.14 mil |
@@ -233,34 +233,34 @@ Punto de equilibrio en régimen: ventas de **B/.134 mil al año** con un margen 
 
 | Estructura | Se detiene en fase 0 | Cierra en compuerta | Falla de planta o suministro | Perder dinero | Perder más que la fase 0 | Valor presente al 15% (promedio) | Capital mediano / p80 / p90 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| A. Propuesta de Rutul Patel tal cual | 0% | 0% | 29% | 99% | 99% | −B/.238 mil | B/.396 mil / B/.506 mil / B/.573 mil |
-| B. Por etapas, mismos términos | 20% | 34% | 10% | 99% | 79% | −B/.160 mil | B/.271 mil / B/.465 mil / B/.544 mil |
-| C. Por etapas con términos negociados | 12% | 31% | 12% | 98% | 85% | −B/.172 mil | B/.326 mil / B/.460 mil / B/.523 mil |
-| D. Por etapas; la fábrica paga registros y da crédito | 12% | 31% | 12% | 93% | 81% | −B/.120 mil | B/.246 mil / B/.365 mil / B/.421 mil |
-| E. Registros más distribuidor establecido | 20% | 0% | 0% | 98% | 78% | −B/.70 mil | B/.117 mil / B/.131 mil / B/.139 mil |
+| A. Propuesta de Rutul Patel tal cual | 0% | 0% | 29% | 99% | 98.9% | −B/.242 mil | B/.404 mil / B/.513 mil / B/.580 mil |
+| B. Por etapas, mismos términos | 20% | 34% | 10% | 99% | 78.8% | −B/.162 mil | B/.278 mil / B/.472 mil / B/.549 mil |
+| C. Por etapas con términos negociados | 12% | 31% | 12% | 98% | 85.5% | −B/.174 mil | B/.333 mil / B/.466 mil / B/.530 mil |
+| D. Por etapas; la fábrica paga registros y da crédito | 12% | 31% | 12% | 93% | 80.8% | −B/.122 mil | B/.252 mil / B/.371 mil / B/.427 mil |
+| E. Registros más distribuidor establecido | 20% | 0% | 0% | 98% | 77.9% | −B/.70 mil | B/.117 mil / B/.131 mil / B/.139 mil |
 
 Variantes de la estructura D:
 
 | Variante | Perder dinero | Perder más que la fase 0 | Valor presente al 15% | Capital mediano / p90 |
 | --- | --- | --- | --- | --- |
-| D más productos de sistema nervioso (si se verifica su fabricante) | 64% | 51% | −B/.86 mil | B/.265 mil / B/.394 mil |
-| D con un socio como coordinador sin sueldo | 82% | 69% | −B/.86 mil | B/.194 mil / B/.355 mil |
-| D más sistema nervioso y coordinador sin sueldo | 48% | 35% | −B/.50 mil | B/.217 mil / B/.341 mil |
-| D con colateral de 100% de la fianza | 94% | 82% | −B/.131 mil | B/.292 mil / B/.506 mil |
-| D con prueba de precio estricta en la fase 0 (1.1 veces la referencia) | 95% | 43% | −B/.66 mil | B/.253 mil / B/.421 mil |
+| D más productos de sistema nervioso (si se verifica su fabricante) | 65% | 52.1% | −B/.91 mil | B/.277 mil / B/.404 mil |
+| D con un socio como coordinador sin sueldo | 82% | 69.2% | −B/.88 mil | B/.201 mil / B/.361 mil |
+| D más sistema nervioso y coordinador sin sueldo | 48% | 35.5% | −B/.55 mil | B/.228 mil / B/.349 mil |
+| D con colateral de 100% de la fianza | 94% | 81.9% | −B/.134 mil | B/.304 mil / B/.513 mil |
+| D con prueba de precio estricta en la fase 0 (1.1 veces la referencia) | 96% | 43.1% | −B/.67 mil | B/.261 mil / B/.427 mil |
 
 Lo que pone y arriesga **un socio panameño** (un sexto del capital y de las utilidades con el 50/50 propuesto, más un tercio de la fase 0; un tercio en la estructura E):
 
 | Estructura | Capital mediano si sigue | Capital p90 si sigue | Resultado neto promedio | Probabilidad de perder |
 | --- | --- | --- | --- | --- |
-| A. Propuesta de Rutul Patel tal cual | B/.67 mil | B/.96 mil | −B/.40 mil | 99% |
-| B. Por etapas, mismos términos | B/.46 mil | B/.91 mil | −B/.26 mil | 99% |
-| C. Por etapas con términos negociados | B/.55 mil | B/.88 mil | −B/.27 mil | 98% |
-| D. Por etapas; la fábrica paga registros y da crédito | B/.42 mil | B/.71 mil | −B/.18 mil | 93% |
-| D más sistema nervioso y coordinador sin sueldo | B/.37 mil | B/.58 mil | B/.3 mil | 49% |
+| A. Propuesta de Rutul Patel tal cual | B/.68 mil | B/.97 mil | −B/.40 mil | 99% |
+| B. Por etapas, mismos términos | B/.47 mil | B/.92 mil | −B/.26 mil | 99% |
+| C. Por etapas con términos negociados | B/.56 mil | B/.89 mil | −B/.27 mil | 98% |
+| D. Por etapas; la fábrica paga registros y da crédito | B/.43 mil | B/.72 mil | −B/.18 mil | 94% |
+| D más sistema nervioso y coordinador sin sueldo | B/.39 mil | B/.59 mil | B/.2 mil | 49% |
 | E. Registros más distribuidor establecido | B/.39 mil | B/.46 mil | −B/.23 mil | 98% |
-| D con Rutul Patel aportando 70% del efectivo | B/.26 mil | B/.43 mil | −B/.3 mil | 71% |
-| D con Rutul Patel aportando 80% del efectivo | B/.17 mil | B/.29 mil | B/.5 mil | 61% |
+| D con Rutul Patel aportando 70% del efectivo | B/.26 mil | B/.44 mil | −B/.3 mil | 71% |
+| D con Rutul Patel aportando 80% del efectivo | B/.18 mil | B/.30 mil | B/.5 mil | 61% |
 
 Cómo leerlo: perder dinero incluye los escenarios que se detienen en la fase 0 (pierden solo esa fase); por eso la estructura B tiene una probabilidad de perder muy alta pero un capital mediano menor. Lo que mide el riesgo real es «perder más que la fase 0» y el capital del p80-p90, que es lo que hay que tener disponible.
 
@@ -268,18 +268,18 @@ Cómo leerlo: perder dinero incluye los escenarios que se detienen en la fase 0 
 
 | Supuesto | Valor pesimista → optimista | Valor presente al 15% | Capital |
 | --- | --- | --- | --- |
-| Costos fijos mensuales con cargas e ITBMS (bloque) | B/.7,824 → B/.2,986 | −B/.326 mil → −B/.136 mil | B/.545 mil → B/.330 mil |
-| Índice del precio de la fábrica frente a la referencia FOB | 1.8 → 1.0 | −B/.221 mil → −B/.167 mil | B/.368 mil → B/.372 mil |
-| Caída anual de precios a partir del año 2 | 6% → 0% | −B/.222 mil → −B/.170 mil | B/.405 mil → B/.380 mil |
-| Participación madura en compras descentralizadas (valor) | 10% → 32% | −B/.224 mil → −B/.174 mil | B/.405 mil → B/.384 mil |
-| Parte de la cantidad de la compra conjunta de 2023 que se toma como demanda del MINSA | 0% → 50% | −B/.207 mil → −B/.171 mil | B/.393 mil → B/.385 mil |
-| Colateral en efectivo que pide la aseguradora o el banco (% de la fianza) | 100% → 25% | −B/.208 mil → −B/.172 mil | B/.427 mil → B/.312 mil |
-| Probabilidad de ganar un renglón centralizado en el que se oferta | 15% → 45% | −B/.213 mil → −B/.185 mil | B/.350 mil → B/.457 mil |
-| Productos de la segunda ola (sin equivalencia terapéutica, fabricación verificada) | 0 → 12 | −B/.183 mil → −B/.210 mil | B/.316 mil → B/.466 mil |
-| Cantidad comprada frente a la máxima del contrato de la LPU | 55% → 90% | −B/.209 mil → −B/.187 mil | B/.385 mil → B/.393 mil |
-| Días de cobro: entrega hasta cobro | 240 → 105 | −B/.211 mil → −B/.191 mil | B/.437 mil → B/.374 mil |
-| Factor de mercado (demanda futura frente a 2025-2026) | 0.75 → 1.0 | −B/.208 mil → −B/.189 mil | B/.372 mil → B/.403 mil |
-| Precio de oferta descentralizado frente al precio ponderado actual | 0.8 → 0.95 | −B/.208 mil → −B/.190 mil | B/.396 mil → B/.386 mil |
+| Costos fijos mensuales con cargas e ITBMS (bloque) | B/.7,824 → B/.2,986 | −B/.328 mil → −B/.138 mil | B/.546 mil → B/.330 mil |
+| Índice del precio de la fábrica frente a la referencia FOB | 1.8 → 1.0 | −B/.224 mil → −B/.169 mil | B/.369 mil → B/.372 mil |
+| Caída anual de precios a partir del año 2 | 6% → 0% | −B/.224 mil → −B/.172 mil | B/.409 mil → B/.380 mil |
+| Participación madura en compras descentralizadas (valor) | 10% → 32% | −B/.227 mil → −B/.176 mil | B/.409 mil → B/.384 mil |
+| Colateral en efectivo que pide la aseguradora o el banco (% de la fianza) | 100% → 25% | −B/.212 mil → −B/.173 mil | B/.434 mil → B/.312 mil |
+| Parte de la cantidad de la compra conjunta de 2023 que se toma como demanda del MINSA | 0% → 50% | −B/.210 mil → −B/.173 mil | B/.399 mil → B/.385 mil |
+| Probabilidad de ganar un renglón centralizado en el que se oferta | 15% → 45% | −B/.217 mil → −B/.187 mil | B/.366 mil → B/.457 mil |
+| Productos de la segunda ola (sin equivalencia terapéutica, fabricación verificada) | 0 → 12 | −B/.186 mil → −B/.213 mil | B/.319 mil → B/.467 mil |
+| Cantidad comprada frente a la máxima del contrato de la LPU | 55% → 90% | −B/.212 mil → −B/.189 mil | B/.391 mil → B/.394 mil |
+| Días de cobro: entrega hasta cobro | 240 → 105 | −B/.214 mil → −B/.193 mil | B/.448 mil → B/.375 mil |
+| Precio de oferta descentralizado frente al precio ponderado actual | 0.8 → 0.95 | −B/.211 mil → −B/.192 mil | B/.404 mil → B/.389 mil |
+| Factor de mercado (demanda futura frente a 2025-2026) | 0.75 → 1.0 | −B/.210 mil → −B/.191 mil | B/.377 mil → B/.404 mil |
 
 Ningún supuesto por sí solo vuelve positivo el caso base. Los costos fijos son el que más pesa. Algunos supuestos «pesimistas» bajan el capital porque sacan productos de margen delgado que inmovilizan fianzas (por ejemplo, una logística cara saca al jarabe de la LPU).
 
@@ -289,31 +289,31 @@ Cada fila cambia el caso base:
 
 | Cambio | Capital | Valor presente al 15% | Tasa de retorno | Múltiplo |
 | --- | --- | --- | --- | --- |
-| Caso base | B/.389 mil | −B/.196 mil | −12.2% | 0.63x |
-| Crédito de la fábrica de 120 días, sin anticipo | B/.347 mil | −B/.181 mil | −13.4% | 0.61x |
-| Precio de fábrica a 1.05 veces la referencia | B/.375 mil | −B/.174 mil | −8.8% | 0.72x |
-| Un socio coordina sin sueldo | B/.338 mil | −B/.144 mil | −6.0% | 0.80x |
-| Colateral de 50% de la fianza | B/.350 mil | −B/.184 mil | −12.9% | 0.61x |
-| Colateral de 100% de la fianza | B/.427 mil | −B/.208 mil | −11.7% | 0.65x |
-| La CSS prorroga la LPU vigente y la siguiente arranca en el mes 14 | B/.371 mil | −B/.192 mil | −10.2% | 0.67x |
-| El MINSA compra 50% de lo que pidió en la compra conjunta de 2023 | B/.385 mil | −B/.171 mil | −7.4% | 0.76x |
-| Más 6 productos de sistema nervioso (fabricante verificado) | B/.390 mil | −B/.144 mil | −1.3% | 0.95x |
-| La fábrica paga los registros, da 180 días de crédito y precio 1.05 | B/.254 mil | −B/.97 mil | −4.0% | 0.87x |
-| Lo anterior y un socio coordina sin sueldo | B/.207 mil | −B/.51 mil | 3.9% | 1.14x |
-| Lo anterior más sistema nervioso | B/.191 mil | B/.11 mil | 17.1% | 1.78x |
-| Caso base con las tarifas legales de SignatureLex | B/.414 mil | −B/.220 mil | −13.6% | 0.60x |
-| Solo los 5 productos que pagan su registro | B/.337 mil | −B/.159 mil | −11.3% | 0.67x |
+| Caso base | B/.393 mil | −B/.199 mil | −12.3% | 0.63x |
+| Crédito de la fábrica de 120 días, sin anticipo | B/.350 mil | −B/.184 mil | −13.4% | 0.60x |
+| Precio de fábrica a 1.05 veces la referencia | B/.376 mil | −B/.176 mil | −8.9% | 0.72x |
+| Un socio coordina sin sueldo | B/.339 mil | −B/.146 mil | −6.1% | 0.80x |
+| Colateral de 50% de la fianza | B/.352 mil | −B/.186 mil | −13.0% | 0.61x |
+| Colateral de 100% de la fianza | B/.434 mil | −B/.212 mil | −11.8% | 0.65x |
+| La CSS prorroga la LPU vigente y la siguiente arranca en el mes 14 | B/.384 mil | −B/.196 mil | −10.0% | 0.67x |
+| El MINSA compra 50% de lo que pidió en la compra conjunta de 2023 | B/.385 mil | −B/.173 mil | −7.5% | 0.76x |
+| Más 6 productos de sistema nervioso (fabricante verificado) | B/.391 mil | −B/.148 mil | −1.5% | 0.95x |
+| La fábrica paga los registros, da 180 días de crédito y precio 1.05 | B/.254 mil | −B/.99 mil | −4.2% | 0.86x |
+| Lo anterior y un socio coordina sin sueldo | B/.207 mil | −B/.54 mil | 3.5% | 1.13x |
+| Lo anterior más sistema nervioso | B/.202 mil | B/.5 mil | 15.8% | 1.72x |
+| Caso base con las tarifas legales de SignatureLex | B/.418 mil | −B/.222 mil | −13.6% | 0.60x |
+| Solo los 4 productos que pagan su registro | B/.347 mil | −B/.158 mil | −10.6% | 0.69x |
 
 Precio de fábrica (veces la referencia FOB) frente a la estructura, valor presente al 15%:
 
 | Estructura | Precio 0.70 | Precio 0.80 | Precio 1.00 | Precio 1.25 |
 | --- | --- | --- | --- | --- |
-| Términos de la propuesta | −B/.138 mil | −B/.151 mil | −B/.167 mil | −B/.196 mil |
-| Términos de la propuesta + sistema nervioso | −B/.86 mil | −B/.99 mil | −B/.116 mil | −B/.144 mil |
-| La fábrica paga registros y da 180 días | −B/.62 mil | −B/.74 mil | −B/.90 mil | −B/.117 mil |
-| La fábrica paga registros y da 180 días + sistema nervioso | B/.5 mil | −B/.7 mil | −B/.25 mil | −B/.50 mil |
-| La fábrica financia y un socio coordina sin sueldo | −B/.19 mil | −B/.30 mil | −B/.45 mil | −B/.68 mil |
-| La fábrica financia y un socio coordina sin sueldo + sistema nervioso | B/.46 mil | B/.34 mil | B/.17 mil | −B/.7 mil |
+| Términos de la propuesta | −B/.142 mil | −B/.154 mil | −B/.169 mil | −B/.199 mil |
+| Términos de la propuesta + sistema nervioso | −B/.93 mil | −B/.105 mil | −B/.120 mil | −B/.148 mil |
+| La fábrica paga registros y da 180 días | −B/.67 mil | −B/.78 mil | −B/.93 mil | −B/.119 mil |
+| La fábrica paga registros y da 180 días + sistema nervioso | −B/.3 mil | −B/.14 mil | −B/.31 mil | −B/.55 mil |
+| La fábrica financia y un socio coordina sin sueldo | −B/.24 mil | −B/.35 mil | −B/.49 mil | −B/.70 mil |
+| La fábrica financia y un socio coordina sin sueldo + sistema nervioso | B/.37 mil | B/.27 mil | B/.10 mil | −B/.13 mil |
 
 Conclusión: el precio de fábrica ayuda, pero no basta. Para que el valor esperado sea positivo hacen falta, a la vez, financiamiento de la fábrica (registros y 180 días de crédito), un socio que coordine sin sueldo al inicio y productos adicionales con fabricante verificado (los de sistema nervioso no están en el catálogo de la fábrica de la primera ola: su fabricante es desconocido).
 
@@ -352,7 +352,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | Quién paga los registros y qué crédito da la fábrica | Mueve el capital más que el precio | Pregunta directa (documento 4) | Los paga la S.A.; sin crédito, 30% de anticipo |
 | Colateral que pide la aseguradora o el banco | Es el mayor componente del capital | Cotización de dos aseguradoras | 75% de la fianza |
 | Tarifa del 3PL y si su depósito vale como depósito de la agencia | Costo fijo y licencia | Cotizaciones en curso y consulta escrita a la DNFD | B/.600 al mes |
-| Tarifa del análisis del IEA o INDICASAT | Costo de cada registro | Solicitud escrita citando la Ley 419, art. 79 | B/.1,500 por producto |
+| Tasa del análisis del IEA o INDICASAT | Costo de cada registro | Solicitud escrita citando la Ley 419, art. 79 | B/.1,500 por producto |
 | Fecha de la próxima LPU de la CSS y si prorroga la vigente | Fecha del primer contrato grande | Vigilar PanamaCompra desde noviembre de 2026 | Primer contrato en agosto de 2028 |
 | Si la compra conjunta del DE 16 se hace | Demanda del MINSA | PanamaCompra | 15% de la cantidad de 2023 |
 | Plazo real de los registros en la DNFD | Fecha de la primera venta | Consulta a la DNFD o a un regente con experiencia | Mes 9 |
@@ -397,7 +397,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | bond_minsa | Fianza de cumplimiento del MINSA (% del contrato) | % | 20% | 20% | 20% | F: Ley 419 art. 246 (no menos de 20%) |
 | collat | Colateral en efectivo que pide la aseguradora o el banco (% de la fianza) | % | 100% | 75% | 25% | E: ninguna aseguradora publica el porcentaje; una empresa nueva sin estados auditados; se cierra con dos cotizaciones |
 | bond_prem | Prima anual de la fianza | % | 4% | 2.5% | 1.3% | F: Banco General, garantía de cumplimiento 1.07-1.605% anual con mínimo de US$1,337.50 (2026); los mínimos elevan la tasa efectiva |
-| bid_bond | Fianza de propuesta en la LPU (% de la oferta, renglones con referencia mayor de B/.70,000) | % | 10% | 10% | 10% | F: Ley 419 art. 245; pliego de la LPU 01-2026 |
+| bid_bond | Fianza de propuesta en la LPU (% de toda la oferta: el acto supera B/.70,000, Ley 419 art. 245) | % | 10% | 10% | 10% | F: Ley 419 art. 245; pliego de la LPU 01-2026 |
 | bid_m | Meses de colateral de la fianza de propuesta antes de cada contrato de la LPU | meses | 6 | 5 | 4 | F: vigencia exigida de 180 días hábiles; 3.5 meses de publicación a ejecutoria en la LPU 01-2026 |
 | mincash_m | Caja mínima operativa (meses de costos fijos) | meses | 3 | 3 | 3 | Política financiera |
 | rs_off | Tasas oficiales por registro (DNFD 500 + MEF + refrendo) | B/. | B/.575 | B/.570 | B/.545 | F: DE 27 art. 15; guía del MINSA de 2012 para MEF y refrendo |
@@ -426,7 +426,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | bond_tail_minsa | Meses que la fianza de cumplimiento del MINSA sigue vigente tras el contrato | meses | 6 | 6 | 6 | E: ejecución, liquidación y 6 meses; se confirma en el pliego |
 | forfeit_frac | Parte de la fianza de cumplimiento que se pierde si el Estado la ejecuta | % | 100% | 100% | 100% | F: Ley 22 (ejecución de la fianza) y contragarantías de la aseguradora (pagaré, codeudores) |
 
-Fuentes en la columna: F = dato verificado en una fuente abierta; R = referencia indirecta; E = estimación propia. El detalle de cada verificación (475 afirmaciones con veredicto, fuente y fecha) está en `research/verificacion_2026-10-09/registro_verificaciones.csv`.
+Fuentes en la columna: F = dato verificado en una fuente abierta; R = referencia indirecta; E = estimación propia. El detalle de cada verificación (487 afirmaciones con veredicto, fuente y fecha) está en `research/verificacion_2026-10-09/registro_verificaciones.csv`.
 
 ## Fuentes
 
