@@ -23,6 +23,9 @@ FORBIDDEN_RUTUL = [r'Bueno', r'Sanand', r'Dudhwewala', r'Deepti', r'Bhargava', r
                    r'Boyd', r'probability', r'NPV', r'net present', r'ceiling', r'loss', r'Lorisol', r'K-20', r'Tofler', r'Falconebiz']
 VOSEO = [r'\btenés\b', r'\bpodés\b', r'\bquerés\b', r'\bsabés\b', r'\bvos\b', r'\bdecime\b', r'\bmirá\b', r'\bfijate\b']
 errors, warns = [], []
+if not os.path.exists(_pn):
+    warns.append('private/nombres_privados.txt no existe: no se verificó que los nombres privados falten en los documentos compartidos '
+                 '(recrearlo con la lista de la sección 9 de la bitácora)')
 
 
 def check_tables(path, lines):

@@ -28,20 +28,20 @@ Currency: the balboa (B/.) trades one to one with the US dollar.
 
 ## 3. Recent public award prices for the first products
 
-The first products were chosen because Panama does not require bioequivalence studies for them and they are bought regularly. Award prices from the current CSS tender (public record) [9]:
+The first products were chosen because Panama does not require bioequivalence studies for them and they are bought regularly. Presentations as written in the current CSS tender [3] and award prices from its public bid table [9]:
 
 | Product | Presentation | Award price (B/. per unit) | Winning product's origin |
 | --- | --- | --- | --- |
 | Paracetamol | 500 mg tablet | 0.010 | India |
-| Paracetamol | 120-160 mg/5 ml syrup, 120 ml bottle | 0.59 | Panama |
+| Paracetamol | 120-160 mg/5 ml syrup or solution, bottle | 0.59 | Panama |
 | Amoxicillin + clavulanic acid | 500/125 mg tablet | 0.179 | Portugal |
-| Amoxicillin + clavulanic acid | 400/57 mg/5 ml suspension, 100 ml | 1.98 | Portugal |
-| Ceftriaxone | 1 g vial (I.V.) | 0.239 | China |
-| Cefotaxime | 1 g vial | 0.259 | China |
-| Albendazole | 400 mg/10 ml suspension | 1.81 | Guatemala |
+| Amoxicillin + clavulanic acid | 400 mg + 57 mg suspension, bottle (the winner supplies 100 ml) | 1.98 | Portugal |
+| Ceftriaxone | 1 g lyophilised powder, I.V. | 0.239 | China |
+| Cefotaxime | 1 g lyophilised powder, I.V. | 0.259 | China |
+| Albendazole | 40 mg/ml suspension, bottle (the winner supplies 20 ml) | 1.81 | Guatemala |
 | Mebendazole | 100 mg tablet | 0.13 | Panama |
-| Nystatin | 100,000 IU/ml suspension | 3.18 | El Salvador |
-| Hydrocortisone | 1% cream, 15 g tube | 0.555 | India |
+| Nystatin | 100,000 IU/ml suspension, 24-30 ml bottle with calibrated dropper | 3.18 | El Salvador |
+| Hydrocortisone | 0.25-2.5% cream, 15-30 g tube | 0.555 | India |
 | Mometasone (high-potency corticosteroid line) | 0.1% cream, 15 g tube | 1.02 | Chile |
 
 These are delivered prices in Panama: they already include freight, import clearance, storage, bonds, local distribution and the distributor's margin. The MINSA bought paracetamol syrup at B/.0.40 a bottle in its 2026 auction [5].

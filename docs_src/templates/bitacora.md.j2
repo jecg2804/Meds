@@ -31,7 +31,7 @@ Lo prudente es no comprometer más que la fase 0 ({{ (N.unit_costs.phase0 / 3)|b
 
 ## 4. Reglas de trabajo
 
-- **Formato:** Markdown es la fuente y el formato de lectura; PDF solo para imprimir o mandar (resumen para socios; resumen en inglés para Rutul). Nada de Google Docs, Word ni artifacts. El modelo en Excel vive en el repositorio.
+- **Formato:** Markdown es la fuente y el formato de lectura; PDF solo para imprimir o mandar (resumen para socios; resumen en inglés para Rutul). Nada de Google Docs ni Word. El modelo en Excel vive en el repositorio.
 - **Audiencias:** compartido con todos, incluido Rutul (inglés); socios panameños e inversionistas (español); privado de Jaime (esta bitácora).
 - **Cifras:** salen de `outputs/numbers.json`, que genera el modelo; los documentos se generan con `bash build.sh`; nadie edita números a mano.
 - **Lenguaje:** español neutro de Panamá, de usted; «Rutul Patel» o «Patel», nunca otra forma; celdas sin dato con «—».
@@ -41,11 +41,11 @@ Lo prudente es no comprometer más que la fase 0 ({{ (N.unit_costs.phase0 / 3)|b
 
 | Lugar | Qué hay |
 | --- | --- |
-| Repositorio GitHub `jecg2804/Meds` (público a la fecha: Jaime debe pasarlo a privado en Settings) | Modelo (`model/`), generador (`docs_src/`), documentos (`docs/`), números (`outputs/numbers.json`), Excel (`outputs/Modelo_financiero.xlsx`), investigación y registro de 475 verificaciones (`research/`). `private/` no se sube |
-| Google Drive, carpeta `Farma` | `01 Privado` (esta bitácora; no se comparte), `02 Socios Panamá` (documentos 1 a 5 y el PDF del resumen), `03 Compartido con Rutul Patel` (resumen del proyecto en inglés, en Markdown y PDF) |
-| Proyecto de Claude «Med Tenders Panama» | Copia de trabajo de los documentos en Markdown y esta bitácora |
-| Gmail de Jaime | Correos a los 3PL (8 de octubre) y respuesta de J. Cain (9 de octubre) |
-| Tarea programada «Farma: revisión semanal del negocio» | Lunes 7:54 (Panamá): PanamaCompra, normas, prensa, respuestas en Gmail, pendientes; deja tres tareas a Jaime |
+| Repositorio GitHub `jecg2804/Meds` (público a la fecha: Jaime debe pasarlo a privado en Settings) | Modelo (`model/`), generador (`docs_src/`), documentos (`docs/`), números (`outputs/numbers.json`), Excel (`outputs/Modelo_financiero.xlsx`), investigación y registro de {{ REG_N }} verificaciones (`research/`). `private/` no se sube |
+| Google Drive, carpeta `Farma` | `01 Privado (solo Jaime)`: esta bitácora; no se comparte. `02 Socios Panamá`: documentos 1 a 5 en Markdown (los PDF y el Excel, cuando se suban a mano o con la computadora vinculada). `03 Shared with Rutul Patel`: el resumen del proyecto en inglés y la subcarpeta `From the factory` para lo que mande la fábrica. Nada está compartido todavía |
+| Proyecto de Claude «Med Tenders Panama» | Centro de mando: `socios/` (documentos 1 a 5), `compartido/` (resumen en inglés), `claude/bitacora_negocio.md` (esta bitácora, generada) y `claude/revisiones_semanales.md` (registro que escribe la tarea programada; no se regenera) |
+| Gmail de Jaime | Correos a los 3PL (8 de octubre) y respuesta de J. Cain (9 de octubre). Claude solo lo lee cuando Jaime lo pide en la conversación |
+| Tarea programada «Farma: revisión semanal del negocio» | Lunes 7:54 (Panamá): PanamaCompra, normas y prensa; revisa pendientes; deja hasta tres tareas a Jaime y una línea en `claude/revisiones_semanales.md`. No usa el correo de Jaime ni contacta a nadie. Modelo: claude-fable-5-1 (Jaime decide si se cambia) |
 {% if DRIVE %}
 
 Identificadores de Drive (para mantenimiento):
@@ -66,12 +66,13 @@ Identificadores de Drive (para mantenimiento):
 5. Aprobar los correos a aseguradoras e IEA y el recordatorio a los 3PL (documento 5).
 6. Llenar el formulario de BP Logistics y mandar el WhatsApp a Farmazona.
 7. Decir cuánto tiempo a la semana puede dedicar (define si hace falta coordinador pagado).
-8. Compartir `02 Socios Panamá` con Juan Luis y Francisco cuando lo decida; `03 Compartido con Rutul Patel` cuando se mande la apertura.
+8. Compartir `02 Socios Panamá` con Juan Luis y Francisco cuando lo decida; `03 Shared with Rutul Patel` con Rutul cuando se mande la apertura.
 9. Borrar en el proyecto de Claude el PDF duplicado del Decreto Ejecutivo 16 de 2026 (solo se puede desde claude.ai) y pegar las instrucciones del proyecto.
+10. Decidir si la tarea programada sigue con el modelo claude-fable-5-1 (se quedó sin uso de Fable) o pasa a otro; Claude no lo cambia sin su orden.
 
 ## 7. Pendientes de Claude
 
-- Revisión semanal (tarea programada): PanamaCompra (nueva LPU, prórroga, compra conjunta, subastas), normas, prensa, Gmail.
+- Revisión semanal (tarea programada): PanamaCompra (nueva LPU, prórroga, compra conjunta, subastas), normas y prensa; resultado en `claude/revisiones_semanales.md`.
 - Cuando lleguen datos (precios, cotizaciones, opinión legal): actualizar `model/inputs.py`, correr `bash build.sh`, revisar las compuertas y avisar a Jaime con la nueva decisión.
 - Sesión de enseñanza pedida por Jaime: por qué esos productos, esos volúmenes y esos pasos.
 - Si Jaime vincula su computadora (app de escritorio de Claude) con Google Drive para escritorio: subir el Excel y los PDF a Drive.
@@ -88,5 +89,6 @@ Identificadores de Drive (para mantenimiento):
 1. Leer esta bitácora y el resumen para socios.
 2. **Antes de cualquier correo, formulario o mensaje a terceros, mostrar el texto a Jaime y esperar su aprobación.**
 3. Clonar `jecg2804/Meds` si hay que tocar el modelo o los documentos; `bash build.sh` regenera números, Excel, documentos y PDF, y audita.
-4. Revisar el seguimiento (documento 5) y la tabla de la negociación (documento 4); buscar respuestas en Gmail.
+   La carpeta `private/` no está en el repositorio: recrearla con esta bitácora, `drive_ids.json` (tabla de la sección 5) y `nombres_privados.txt`, una palabra por línea{% if PRIVATE_NAMES %}: {{ PRIVATE_NAMES|join(', ') }}{% endif %}. Sin ese archivo la auditoría avisa que no revisó los nombres privados.
+4. Revisar el seguimiento (documento 5), la tabla de la negociación (documento 4) y `claude/revisiones_semanales.md`; con Jaime en la conversación, buscar respuestas en su Gmail.
 5. Al cerrar: commit y push, actualizar Drive y el proyecto, y anotar aquí.

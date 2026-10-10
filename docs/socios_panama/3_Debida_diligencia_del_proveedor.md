@@ -10,7 +10,7 @@
 | ¿Quién fabrica? | Muy probablemente Bueno Salud Care (India) Pvt Ltd, planta K-20/21 en Sanand, Gujarat: la lista de productos de Zywie es una versión editada de la de Bueno (94.3% de los productos fuera del sistema nervioso coinciden y comparten nueve errores de escritura) [3] | Inferencia fuerte |
 | ¿Tiene el entorno de Rutul Patel relación con la fábrica? | Sí: Deepti Rutul Patel es directora de Bueno desde el 08-07-2024 y Abhinav Bhargava, socio de Rutul en otras dos empresas, desde el 18-03-2024; los Bhargava figuran además en las cargas registradas de diciembre de 2024 [4][5] | Hecho (el parentesco de Deepti con Rutul es inferencia) |
 | ¿La planta tiene certificado OMS de buenas prácticas? | Sí, vigente hasta el 26-01-2029, con bloque general y bloque de betalactámicos y cefalosporinas (incluido polvo estéril inyectable); el bloque de cefalosporinas aparece por primera vez en la lista al 31-12-2025 [6] | Hecho |
-| ¿Tiene alertas de calidad? | Dos lotes fallaron en marzo de 2024 (ceftriaxona 1 g, claridad de la solución; amoxicilina dispersable); sin alertas nuevas de 2019 a agosto de 2026 [7][8] | Hecho |
+| ¿Tiene alertas de calidad? | Dos lotes fallaron en marzo de 2024 (ceftriaxona 1 g, claridad de la solución; amoxicilina dispersable); ninguna otra alerta entre enero de 2019 y agosto de 2026 [7][8] | Hecho |
 | ¿Está sana financieramente? | El año fiscal 2026 (estados presentados el 07-09-2026) cerró con ventas +13.4% y ganancia neta de 2.8%; deuda/patrimonio 1.26; cargas abiertas por ₹65.7 crore [4][5] | Hecho (resumen de un agregador del registro mercantil) |
 | ¿Quién es dueño de Bueno? | 10 accionistas; un promotor con 27.17%; los nombres y porcentajes están en el MGT-7 del año fiscal 2025, de pago [5] | Parcial |
 | ¿Vende ya en Panamá o en la región? | Sin rastro en PanamaCompra (2021-2026) ni en las listas de la DNFD; la consulta de registros de la DNFD no carga desde aquí. En Filipinas tiene 35 registros vigentes; en El Salvador, Ecuador y Colombia, ninguno a su nombre [9][10][11][12][13] | Hecho, salvo el registro panameño (no verificable) |
@@ -23,8 +23,8 @@
 | --- | --- | --- |
 | Rutul Patel ↔ Zywie Worldwide | Él mismo se presenta por Zywie; el contacto de IndiaMART es Rutul [2] | Alta |
 | Rutul Divyakant Patel (DIN 05194106) | Dos cargos vigentes: Nosher Pharmaceutical LLP (desde 08-08-2018, con Abhinav Bhargava; aporte de ₹1 lakh, correo Gmail, sin sitio web) y Shape Wellness Pvt Ltd (desde 2025, con Bhargava y el grupo Shape Pharma) [14][15][16] | Alta |
-| Abhinav Bhargava ↔ Bueno | Director de Bueno desde el 18-03-2024; nueve sociedades o LLP vigentes [4][17] | Alta |
-| Deepti Rutul Patel ↔ Bueno | Directora desde el 08-07-2024 (DIN 10699123); el sitio de Bueno la presenta en asuntos regulatorios y calidad [4][18] | Alta (directiva); parentesco con Rutul: inferencia |
+| Abhinav Bhargava ↔ Bueno | Director de Bueno desde el 18-03-2024; nueve sociedades o LLP vigentes [5][17] | Alta |
+| Deepti Rutul Patel ↔ Bueno | Directora desde el 08-07-2024 (DIN 10699123); el sitio de Bueno la presenta en asuntos regulatorios y calidad [5][18] | Alta (directiva); parentesco con Rutul: inferencia |
 | Zywie ↔ Bueno como fabricante | Coincidencia de catálogos, mismos errores, mismo orden en 91.5% de los productos; Zywie corrige algunos errores de Bueno e introduce otros [3] | Inferencia fuerte |
 | Fabricante de los productos de sistema nervioso | Solo 13% de esos productos está en la lista vigente de Bueno; benzodiazepinas, opioides y la mayoría de antipsicóticos no están en ninguna lista de Bueno [3] | Desconocido |
 

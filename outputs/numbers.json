@@ -206,7 +206,7 @@
    "pes": 0.08,
    "base": 0.04,
    "opt": 0.015,
-   "src": "F: el pliego exige 18 meses de vida útil al entregar; con 24 meses de vida útil quedan unos 3 meses de ventana en bodega; E: frecuencia"
+   "src": "F: el pliego pide el vencimiento de la ficha técnica o, si no lo fija, 18 meses de vida útil al entregar; con 24 meses de vida útil quedan unos 3 meses de ventana en bodega; E: frecuencia"
   },
   "baddebt": {
    "label": "Incobrables y vigencias vencidas (% de ventas)",
@@ -230,7 +230,7 @@
    "pes": 3,
    "base": 2.5,
    "opt": 2,
-   "src": "E: limitada por la vida útil (18 meses exigidos al entregar)"
+   "src": "E: limitada por la vida útil exigida al entregar (18 meses si la ficha técnica no fija otra)"
   },
   "cen_stock_m": {
    "label": "Inventario para contratos centralizados",
@@ -326,7 +326,7 @@
    "pes": 2000,
    "base": 1500,
    "opt": 1000,
-   "src": "R: guía del MINSA de 2012 US$1,000; SignatureLex B/.1,500; la tarifa vigente no está publicada pese a la Ley 419 art. 79"
+   "src": "R: guía del MINSA de 2012 US$1,000; SignatureLex B/.1,500; la tasa vigente no está publicada pese a la Ley 419 art. 79"
   },
   "rs_law": {
    "label": "Honorario y gastos del abogado por registro",

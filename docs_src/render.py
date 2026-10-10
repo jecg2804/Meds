@@ -92,7 +92,7 @@ def mes(m):
 def val(v, unit):
     """valor de un supuesto con su unidad"""
     if unit == '%':
-        return pct(v, 1 if (v * 100) % 1 else 0)
+        return pct(v, 1 if round(v * 100, 6) % 1 else 0)
     if unit == 'x':
         return f"{v:.2f}"
     if unit in ('B/.',):
@@ -114,12 +114,20 @@ def reg_count():
         return sum(1 for _ in csv.DictReader(fh))
 
 
+def private_names():
+    fn = os.path.join(ROOT, 'private', 'nombres_privados.txt')
+    if not os.path.exists(fn):
+        return []
+    return [x.strip() for x in open(fn, encoding='utf-8') if x.strip()]
+
+
 def main():
     reg_n = reg_count()
+    pnames = private_names()
     for tpl, dst in DOCS:
         dpath = os.path.join(ROOT, 'private', 'drive_ids.json')
         drive = json.load(open(dpath, encoding='utf-8')) if os.path.exists(dpath) else {}
-        out = env.get_template(tpl).render(N=N, I=N['inputs'], S=N['sim'], D=N['det'], W=N['whatif'], DRIVE=drive, REG_N=reg_n)
+        out = env.get_template(tpl).render(N=N, I=N['inputs'], S=N['sim'], D=N['det'], W=N['whatif'], DRIVE=drive, REG_N=reg_n, PRIVATE_NAMES=pnames)
         path = os.path.join(ROOT, dst)
         os.makedirs(os.path.dirname(path), exist_ok=True)
         open(path, 'w', encoding='utf-8').write(out.rstrip() + '\n')

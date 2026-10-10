@@ -113,7 +113,7 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **B/.171 mil
 
 ## 5. Productos y economía por producto
 
-Costo puesto en Panamá = referencia FOB × 1.25 (índice del proveedor) × (1 + 5% de empaque) + logística. La referencia es un precio representativo de las compras públicas indias vigentes (PMBI, TNMSC y Assam) × 1.4, a INR 96.61 por dólar [27][28][29][30]; en paracetamol en tabletas, albendazol, mebendazol, nistatina y mometasona se ajustó con otras referencias (UNICEF, precio al público indio), y el detalle por producto está en el Excel. La fábrica todavía no ha dado precios. Con el índice de 1.25, el caso base paga 1.75 veces el precio doméstico indio; UNICEF y la OPS pagan entre 2 y 9 veces por productos con precalificación de la OMS, que Panamá no exige [31][32]. Precio de oferta: 0.95 veces el adjudicado en lo centralizado y 0.90 veces el precio ponderado en compras menores. Margen mínimo para ofertar: 20% centralizado, 35% en compras menores.
+Costo puesto en Panamá = referencia FOB × 1.25 (índice del proveedor) × (1 + 5% de empaque) + logística. La referencia es un precio representativo de las compras públicas indias vigentes (PMBI, TNMSC y Assam) × 1.4, a INR 96.61 por dólar [27][28][29][30]; en cinco productos se usó un valor ajustado (paracetamol en tabletas, dentro del rango de las licitaciones indias; albendazol y mometasona, redondeados hacia arriba; mebendazol, desde el precio al público de Jan Aushadhi; nistatina, con el techo de UNICEF), y el detalle por producto está en el Excel. La fábrica todavía no ha dado precios. Con el índice de 1.25, el caso base paga 1.75 veces el precio doméstico indio; UNICEF y la OPS pagan entre 2 y 9 veces por productos con precalificación de la OMS, que Panamá no exige [31][32]. Precio de oferta: 0.95 veces el adjudicado en lo centralizado y 0.90 veces el precio ponderado en compras menores. Margen mínimo para ofertar: 20% centralizado, 35% en compras menores.
 
 | Producto | Costo puesto | LPU: precio / margen | MINSA central | CSS menores | MINSA menores | Techo FOB para la LPU | Cotización esperada |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -225,7 +225,7 @@ En el mes pico (septiembre de 2030) el capital aportado de B/.393 mil se explica
 | Pagos adelantados a la fábrica (mercancía en tránsito) | B/.22 mil |
 | Caja mínima | B/.14 mil |
 
-Punto de equilibrio en régimen: ventas de **B/.134 mil al año** con un margen bruto promedio de 53%; las ventas maduras esperadas son B/.171 mil. Se cubre el costo fijo, pero no alcanza para devolver el capital inmovilizado en fianzas y cobros.
+Punto de equilibrio en régimen: ventas de **B/.134 mil al año** con un margen bruto promedio de 53% menos 7% de costos variables (distribución local, penalidades, cuentas incobrables y vencimientos) y B/.62 mil de costos fijos al año; las ventas maduras esperadas son B/.171 mil. Se cubre el costo fijo, pero no alcanza para devolver el capital inmovilizado en fianzas y cobros.
 
 ## 9. Riesgo: simulación por estructura
 
@@ -372,7 +372,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | mkt | Factor de mercado (demanda futura frente a 2025-2026) | x | 0.75 | 0.90 | 1.00 | F: presupuesto de medicamentos de la CSS 2027 de B/.230.3 millones (-28.6%), en trámite; la CSS gastó en 2026 el 64% de lo presupuestado |
 | share_dec | Participación madura en compras descentralizadas (valor) | % | 10% | 22% | 32% | E: los nuevos ganan 36.6% de sus ofertas con precio (OCDS MINSA 2021-2024), ofertando en parte de los actos |
 | pwin_cen | Probabilidad de ganar un renglón centralizado en el que se oferta | % | 15% | 30% | 45% | F: los nuevos ganan 36.6% por oferta en el MINSA y la LPU 01-2026 da 39.9% por oferta; E: descuento por descalificación |
-| realiz | Cantidad comprada frente a la máxima del contrato de la LPU | % | 55.0% | 75% | 90% | F: compra mínima garantizada de 50% (Adenda 1 de la LPU 01-2026); E: el resto |
+| realiz | Cantidad comprada frente a la máxima del contrato de la LPU | % | 55% | 75% | 90% | F: compra mínima garantizada de 50% (Adenda 1 de la LPU 01-2026); E: el resto |
 | realiz_minsa | Cantidad comprada frente a la del contrato del MINSA (subasta por cantidad fija) | % | 100% | 100% | 100% | F: las subastas del MINSA de 2026 son por cantidad fija (informe de la SSR-000018) |
 | minsa_occ | Probabilidad de que el MINSA haga su compra centralizada en el año | % | 30% | 50% | 70% | F: 33 subastas del MINSA entre el 24-mar y el 29-may-2026 y ninguna después; la compra conjunta del DE 16 no tiene acto a octubre de 2026 |
 | cc_w | Parte de la cantidad de la compra conjunta de 2023 que se toma como demanda del MINSA | % | 0% | 15% | 50% | F: de los renglones de la primera ola solo 3 de 9 aparecen como contratos y por 7-20% de lo pedido; las cifras de 2023 son ofertas, no adjudicaciones |
@@ -386,10 +386,10 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | log_mult | Multiplicador del costo logístico (flete LCL, destino, corredor, seguro) | x | 2.20 | 1.20 | 0.80 | R: LCL puesto en bodega unos US$650 / 356 / 240 por m3 (FAK CMA CGM jun-2026 + recargo PSS; tarifario de destino Crowley; corredor) |
 | dist | Distribución local a almacenes y hospitales (% de ventas) | % | 6% | 4% | 3% | E: sin tarifa pública |
 | penal | Multas por atraso y reposiciones (% de ventas) | % | 2% | 0.5% | 0% | F: multas de 5-15% y mora de al menos 10% (Ley 419 art. 231); E: frecuencia |
-| expiry | Mermas y vencimientos (% del costo comprado) | % | 8% | 4% | 1.5% | F: el pliego exige 18 meses de vida útil al entregar; con 24 meses de vida útil quedan unos 3 meses de ventana en bodega; E: frecuencia |
+| expiry | Mermas y vencimientos (% del costo comprado) | % | 8% | 4% | 1.5% | F: el pliego pide el vencimiento de la ficha técnica o, si no lo fija, 18 meses de vida útil al entregar; con 24 meses de vida útil quedan unos 3 meses de ventana en bodega; E: frecuencia |
 | baddebt | Incobrables y vigencias vencidas (% de ventas) | % | 2% | 0.5% | 0% | F: la CSS debía US$48 millones a proveedores en 2023 |
 | dso_days | Días de cobro: entrega hasta cobro | días | 240 | 150 | 105 | F: el contrato paga a 90 días después de presentada, verificada y aceptada la cuenta y del refrendo de la Contraloría; E: el resto |
-| cover_m | Cobertura de inventario para compras descentralizadas | meses | 3 | 2.5 | 2 | E: limitada por la vida útil (18 meses exigidos al entregar) |
+| cover_m | Cobertura de inventario para compras descentralizadas | meses | 3 | 2.5 | 2 | E: limitada por la vida útil exigida al entregar (18 meses si la ficha técnica no fija otra) |
 | cen_stock_m | Inventario para contratos centralizados | meses | 2 | 2 | 1 | F: la LPU exige reserva de al menos 1 mes |
 | adv | Anticipo a la fábrica al colocar la orden | % | 100% | 30% | 0% | E: se negocia |
 | credit_days | Crédito de la fábrica desde el embarque | días | 0 | 0 | 120 | E: objetivo de negociación; hoy no ofrecido |
@@ -401,7 +401,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | bid_m | Meses de colateral de la fianza de propuesta antes de cada contrato de la LPU | meses | 6 | 5 | 4 | F: vigencia exigida de 180 días hábiles; 3.5 meses de publicación a ejecutoria en la LPU 01-2026 |
 | mincash_m | Caja mínima operativa (meses de costos fijos) | meses | 3 | 3 | 3 | Política financiera |
 | rs_off | Tasas oficiales por registro (DNFD 500 + MEF + refrendo) | B/. | B/.575 | B/.570 | B/.545 | F: DE 27 art. 15; guía del MINSA de 2012 para MEF y refrendo |
-| rs_iea | Análisis de control previo (IEA o INDICASAT) por producto | B/. | B/.2,000 | B/.1,500 | B/.1,000 | R: guía del MINSA de 2012 US$1,000; SignatureLex B/.1,500; la tarifa vigente no está publicada pese a la Ley 419 art. 79 |
+| rs_iea | Análisis de control previo (IEA o INDICASAT) por producto | B/. | B/.2,000 | B/.1,500 | B/.1,000 | R: guía del MINSA de 2012 US$1,000; SignatureLex B/.1,500; la tasa vigente no está publicada pese a la Ley 419 art. 79 |
 | rs_law | Honorario y gastos del abogado por registro | B/. | B/.1,350 | B/.800 | B/.500 | R: SignatureLex 600 + 750; arancel de 2001 B/.350 |
 | rs_smp | Muestras y courier por registro | B/. | B/.300 | B/.150 | B/.100 | E |
 | rs_trad | Traducciones oficiales por registro (CPP, BPM, poderes, etiquetas) | B/. | B/.1,500 | B/.600 | B/.300 | F: DE 27 art. 220 exige traductor público autorizado; E: monto |
@@ -414,8 +414,8 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | isr | Impuesto sobre la renta | % | 25% | 25% | 25% | F: Código Fiscal art. 699 |
 | divtax | Impuesto de dividendos | % | 10% | 10% | 10% | F: Código Fiscal art. 733 |
 | aviso | Impuesto de aviso de operación (% del patrimonio; mínimo B/.100, máximo B/.60,000) | % | 2% | 2% | 2% | F: Código Fiscal art. 1004 |
-| oncost | Cargas laborales sobre sueldos | % | 29.0% | 28.0% | 27% | F: cuota patronal 13.25% hasta feb-2027, 14.25% hasta feb-2029 y 15.25% después (Ley 462 art. 84), seguro educativo 1.5%, riesgos profesionales, XIII mes y prima de antigüedad |
-| itbms_srv | ITBMS no recuperable sobre servicios contratados | % | 7.0% | 7.0% | 0% | F: ITBMS 7%; los medicamentos están exentos; recuperable como «asimilado a exportador» solo en el optimista (Ley 8 de 2010 art. 80) |
+| oncost | Cargas laborales sobre sueldos | % | 29% | 28% | 27% | F: cuota patronal 13.25% hasta feb-2027, 14.25% hasta feb-2029 y 15.25% después (Ley 462 art. 84), seguro educativo 1.5%, riesgos profesionales, XIII mes y prima de antigüedad |
+| itbms_srv | ITBMS no recuperable sobre servicios contratados | % | 7% | 7% | 0% | F: ITBMS 7%; los medicamentos están exentos; recuperable como «asimilado a exportador» solo en el optimista (Ley 8 de 2010 art. 80) |
 | payout | Porcentaje distribuible que se reparte cada año | % | 80% | 80% | 80% | Política |
 | disc | Tasa de descuento anual para el VPN del caso sin fallas | % | 30% | 30% | 30% | E: pyme nueva con un solo cliente estatal |
 | recov | Recuperación del capital de trabajo al cierre (cobro, inventario, colateral) | % | 80% | 90% | 95% | E |

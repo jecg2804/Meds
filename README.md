@@ -8,7 +8,7 @@ Repositorio del negocio: modelo financiero (motor mensual de 60 meses y simulaci
 | --- | --- | --- |
 | Todos, incluido Rutul Patel (inglés) | `docs/compartido_todos/` | `Panama_project_overview_and_requirements.md` (+ PDF) |
 | Socios panameños e inversionistas (español) | `docs/socios_panama/` | 1 Resumen (+ PDF), 2 Plan de negocio, 3 Debida diligencia del proveedor, 4 Negociación con Rutul Patel, 5 Seguimiento operativo |
-| Privado de Jaime | `private/` (no se sube) | Bitácora del negocio |
+| Privado de Jaime | `private/` (no se sube) | Bitácora del negocio, `drive_ids.json`, `nombres_privados.txt` y el registro de revisiones semanales; se recrea desde la bitácora (sección 9) que vive en el proyecto de Claude y en Drive |
 
 ## Mapa
 
@@ -28,6 +28,16 @@ bash build.sh
 ```
 
 Cambios de supuestos → `model/inputs.py`. Cambios de texto → `docs_src/templates/`. Nada de cifras a mano: todas salen de `outputs/numbers.json`.
+
+Comprobación del Excel: `outputs/Modelo_financiero.xlsx` recalculado en LibreOffice debe dar el mismo capital, valor presente, tasa y múltiplo que el motor en los casos pesimista, base, optimista y base con SignatureLex.
+
+## Dónde se distribuye
+
+| Lugar | Qué va |
+| --- | --- |
+| Proyecto de Claude «Med Tenders Panama» | `socios/` (documentos 1 a 5), `compartido/` (resumen en inglés), `claude/` (bitácora y revisiones semanales) |
+| Google Drive, carpeta `Farma` | `01 Privado (solo Jaime)`, `02 Socios Panamá`, `03 Shared with Rutul Patel` |
+
 
 ## Convenciones
 

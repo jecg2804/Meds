@@ -114,7 +114,7 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **{{ N.marke
 
 ## 5. Productos y economía por producto
 
-Costo puesto en Panamá = referencia FOB × {{ I.sup_idx.base|val('x') }} (índice del proveedor) × (1 + {{ I.pack.base|pct }} de empaque) + logística. La referencia es un precio representativo de las compras públicas indias vigentes (PMBI, TNMSC y Assam) × 1.4, a INR 96.61 por dólar [27][28][29][30]; en paracetamol en tabletas, albendazol, mebendazol, nistatina y mometasona se ajustó con otras referencias (UNICEF, precio al público indio), y el detalle por producto está en el Excel. La fábrica todavía no ha dado precios. Con el índice de 1.25, el caso base paga 1.75 veces el precio doméstico indio; UNICEF y la OPS pagan entre 2 y 9 veces por productos con precalificación de la OMS, que Panamá no exige [31][32]. Precio de oferta: {{ I.pf_cen.base|val('x') }} veces el adjudicado en lo centralizado y {{ I.pf_dec.base|val('x') }} veces el precio ponderado en compras menores. Margen mínimo para ofertar: {{ I.gm_cen.base|pct }} centralizado, {{ I.gm_dec.base|pct }} en compras menores.
+Costo puesto en Panamá = referencia FOB × {{ I.sup_idx.base|val('x') }} (índice del proveedor) × (1 + {{ I.pack.base|pct }} de empaque) + logística. La referencia es un precio representativo de las compras públicas indias vigentes (PMBI, TNMSC y Assam) × 1.4, a INR 96.61 por dólar [27][28][29][30]; en cinco productos se usó un valor ajustado (paracetamol en tabletas, dentro del rango de las licitaciones indias; albendazol y mometasona, redondeados hacia arriba; mebendazol, desde el precio al público de Jan Aushadhi; nistatina, con el techo de UNICEF), y el detalle por producto está en el Excel. La fábrica todavía no ha dado precios. Con el índice de 1.25, el caso base paga 1.75 veces el precio doméstico indio; UNICEF y la OPS pagan entre 2 y 9 veces por productos con precalificación de la OMS, que Panamá no exige [31][32]. Precio de oferta: {{ I.pf_cen.base|val('x') }} veces el adjudicado en lo centralizado y {{ I.pf_dec.base|val('x') }} veces el precio ponderado en compras menores. Margen mínimo para ofertar: {{ I.gm_cen.base|pct }} centralizado, {{ I.gm_dec.base|pct }} en compras menores.
 
 | Producto | Costo puesto | LPU: precio / margen | MINSA central | CSS menores | MINSA menores | Techo FOB para la LPU | Cotización esperada |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -202,7 +202,7 @@ En el mes pico ({{ N.cap_decomp.mes_cal }}) el capital aportado de {{ N.cap_deco
 | Pagos adelantados a la fábrica (mercancía en tránsito) | {{ N.cap_decomp.anticipos|bk }} |
 | Caja mínima | {{ N.cap_decomp.caja|bk }} |
 
-Punto de equilibrio en régimen: ventas de **{{ N.breakeven.be_revenue|bk }} al año** con un margen bruto promedio de {{ N.breakeven.gm_avg|pct }}; las ventas maduras esperadas son {{ N.breakeven.expected_rev_mature|bk }}. Se cubre el costo fijo, pero no alcanza para devolver el capital inmovilizado en fianzas y cobros.
+Punto de equilibrio en régimen: ventas de **{{ N.breakeven.be_revenue|bk }} al año** con un margen bruto promedio de {{ N.breakeven.gm_avg|pct }} menos {{ N.breakeven.var_pct|pct }} de costos variables (distribución local, penalidades, cuentas incobrables y vencimientos) y {{ N.breakeven.fixed_annual|bk }} de costos fijos al año; las ventas maduras esperadas son {{ N.breakeven.expected_rev_mature|bk }}. Se cubre el costo fijo, pero no alcanza para devolver el capital inmovilizado en fianzas y cobros.
 
 ## 9. Riesgo: simulación por estructura
 
