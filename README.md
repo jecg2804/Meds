@@ -1,6 +1,6 @@
 # Meds: distribuidora de genéricos para compras públicas en Panamá
 
-Repositorio del negocio: modelo financiero (motor mensual de 60 meses y simulación de Monte Carlo), generador de documentos, investigación con fuentes y entregables. **Debe ser privado**: contiene debida diligencia sobre empresas reales y el guion de negociación.
+Repositorio del negocio: modelo financiero (motor mensual de 60 meses y simulación de Monte Carlo), generador de documentos, investigación con fuentes y entregables.
 
 ## Documentos (Markdown; PDF solo para imprimir o mandar)
 
