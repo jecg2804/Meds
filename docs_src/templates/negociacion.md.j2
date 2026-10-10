@@ -64,7 +64,7 @@ Cada paso sale cuando el anterior tuvo respuesta. Textos para copiar y ajustar.
 ### Paso 2. Lista de productos y fabricante (Jaime)
 
 ```text
-On products: 8 of the 10 we started with (omeprazole, metformin, lisinopril, rosuvastatin, clopidogrel, levofloxacin, clarithromycin, metronidazole) need bioequivalence studies to register here (Resolution 985 of 2025), so they're out for now. The ones that don't need it and that are in your list are the 11 in the document. Can you confirm the legal manufacturer of each (the name on the CPP and the manufacturing licence) and the plant?
+On products: 8 of the 10 we started with (omeprazole, metformin, lisinopril, rosuvastatin, clopidogrel, levofloxacin, clarithromycin, metronidazole) must prove therapeutic equivalence to register here (a bioequivalence study or an accepted biowaiver, under Resolution 985 of 2025), so they're out of the first wave. The ones that don't need it and that are in your list are the 11 in the document. Can you confirm the legal manufacturer of each (the name on the CPP and the manufacturing licence) and the plant?
 ```
 
 Busca: que Rutul nombre al fabricante. Si dice solo «our factory», una vez más: «the CPP and the licence carry the legal name, that's the one we need».

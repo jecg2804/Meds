@@ -62,7 +62,7 @@
    "pes": 27,
    "base": 20,
    "opt": 13,
-   "src": "F: la LPU 01-2026 vence el 11-may-2027 y la siguiente se licitaría entre dic-2026 y feb-2027, antes de tener registros; la que sigue arrancaría hacia ago-2028 (mes 20). Optimista: la CSS prorroga y licita a inicios de 2028; pesimista: el calendario se corre 7 meses"
+   "src": "F: la LPU 01-2026 vence el 11-may-2027; E: si se repite su ciclo, la siguiente se licita entre dic-2026 y feb-2027, antes de tener registros, y la que sigue arrancaría hacia ago-2028 (mes 20). Optimista: la CSS prorroga y licita a inicios de 2028; pesimista: el calendario se corre 7 meses"
   },
   "mkt": {
    "label": "Factor de mercado (demanda futura frente a 2025-2026)",
@@ -3633,7 +3633,7 @@
   }
  },
  "sim_n": 20000,
- "runtime_s": 25,
+ "runtime_s": 23,
  "unit_costs": {
   "rs_unit": 3718.0,
   "n_first": 11,

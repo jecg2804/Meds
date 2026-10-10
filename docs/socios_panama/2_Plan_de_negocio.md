@@ -67,7 +67,7 @@ Regla de decisión: si la opinión no es favorable para la CSS y el MINSA, no se
 
 | Hecho | Fecha | Consecuencia |
 | --- | --- | --- |
-| Vence la LPU 01-2026 | 11 de mayo de 2027 | La siguiente LPU se licitaría entre diciembre de 2026 y febrero de 2027 [11] |
+| Vence la LPU 01-2026 | 11 de mayo de 2027 [10] | Si la CSS repite el ciclo de la 01-2026 (pliego en octubre de 2025, adjudicación en enero de 2026), la siguiente se licita entre diciembre de 2026 y febrero de 2027 (estimación) [8][11] |
 | Registros sanitarios de la S.A. (caso base) | septiembre de 2027 | Llegan tarde para esa LPU: el registro no es subsanable al ofertar [8] |
 | Primera venta (compras menores) | diciembre de 2027 | Ventas pequeñas mientras tanto |
 | Primer contrato centralizado posible | agosto de 2028 (mes 20) | El ciclo siguiente de la LPU; antes, solo si la CSS prorroga la vigente o salen subastas o la compra conjunta |
@@ -319,7 +319,7 @@ Conclusión: el precio de fábrica ayuda, pero no basta. Para que el valor esper
 
 ## 11. Trato con Rutul Patel
 
-Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. Con esos términos, en el caso base Zywie ganaría B/.34 mil por su margen sobre el precio de fábrica en 60 meses, mientras los accionistas pierden. La estructura que se propone (detalle y guion en el documento 4):
+Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. Con esos términos, si Zywie cobra 15% sobre el precio de fábrica (supuesto: no lo ha dicho; ese margen ya está dentro del índice de 1.25), en el caso base ganaría B/.34 mil en 60 meses mientras los accionistas pierden. La estructura que se propone (detalle y guion en el documento 4):
 
 | Condición | Por qué |
 | --- | --- |
@@ -368,7 +368,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | lead_days | Tiempo de reposición: orden al proveedor hasta stock en Panamá | días | 120 | 90 | 75 | E: producción, flete marítimo con transbordo y aduana; se confirma con la fábrica y el agente de carga |
 | ship_m | Meses entre embarque y stock disponible | meses | 2 | 2 | 2 | E: tránsito con transbordo y desaduanaje |
 | ramp_m | Meses para llegar a la participación madura en compras descentralizadas | meses | 18 | 12 | 9 | E: curva de aprendizaje; los nuevos son descalificados 57% de las veces frente a 36% de los establecidos (OCDS MINSA 2021-2024) |
-| cen_start | Mes en que podría arrancar el primer contrato centralizado (calendario de la LPU) | mes | 27 | 20 | 13 | F: la LPU 01-2026 vence el 11-may-2027 y la siguiente se licitaría entre dic-2026 y feb-2027, antes de tener registros; la que sigue arrancaría hacia ago-2028 (mes 20). Optimista: la CSS prorroga y licita a inicios de 2028; pesimista: el calendario se corre 7 meses |
+| cen_start | Mes en que podría arrancar el primer contrato centralizado (calendario de la LPU) | mes | 27 | 20 | 13 | F: la LPU 01-2026 vence el 11-may-2027; E: si se repite su ciclo, la siguiente se licita entre dic-2026 y feb-2027, antes de tener registros, y la que sigue arrancaría hacia ago-2028 (mes 20). Optimista: la CSS prorroga y licita a inicios de 2028; pesimista: el calendario se corre 7 meses |
 | mkt | Factor de mercado (demanda futura frente a 2025-2026) | x | 0.75 | 0.90 | 1.00 | F: presupuesto de medicamentos de la CSS 2027 de B/.230.3 millones (-28.6%), en trámite; la CSS gastó en 2026 el 64% de lo presupuestado |
 | share_dec | Participación madura en compras descentralizadas (valor) | % | 10% | 22% | 32% | E: los nuevos ganan 36.6% de sus ofertas con precio (OCDS MINSA 2021-2024), ofertando en parte de los actos |
 | pwin_cen | Probabilidad de ganar un renglón centralizado en el que se oferta | % | 15% | 30% | 45% | F: los nuevos ganan 36.6% por oferta en el MINSA y la LPU 01-2026 da 39.9% por oferta; E: descuento por descalificación |

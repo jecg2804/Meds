@@ -620,10 +620,10 @@ for i, t in enumerate(A['tornado']['rows']):
 # =============================================================== Vida útil (en vivo)
 ws = wb.create_sheet('Vida útil')
 setw(ws, {'A': 4, 'B': 60, 'C': 14})
-put(ws, 1, 2, 'Presupuesto de vida útil (regla de 18 meses al entregar)', TITLE)
+put(ws, 1, 2, 'Presupuesto de vida útil (pliego de la LPU: vencimiento de la ficha técnica; 18 meses si no lo fija)', TITLE)
 r_ = 3
 put(ws, r_, 2, 'Vida útil aprobada del producto (meses)', BLACK); put(ws, r_, 3, 24, BLUE, '0', fill=YEL); sl_r = r_; r_ += 1
-put(ws, r_, 2, 'Vida útil mínima exigida al entregar (pliego de la LPU)', BLACK); put(ws, r_, 3, 18, BLUE, '0'); mn_r = r_; r_ += 1
+put(ws, r_, 2, 'Vida útil exigida al entregar (18 meses si la ficha técnica no fija otra)', BLACK); put(ws, r_, 3, 18, BLUE, '0'); mn_r = r_; r_ += 1
 put(ws, r_, 2, 'Liberación en fábrica y despacho (meses)', BLACK); put(ws, r_, 3, 1, BLUE, '0.0'); a_r = r_; r_ += 1
 put(ws, r_, 2, 'Tránsito y aduana (meses)', BLACK); put(ws, r_, 3, '=p_ship_m', GREEN, '0.0'); b_r = r_; r_ += 1
 put(ws, r_, 2, 'Pedido a entrega en hospital (meses)', BLACK); put(ws, r_, 3, 0.25, BLUE, '0.00'); c_r = r_; r_ += 1

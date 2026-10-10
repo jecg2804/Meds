@@ -68,7 +68,7 @@ Regla de decisión: si la opinión no es favorable para la CSS y el MINSA, no se
 
 | Hecho | Fecha | Consecuencia |
 | --- | --- | --- |
-| Vence la LPU 01-2026 | 11 de mayo de 2027 | La siguiente LPU se licitaría entre diciembre de 2026 y febrero de 2027 [11] |
+| Vence la LPU 01-2026 | 11 de mayo de 2027 [10] | Si la CSS repite el ciclo de la 01-2026 (pliego en octubre de 2025, adjudicación en enero de 2026), la siguiente se licita entre diciembre de 2026 y febrero de 2027 (estimación) [8][11] |
 | Registros sanitarios de la S.A. (caso base) | {{ N.calendar.reg.cal }} | Llegan tarde para esa LPU: el registro no es subsanable al ofertar [8] |
 | Primera venta (compras menores) | {{ N.calendar.first_sale.cal }} | Ventas pequeñas mientras tanto |
 | Primer contrato centralizado posible | {{ N.calendar.cen.cal }} (mes {{ N.calendar.cen.m }}) | El ciclo siguiente de la LPU; antes, solo si la CSS prorroga la vigente o salen subastas o la compra conjunta |
@@ -264,7 +264,7 @@ Conclusión: el precio de fábrica ayuda, pero no basta. Para que el valor esper
 
 ## 11. Trato con Rutul Patel
 
-Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. Con esos términos, en el caso base Zywie ganaría {{ N.value_split[0].zywie|bk }} por su margen sobre el precio de fábrica en 60 meses, mientras los accionistas pierden. La estructura que se propone (detalle y guion en el documento 4):
+Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. Con esos términos, si Zywie cobra {{ I.zy_markup.base|pct }} sobre el precio de fábrica (supuesto: no lo ha dicho; ese margen ya está dentro del índice de {{ I.sup_idx.base|val('x') }}), en el caso base ganaría {{ N.value_split[0].zywie|bk }} en 60 meses mientras los accionistas pierden. La estructura que se propone (detalle y guion en el documento 4):
 
 | Condición | Por qué |
 | --- | --- |

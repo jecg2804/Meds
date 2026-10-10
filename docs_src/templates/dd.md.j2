@@ -120,7 +120,7 @@ Se pide como socios que necesitan saber antes de poner dinero. Lo que sabemos po
 
 ## Fuentes
 
-Todas consultadas el 9 de octubre de 2026. El detalle (54 afirmaciones con veredicto, fecha y evidencia) está en `research/verificacion_2026-10-09/registro_verificaciones.csv`.
+Todas consultadas el 9 de octubre de 2026. Cada afirmación, con su veredicto, fecha y evidencia, está en `research/verificacion_2026-10-09/registro_verificaciones.csv`.
 
 1. KnowYourGST, Zywie Worldwide (GST 24AACFZ1221A1ZY): <https://www.knowyourgst.com/gst-number-search/zywie-worldwide-24AACFZ1221A1ZY/>
 2. IndiaMART, Zywie Worldwide: <https://m.indiamart.com/zywie-worldwide/>

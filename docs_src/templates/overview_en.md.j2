@@ -28,7 +28,7 @@ Currency: the balboa (B/.) trades one to one with the US dollar.
 
 ## 3. Recent public award prices for the first products
 
-The first products were chosen because Panama does not require bioequivalence studies for them and they are bought regularly. Presentations as written in the current CSS tender [3] and award prices from its public bid table [9]:
+The first products were chosen because Panama does not require proof of therapeutic equivalence (bioequivalence) to register them and they are bought regularly. Presentations as written in the current CSS tender [3] and award prices from its public bid table [9]:
 
 | Product | Presentation | Award price (B/. per unit) | Winning product's origin |
 | --- | --- | --- | --- |

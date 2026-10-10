@@ -108,7 +108,7 @@ P = {
  'ramp_m':     ('Meses para llegar a la participación madura en compras descentralizadas', 'meses', 18, 12, 9,
                 'E: curva de aprendizaje; los nuevos son descalificados 57% de las veces frente a 36% de los establecidos (OCDS MINSA 2021-2024)'),
  'cen_start':  ('Mes en que podría arrancar el primer contrato centralizado (calendario de la LPU)', 'mes', 27, 20, 13,
-                'F: la LPU 01-2026 vence el 11-may-2027 y la siguiente se licitaría entre dic-2026 y feb-2027, antes de tener registros; la que sigue arrancaría hacia ago-2028 (mes 20). Optimista: la CSS prorroga y licita a inicios de 2028; pesimista: el calendario se corre 7 meses'),
+                'F: la LPU 01-2026 vence el 11-may-2027; E: si se repite su ciclo, la siguiente se licita entre dic-2026 y feb-2027, antes de tener registros, y la que sigue arrancaría hacia ago-2028 (mes 20). Optimista: la CSS prorroga y licita a inicios de 2028; pesimista: el calendario se corre 7 meses'),
  # mercado
  'mkt':        ('Factor de mercado (demanda futura frente a 2025-2026)', 'x', 0.75, 0.90, 1.00,
                 'F: presupuesto de medicamentos de la CSS 2027 de B/.230.3 millones (-28.6%), en trámite; la CSS gastó en 2026 el 64% de lo presupuestado'),
