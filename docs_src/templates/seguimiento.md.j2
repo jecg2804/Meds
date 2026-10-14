@@ -1,6 +1,6 @@
 # Seguimiento operativo: pendientes, cotizaciones y mensajes por aprobar
 
-*Para los socios panameños. Documento vivo: se actualiza con cada respuesta. Regla: **ningún correo, formulario o mensaje a terceros sale sin que Jaime vea el texto, entienda los números y lo apruebe.** Actualizado el 9 de octubre de 2026.*
+*Para los socios panameños. Documento vivo: se actualiza con cada respuesta. Regla: **ningún correo, formulario o mensaje a terceros sale sin que Jaime vea el texto, entienda los números y lo apruebe.** Actualizado el 14 de octubre de 2026.*
 
 ## 1. Pendientes
 
@@ -8,15 +8,15 @@
 | --- | --- | --- | --- | --- |
 | 1 | Opinión legal escrita sobre la Ley 316 (compuerta 0a) | Jaime, con un abogado independiente | Sin pedir | Aprobar el correo de la sección 3.5 y elegir abogado |
 | 2 | Apertura a Rutul Patel (datos de fábrica, paquete estándar, correo) | Jaime | Texto listo (documento 4) | Aprobar y enviar; reportar textual lo que conteste |
-| 3 | Videollamada con J. Cain (miércoles 14 de octubre) | Jaime | J. Cain propuso 10:00, 11:00 o 14:00 | Elegir la hora y aprobar la respuesta de la sección 3.1 |
-| 4 | Recordatorio a Osala, DSV e Interworld | Jaime | Sin respuesta desde el 8 de octubre | Aprobar el recordatorio de la sección 3.2 para el 15 de octubre |
+| 3 | Videollamada con J. Cain | Jaime | J. Cain propuso el 14 de octubre (10:00, 11:00 o 14:00) y no se le contestó | Aprobar la respuesta de la sección 3.1, que se disculpa y propone fechas nuevas |
+| 4 | Recordatorio a Osala, DSV e Interworld | Jaime | Sin respuesta desde el 8 de octubre (verificado en el correo el 14 de octubre) | Aprobar el recordatorio de la sección 3.2 y mandarlo |
 | 5 | Formulario de BP Logistics y WhatsApp a Farmazona | Jaime (lo hace una persona: el formulario tiene verificación «no soy un robot») | Respuestas listas (secciones 3.6 y 3.7) | Llenar y enviar |
 | 6 | Cotización de fianzas a dos aseguradoras | Jaime | Texto listo (sección 3.3) | Aprobar y enviar |
 | 7 | Tasa del análisis previo (IEA) | Jaime | Texto listo (sección 3.4) | Aprobar y enviar |
 | 8 | Consulta escrita a la DNFD (depósito en el 3PL, regente compartido, excepción de registro) | Francisco | Texto listo (sección 3.8) | Revisar y presentar |
 | 9 | Compartir la carpeta `02 Socios Panamá` de Drive con Juan Luis y Francisco | Jaime | Pendiente | Cuando Jaime lo decida |
 | 10 | Tiempo semanal que cada socio puede dedicar (decide si hace falta coordinador pagado) | Los tres socios | Pendiente | Responder |
-| 11 | Vigilar PanamaCompra: nueva LPU de la CSS, prórroga de la vigente, compra conjunta | Claude (revisión semanal) | En curso | Cada lunes |
+| 11 | Vigilar PanamaCompra: nueva LPU de la CSS, prórroga de la vigente, compra conjunta | Claude (revisión semanal) | Revisado el 14 de octubre: sin actos nuevos; las subastas del MINSA que aparecen en octubre son las de marzo a mayo cambiando de estado | Cada lunes |
 
 ## 2. Operadores logísticos (3PL)
 
@@ -46,7 +46,7 @@ Asunto: RE: Solicitud de cotización indicativa – almacenamiento y distribuci�
 
 Estimada Estefanía:
 
-Gracias por la pronta respuesta. Me viene bien el miércoles 14 de octubre a las [10:00 / 11:00 / 14:00].
+Gracias por la pronta respuesta y disculpe que no confirmé a tiempo la llamada del 14. Si todavía es posible, me viene bien cualquiera de estos espacios: [día y hora 1] o [día y hora 2]; si prefiere, proponga usted otro.
 
 Para aprovechar la llamada, le adelanto lo que buscamos: una cotización indicativa, o su tarifario estándar, para almacenamiento a 15-25 °C (posición de tarima y mínimo mensual, recepción y despacho por tarima y por caja) y entrega a los almacenes de la CSS y del MINSA; y entender cómo trabajan con una agencia nueva, es decir, si su depósito puede declararse como depósito de nuestra agencia ante Farmacia y Drogas y qué requieren de nuestra parte. La ficha logística por producto se la enviamos en cuanto la fábrica la complete.
 
@@ -68,7 +68,7 @@ Preparación de la llamada:
 | Preguntas útiles | Qué sede conviene (Colón junto al puerto o Panamá Pacífico cerca de los almacenes del Estado); cuarentena y liberación por el regente; control por lote y vencimiento con reportes; si tienen clientes que venden a la CSS por licitación (sin pedir nombres); documentos para abrir cuenta |
 | Al cerrar | Pedir la cotización por escrito, aunque sea un rango, y la lista de datos que necesitan de la fábrica |
 
-### 3.2 Recordatorio a Osala, DSV e Interworld (15 de octubre)
+### 3.2 Recordatorio a Osala, DSV e Interworld
 
 ```text
 Asunto: RE: Solicitud de cotización indicativa – almacenamiento y distribución de medicamentos (agencia en constitución)
@@ -184,7 +184,9 @@ Atentamente,
 | Antes del 8-oct-2026 | BP Logistics | Recibió un cuestionario operativo con estimaciones (5 tarimas, unos 10 m³), sin fichas de producto | Formulario web o WhatsApp (sección 3.6) |
 | 8-oct-2026 | J. Cain, Osala, DSV, Interworld | Correos de solicitud enviados desde el correo de Jaime (salieron sin su revisión previa; la regla de aprobación rige desde el 9 de octubre) | Ver filas siguientes |
 | 9-oct-2026 | J. Cain | Estefanía López propone videollamada el 14 de octubre a las 10:00, 11:00 o 14:00 | Jaime elige la hora y aprueba la respuesta (sección 3.1) |
-| 9-oct-2026 | Osala, DSV, Interworld | Sin respuesta | Recordatorio el 15 de octubre (sección 3.2) |
+| 9-oct-2026 | Osala, DSV, Interworld | Sin respuesta | Recordatorio (sección 3.2) |
+| 14-oct-2026 | J. Cain | La llamada propuesta para este día no se confirmó; sin otro mensaje de su parte | Respuesta con disculpa y fechas nuevas (sección 3.1) |
+| 14-oct-2026 | Osala, DSV, Interworld | Siguen sin responder | Mandar el recordatorio (sección 3.2) |
 
 ## Fuentes
 

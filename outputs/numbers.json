@@ -3633,7 +3633,7 @@
   }
  },
  "sim_n": 20000,
- "runtime_s": 24,
+ "runtime_s": 27,
  "unit_costs": {
   "rs_unit": 3718.0,
   "n_first": 11,

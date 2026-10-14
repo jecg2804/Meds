@@ -46,7 +46,7 @@ Hi Rutul, sorry for the silence on our side. We wanted to come back with the cos
 Burbuja 2 (con el PDF):
 
 ```text
-Legal, registration and tax costs are mapped. The warehouse quote is the piece we couldn't close: the licensed logistics companies here won't price anything without factory data (carton sizes and weights, units per carton, pallets, storage conditions, HS codes). I put everything in one short document: how the tenders work here, the registration path, and the exact data and documents the factory needs to send. Section 5 is the part for the factory's export team.
+Legal, registration and tax costs are mapped. The warehouse quote is the piece we couldn't close yet: I asked four licensed logistics companies here for an indicative quote, using a first list of 11 products (the ones in your list that don't need bioequivalence studies to register here and that the government buys regularly) and a working estimate of about 5 pallets for a first shipment and 3 to 5 pallets a month afterwards. They won't price anything without factory data (carton sizes and weights, units per carton, pallets, storage conditions, HS codes). I put everything in one short document: how the tenders work here, the registration path, the 11 products with the last awarded prices, and the exact data and documents the factory needs to send. Section 5 is the part for the factory's export team. Happy to go over the product list and the volumes with you before the factory starts on it.
 ```
 
 Burbuja 3:
@@ -55,7 +55,7 @@ Burbuja 3:
 Two quick things on top: the usual package the factory gives its distributors (CPP per product, WHO-GMP certificate, manufacturing licence, price list with MOQ and shelf life), and the best email for you, since some of this is easier to send properly than over chat.
 ```
 
-Lo que hace: explica el retraso sin excusas, convierte la falta de cotización en el primer pedido con una razón de terceros, y mide a la fábrica: un exportador con experiencia manda ese paquete en días, y cada documento lleva el nombre del fabricante.
+Lo que hace: explica el retraso sin excusas, cuenta lo que ya se hizo (cuatro solicitudes de cotización con los 11 productos y el volumen estimado) y lo abre a discusión con él, convierte la falta de cotización en el primer pedido con una razón de terceros, y mide a la fábrica: un exportador con experiencia manda ese paquete en días, y cada documento lleva el nombre del fabricante.
 
 ## 5. Secuencia de pedidos
 
