@@ -239,7 +239,7 @@ ANNUAL_KIND = ['other', 'service', 'other']
 SETUP = [
  ('Fase 0: debida diligencia de la fábrica y de los documentos (antes de constituir)', 6000, 2500, 1000, 0, 0,
   'E: auditoría virtual de planta y verificación documental'),
- ('Fase 0: opinión legal escrita sobre la Ley 316 (parentesco), de un abogado independiente', 1500, 800, 500, 0, 0,
+ ('Fase 0: opinión legal escrita sobre la Ley 419, art. 249, y la Ley 316 (parentesco), de un abogado idóneo e independiente', 1500, 800, 500, 0, 0,
   'R: SignatureLex B/.300 por hora; E: 2 a 5 horas'),
  ('Constitución, libros, poderes, RUC, aviso de operación y municipal', 3500, 2500, 1500, 1, 5700,
   'R: SignatureLex unos 5,700; Expanship US$1,200-2,200 el primer año'),

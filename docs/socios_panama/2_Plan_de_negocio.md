@@ -195,7 +195,7 @@ Sueldos de referencia de Konzerta [37]; honorarios de referencia de la propuesta
 | Concepto | Pesimista | Base | Optimista | Mes | Fuente |
 | --- | --- | --- | --- | --- | --- |
 | Fase 0: debida diligencia de la fábrica y de los documentos (antes de constituir) | B/.6,000 | B/.2,500 | B/.1,000 | 0 | E: auditoría virtual de planta y verificación documental |
-| Fase 0: opinión legal escrita sobre la Ley 316 (parentesco), de un abogado independiente | B/.1,500 | B/.800 | B/.500 | 0 | R: SignatureLex B/.300 por hora; E: 2 a 5 horas |
+| Fase 0: opinión legal escrita sobre la Ley 419, art. 249, y la Ley 316 (parentesco), de un abogado idóneo e independiente | B/.1,500 | B/.800 | B/.500 | 0 | R: SignatureLex B/.300 por hora; E: 2 a 5 horas |
 | Constitución, libros, poderes, RUC, aviso de operación y municipal | B/.3,500 | B/.2,500 | B/.1,500 | 1 | R: SignatureLex unos 5,700; Expanship US$1,200-2,200 el primer año |
 | Pacto de accionistas, contrato de suministro exclusivo y acuerdo de calidad | B/.6,200 | B/.2,500 | B/.1,500 | 1 | R: escala de SignatureLex (B/.1,500 más 1% escalonado) |
 | Diagnóstico regulatorio y matriz de portafolio | B/.650 | B/.650 | B/.500 | 1 | R: SignatureLex 500 + 150 |
