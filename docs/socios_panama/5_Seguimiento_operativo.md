@@ -189,8 +189,8 @@ Atentamente,
 | 8-oct-2026 | J. Cain, Osala, DSV, Interworld | Correos de solicitud enviados desde el correo de Jaime (salieron sin su revisión previa; la regla de aprobación rige desde el 9 de octubre) | Ver filas siguientes |
 | 9-oct-2026 | J. Cain | Estefanía López propone videollamada el 14 de octubre a las 10:00, 11:00 o 14:00 | Jaime elige la hora y aprueba la respuesta (sección 3.1) |
 | 9-oct-2026 | Osala, DSV, Interworld | Sin respuesta | Recordatorio (sección 3.2) |
-| 14-oct-2026 | J. Cain | La llamada propuesta para este día no se confirmó; sin otro mensaje de su parte | Respuesta con disculpa y fechas nuevas (sección 3.1) |
-| 14-oct-2026 | Osala, DSV, Interworld | Siguen sin responder | Mandar el recordatorio (sección 3.2) |
+| 14-oct-2026 | J. Cain | La llamada propuesta para este día no se confirmó; sin otro mensaje de su parte | Respuesta con disculpa; llamada pospuesta hasta confirmar el alcance (sección 3.1) |
+| 14-oct-2026 | Osala, DSV, Interworld | Siguen sin responder | Recordatorio (sección 3.2) en pausa hasta la opinión legal |
 
 ## Fuentes
 
