@@ -6,14 +6,14 @@
 
 | # | Pendiente | Quién | Estado | Siguiente paso |
 | --- | --- | --- | --- | --- |
-| 1 | Opinión legal escrita sobre la Ley 316 (compuerta 0a) | Jaime, con un abogado independiente | Sin pedir | Aprobar el correo de la sección 3.5 y elegir abogado |
-| 2 | Apertura a Rutul Patel (datos de fábrica, paquete estándar, correo) | Jaime | Texto listo (documento 4) | Aprobar y enviar; reportar textual lo que conteste |
-| 3 | Videollamada con J. Cain | Jaime | J. Cain propuso el 14 de octubre (10:00, 11:00 o 14:00) y no se le contestó | Aprobar la respuesta de la sección 3.1, que se disculpa y propone fechas nuevas |
-| 4 | Recordatorio a Osala, DSV e Interworld | Jaime | Sin respuesta desde el 8 de octubre (verificado en el correo el 14 de octubre) | Aprobar el recordatorio de la sección 3.2 y mandarlo |
-| 5 | Formulario de BP Logistics y WhatsApp a Farmazona | Jaime (lo hace una persona: el formulario tiene verificación «no soy un robot») | Respuestas listas (secciones 3.6 y 3.7) | Llenar y enviar |
-| 6 | Cotización de fianzas a dos aseguradoras | Jaime | Texto listo (sección 3.3) | Aprobar y enviar |
-| 7 | Tasa del análisis previo (IEA) | Jaime | Texto listo (sección 3.4) | Aprobar y enviar |
-| 8 | Consulta escrita a la DNFD (depósito en el 3PL, regente compartido, excepción de registro) | Francisco | Texto listo (sección 3.8) | Revisar y presentar |
+| 1 | Opinión legal escrita sobre la Ley 419, art. 249, y la Ley 316 (compuerta 0a). **Es lo único que avanza hasta que llegue** | Jaime, con un abogado idóneo e independiente | Sin pedir | Elegir abogado y aprobar el correo de la sección 3.5 |
+| 2 | Mensaje corto a Rutul Patel (documento 4, sección 4); el paquete con los datos de fábrica (sección 4.1) espera la opinión legal | Jaime | Texto listo | Aprobar y enviar; reportar textual lo que conteste |
+| 3 | Videollamada con J. Cain | Jaime | J. Cain propuso el 14 de octubre (10:00, 11:00 o 14:00) y no se le contestó | Aprobar la respuesta de la sección 3.1, que se disculpa y pospone la llamada hasta confirmar el alcance |
+| 4 | Recordatorio a Osala, DSV e Interworld | Jaime | Sin respuesta desde el 8 de octubre (verificado en el correo el 14 de octubre) | En pausa hasta la opinión legal; el texto de la sección 3.2 queda listo |
+| 5 | Formulario de BP Logistics y WhatsApp a Farmazona | Jaime (lo hace una persona: el formulario tiene verificación «no soy un robot») | Respuestas listas (secciones 3.6 y 3.7) | En pausa hasta la opinión legal |
+| 6 | Cotización de fianzas a dos aseguradoras | Jaime | Texto listo (sección 3.3) | En pausa hasta la opinión legal |
+| 7 | Tasa del análisis previo (IEA) | Jaime | Texto listo (sección 3.4) | En pausa hasta la opinión legal (sirve para los dos canales) |
+| 8 | Consulta escrita a la DNFD (depósito en el 3PL, regente compartido, excepción de registro) | Francisco | Texto listo (sección 3.8) | En pausa hasta la opinión legal |
 | 9 | Compartir la carpeta `02 Socios Panamá` de Drive con Juan Luis y Francisco | Jaime | Pendiente | Cuando Jaime lo decida |
 | 10 | Tiempo semanal que cada socio puede dedicar (decide si hace falta coordinador pagado) | Los tres socios | Pendiente | Responder |
 | 11 | Vigilar PanamaCompra: nueva LPU de la CSS, prórroga de la vigente, compra conjunta | Claude (revisión semanal) | Revisado el 14 de octubre: sin actos nuevos; las subastas del MINSA que aparecen en octubre son las de marzo a mayo cambiando de estado | Cada lunes |
@@ -46,9 +46,9 @@ Asunto: RE: Solicitud de cotización indicativa – almacenamiento y distribuci�
 
 Estimada Estefanía:
 
-Gracias por la pronta respuesta y disculpe que no confirmé a tiempo la llamada del 14. Si todavía es posible, me viene bien cualquiera de estos espacios: [día y hora 1] o [día y hora 2]; si prefiere, proponga usted otro.
+Gracias por la pronta respuesta y disculpe que no confirmé a tiempo la llamada del 14. Estamos cerrando una definición interna sobre el alcance del proyecto; en cuanto la tengamos le propongo fechas para la llamada, para no hacerle perder tiempo con un alcance a medias.
 
-Para aprovechar la llamada, le adelanto lo que buscamos: una cotización indicativa, o su tarifario estándar, para almacenamiento a 15-25 °C (posición de tarima y mínimo mensual, recepción y despacho por tarima y por caja) y entrega a los almacenes de la CSS y del MINSA; y entender cómo trabajan con una agencia nueva, es decir, si su depósito puede declararse como depósito de nuestra agencia ante Farmacia y Drogas y qué requieren de nuestra parte. La ficha logística por producto se la enviamos en cuanto la fábrica la complete.
+Para que la llamada sea útil cuando se dé, le adelanto lo que buscamos: una cotización indicativa, o su tarifario estándar, para almacenamiento a 15-25 °C (posición de tarima y mínimo mensual, recepción y despacho por tarima y por caja) y entrega a los almacenes de la CSS y del MINSA; y entender cómo trabajan con una agencia nueva, es decir, si su depósito puede declararse como depósito de nuestra agencia ante Farmacia y Drogas y qué requieren de nuestra parte. La ficha logística por producto se la enviamos en cuanto la fábrica la complete.
 
 Quedo atento a la invitación.
 
@@ -118,16 +118,20 @@ Saludos cordiales,
 Jaime Cucalon
 ```
 
-### 3.5 Abogado independiente (opinión sobre la Ley 316)
+### 3.5 Abogado idóneo e independiente (opinión sobre la Ley 419, art. 249, y la Ley 316)
+
+Quien firme debe ser abogado idóneo, sin participación en el negocio y ajeno a la firma de un socio. Las preguntas completas están en el documento 2, sección 2.
 
 ```text
-Asunto: Solicitud de cotización – opinión legal escrita sobre conflicto de intereses (Ley 316 de 2022)
+Asunto: Solicitud de cotización – opinión legal escrita sobre incompatibilidad para contratar (Ley 419 de 2024, art. 249) y conflicto de intereses (Ley 316 de 2022)
 
 Estimado licenciado:
 
-Somos tres socios panameños que evaluamos constituir una sociedad que vendería medicamentos a la CSS y al MINSA. Dos de los socios son sobrinos del ministro de Salud. Antes de constituir, necesitamos una opinión legal escrita sobre si la sociedad puede contratar con esas entidades, a la luz de la Ley 316 de 2022 (arts. 2, 4, 5, 8, 13 y 16), del Decreto Ejecutivo 246 de 2004 y de la composición de la Junta Directiva de la CSS (Ley 51 de 2005, art. 23, reformado por la Ley 462 de 2025).
+Somos tres socios panameños que evaluamos constituir una sociedad anónima que importaría y vendería medicamentos, en principio a la CSS y al MINSA por compras públicas. Dos de los socios son sobrinos (tercer grado de consanguinidad) del ministro de Salud, que además integra la Junta Directiva de la CSS. Antes de constituir, y antes de cualquier otro gasto, necesitamos una opinión legal escrita.
 
-Las preguntas concretas son seis: si el tercer grado de consanguinidad configura conflicto de intereses; si basta con que el ministro se excuse o los actos quedan inadjudicables; qué pasa en las compras por desabastecimiento y en los procedimientos excepcionales; si la declaración ante la ANTAI alcanza a las contrataciones menores; la exposición de la sociedad y sus socios a la nulidad y a la responsabilidad solidaria; y si cambia algo que los socios con parentesco no sean directores ni apoderados o tengan una participación minoritaria.
+La norma central es el artículo 249 de la Ley 419 de 2024, que declara incompatibles para contratar con las instituciones públicas de salud a las personas con parentesco hasta el cuarto grado de consanguinidad con los miembros de la junta directiva, dirección o cargos administrativos de esas instituciones (y el artículo 791 del Decreto Ejecutivo 27 de 2024, que ordena desestimar la propuesta del incompatible), junto con la Ley 316 de 2022 (artículos 2, 4, 5, 8, 13 y 16), el Texto Único de la Ley 22 de 2006 (artículos 24, 28 y 41) y la Ley 129 de 2020 sobre beneficiarios finales.
+
+Las preguntas concretas son siete: (1) si la incompatibilidad del artículo 249 alcanza a una persona jurídica por sus accionistas, beneficiarios finales, directores o apoderados, y si hay jurisprudencia o dictámenes al respecto; (2) si alcanza a los patronatos y a las contrataciones menores; (3) si existe una configuración en la que los socios con parentesco no tengan acciones, cargos, poderes ni beneficio económico directo o indirecto, y la sociedad pueda contratar; (4) qué pasa con una sociedad de esos socios que solo tenga los registros sanitarios y venda a un distribuidor licenciado que es quien contrata con el Estado; (5) si la incompatibilidad termina cuando el ministro deje el cargo y qué ocurre con un contrato en ejecución; (6) la exposición de la sociedad y de sus socios a la desestimación, la nulidad y la responsabilidad solidaria, y lo que exige la declaración jurada ante la ANTAI; y (7) si la venta a farmacias y hospitales privados tiene alguna restricción por el parentesco.
 
 ¿Podría indicarnos sus honorarios y el plazo para entregar la opinión?
 

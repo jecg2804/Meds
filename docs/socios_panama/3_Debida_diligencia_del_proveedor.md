@@ -84,9 +84,9 @@ Las cargas son garantías registradas, no deuda pendiente por ese monto.
 | País | Resultado |
 | --- | --- |
 | Filipinas | 35 registros vigentes con Bueno como fabricante (vencen entre 2027 y 2032; 10 nuevos en 2026) y permisos de buenas prácticas que incluyen polvo estéril, penicilinas y cefalosporinas [9] |
-| El Salvador | Ninguno a nombre de Bueno, Zywie o relacionados en una réplica parcial de 237 registros [10] |
+| El Salvador | Ninguno a nombre de Bueno, Zywie o relacionados en una réplica parcial de 237 registros [10]; el 14 de octubre, ninguna coincidencia en 1,773 registros de nueve moléculas en el buscador de la DNM (el listado muestra al titular, no al fabricante); COMPRASAL no consultable sin JavaScript |
 | Ecuador | Ninguno a nombre de Bueno; uno fabricado en su planta por un licenciatario [12] |
-| Colombia (INVIMA) | Ninguno [13] |
+| Colombia (INVIMA) | Ninguno [13]; el 14 de octubre, cero contratos y cero proveedores con «Zywie», «Bueno Salud» o «Nosher» en los datos abiertos de SECOP II y cero registros en el INVIMA con esos nombres o con «Sanand» |
 | Costa Rica, Guatemala, Honduras | No consultables por fabricante sin cuenta |
 | Panamá | No verificable: la consulta de la DNFD no responde desde aquí; ninguna mención en PanamaCompra ni en las listas de subestándar de la DNFD [11][21] |
 

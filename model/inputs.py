@@ -140,7 +140,7 @@ P = {
                 'R: LCL puesto en bodega unos US$650 / 356 / 240 por m3 (FAK CMA CGM jun-2026 + recargo PSS; tarifario de destino Crowley; corredor)'),
  'dist':       ('Distribución local a almacenes y hospitales (% de ventas)', '%', 0.06, 0.04, 0.03, 'E: sin tarifa pública'),
  'penal':      ('Multas por atraso y reposiciones (% de ventas)', '%', 0.02, 0.005, 0.0,
-                'F: multas de 5-15% y mora de al menos 10% (Ley 419 art. 231); E: frecuencia'),
+                'F: multas de 5-15% y mora de al menos 10% (Ley 419 arts. 231 y 232); E: frecuencia'),
  'expiry':     ('Mermas y vencimientos (% del costo comprado)', '%', 0.08, 0.04, 0.015,
                 'F: el pliego pide el vencimiento de la ficha técnica o, si no lo fija, 18 meses de vida útil al entregar; con 24 meses de vida útil quedan unos 3 meses de ventana en bodega; E: frecuencia'),
  'baddebt':    ('Incobrables y vigencias vencidas (% de ventas)', '%', 0.02, 0.005, 0.0,

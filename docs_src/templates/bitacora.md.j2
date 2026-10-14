@@ -4,10 +4,11 @@
 
 ## 1. Estado
 
-- **Fase 0.** No hay S.A., ni registros, ni cotizaciones firmes. No se le ha escrito a Rutul Patel desde que se le pidió tiempo para mapear costos.
+- **Fase 0, en pausa salvo la opinión legal.** No hay S.A., ni registros, ni cotizaciones firmes. No se le ha escrito a Rutul Patel desde que se le pidió tiempo para mapear costos; él escribió dos veces. Jaime dispone de unos B/.60 mil como máximo entre los tres socios panameños.
 - **Veredicto de la reauditoría (9 de octubre):** con los datos verificados, el negocio pierde dinero. La propuesta de Rutul Patel pierde en {{ S.A.p_loss|pct }} de los escenarios, con un capital mediano de {{ S.A.cap_go_p50|bk }}. La mejor estructura negociable (la fábrica paga registros y da crédito) pierde en {{ S.D.p_loss|pct }}. Solo sumando sistema nervioso y un socio que coordine sin sueldo queda cerca de cero ({{ S.D_snc_coord0.p_loss|pct }} de probabilidad de perder).
-- **Compuerta legal:** Jaime y Juan Luis son sobrinos del ministro de Salud, que además integra la Junta Directiva de la CSS (Ley 462, art. 19). La Ley 316, art. 8, prohíbe adjudicar con conflicto de intereses. Sin opinión legal favorable no se sigue.
-- **Recomendación:** no constituir; fase 0 casi sin costo (opinión legal, datos de la fábrica, cotizaciones); decidir con datos reales.
+- **Compuerta legal (hallazgo del 14 de octubre):** la Ley 419 de 2024, art. 249.2, declara incompatibles para contratar con las instituciones públicas de salud a los parientes hasta el cuarto grado de consanguinidad de quienes las dirigen o integran sus juntas; Jaime y Juan Luis son sobrinos (tercer grado) del ministro de Salud, que dirige el MINSA e integra la Junta Directiva de la CSS (Ley 462, art. 19). El DE 27, art. 791, manda desestimar la propuesta del incompatible. Queda por resolver si alcanza a la S.A. por sus accionistas (lectura prudente: sí). Un holding no lo resuelve: la ley mira al beneficiario final (Ley 316, art. 5; Ley 22, art. 41; Ley 129 de 2020). La reauditoría del 9 de octubre no había leído el capítulo XI de la Ley 419 y leyó mal el art. 13 de la Ley 316; lo encontró el revisor externo y Claude lo verificó en la Gaceta. Sin opinión favorable sobre el art. 249 no se sigue con compras públicas.
+- **Recomendación:** no constituir; primero la opinión legal (abogado idóneo, sin participación, ajeno a la firma de un socio; Francisco no es idóneo); solo con opinión favorable, el resto de la fase 0 (datos de la fábrica, cotizaciones). Si la opinión cierra el canal público: canal privado primero (farmacias, hospitales privados; misma licencia, sin restricción del art. 249, no modelado, otro negocio) y compras públicas cuando termine el parentesco relevante.
+- **Revisión externa (14 de octubre):** un agente sin sesgo leyó todo el paquete e hizo su propia investigación (`research/revision_externa_2026-10-14/informe.md`): coincide en la conclusión económica aun con todos los supuestos corregidos a favor; encontró el art. 249; sumó la amoxicilina 250 mg/5 ml y el clobetasol como productos omitidos, el conteo de oferentes por renglón, el codeudor solidario de las fianzas (Internacional de Seguros), el esquema MAI y ECGC como razones para que la fábrica financie, y cero huellas de Zywie o Bueno en SECOP II, INVIMA y la DNM de El Salvador. La investigación del canal privado está en `research/canal_privado_2026-10-14/informe.md`.
 
 ## 2. Exposición personal de Jaime
 
@@ -23,11 +24,13 @@ Lo prudente es no comprometer más que la fase 0 ({{ (N.unit_costs.phase0 / 3)|b
 
 ## 3. Decisiones vigentes
 
-1. No constituir ni pagar más que la fase 0 hasta tener opinión legal favorable, precios de fábrica, posición sobre registros y crédito, y cotizaciones reales.
-2. Solo precio y cumplimiento; ningún contacto con funcionarios; el parentesco se declara (Ley 316) y se consulta a un abogado independiente, que no sea de la firma de un socio.
+1. No constituir ni pagar más que la fase 0 hasta tener opinión legal favorable sobre la Ley 419, art. 249, precios de fábrica, posición sobre registros y crédito, y cotizaciones reales. Hasta la opinión, ningún otro paso externo salvo el mensaje corto a Rutul y la respuesta de cortesía a J. Cain.
+2. Solo precio y cumplimiento; ningún contacto con funcionarios; el parentesco se declara (Ley 316) y se consulta a un abogado idóneo e independiente, que no sea de la firma de un socio. Ninguna estructura societaria se diseña para ocultar el vínculo.
 3. Primera ola de 11 productos sin equivalencia terapéutica; con los precios de referencia solo {{ N.keep_ids|length }} pagan su registro: la lista de precios real decide.
 4. Ninguna comunicación externa sin aprobación previa de Jaime (regla del 9 de octubre).
 5. Rutul nunca ha nombrado al fabricante: en mensajes es «the factory». Lo investigado (fábrica, planta, directores, finanzas, alertas) no se le revela.
+6. Reparto con Rutul Patel: 50/50 en acciones solo si la fábrica o él ponen 70-80% del efectivo o financian registros, inventario y fianzas; plan B, consignación sin sociedad; nunca 50/50 en efectivo con precio cerrado. Los contratos, en el orden del documento 4 (confidencialidad, opinión legal, KYC, carta de intención, pacto más distribución firmada por la fábrica, calidad).
+7. La cifra principal de los documentos es la probabilidad simple de perder dinero y el resultado neto por socio; «perder más que la fase 0» queda como cifra de la compuerta, explicada.
 
 ## 4. Reglas de trabajo
 
@@ -59,11 +62,11 @@ Identificadores de las carpetas de Drive (los archivos se buscan dentro de cada 
 
 ## 6. Pendientes de Jaime (en este orden)
 
-1. Elegir un abogado independiente (que no sea de la firma de un socio) y aprobar el correo del documento 5, sección 3.5.
-2. Aprobar la respuesta a J. Cain con disculpa y fechas nuevas (documento 5, sección 3.1): la llamada del 14 no se confirmó.
-3. Aprobar la apertura a Rutul Patel (documento 4, sección 4), que va con el resumen en inglés en PDF.
-4. Aprobar el recordatorio a Osala, DSV e Interworld (documento 5, sección 3.2); siguen sin responder.
-5. Aprobar los correos a dos aseguradoras y al IEA (documento 5, secciones 3.3 y 3.4); llenar el formulario de BP Logistics y mandar el WhatsApp a Farmazona (secciones 3.6 y 3.7); pasarle a Francisco la consulta a la DNFD (sección 3.8).
+1. Elegir quién firma la opinión legal (abogado idóneo, sin participación, ajeno a la firma de un socio; Francisco no es idóneo) y aprobar el correo del documento 5, sección 3.5, reescrito alrededor de la Ley 419, art. 249.
+2. Aprobar el mensaje corto a Rutul Patel (documento 4, sección 4): reconoce sus dos mensajes y explica que falta una opinión legal antes de pedirle trabajo a la fábrica. El paquete con el PDF (sección 4.1) espera la opinión.
+3. Aprobar la respuesta a J. Cain (documento 5, sección 3.1): disculpa y llamada pospuesta hasta confirmar el alcance.
+4. En pausa hasta la opinión legal: recordatorio a los 3PL, aseguradoras, IEA, BP Logistics, Farmazona y consulta a la DNFD (documento 5, secciones 3.2 a 3.8). No se presenta nada a inversionistas con la pregunta legal abierta.
+5. Con la opinión en mano: decidir el canal (público, privado o privado primero) y, si es privado, autorizar la investigación con contactos (distribuidores, cadenas, hospitales) que hoy no se ha hecho.
 6. Decir cuánto tiempo a la semana puede dedicar cada socio (define si hace falta coordinador pagado).
 7. Compartir `02 Socios Panamá` con Juan Luis y Francisco cuando lo decida; `03 Shared with Rutul Patel` con Rutul cuando la fábrica empiece a mandar documentos.
 
@@ -71,7 +74,8 @@ Identificadores de las carpetas de Drive (los archivos se buscan dentro de cada 
 
 - Revisión semanal (tarea programada): PanamaCompra (nueva LPU, prórroga, compra conjunta, subastas), normas y prensa; resultado en `claude/revisiones_semanales.md`.
 - Cuando lleguen datos (precios, cotizaciones, opinión legal): actualizar `model/inputs.py`, correr `bash build.sh`, revisar las compuertas y avisar a Jaime con la nueva decisión.
-- Sesión de enseñanza pedida por Jaime: por qué esos productos, esos volúmenes y esos pasos.
+- Si la opinión legal abre el canal privado: diseñar la investigación con contactos y un modelo del canal (vendedor, crédito a farmacias, vencidos, marca), con la aprobación de Jaime para cada contacto.
+- Si llegan los precios de la fábrica: evaluar la amoxicilina 250 mg/5 ml y el clobetasol junto con los 11, y agregar el lote mínimo al modelo.
 - Si Jaime vincula su computadora (app de escritorio de Claude) con Google Drive para escritorio: subir el Excel y los PDF a Drive.
 
 ## 8. Registro de decisiones
@@ -82,6 +86,7 @@ Identificadores de las carpetas de Drive (los archivos se buscan dentro de cada 
 - 2026-10-09 (noche): auditoría final hecha por Claude contra los textos primarios: la fianza de propuesta de la LPU aplica a toda la oferta (Ley 419, art. 245; el modelo la aplicaba por renglón), licencias de los 3PL corregidas contra la lista de la DNFD (DHL es 8-561), «tasas» del IEA (art. 79), vida útil según ficha técnica, certificado de glicoles solo para líquidos orales con esos excipientes; capital base +B/.4 mil; mismo veredicto. Segunda pasada: el margen de Zywie (15%) y la fecha de la próxima LPU quedan marcados como supuestos; «equivalencia terapéutica» en lugar de «bioequivalencia»; investigación vieja del repositorio marcada como archivo. Jaime pegó las instrucciones del proyecto.
 - 2026-10-09: decisiones de Jaime: el repositorio queda público. El PDF repetido del Decreto 16 en el proyecto no estorba (Claude no puede borrar archivos subidos).
 - 2026-10-14: retoma. Verificado: solo J. Cain respondió a los 3PL (propuso el 14 y no se confirmó); sin actos nuevos en PanamaCompra ni noticias desde el 9; la revisión del 12 falló por límite de uso; tarea pasada a claude-sonnet-5-5 con instrucciones más económicas. Mensaje a Rutul ampliado con los 11 productos y el volumen estimado.
+- 2026-10-14 (tarde): Jaime pidió explicar la métrica «perder más que la fase 0», la estructura holding, los productos, el reparto con Rutul, el primer mensaje, la legitimidad de Rutul y el mercado privado, con un revisor sin sesgo. Se corrieron dos agentes (revisión externa y canal privado, solo fuentes públicas). Hallazgo que cambia el plan: Ley 419, art. 249.2 (cuarto grado), verificado por Claude en la G.O. 29962-A, p. 76; la Ley 462 no lo modificó. Decisiones: la cifra principal pasa a ser la probabilidad simple de perder; a Rutul solo el mensaje corto hasta la opinión legal; todo lo demás en pausa; documentos 1, 2, 4 y 5, registro de verificaciones (filas X-016 a X-030) y bitácora actualizados; los dos informes guardados en `research/`.
 
 ## 9. Cómo retomar en una sesión nueva
 

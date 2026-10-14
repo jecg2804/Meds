@@ -1,55 +1,64 @@
 # Plan de negocio: distribuidora de genéricos para compras públicas en Panamá
 
-*Para los socios panameños y los inversionistas posibles. No se comparte con Rutul Patel ni con terceros. Cifras al 9 de octubre de 2026, del modelo auditado (60 meses, mes 1 = enero de 2027); el modelo y el registro de verificaciones están en el repositorio (`outputs/`, `research/verificacion_2026-10-09/`). Los números entre corchetes remiten a la sección «Fuentes».*
+*Para los socios panameños y los inversionistas posibles. No se comparte con Rutul Patel ni con terceros. Cifras al 9 de octubre de 2026, del modelo auditado (60 meses, mes 1 = enero de 2027); texto revisado el 14 de octubre de 2026 con una revisión externa independiente y una investigación del canal privado. El modelo y el registro de verificaciones están en el repositorio (`outputs/`, `research/verificacion_2026-10-09/`). Los números entre corchetes remiten a la sección «Fuentes».*
 
 ## 1. Decisión recomendada
 
-**No constituir la S.A. ni comprometer capital con los términos actuales.** Con los datos verificados, el negocio tal como está planteado pierde dinero en el caso base y en la gran mayoría de los escenarios simulados. Ni siquiera un precio de fábrica más bajo lo corrige: lo que lo acerca a cero es que la fábrica financie (registros y crédito largo), que un socio opere sin sueldo al inicio y que haya más productos con fabricante verificado.
+**No constituir la S.A. ni comprometer capital con los términos actuales, y no dar ningún paso de compras públicas sin la opinión legal de la sección 2.** Hay dos razones independientes. La legal: la Ley 419 de 2024, art. 249, declara incompatibles para contratar con las instituciones públicas de salud a los parientes hasta el cuarto grado de consanguinidad de quienes las dirigen o integran sus juntas directivas, y dos de los socios son sobrinos del ministro de Salud. La económica: con los datos verificados, el negocio tal como está planteado pierde dinero en el caso base y en la gran mayoría de los escenarios simulados. Ni siquiera un precio de fábrica más bajo lo corrige: lo que lo acerca a cero es que la fábrica financie (registros y crédito largo), que un socio opere sin sueldo al inicio y que haya más productos con fabricante verificado.
 
 | Indicador | A. Propuesta de Rutul Patel tal cual | D. La fábrica paga registros y da crédito | D más sistema nervioso y un socio que coordina sin sueldo |
 | --- | --- | --- | --- |
-| Capital que hay que tener (mediana / p90) | B/.404 mil / B/.580 mil | B/.252 mil / B/.427 mil | B/.228 mil / B/.349 mil |
-| Probabilidad de perder más que la fase 0 | 98.9% | 80.8% | 35.5% |
 | Probabilidad de perder dinero | 99% | 93% | 48% |
-| Valor presente al 15% (promedio) | −B/.242 mil | −B/.122 mil | −B/.55 mil |
+| Resultado neto promedio de un socio panameño | −B/.40 mil | −B/.18 mil | B/.2 mil |
 | Lo que pone un socio panameño (mediana / p90) | B/.68 mil / B/.97 mil | B/.43 mil / B/.72 mil | B/.39 mil / B/.59 mil |
+| Capital total que hay que tener (mediana / p90) | B/.404 mil / B/.580 mil | B/.252 mil / B/.427 mil | B/.228 mil / B/.349 mil |
+| Valor presente al 15% (promedio) | −B/.242 mil | −B/.122 mil | −B/.55 mil |
+| Probabilidad de perder más que la fase 0 (sección 9) | 98.9% | 80.8% | 35.5% |
 
-Simulación de 20,000 escenarios por estructura (sección 9). En el caso base determinístico, sin fallas, la propuesta pide B/.393 mil y vale −B/.199 mil al 15%.
+Simulación de 20,000 escenarios por estructura (sección 9); todas las probabilidades suponen que la compuerta legal se pasó. La tercera columna depende de dos cosas no verificadas: productos de sistema nervioso cuyo fabricante no se conoce y trabajo de un socio sin sueldo. En el caso base determinístico, sin fallas, la propuesta pide B/.393 mil y vale −B/.199 mil al 15%.
 
 Qué se recomienda hacer:
 
-1. **Compuerta legal primero** (sección 2): opinión escrita de un abogado independiente sobre la Ley 316 antes de gastar en nada más. Si dice que la S.A. no puede contratar con el MINSA ni con la CSS, el plan termina ahí, porque todo el negocio depende de compras públicas.
-2. **Fase 0 barata**: pedir a la fábrica, por medio de Rutul Patel, los documentos y la lista de precios. No cuesta nada y es la única forma de saber si los números reales son mejores que las referencias.
+1. **Compuerta legal primero** (sección 2): opinión escrita de un abogado idóneo e independiente sobre la Ley 419, art. 249, y la Ley 316, antes de gastar en nada más. Si confirma que una S.A. de los socios con parentesco no puede contratar con el MINSA ni con la CSS mientras el ministro esté en el cargo, el plan de compras públicas termina ahí para esa S.A.; quedan el canal privado (sección 3.5) y la espera.
+2. **Fase 0 barata**, solo después de la opinión: pedir a la fábrica, por medio de Rutul Patel, los documentos y la lista de precios. No cuesta nada y es la única forma de saber si los números reales son mejores que las referencias.
 3. **Seguir solo si se cumplen todas las compuertas** de la sección 12: opinión legal favorable, precios por debajo del techo por producto, registros pagados por la fábrica, crédito de 120 a 180 días y una simulación con los datos reales que dé una probabilidad de perder más que la fase 0 menor de 35%.
 4. Si no se cumplen, **cerrar con cortesía** y dejar la puerta abierta. No cuesta nada y no se pierde la relación.
 
 ## 2. Compuerta legal: parentesco con el ministro de Salud
 
-Dos de los socios panameños son sobrinos del ministro de Salud, Fernando Boyd Galindo (tercer grado de consanguinidad). Lo que dicen los textos:
+Dos de los socios panameños son sobrinos del ministro de Salud, Fernando Boyd Galindo (tercer grado de consanguinidad). El ministro dirige el MINSA, es el primero de los once miembros de la Junta Directiva de la CSS (Ley 51 de 2005, art. 23, reformado por la Ley 462 de 2025, art. 19 [2]) y preside la comisión que recomienda declarar el desabastecimiento crítico (Ley 419, art. 262, texto de la Ley 462 [2]).
+
+**La norma que decide es la Ley 419 de 2024, art. 249** (capítulo XI, «Inhabilidad e incompatibilidad para contratar», G.O. 29962-A, p. 76 [20]): «Son incompatibles para contratar con las instituciones públicas de salud: 1. Quienes ostentan cargos en la junta directiva, consejo técnico, dirección o cargo administrativo en dichas instituciones. 2. Las personas que tengan vínculos de parentesco, hasta el cuarto grado de consanguinidad y segundo de afinidad, con los miembros de la junta directiva, consejo técnico, dirección o cargo administrativo en las instituciones de salud, o con alguno de los miembros de la Comisión Nacional de Registro de Oferentes. 3. Los servidores públicos». El DE 27 de 2024, art. 791, ordena desestimar la propuesta del proponente incompatible y prohíbe perfeccionar el contrato [21]. La Ley 462 de 2025 modificó muchos artículos de la Ley 419 (los enumera su art. 243); el 249 no está entre ellos [2]. La ley especial rige las compras de medicamentos del MINSA, la CSS, los patronatos y las demás instituciones públicas (Ley 419, art. 1; Ley 22, art. 1, texto de la Ley 419, art. 274 [20][41]).
+
+Lectura: mientras el ministro esté en el cargo, los dos socios son incompatibles, como personas naturales, para contratar con las instituciones públicas de salud. La única pregunta abierta es si la incompatibilidad alcanza a una S.A. a través de sus accionistas, beneficiarios finales, directores o apoderados. El texto habla de «personas que tengan vínculos de parentesco»; pero la Ley 316, art. 5, obliga a declarar intereses a los accionistas, beneficiarios finales y apoderados de toda adjudicataria [1]; la Ley 22, art. 41, exige declarar a todo beneficiario final directo o indirecto de 10% o más en los actos de más de B/.500 mil [41]; y la Ley 129 de 2020 y el DE 35 de 2022 definen al beneficiario final contando las cadenas de sociedades [42]. La lectura prudente, y la de cualquier competidor que impugne una adjudicación, es que sí alcanza. Hasta el 14 de octubre de 2026 este documento trataba el parentesco solo como una duda de la Ley 316: fue un error de la auditoría, corregido ese día.
+
+Las demás normas:
 
 | Norma | Qué dice | Qué implica |
 | --- | --- | --- |
-| Ley 316 de 2022, art. 8 [1] | «En contrataciones públicas no podrán ser adjudicados aquellos actos en los cuales exista conflicto de intereses entre algún sujeto obligado de la entidad contratante y el contratista» | Si hay conflicto, el acto no se puede adjudicar |
-| Ley 316, art. 2.1 [1] | El conflicto de intereses incluye los intereses «de sus familiares», sin fijar el grado | La pregunta central es si el tercer grado entra en «familiares» |
-| Ley 316, art. 13 [1]; DE 246 de 2004, art. 41 [3] | El deber del funcionario de declararse impedido llega a familiares hasta el segundo grado; el código de ética usa el tercer grado para el nepotismo | Argumentos en los dos sentidos; no lo resuelve |
-| Ley 316, art. 4 [1] | Los ministros y los miembros de juntas directivas de instituciones públicas son sujetos obligados | El ministro es sujeto obligado del MINSA |
-| Ley 51 de 2005, art. 23, reformado por la Ley 462 de 2025, art. 19 [2] | El ministro de Salud es el primero de los once miembros de la Junta Directiva de la CSS | También es sujeto obligado de la CSS: la compuerta alcanza a los dos compradores |
-| Ley 419, art. 262 (texto de la Ley 462) [2] | El ministro preside la comisión que recomienda declarar el desabastecimiento crítico | Toca las compras por desabastecimiento del DE 16 de 2026 |
+| Ley 316 de 2022, art. 8 [1] | «En contrataciones públicas no podrán ser adjudicados aquellos actos en los cuales exista conflicto de intereses entre algún sujeto obligado de la entidad contratante y el contratista» | Regula la conducta del funcionario: que el ministro se aparte no cura la incompatibilidad del art. 249, que regula la condición del oferente |
+| Ley 316, arts. 2.1 y 4 [1] | El conflicto incluye los intereses «de sus familiares», sin grado; los ministros y los miembros de juntas directivas de instituciones públicas son sujetos obligados | El ministro es sujeto obligado del MINSA y de la CSS |
+| Ley 316, art. 5 [1]; circular ANTAI-DS-001-2026 [4] | Accionistas, beneficiarios finales, apoderados, directores y dignatarios de la adjudicataria presentan declaración jurada de intereses; es condición para formalizar cada contrato | El parentesco queda declarado ante la ANTAI en cada adjudicación; una sociedad intermedia no lo oculta |
+| Ley 316, art. 13 [1] | El funcionario se declara impedido en asuntos de empresas que él o sus familiares hasta el segundo grado dirigieron o asesoraron en los dos años previos al cargo | No fija un umbral general de grado (hasta el 14 de octubre de 2026 este documento lo leía así, por error) |
 | Ley 316, art. 16 [1] | Los actos con conflicto comprobado son nulos; la empresa contratista responde solidariamente por los daños | Riesgo de perder contratos ya ganados y de responder por daños |
-| Circular ANTAI-DS-001-2026 [4] | La declaración jurada de intereses es condición para formalizar cada contrato adjudicado | El parentesco quedará declarado ante la ANTAI en cada adjudicación |
+| Ley 22 (Texto Único), arts. 24.5, 28 y 41 [41] | Falsedad en documentos o declaraciones: incapacidad para contratar; prohibición de contratar por interpuestas personas; declaración de beneficiarios finales | Ocultar el vínculo cambia una incompatibilidad por una falsedad, con responsabilidad penal y civil |
+| DE 246 de 2004, art. 41 [3] | El código de ética usa el tercer grado para el nepotismo | El art. 249 va más lejos: cuarto grado |
 
-Contexto público: en junio de 2026 La Prensa publicó que el MINSA autorizó a Bio Materiales, S.A., la antigua empresa del ministro, a importar por excepción al registro sanitario y le compró de forma directa; el MINSA negó cualquier favorecimiento [5][6]. Con ese antecedente, cualquier adjudicación a una S.A. con sobrinos del ministro como socios será examinada por la prensa y por la ANTAI, aunque sea legal.
+Contexto público: en junio de 2026 La Prensa publicó que el MINSA autorizó a Bio Materiales, S.A., la antigua empresa del ministro, a importar por excepción al registro sanitario y le compró de forma directa; el MINSA negó cualquier favorecimiento y el ministro declaró que su firma es «el último paso» de los contratos del MINSA [5][6][46]. Con ese antecedente, cualquier adjudicación a una S.A. con sobrinos del ministro como socios será examinada por la prensa, por los competidores y por la ANTAI.
 
-Preguntas para el abogado (opinión escrita, antes de constituir):
+**Una sociedad intermedia (holding) no resuelve la incompatibilidad.** Sirve para gobernanza (un solo voto del lado panameño, entrada de inversionistas sin tocar la operadora), pero la ley mira al beneficiario final: cada socio con parentesco tendría cerca de 16.7% indirecto, por encima del 10% del art. 41, y la declaración ante la ANTAI lo mostraría. Diseñarla para que el vínculo no se declare sería falsedad. Se usa, si acaso, por gobernanza; nunca por elegibilidad.
 
-1. ¿El parentesco de tercer grado configura «conflicto de intereses» en el sentido de los arts. 2.1 y 8 de la Ley 316?
-2. Si lo configura, ¿basta con que el ministro se excuse (art. 8, último párrafo), o los actos del MINSA y de la CSS quedan inadjudicables?
-3. ¿Qué pasa en las compras por desabastecimiento, donde el ministro preside la comisión, y en los procedimientos excepcionales del MINSA (hasta B/.500 mil)?
-4. ¿La declaración ante la ANTAI alcanza a las contrataciones menores y a las compras menores ágiles?
-5. ¿Qué exposición tienen la S.A. y sus socios a la nulidad y a la responsabilidad solidaria (art. 16)?
-6. ¿Cambia algo si los socios con parentesco no son directores ni apoderados, o si su participación es minoritaria?
+Preguntas para el abogado (opinión escrita, antes de cualquier gasto):
 
-Regla de decisión: si la opinión no es favorable para la CSS y el MINSA, no se constituye. El negocio no tiene canal privado modelado; un canal privado (farmacias y hospitales privados, importaciones de la partida 3004 por US$681 millones en 2025 [19]) sería otro plan, con otra investigación.
+1. ¿El art. 249.2 de la Ley 419 alcanza a una persona jurídica por sus accionistas, beneficiarios finales, directores o apoderados? ¿Hay jurisprudencia o dictámenes (DGCP, Procuraduría de la Administración) sobre ese artículo o sobre su antecedente de 2001?
+2. ¿Alcanza a los patronatos y a las contrataciones menores y compras menores ágiles?
+3. ¿Existe una configuración limpia: una S.A. en la que los socios con parentesco no tengan acciones, cargos, poderes ni beneficio económico directo o indirecto?
+4. ¿Qué pasa con una sociedad de los socios con parentesco que solo tenga los registros sanitarios y venda a un distribuidor licenciado, siendo el distribuidor quien contrata con el Estado?
+5. ¿La incompatibilidad termina cuando el ministro deje el cargo? ¿Qué pasa con un contrato en ejecución si el parentesco relevante aparece o desaparece durante su vigencia?
+6. ¿Qué exposición tienen la S.A. y sus socios a la desestimación (DE 27, art. 791), a la nulidad y a la responsabilidad solidaria (Ley 316, art. 16) y qué dice el formulario de la ANTAI sobre el parentesco?
+7. ¿El canal privado (farmacias y hospitales privados) tiene alguna restricción por el parentesco? No se encontró ninguna norma que lo restrinja.
+
+Regla de decisión: sin opinión favorable sobre el art. 249 para la CSS y el MINSA, no se constituye una S.A. de compras públicas con los socios con parentesco. Las alternativas son el canal privado (sección 3.5), que no tiene esta restricción; preparar registros por el canal privado y entrar a compras públicas cuando termine la incompatibilidad; o una S.A. sin participación ni beneficio de los socios con parentesco. Todas las probabilidades de este documento suponen que la compuerta legal se pasó.
 
 ## 3. Mercado y canales
 
@@ -92,6 +101,19 @@ Lo que la S.A. vendería en promedio en un año maduro (caso base): **B/.171 mil
 - **Las cefalosporinas las ganan productos chinos** entregados a B/.0.239–0.259 el vial; la amoxicilina con clavulánico, un fabricante portugués (B/.0.179 la tableta) [7].
 - **Probabilidad de ganar según cuántos ofertan** (compras del MINSA 2021-2024, ofertas con precio): 87% con un oferente, 46% con dos, 32% con tres, 24% con cuatro, 20% con cinco y 14% con seis o más; los nuevos ganan 36.6% de sus ofertas frente a 56.6% de los establecidos y son descalificados 57% de las veces frente a 36% [18].
 - **Gana el más barato que califica** en 88.8% de los renglones adjudicados; la oferta más barata, a secas, gana 74%: la descalificación decide [18].
+- **Oferentes por renglón en la LPU 01-2026** (cuadro oficial de propuestas [7]; precio adjudicado en B/.): paracetamol 500 mg, 3 (0.010; ofertas de 0.01 a 0.02); jarabe de paracetamol, 4 (0.59; la oferta más baja, 0.57, no ganó); amoxicilina-clavulánico tableta, 1 (0.179); suspensión, 2 (1.98 y 4.40); ceftriaxona 1 g, 6 (0.239 a 0.65); cefotaxima 1 g, 3 (0.259 a 0.90); albendazol suspensión, 3 (1.81 a 1.85); mebendazol, 1 (0.13); nistatina, 3 (3.08 a 3.30; la más baja no ganó); hidrocortisona crema, 5 (0.555 a 1.90); corticoide de alta potencia, 1 (1.02). Hay dos mercados: el disputado, con precios al costo chino o indio (cefalosporinas, paracetamol 500 mg, hidrocortisona), y el fino, con uno a tres oferentes pegados al precio de referencia (mebendazol, mometasona, albendazol, nistatina, la tableta de amoxicilina-clavulánico), donde una fábrica india con precio bajo sí tiene ventaja.
+- **Lo que el filtro del DE 16 dejó fuera** (revisión externa del 14 de octubre de 2026 sobre el mismo cuadro [7]): la LPU 01-2026 tiene unos 87 renglones sin equivalencia terapéutica exigida, no estériles ni controlados, con dos oferentes o menos, por unos B/.11.3 millones al año; 20 quedaron desiertos y solo 18 están en los catálogos de Zywie o de su posible segunda fuente. Dos están en el catálogo de Zywie y en la LPU: amoxicilina 250 mg/5 ml, polvo para suspensión (renglón 27, 2 oferentes, adjudicado a B/.1.73 a un producto indio, unos B/.262 mil al año) y clobetasol 0.05% crema de 25 g (renglón 89, 2 oferentes, B/.1.46, unos B/.45 mil al año). Ninguno está en la Res. 985. No están en el modelo: se evalúan con el precio real de fábrica (sección 5). El límite estructural del plan es el tamaño de un solo catálogo.
+
+### 3.5 Canal privado (no modelado)
+
+Investigado el 14 de octubre de 2026 solo con fuentes públicas (`research/canal_privado_2026-10-14/`) [47]. Tamaño: Panamá importó US$673 millones de medicamentos de la partida 3004 en 2024 y US$681 millones en 2025, 2.4 a 2.9% desde la India [19]; los mercados público y privado pesan casi igual. Lo que se sabe:
+
+- **La misma licencia sirve.** La agencia distribuidora importa y comercializa al por mayor (DE 27, art. 377.3) y entrega solo a establecimientos autorizados por la DNFD (art. 474): farmacias comunitarias, farmacias de hospitales y clínicas privadas (que son sociedades con licencia propia) y otras agencias; minisúper y tiendas solo reciben venta libre (art. 400) [21]. ONG y fundaciones compran por cotización (la Cruz Roja compró en junio de 2026 51 renglones por B/.30.5 mil, pago contra entrega, y pidió licencia del MINSA al oferente). MINSA, CSS y patronatos solo compran por licitación. Obligaciones adicionales: nombre de la distribuidora en el envase (Ley 419, art. 88); lista mensual de productos por vencer, retiro y reconocimiento de vencidos hasta tres meses después del vencimiento, que el fabricante debe reconocer al distribuidor por acuerdo comercial (art. 89; DE 27, art. 478); informe de precios a la ACODECO (art. 115) [20][21].
+- **El margen existe, como techo.** Con el precio mínimo de farmacia de la lista del MINSA de julio de 2025 y los márgenes publicados (distribuidor 23%, farmacia 40 a 53%), el precio implícito al que un distribuidor compraría es 1.8 a 9.2 veces el precio de licitación en 7 de los 11 productos (hidrocortisona crema 7 a 9 veces; ceftriaxona 4 a 5; paracetamol tableta y mebendazol 3 a 4; amoxicilina-clavulánico 2 a 3); en albendazol y nistatina la licitación paga más; faltan precios de la suspensión de amoxicilina-clavulánico y de cefotaxima. Es margen bruto, sin vendedor, crédito, vencidos ni descuentos.
+- **El acceso es el problema.** El canal es concentrado e integrado (cuatro grupos en toda la cadena; los cuatro mayores importadores con 63% del CIF); los genéricos indios entran como suministro institucional o con marca del importador (Seven Pharma con Hetero, Lanco con Caplin Point, Pharma Supplies con Remus y Torrent); en Centroamérica los genéricos puros son 8% del mercado privado y los genéricos de marca 55%; no hay caso público de un entrante sin marca ni visita médica que haya colocado volumen. A favor: el farmacéutico debe ofrecer el equivalente intercambiable (Ley 419, art. 128; sello MI). El piso está presionado: el MINSA vende 140 productos a 29 a 90% por debajo del mínimo privado, hay topes de precio renovables (Ley 419, arts. 124-125; DE 36 de 2025 y DE 77 de 2026) y un proyecto de ley de 30% de descuento a jubilados sin decisión al 15 de septiembre de 2026.
+- **Qué lo haría modelable:** una carta de intención o un pedido de un distribuidor o cadena con producto, volumen y precio; plazos de pago reales; costo de un vendedor o de un distribuidor que venda por la S.A. Con los supuestos de rotación de una investigación anterior (75 a 300 farmacias por medio de un distribuidor, no verificados), 8 productos darían una utilidad bruta de B/.75 mil a B/.299 mil al año antes de costos comerciales. Es un rango de supuestos, no un dato.
+
+Lo que no tiene este canal es la restricción del art. 249. Si la opinión legal cierra el canal público, el orden natural sería registros y marca por el canal privado primero y compras públicas después, con otra investigación y otro modelo.
 
 ## 4. Requisitos y plazos regulatorios
 
@@ -136,7 +158,8 @@ Lo que dice la tabla:
 - **Ceftriaxona y cefotaxima no caben en lo centralizado**: los ganadores chinos entregan a B/.0.239–0.259 y el techo FOB queda por debajo de la cotización esperada. Solo caben en compras menores pequeñas.
 - **El jarabe de paracetamol no cabe en el MINSA** (subasta a B/.0.40) y deja un margen delgado en la LPU.
 - **Con estos precios, solo 4 de los 11 productos pagan su registro**: Paracetamol 500 mg, albendazol suspensión, nistatina suspensión, mometasona crema. Registrar solo esos baja el capital a B/.347 mil, pero el valor presente sigue en −B/.158 mil: el problema no es el portafolio, son los costos fijos y el capital de trabajo frente a ventas pequeñas.
-- **La lista de precios real decide** qué productos se registran: cada producto se compara contra su techo, no contra un promedio.
+- **La lista de precios real decide** qué productos se registran: cada producto se compara contra su techo, no contra un promedio. Candidatos adicionales del catálogo que se evalúan con esa lista: amoxicilina 250 mg/5 ml en polvo para suspensión y clobetasol 0.05% crema (sección 3.4).
+- **Lotes mínimos.** El modelo no tiene lote mínimo de fábrica: con las cantidades esperadas (unos 3,300 frascos de nistatina, 8,400 de albendazol y 1,300 de suspensión de amoxicilina-clavulánico al año, con empaque impreso con el número del acto), el lote mínimo y las mermas pueden ser mayores que lo supuesto. Se pide el MOQ por producto (documento 4).
 
 ## 6. Operación
 
@@ -184,7 +207,7 @@ Sueldos de referencia de Konzerta [37]; honorarios de referencia de la propuesta
 | Registro patronal en la CSS y contratos laborales | B/.900 | B/.300 | B/.100 | 3 | R: SignatureLex 750 + 150 |
 | PanamaCompra, Registro Nacional de Oferentes y proveedor de la CSS | B/.2,700 | B/.500 | B/.0 | 4 | F: trámites sin tasa oficial; R: SignatureLex 3 x (750 + 150) |
 
-Fianzas exigidas: en la LPU, de propuesta por 10% de toda la oferta durante 180 días hábiles (el acto supera B/.70 mil; Ley 419, art. 245) y de cumplimiento por 30% del contrato, vigente durante el contrato más 3 meses; en las subastas del MINSA, solo de cumplimiento, por 20% [8][13][20]. Costo: prima de 2.5% al año en la base (Banco General cobra 1.07-1.605% anual con un mínimo de US$1,337.50 por garantía [36]) y colateral de 75% de la fianza (supuesto: ninguna aseguradora publica el porcentaje).
+Fianzas exigidas: en la LPU, de propuesta por 10% de toda la oferta durante 180 días hábiles (el acto supera B/.70 mil; Ley 419, art. 245) y de cumplimiento por 30% del contrato, vigente durante el contrato más 3 meses; en las subastas del MINSA, solo de cumplimiento, por 20% [8][13][20]. Costo: prima de 2.5% al año en la base (Banco General cobra 1.07-1.605% anual con un mínimo de US$1,337.50 por garantía [36]) y colateral de 75% de la fianza (supuesto). Internacional de Seguros publica que el colateral primario de una fianza es un pagaré con codeudor solidario, y que el efectivo, la garantía bancaria o la hipoteca dependen del tamaño de la fianza [43]: el efectivo inmovilizado puede ser menor que 75%, pero los socios que firmen como codeudores responden con su patrimonio por el 100% de la fianza. El modelo carga la ejecución de fianzas a la S.A., no a los socios.
 
 Registro por producto (base): tasas B/.570, análisis previo B/.1,500, abogado B/.800, traducciones B/.600, muestras B/.150, más ITBMS sobre servicios: **B/.3,718 por producto** y B/.41 mil los 11 productos de la primera ola. Cargos anuales: Tasa única de la S.A., B/.300; Agente residente, B/.350; Renovación de la licencia de operación (B/.200 cada 2 años), B/.100.
 
@@ -262,7 +285,7 @@ Lo que pone y arriesga **un socio panameño** (un sexto del capital y de las uti
 | D con Rutul Patel aportando 70% del efectivo | B/.26 mil | B/.44 mil | −B/.3 mil | 71% |
 | D con Rutul Patel aportando 80% del efectivo | B/.18 mil | B/.30 mil | B/.5 mil | 61% |
 
-Cómo leerlo: perder dinero incluye los escenarios que se detienen en la fase 0 (pierden solo esa fase); por eso la estructura B tiene una probabilidad de perder muy alta pero un capital mediano menor. Lo que mide el riesgo real es «perder más que la fase 0» y el capital del p80-p90, que es lo que hay que tener disponible.
+Cómo leerlo: la cifra principal es la probabilidad de perder dinero (recuperar menos de lo que se puso en 60 meses). Incluye los escenarios que se detienen en la fase 0 y pierden solo esa fase (unos B/.4 mil entre todos los socios); por eso la estructura B tiene una probabilidad de perder muy alta pero un capital mediano menor. «Perder más que la fase 0» deja fuera esos escenarios y mide el riesgo del dinero que se pone después de decidir seguir; es la cifra de la compuerta de la sección 12. El capital del p80-p90 es lo que hay que tener disponible. Todas las probabilidades suponen que la compuerta legal (sección 2) se pasó.
 
 ### 9.1 Qué supuestos mueven más el resultado (caso base, uno a la vez)
 
@@ -329,12 +352,16 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | Contrato de distribución exclusiva con la fábrica, no solo con Zywie | Evita que la fábrica venda directo en compras por desabastecimiento (Ley 419, art. 204) y asegura la carta del fabricante que exige el pliego |
 | Rutul Patel aporta 70% del efectivo con 50% de las acciones, o la fábrica financia el inventario inicial | Quien cobra en cada embarque financia el capital de trabajo |
 | Compuertas escritas en el pacto: fase 0, compuerta operativa y salida ordenada | Limita la pérdida si los números reales no aparecen |
+| Retorno preferente de 8 a 10% anual al efectivo panameño si el reparto de acciones es 50/50 con aportes desiguales | Quien pone el efectivo y firma como codeudor cobra primero |
+| Cláusulas de vencidos y rotulado en el contrato de suministro (Ley 419, arts. 88 y 89; DE 27, art. 478) | La ley obliga al distribuidor a reconocer vencidos a las farmacias y al fabricante a reconocérselos al distribuidor por acuerdo comercial |
+
+Lo que la fábrica sabe y que hace razonable el pedido: el esquema MAI de la India reembolsa al exportador 50% de los costos de registro en el exterior cuando el certificado lo nombra como titular o fabricante [44]; la póliza SCR de ECGC cubre 90% del riesgo comercial del crédito de exportación y el RBI amplió a 15 meses el plazo para repatriar cobros (noviembre de 2025) [45]. Pedir registros pagados y 120 a 180 días de crédito es legal y asegurable para la fábrica; el límite es su caja (deuda sobre patrimonio de 1.26, documento 3).
 
 ## 12. Hoja de ruta y compuertas
 
 | Paso | Qué se hace | Costo | Criterio para seguir | Quién |
 | --- | --- | --- | --- | --- |
-| 0a. Opinión legal | Opinión escrita sobre la Ley 316 (sección 2) | B/.800 | Favorable para la CSS y el MINSA | Jaime, con un abogado independiente que no sea de la firma de un socio |
+| 0a. Opinión legal | Opinión escrita sobre la Ley 419, art. 249, y la Ley 316 (sección 2) | B/.800 | Favorable para la CSS y el MINSA | Jaime, con un abogado idóneo e independiente que no sea de la firma de un socio |
 | 0b. Datos de la fábrica | Documentos, lista de precios, plazos y posición sobre registros y crédito (documento 4) | Sin costo | Precios bajo el techo de la sección 5 en los productos clave; registros y crédito aceptados | Jaime con Rutul Patel |
 | 0c. Cotizaciones | 3PL, aseguradoras de fianzas, IEA, regente, contador; consulta escrita a la DNFD | Sin costo | Costos fijos dentro del rango del modelo; depósito en 3PL aceptado por la DNFD | Jaime (con aprobación de cada mensaje) |
 | 0d. Verificación de planta | Auditoría virtual y revisión documental de la fábrica | B/.2,500 | Sin hallazgos críticos | Solo si 0a-0c pasan |
@@ -347,7 +374,9 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 
 | Dato | Por qué importa | Cómo se obtiene | Supuesto actual |
 | --- | --- | --- | --- |
-| Si el parentesco impide contratar con la CSS y el MINSA | Puede cerrar el negocio | Opinión legal escrita (sección 2) | Se supone que no impide; es la compuerta 0a |
+| Si la incompatibilidad del art. 249 de la Ley 419 alcanza a la S.A. por sus accionistas o beneficiarios finales | Puede cerrar el canal público para esta S.A. mientras dure el parentesco relevante | Opinión legal escrita (sección 2) | Las cifras suponen que no; la lectura prudente es que sí: es la compuerta 0a |
+| Volumen, precio y crédito reales del canal privado | Es el canal sin restricción del art. 249 | Carta de intención o pedido de un distribuidor o cadena; con aprobación previa de cada contacto | No modelado (sección 3.5) |
+| Lote mínimo y vida útil por producto, con empaque por acto | Mermas e inventario | Lista de la fábrica | Sin lote mínimo en el modelo |
 | Precio real de la fábrica por producto | Decide qué productos caben | Lista de precios por medio de Rutul Patel | 1.25 veces la referencia (1.75 veces el precio doméstico indio) |
 | Quién paga los registros y qué crédito da la fábrica | Mueve el capital más que el precio | Pregunta directa (documento 4) | Los paga la S.A.; sin crédito, 30% de anticipo |
 | Colateral que pide la aseguradora o el banco | Es el mayor componente del capital | Cotización de dos aseguradoras | 75% de la fianza |
@@ -385,7 +414,7 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | pack | Sobrecosto por empaque y rotulado exclusivo para Panamá | % | 10% | 5% | 3% | F: el pliego exige rotulado del acto en el empaque; E: costo |
 | log_mult | Multiplicador del costo logístico (flete LCL, destino, corredor, seguro) | x | 2.20 | 1.20 | 0.80 | R: LCL puesto en bodega unos US$650 / 356 / 240 por m3 (FAK CMA CGM jun-2026 + recargo PSS; tarifario de destino Crowley; corredor) |
 | dist | Distribución local a almacenes y hospitales (% de ventas) | % | 6% | 4% | 3% | E: sin tarifa pública |
-| penal | Multas por atraso y reposiciones (% de ventas) | % | 2% | 0.5% | 0% | F: multas de 5-15% y mora de al menos 10% (Ley 419 art. 231); E: frecuencia |
+| penal | Multas por atraso y reposiciones (% de ventas) | % | 2% | 0.5% | 0% | F: multas de 5-15% y mora de al menos 10% (Ley 419 arts. 231 y 232); E: frecuencia |
 | expiry | Mermas y vencimientos (% del costo comprado) | % | 8% | 4% | 1.5% | F: el pliego pide el vencimiento de la ficha técnica o, si no lo fija, 18 meses de vida útil al entregar; con 24 meses de vida útil quedan unos 3 meses de ventana en bodega; E: frecuencia |
 | baddebt | Incobrables y vigencias vencidas (% de ventas) | % | 2% | 0.5% | 0% | F: la CSS debía US$48 millones a proveedores en 2023 |
 | dso_days | Días de cobro: entrega hasta cobro | días | 240 | 150 | 105 | F: el contrato paga a 90 días después de presentada, verificada y aceptada la cuenta y del refrendo de la Contraloría; E: el resto |
@@ -426,11 +455,11 @@ Rutul Patel propone una S.A. 50/50 con los costos divididos en partes iguales. C
 | bond_tail_minsa | Meses que la fianza de cumplimiento del MINSA sigue vigente tras el contrato | meses | 6 | 6 | 6 | E: ejecución, liquidación y 6 meses; se confirma en el pliego |
 | forfeit_frac | Parte de la fianza de cumplimiento que se pierde si el Estado la ejecuta | % | 100% | 100% | 100% | F: Ley 22 (ejecución de la fianza) y contragarantías de la aseguradora (pagaré, codeudores) |
 
-Fuentes en la columna: F = dato verificado en una fuente abierta; R = referencia indirecta; E = estimación propia. El detalle de cada verificación (487 afirmaciones con veredicto, fuente y fecha) está en `research/verificacion_2026-10-09/registro_verificaciones.csv`.
+Fuentes en la columna: F = dato verificado en una fuente abierta; R = referencia indirecta; E = estimación propia. El detalle de cada verificación (502 afirmaciones con veredicto, fuente y fecha) está en `research/verificacion_2026-10-09/registro_verificaciones.csv`.
 
 ## Fuentes
 
-Todas consultadas el 9 de octubre de 2026.
+Todas consultadas el 9 de octubre de 2026; las fuentes 41 a 47, el 14 de octubre de 2026.
 
 1. Ley 316 de 17 de agosto de 2022, G.O. 29602-A, arts. 2, 4, 5, 8, 13 y 16: <https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2020/2022/LEY/Administrador%20Legispan_29602-A_2022_8_18_ASAMBLEA%20NACIONAL_316.pdf>
 2. Ley 462 de 18 de marzo de 2025, G.O. 30238 (art. 19: Junta Directiva de la CSS; art. 84: cuota patronal; art. 262 de la Ley 419: comisión de desabastecimiento): <https://www.css.gob.pa/wp-content/uploads/2025/03/Ley-462-de-2025.pdf>
@@ -472,3 +501,10 @@ Todas consultadas el 9 de octubre de 2026.
 38. DNFD, establecimientos con licencia al 28 de septiembre de 2026: <https://dnfd.minsa.gob.pa/sites/default/files/2026-09/Licencias%20e%20Inscripciones%20al%2028%20Septiembre%202026.pdf>
 39. Propuesta de honorarios de SignatureLex para Zywie Worldwide (documento del proyecto, septiembre de 2026).
 40. PanamaCompra, contratación menor del MINSA 2026-0-12-01-08-SCM-014847 (ceftriaxona 1 g a B/.0.27; consulta pública del portal).
+41. Texto Único de la Ley 22 de 2006 (contratación pública), arts. 1, 24, 28, 41 y 97: <https://ministeriopublico.gob.pa/wp-content/uploads/LIBRO_TEXTO_UNICO_LEY22_2006.pdf>
+42. Ministerio de Economía y Finanzas, Guía de beneficiarios finales para Panamá (Ley 129 de 2020 y DE 35 de 2022; diciembre de 2025): <https://cnbc.mef.gob.pa/wp-content/uploads/2026/02/Guia-de-Beneficiarios-Finales-para-Panama.pdf>
+43. Internacional de Seguros, requisitos de fianzas para personas jurídicas (junio de 2019): <https://www.iseguros.com/Formularios/Asegurados/Fianzas/Requisitos-de-Persona-Juridica.pdf>
+44. Pharmexcil, pautas revisadas del esquema MAI (19-jul-2021) y requisitos para el reembolso de registros: <https://pharmexcil.com/uploads/RevisedMAIGuildelines19thJuly2021.pdf>
+45. ECGC, póliza Shipments Comprehensive Risks: <https://main.ecgc.in/english/wp-content/themes/pcwebecgc/images/pcECGPagePDF/SalesLiterature/SCR.pdf>; EY (dic-2025) sobre la circular del RBI que amplía a 15 meses el plazo de cobro de exportaciones: <https://www.ey.com/en_in/technical/alerts-hub/2025/12/rbi-introduces-comprehensive-relaxations-for-exporters-and-importers>
+46. TVN (25-jun-2026), «Ministro de Salud niega conflicto de intereses con Bio Materiales»: <https://www.tvn-2.com/nacionales/ministro-salud-fernando-boyd-niega-conflicto-bio-materiales-s-a_1_2247875.html>
+47. Investigación del canal privado (14-oct-2026), con sus fuentes: `research/canal_privado_2026-10-14/informe.md`; revisión externa independiente (14-oct-2026): `research/revision_externa_2026-10-14/informe.md`.
